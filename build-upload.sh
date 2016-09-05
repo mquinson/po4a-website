@@ -44,6 +44,7 @@ PO4AFLAGS='-k 0' ./Build
 cd $curdir
 
 rm -rf html.gen/
+find html -name \*~ -exec rm {} \;
 cp -a $srcdir/blib/man html.gen
 #cp -a $srcdir/blib/libdoc html.gen/man3
 find html.gen -name \*.gz -exec gunzip {} \;
@@ -283,11 +284,12 @@ done
 
 echo Uploading...
 aliothdir=/srv/home/groups/po4a/htdocs/
-scp -pr html/*.* po4a.alioth.debian.org:$aliothdir
-scp -pr html/.htaccess po4a.alioth.debian.org:$aliothdir
-scp -pr html.gen/*.* po4a.alioth.debian.org:$aliothdir
-scp -pr html.gen/man po4a.alioth.debian.org:$aliothdir
-ssh po4a.alioth.debian.org chgrp -R po4a $aliothdir
+scp -r html/*.* po4a.alioth.debian.org:$aliothdir
+scp -r html.gen/*.* po4a.alioth.debian.org:$aliothdir
+scp -r html.gen/man po4a.alioth.debian.org:$aliothdir
+scp -r html/.htaccess po4a.alioth.debian.org:$aliothdir || true
+ssh po4a.alioth.debian.org chgrp -R po4a $aliothdir 2> /dev/null || true 
 ssh po4a.alioth.debian.org chmod -R g+rw $aliothdir
+ssh po4a.alioth.debian.org chmod -R g+rw $aliothdir/.htaccess
 echo done
 
