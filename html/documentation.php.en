@@ -1,0 +1,39 @@
+<!-- vim: set noexpandtab tw=0 : -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet"
+	      type="text/css"
+	      href="default.css" />
+	<meta http-equiv="Content-Type"
+	      content="application/xhtml+xml; charset=utf-8" />
+	<title>po4a - Documentation</title>
+</head>
+<body>
+	<? include "header.php.en"; ?>
+
+	<div id="content">
+		<div class="item">
+			<h2>Documentation</h2>
+			<p>Here is an HTML version of the po4a's manpages.</p>
+			<p>The <a href="man/man7/po4a.7.php">po4a.7</a> manpage
+			provides an introduction to po4a.</p>
+			<p>For more details, the <a href="man/">index</a>
+			provides the documentation of the various commands
+			and modules.</p>
+		</div>
+		<div class="item">
+			<h2>Help</h2>
+			<p>We can help you to set up a translation framework
+			for your project's documentation or to adapt po4a to
+			your needs.  Do not hesitate to contact us on our
+			<a href="mailto:po4a-devel@lists.alioth.debian.org">mailing
+			list</a> or on IRC (#po4a on oftc).</p>
+		</div>
+	</div>
+
+	<? include "footer_documentation.php"; ?>
+	<? include "footer.php"; ?>
+</body>
+</html>

@@ -1,0 +1,14 @@
+# Activate content negotiation
+Options Multiviews
+# Fix MIME types
+AddType application/x-httpd-php de
+AddType application/x-httpd-php en
+AddType application/x-httpd-php es
+AddType application/x-httpd-php fr
+AddType application/x-httpd-php ja
+AddType application/x-httpd-php pl
+AddType application/x-httpd-php pt
+AddType application/x-httpd-php pt_BR
+AddType application/x-httpd-php ru
+AddType application/x-httpd-php zh_CN
+

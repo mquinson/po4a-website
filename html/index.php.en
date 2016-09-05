@@ -1,0 +1,211 @@
+<!-- vim: set noexpandtab tw=0 : -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet"
+	      type="text/css"
+	      href="default.css" />
+	<meta http-equiv="Content-Type"
+	      content="application/xhtml+xml; charset=utf-8" />
+	<title>po4a - Welcome</title>
+</head>
+<body>
+	<? include "header.php.en"; ?>
+
+	<div id="content">
+		<div class="item">
+			<h2>Welcome!</h2>
+			<p>The po4a (PO for anything) project goal is to ease
+			translations (and more interestingly, the maintenance
+			of translations) using gettext tools on areas where
+			they were not expected like documentation.</p>
+		</div>
+		<div class="item">
+			<h2>2013-08-21 - po4a 0.45 released</h2>
+			<p>This release fixes incompatibilities with Perl 5.18.
+			Asciidoc has been promoted to its own format.
+			</p>
+		</div>
+		<div class="item">
+			<h2>2012-10-20 - po4a 0.44 released</h2>
+			<p>This release fixes packaging issues with 0.43,
+			some unit tests were failing.
+			</p>
+		</div>
+		<div class="item">
+			<h2>2012-10-17 - po4a 0.43 released</h2>
+			<p>This release extends the po4a-gettextize --porefs
+			command-line flag to other tools, in particular po4a.
+			This flag also offers more options.  Support for
+			AsciiDoc has been improved: two line titles are now
+			supported, as well as several other styles.  In the
+			man format, several macros have been added to support
+			more NetBSD man pages.  The .UR/.UE macros are now
+			inline.
+			</p>
+		</div>
+		<div class="item">
+			<h2>2012-05-16 - po4a 0.42 released</h2>
+			<p>This release adds support for control files, and
+			allows msguntypot to preserve the comments in PO files.
+			</p>
+		</div>
+		<div class="item">
+			<h2>2010-12-01 - po4a 0.41 released</h2>
+			<p>This release modifies how titles are handled
+			in AsciiDoc, the trailing newline is removed from
+			PO strings.  Other changes are: backups for PO files
+			are no more generated; carriage returns are filtered
+			away from input files.
+			</p>
+		</div>
+		<div class="item">
+			<h2>2010-11-30 - po4a 0.40.2 released</h2>
+			<p>This is a translation release.  Documentation
+			has been reviewed, and many translations updated.
+			</p>
+		</div>
+		<div class="item">
+			<h2>2010-08-25 - po4a 0.40.1 released</h2>
+			<p>This is mostly a translation release.  Documentation
+			has been reviewed, and many translations updated.
+			The header entry when creating POT files has also been
+			modified in order to be consistent with xgettext.
+			</p>
+		</div>
+		<div class="item">
+			<h2>2010-07-27 - po4a 0.40 released</h2>
+			<p>This is a bugfix release.  Most notable fixes are:
+			Text: fix failures "Unknown option: copyright-holder";
+			Man: support font modifiers in the form \f(XX and
+			\f[FONT-NAME].
+			</p>
+		</div>
+		<div class="item">
+			<h2>2010-02-02 - po4a 0.39 released</h2>
+			<p>This release provides a new syntax for addenda,
+			files can be preceded by optional modifiers to
+			allow more customization.
+			</p>
+		</div>
+		<div class="item">
+			<h2>2010-01-14 - po4a 0.38 released</h2>
+			<p>This is a bugfix release.  Most notable fixes are:
+			add an option to specify language in translated XML;
+			let po4a exit with non-zero exit code if master file
+			does not exist; fix handling of multi-lines placeholder tags.
+			By default, po4a now calls msgmerge with the <code>--previous</code>
+			option so that previous strings are displayed above fuzzy strings
+			in PO files.
+			</p>
+		</div>
+		<div class="item">
+			<h2>2009-11-20 - po4a 0.37.0 released</h2>
+			<p>This release provides <a href="man/man1/po4a-build.1.php">po4a-build</a>,
+			which allows building all translations (code, documentation, text files, etc)
+			with a single file <a href="man/man5/po4a-build.conf.5.php">po4a-build.conf</a>.
+			</p>
+		</div>
+		<div class="item">
+			<h2>2009-11-08 - po4a 0.36.6 released</h2>
+			<p>There has been three minor releases for bug fixes
+			and small new features. The most notable new features
+			are:<ul>
+				<li>
+					<a href="man/man1/po4a.1.php">po4a</a>:
+					new options --srcdir and --destdir.
+				</li>
+				<li>
+					<a href="man/man1/po4a-updatepo.1.php">po4a-updatepo</a>:
+					new options --msgid-bugs-address,
+					--copyright-holder, --package-name, and
+					--package-version.
+				</li>
+				<li>
+					new and updated <a href="translations.php">translations</a>
+					(Basque, Czech, Esperanto, Estonian,
+					French, German, Portuguese, Russian,
+					Spanish, Swedish, Vietnamese).
+				</li>
+				<li>
+					<a href="man/man3pm/Locale::Po4a::Sgml.3pm.php">Sgml module</a>:
+					better detection of entities in the
+					prolog.
+				</li>
+				<li>
+					<a href="man/man3pm/Locale::Po4a::Text.3pm.php">Text module</a>:
+					new options breaks and tabs.
+				</li>
+			</ul></p>
+		</div>
+		<div class="item">
+			<h2>2009-07-22 - po4a 0.36.3 released</h2>
+			<p>There has been three minor releases for bug fixes.
+			These minor releases also improved the support for
+			Markdown; added the po4apod-display-po script; added
+			the options --msgid-bugs-address, --copyright-holder,
+			--package-name, --package-version to po4a-gettextize;
+			and added the option customtag to the Xml and
+			derivative modules.</p>
+		</div>
+		<div class="item">
+			<h2>2009-03-15 - po4a 0.36 released</h2>
+			<p>This release provides improvements for the Xml (and
+			derivative), Man, and TeX modules. It also changes how
+			the type of strings is provided in the PO file. This
+			type will now be provided as an "extracted comment"
+			instead of a "translator comment".</p>
+		</div>
+		<div class="item">
+			<h2>2009-02-10 - po4a 0.35 released</h2>
+			<p>This release introduces features in the po4a tools
+			(new [po_directory] command in po4a's configuration
+			files, new --blank option for po4a-normalize, and
+			improved conflict handling for po4a-gettextize), and
+			support for the AsciiDoc format. The Docbook module
+			has a better support of all v5.0, and earlier tags.
+			Also the Xml and derivative modules run faster and have
+			a more comprehensible set of options, and support
+			placeholders by default to ease the translation and
+			mark the location of sub-blocks.</p>
+		</div>
+		<div class="item">
+			<h2>2008-04-02 - po4a 0.33.3 released</h2>
+			<p>0.33.1, 0.33.2, and 0.33.3 are minor releases with
+			bug fixes in the Xml and Man modules. Some changes were
+			done in the packaging to fix the installation path of
+			translated manpages and MO files. Manpages are now
+			installed in UTF-8 and the encoding of their title was
+			fixed. 0.33.2 also adds a Japanese translation, a new
+			Wml module, and the support for the fortunes format in
+			the Text module.</p>
+		</div>
+		<div class="item">
+			<h2>2008-03-03 - po4a 0.33 released</h2>
+			<p>Major changes in the handling of PO files (fix the
+			handling of PO files with plural forms, and fix the
+			handling of headers for msguntypot), and in the Texinfo
+			or Xml and derivative modules (e.g. docbook).</p>
+		</div>
+		<div class="item">
+			<h2>2007-08-16 - New website</h2>
+			<p>We've changed the aspect of our web site and we've
+			added some contents to help new users to use po4a.</p>
+		</div>
+		<div class="item">
+			<h2>2007-08-15 - po4a 0.32 released</h2>
+			<p></p>
+		</div>
+		<div class="item">
+			<h2>Project links</h2>
+			<p>The <a href="http://alioth.debian.org/projects/po4a/">po4a project</a>
+			is hosted on
+			<a href="http://alioth.debian.org">Alioth</a>.</p>
+		</div>
+	</div>
+
+	<? include "footer_index.php"; ?>
+	<? include "footer.php"; ?>
+</body>
+</html>

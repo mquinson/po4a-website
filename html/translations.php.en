@@ -1,0 +1,49 @@
+<!-- vim: set noexpandtab tw=0 : -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet"
+	      type="text/css"
+	      href="default.css" />
+	<meta http-equiv="Content-Type"
+	      content="application/xhtml+xml; charset=utf-8" />
+	<title>po4a - Translations</title>
+</head>
+<body>
+	<? include "header.php.en"; ?>
+
+	<div id="content">
+		<div class="item">
+			<h2>Translating</h2>
+			<p>Strings are usually frozen one or two week before
+			the releases. Tell us if you want to be notified.</p>
+			<p>See below for the list of available translations and
+			work needed.</p>
+			<p>You can find the translation material on our Subversion
+			repository (<a href="http://anonscm.debian.org/viewvc/po4a/trunk/po/bin/">translation of the program</a>,
+			<a href="http://anonscm.debian.org/viewvc/po4a/trunk/po/pod/">translation of the documentation</a>,
+			<a href="http://anonscm.debian.org/viewvc/po4a/web/po/">translation of the website</a>).</p>
+		</div>
+		<div class="item">
+			<h2>Available translations</h2>
+			<p>Po4a is currently translated in the following
+			languages:</p>
+			<? include "table_translations_bin.php";?>
+		</div>
+		<div class="item">
+			<h2>Translations of the documentation</h2>
+			<p>The po4a documentation is also translated in the following languages:</p>
+			<? include "table_translations_pod.php";?>
+		</div>
+		<div class="item">
+			<h2>Translations of the web site</h2>
+			<p>This web site is also translated in the following languages:</p>
+			<? include "table_translations_www.php";?>
+		</div>
+	</div>
+
+	<? include "footer_translations.php"; ?>
+	<? include "footer.php"; ?>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!-- begin header.php -->
+<?php if (!isset($topdir)) $topdir = "./"; ?>
+	<div class="bg"><div class="header">
+		<h1>po4a<sup>v<?php include "version.php"; ?></sup></h1>
+	</div></div>
+
+	<div id="nav">
+		<a href="<?= $topdir ?>."                 title="Welcome"      >Welcome<span>&nbsp;&nbsp;&lt;</span></a>
+		<a href="<?= $topdir ?>features.php"      title="Features"     >Features<span>&nbsp;&nbsp;&lt;</span></a>
+		<a href="<?= $topdir ?>documentation.php" title="Documentation">Documentation<span>&nbsp;&nbsp;&lt;</span></a>
+		<a href="<?= $topdir ?>download.php"      title="Download"     >Download<span>&nbsp;&nbsp;&lt;</span></a>
+		<a href="<?= $topdir ?>getinvolved.php"   title="Get Involved" >Get Involved<span>&nbsp;&nbsp;&lt;</span></a>
+		<a href="<?= $topdir ?>translations.php"  title="Translations" >Translations<span>&nbsp;&nbsp;&lt;</span></a>
+	</div>
+<!-- end header.php -->

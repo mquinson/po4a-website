@@ -1,0 +1,841 @@
+# Translation of po4a webpage to German
+# This file is distributed under the same license as the po4a web page.
+# Copyright (C) Helge Kreutzmann <debian@helgefjell.de>, 2011-2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po4a 0.45\n"
+"Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
+"POT-Creation-Date: 2013-08-21 22:36+0200\n"
+"PO-Revision-Date: 2013-09-09 16:54+0200\n"
+"Last-Translator: Helge Kreutzmann <debian@helgefjell.de>\n"
+"Language-Team: de <debian-l10n-german@lists.debian.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><head><title>
+#: html/index.php.en:11
+msgid "po4a - Welcome"
+msgstr "Po4a - Willkommen"
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/index.php.en:18
+msgid "Welcome!"
+msgstr "Willkommen!"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/index.php.en:19
+msgid ""
+"The po4a (PO for anything) project goal is to ease translations (and more "
+"interestingly, the maintenance of translations) using gettext tools on areas "
+"where they were not expected like documentation."
+msgstr ""
+"Das Projektziel von Po4a (PO für alles) ist es, die Übersetzung (und "
+"interessanter, die Wartung der Übersetzung) zu vereinfachen, indem die "
+"Gettext-Werkzeuge auch für Gebiete verwendet werden, wo diese nicht erwartet "
+"werden, wie Dokumentation."
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/index.php.en:25
+msgid "2013-08-21 - po4a 0.45 released"
+msgstr "2010-08-25 - Po4a 0.45 veröffentlicht"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/index.php.en:26
+msgid ""
+"This release fixes incompatibilities with Perl 5.18.  Asciidoc has been "
+"promoted to its own format."
+msgstr ""
+"Diese Veröffentlichung behebt Inkompatibilitäten mit Perl 5.18. Asciidoc "
+"wurde zu seinem eigenen Format aufgewertet."
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/index.php.en:31
+msgid "2012-10-20 - po4a 0.44 released"
+msgstr "2012-10-20 - Po4a 0.44 veröffentlicht"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/index.php.en:32
+msgid ""
+"This release fixes packaging issues with 0.43, some unit tests were failing."
+msgstr ""
+"Diese Veröffentlichung behebt Paketierprobleme mit 0.43, einige Unit-Tests "
+"schlugen fehl."
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/index.php.en:37
+msgid "2012-10-17 - po4a 0.43 released"
+msgstr "2012-10-17 - Po4a 0.43 veröffentlicht"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/index.php.en:38
+msgid ""
+"This release extends the po4a-gettextize --porefs command-line flag to other "
+"tools, in particular po4a.  This flag also offers more options.  Support for "
+"AsciiDoc has been improved: two line titles are now supported, as well as "
+"several other styles.  In the man format, several macros have been added to "
+"support more NetBSD man pages.  The .UR/.UE macros are now inline."
+msgstr ""
+"Diese Veröffentlichung erweitert den Befehlszeilenschalter --porefs von po4a-"
+"gettextize um weitere Werkzeuge, insbesondere po4a. Dieser Schalter bietet "
+"auch mehr Optionen. Die Unterstützung für AsciiDoc wurde verbessert: zwei "
+"Zeilentitel werden jetzt unterstützt sowie mehrere andere Stile. Im Man-"
+"Format wurden mehrere Makros hinzugefügt, um weitere NetBSD-Handbuchseiten "
+"zu unterstützen. Die Makros .UR/.UE sind jetzt inline."
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/index.php.en:49
+msgid "2012-05-16 - po4a 0.42 released"
+msgstr "2012-05-16 - Po4a 0.42 veröffentlicht"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/index.php.en:50
+msgid ""
+"This release adds support for control files, and allows msguntypot to "
+"preserve the comments in PO files."
+msgstr ""
+"Diese Veröffentlichung fügt Unterstützung für Steuerdateien hinzu und "
+"erlaubt es msguntypot, Kommentare in PO-Dateien zu erhalten."
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/index.php.en:55
+msgid "2010-12-01 - po4a 0.41 released"
+msgstr "2010-12-01 - Po4a 0.41 veröffentlicht"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/index.php.en:56
+msgid ""
+"This release modifies how titles are handled in AsciiDoc, the trailing "
+"newline is removed from PO strings.  Other changes are: backups for PO files "
+"are no more generated; carriage returns are filtered away from input files."
+msgstr ""
+"Diese Veröffentlichung verändert den Umgang mit Titeln in AsciiDoc, der "
+"abschließeende Zeilenumbruch wird aus den PO-Zeichenketten entfernt. Andere "
+"Änderungen: Es werden keine Sicherungskopien der PO-Dateien mehr erstellt; "
+"Zeilenumbrüche aus den Eingangsdateien werden herausgefiltert."
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/index.php.en:64
+msgid "2010-11-30 - po4a 0.40.2 released"
+msgstr "2010-11-30 - Po4a 0.40.2 veröffentlicht"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/index.php.en:65
+msgid ""
+"This is a translation release.  Documentation has been reviewed, and many "
+"translations updated."
+msgstr ""
+"Dies ist eine Übersetzungsveröffentlichung. Die Dokumentation wurde "
+"begutachtet und viele Übersetzungen aktualisiert."
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/index.php.en:70
+msgid "2010-08-25 - po4a 0.40.1 released"
+msgstr "2010-08-25 - Po4a 0.40.1 veröffentlicht"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/index.php.en:71
+msgid ""
+"This is mostly a translation release.  Documentation has been reviewed, and "
+"many translations updated.  The header entry when creating POT files has "
+"also been modified in order to be consistent with xgettext."
+msgstr ""
+"Dies ist hauptsächlich eine Übersetzungsveröffentlichung. Die Dokumentation "
+"wurde begutachtet und viele Übersetzungen aktualisiert. Der "
+"Kopfzeileneintrag beim Erstellen von POT-Dateien wurde auch verändert, um "
+"mit Xgettext konsistent zu sein."
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/index.php.en:78
+msgid "2010-07-27 - po4a 0.40 released"
+msgstr "2010-07-27 - Po4a 0.40 veröffentlicht"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/index.php.en:79
+msgid ""
+"This is a bugfix release.  Most notable fixes are: Text: fix failures "
+"\"Unknown option: copyright-holder\"; Man: support font modifiers in the "
+"form \\f(XX and \\f[FONT-NAME]."
+msgstr ""
+"Dies ist eine Fehlerkorrekturveröffentlichung. Die am bemerkenswertesten "
+"Korrekturen sind: Tex: Korrigiert Fehlschlag »Unknown option: copyright-"
+"holder«; Man: Unterstützt Schriftartmodifikatoren in der Form \\f(XX und "
+"\\f[SCHRIFTNAME]."
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/index.php.en:86
+msgid "2010-02-02 - po4a 0.39 released"
+msgstr "2010-02-02 - Po4a 0.39 veröffentlicht"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/index.php.en:87
+msgid ""
+"This release provides a new syntax for addenda, files can be preceded by "
+"optional modifiers to allow more customization."
+msgstr ""
+"Diese Veröffentlichung stellt eine neue Syntax für Addenda bereit, Dateien "
+"können optionale Modifikatoren vorangestellt werden, um bessere Anpassungen "
+"zu erlauben."
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/index.php.en:93
+msgid "2010-01-14 - po4a 0.38 released"
+msgstr "2010-01-14 - Po4a 0.38 veröffentlicht"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/index.php.en:94
+msgid ""
+"This is a bugfix release.  Most notable fixes are: add an option to specify "
+"language in translated XML; let po4a exit with non-zero exit code if master "
+"file does not exist; fix handling of multi-lines placeholder tags.  By "
+"default, po4a now calls msgmerge with the <code>--previous</code> option so "
+"that previous strings are displayed above fuzzy strings in PO files."
+msgstr ""
+"Dies ist eine Fehlerkorrekturveröffentlichung. Die am bemerkenswertesten "
+"Korrekturen sind: Hinzufügen einer Option, um die Sprache in einer "
+"übersetzten XML anzugeben; Po4a beendet sich mit einem von Null "
+"verschiedenen Exit-Code, falls die Master-Datei nicht existiert; Korrektur "
+"beim Umgang mit mehrzeiligen Platzhalter-Markierungen. Standardmäßig ruft "
+"Po4a jetzt Msgmerge mit der Option <code>--previous</code> auf, so dass "
+"vorherige Zeichenketten über den unscharfen Zeichenketten in PO-Dateien "
+"angezeigt werden."
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/index.php.en:104
+msgid "2009-11-20 - po4a 0.37.0 released"
+msgstr "2009-11-20 - Po4a 0.37.0 veröffentlicht"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/index.php.en:105
+msgid ""
+"This release provides <a href=\"man/man1/po4a-build.1.php\">po4a-build</a>, "
+"which allows building all translations (code, documentation, text files, "
+"etc)  with a single file <a href=\"man/man5/po4a-build.conf.5.php\">po4a-"
+"build.conf</a>."
+msgstr ""
+"Diese Veröffentlichung stellt <a href=\"man/man1/po4a-build.1.php\">po4a-"
+"build</a> bereit, das es erlaubt, alle Übersetzungen (Code, Dokumentation, "
+"Textdateien usw.) mit einer einzigen Datei <a href=\"man/man5/po4a-build."
+"conf.5.php\">po4a-build.conf</a> zu bauen."
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/index.php.en:111
+msgid "2009-11-08 - po4a 0.36.6 released"
+msgstr "2009-11-08 - Po4a 0.36.6 veröffentlicht"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/index.php.en:112
+msgid ""
+"There has been three minor releases for bug fixes and small new features. "
+"The most notable new features are:"
+msgstr ""
+"Es gab drei kleinere Veröffentlichungen für Fehlerkorrekturen und kleinere "
+"neue Funktionalitäten. Die bemerkenswertesten neuen Funktionalitäten sind:"
+
+#. type: Content of: <html><body><div><div><p><ul><li>
+#: html/index.php.en:116
+msgid ""
+"<a href=\"man/man1/po4a.1.php\">po4a</a>: new options --srcdir and --destdir."
+msgstr ""
+"<a href=\"man/man1/po4a.1.php\">po4a</a>: neue Optionen: --srcdir und --"
+"destdir."
+
+#. type: Content of: <html><body><div><div><p><ul><li>
+#: html/index.php.en:120
+msgid ""
+"<a href=\"man/man1/po4a-updatepo.1.php\">po4a-updatepo</a>: new options --"
+"msgid-bugs-address, --copyright-holder, --package-name, and --package-"
+"version."
+msgstr ""
+"<a href=\"man/man1/po4a-updatepo.1.php\">po4a-updatepo</a>: neue Optionen --"
+"msgid-bugs-address, --copyright-holder, --package-name und --package-version"
+
+#. type: Content of: <html><body><div><div><p><ul><li>
+#: html/index.php.en:126
+msgid ""
+"new and updated <a href=\"translations.php\">translations</a> (Basque, "
+"Czech, Esperanto, Estonian, French, German, Portuguese, Russian, Spanish, "
+"Swedish, Vietnamese)."
+msgstr ""
+"neue und aktualisierte <a href=\"translations.php\">Übersetzungen</a> "
+"(Baskisch, Deutsch, Esperanto, Estnisch, Französisch, Portugiesisch, "
+"Russisch, Spanisch, Schwedisch, Tschechisch, Vietnamesisch)"
+
+#. type: Content of: <html><body><div><div><p><ul><li>
+#: html/index.php.en:132
+msgid ""
+"<a href=\"man/man3pm/Locale::Po4a::Sgml.3pm.php\">Sgml module</a>: better "
+"detection of entities in the prolog."
+msgstr ""
+"<a href=\"man/man3pm/Locale::Po4a::Sgml.3pm.php\">SGML-Modul</a>: bessere "
+"Erkennung von Entitäten im Prolog."
+
+#. type: Content of: <html><body><div><div><p><ul><li>
+#: html/index.php.en:137
+msgid ""
+"<a href=\"man/man3pm/Locale::Po4a::Text.3pm.php\">Text module</a>: new "
+"options breaks and tabs."
+msgstr ""
+"<a href=\"man/man3pm/Locale::Po4a::Text.3pm.php\">Textmodul</a>: neue "
+"Optionen »breaks« und »tabs«."
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/index.php.en:143
+msgid "2009-07-22 - po4a 0.36.3 released"
+msgstr "2009-07-22 - Po4a 0.36.3 veröffentlicht"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/index.php.en:144
+msgid ""
+"There has been three minor releases for bug fixes.  These minor releases "
+"also improved the support for Markdown; added the po4apod-display-po script; "
+"added the options --msgid-bugs-address, --copyright-holder, --package-name, "
+"--package-version to po4a-gettextize; and added the option customtag to the "
+"Xml and derivative modules."
+msgstr ""
+"Es gab drei kleinere Veröffentlichungen für Fehlerkorrekturen. Diese "
+"kleineren Veröffentlichungen verbesserten auch die Unterstützung für "
+"Markdown, fügten das Skript »po4apod-display-po« hinzu, ergänzten die "
+"Optionen »--msgid-bugs-address«, »--copyright-holder«, »--package-name«, »--"
+"package-version« zu po4a-gettextize und fügten die Option »customtag« zum "
+"Modul Xml und abgeleiteten Modulen hinzu."
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/index.php.en:153
+msgid "2009-03-15 - po4a 0.36 released"
+msgstr "2009-03-15 - Po4a 0.36 veröffentlicht"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/index.php.en:154
+msgid ""
+"This release provides improvements for the Xml (and derivative), Man, and "
+"TeX modules. It also changes how the type of strings is provided in the PO "
+"file. This type will now be provided as an \"extracted comment\" instead of "
+"a \"translator comment\"."
+msgstr ""
+"Diese Veröffentlichung stellt Verbesserungen für die Module Xml (und "
+"abgeleitete), Man und TeX bereit. Sie ändert auch die Art, wie die "
+"Zeichenkettenart in der PO-Datei bereitgestellt wird. Die Art wird jetzt als "
+"»extracted comment« statt als ein »translator comment« bereitgestellt."
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/index.php.en:161
+msgid "2009-02-10 - po4a 0.35 released"
+msgstr "2009-02-10 - Po4a 0.35 veröffentlicht"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/index.php.en:162
+msgid ""
+"This release introduces features in the po4a tools (new [po_directory] "
+"command in po4a's configuration files, new --blank option for po4a-"
+"normalize, and improved conflict handling for po4a-gettextize), and support "
+"for the AsciiDoc format. The Docbook module has a better support of all "
+"v5.0, and earlier tags.  Also the Xml and derivative modules run faster and "
+"have a more comprehensible set of options, and support placeholders by "
+"default to ease the translation and mark the location of sub-blocks."
+msgstr ""
+"Diese Veröffentlichung fügt Funktionalitäten zu den Po4a-Werkzeugen hinzu "
+"(neuer [po_directory]-Befehl in Po4as Konfigurationsdateien, neue Option »--"
+"blank« für Po4a-normalize und verbesserter Umgang mit Konflikten für Po4a-"
+"gettextize) und unterstützt das AsciiDoc-Format. Das Modul Docbook hat "
+"bessere Unterstützung für alle V5.0 und älteren Markierungen (»Tags«). Auch "
+"laufen die Module Xml und abgeleitete schneller und haben einen "
+"nachvollziehbareren Satz von Optionen sowie unterstützen standardmäßig "
+"Platzhalter, um die Übersetzung zu vereinfachen und Stellen in den "
+"Unterblöcken zu markieren."
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/index.php.en:174
+msgid "2008-04-02 - po4a 0.33.3 released"
+msgstr "2008-04-02 - Po4a 0.33.3 veröffentlicht"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/index.php.en:175
+msgid ""
+"0.33.1, 0.33.2, and 0.33.3 are minor releases with bug fixes in the Xml and "
+"Man modules. Some changes were done in the packaging to fix the installation "
+"path of translated manpages and MO files. Manpages are now installed in "
+"UTF-8 and the encoding of their title was fixed. 0.33.2 also adds a Japanese "
+"translation, a new Wml module, and the support for the fortunes format in "
+"the Text module."
+msgstr ""
+"0.33.1, 0.33.2 und 0.33.3 sind kleinere Veröffentlichungen mit "
+"Fehlerkorrekturen in den Xml- und Man-Modulen. Einige Änderungen erfolgten "
+"in der Paketierung, um den Installationspfad von übersetzten Handbuchseiten "
+"und MO-Dateien zu korrigieren. Handbuchseiten werden jetzt in UTF-8 "
+"installiert und die Kodierung ihrer Titel wurde korrigiert. 0.33.2 fügt auch "
+"eine japanische Übersetzung hinzu, ein neues WML-Modul und die Unterstützung "
+"für das »fortunes«-Format in dem Textmodul."
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/index.php.en:185
+msgid "2008-03-03 - po4a 0.33 released"
+msgstr "2008-03-03 - Po4a 0.33 veröffentlicht"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/index.php.en:186
+msgid ""
+"Major changes in the handling of PO files (fix the handling of PO files with "
+"plural forms, and fix the handling of headers for msguntypot), and in the "
+"Texinfo or Xml and derivative modules (e.g. docbook)."
+msgstr ""
+"Größere Änderungen beim Umgang mit PO-Dateien (Korrektur des Umgangs mit PO-"
+"Dateien mit Pluralformen und Korrektur des Umgangs von Kopfzeilen mit "
+"Msguntypot) und in den Modulen Texinfo oder XML und abgeleiteten Modulen (z."
+"B. Docbook)."
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/index.php.en:192
+msgid "2007-08-16 - New website"
+msgstr "2007-08-16 - Neue Website"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/index.php.en:193
+msgid ""
+"We've changed the aspect of our web site and we've added some contents to "
+"help new users to use po4a."
+msgstr ""
+"Wir haben einige Aspekte auf unserer Website geändert und wir haben Inhalte "
+"hinzugefügt, um neuen Benutzern beim Einsatz von Po4a zu helfen."
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/index.php.en:197
+msgid "2007-08-15 - po4a 0.32 released"
+msgstr "2007-08-15 - Po4a 0.32 veröffentlicht"
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/index.php.en:201
+msgid "Project links"
+msgstr "Projekt-Links"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/index.php.en:202
+msgid ""
+"The <a href=\"http://alioth.debian.org/projects/po4a/\">po4a project</a> is "
+"hosted on <a href=\"http://alioth.debian.org\">Alioth</a>."
+msgstr ""
+"Das <a href=\"http://alioth.debian.org/projects/po4a/\">Po4a-Projekt</a> "
+"wird auf <a href=\"http://alioth.debian.org\">Alioth</a> bereitgestellt."
+
+#. type: Content of: <html><head><title>
+#: html/documentation.php.en:11
+msgid "po4a - Documentation"
+msgstr "Po4a - Dokumentation"
+
+#. type: Content of: <div><a>
+#: html/documentation.php.en:18 html/header.php.en:10
+msgid "Documentation"
+msgstr "Dokumentation"
+
+# FIXME lokalize it?
+#. type: Content of: <html><body><div><div><p>
+#: html/documentation.php.en:19
+msgid "Here is an HTML version of the po4a's manpages."
+msgstr ""
+"Hier befindet sich eine HTML-Version der englischen Fassung der Po4a-"
+"Handbuchseiten."
+
+#. type: Content of: <html><body><div><div><p>
+#: html/documentation.php.en:20
+msgid ""
+"The <a href=\"man/man7/po4a.7.php\">po4a.7</a> manpage provides an "
+"introduction to po4a."
+msgstr ""
+"Die Handbuchseite <a href=\"man/man7/po4a.7.php\">po4a.7</a> bietet eine "
+"Einführung in Po4a."
+
+#. type: Content of: <html><body><div><div><p>
+#: html/documentation.php.en:22
+msgid ""
+"For more details, the <a href=\"man/\">index</a> provides the documentation "
+"of the various commands and modules."
+msgstr ""
+"Für weitere Details stellt der <a href=\"man/\">Index</a> die Dokumentation "
+"für die verschiedenen Befehle und Module zur Verfügung."
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/documentation.php.en:27
+msgid "Help"
+msgstr "Hilfe"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/documentation.php.en:28
+msgid ""
+"We can help you to set up a translation framework for your project's "
+"documentation or to adapt po4a to your needs.  Do not hesitate to contact us "
+"on our <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">mailing list</"
+"a> or on IRC (#po4a on oftc)."
+msgstr ""
+"Wir können Ihnen beim Einrichten eines Übersetzungsrahmens für die "
+"Dokumentation Ihres Projektes oder bei der Anpassung von Po4a an Ihre "
+"Bedürfnisse helfen. Zögern Sie nicht, auf unserer <a href=\"mailto:po4a-"
+"devel@lists.alioth.debian.org\">Mailingliste</a> oder im IRC (#po4a auf "
+"oftc) mit uns (auf Englisch) Kontakt aufzunehmen."
+
+#. type: Content of: <html><head><title>
+#: html/download.php.en:11
+msgid "po4a - Download"
+msgstr "Po4a - Herunterladen"
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/download.php.en:18
+msgid "Sources"
+msgstr "Quellen"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/download.php.en:19
+msgid ""
+"You can find the sources of the latest release on <a href=\"http://alioth."
+"debian.org/frs/?group_id=30267\">Alioth</a>."
+msgstr ""
+"Sie finden die Quellen der neusten Veröffentlichung auf <a href=\"http://"
+"alioth.debian.org/frs/?group_id=30267\">Alioth</a>."
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/download.php.en:23
+msgid "Binary"
+msgstr "Binärprogramm"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/download.php.en:24
+msgid ""
+"po4a is a Perl module. It is available as a binary package in many "
+"OpenSource distributions (Debian, Ubuntu, FreeBSD, Gentoo, Fedora, Mandriva, "
+"and probably others)."
+msgstr ""
+"Po4a ist ein Perl-Modul. Es ist als Binärpaket in vielen OpenSource-"
+"Distributionen verfügbar (Debian, Ubuntu, FreeBSD, Gentoo, Fedora, Mandriva "
+"und wahrscheinlich weiteren)."
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/download.php.en:30
+msgid "Subversion"
+msgstr "Subversion"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/download.php.en:31
+msgid ""
+"The latest sources are available from our <a href=\"http://alioth.debian.org/"
+"scm/?group_id=30267\">Subversion repository</a>."
+msgstr ""
+"Die neusten Quellen sind in unserem <a href=\"href=\"http://alioth.debian."
+"org/scm/?group_id=30267\">Subversion-Depot</a> verfügbar."
+
+#. type: Content of: <html><body><div><div><p>
+#: html/download.php.en:32
+msgid ""
+"It also contains additional modules which are being considered, but are not "
+"of a sufficient quality."
+msgstr ""
+"Es enthält auch zusätzliche Module, die derzeit geprüft werden, aber noch "
+"nicht eine geeignete Qualität aufweisen."
+
+#. type: Content of: <html><head><title>
+#: html/features.php.en:11
+msgid "po4a - Features"
+msgstr "Po4a - Funktionalitäten"
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/features.php.en:18
+msgid "Introduction"
+msgstr "Einleitung"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/features.php.en:19
+msgid "po4a extracts the translatable material from its input in a PO file."
+msgstr ""
+"Po4a extrahiert das übersetzbare Material aus seiner Eingabe in eine PO-"
+"Datei."
+
+#. type: Content of: <html><body><div><div><p>
+#: html/features.php.en:21
+msgid ""
+"When the PO file is translated, it re-injects the translation in the "
+"structure of the document, and generates the translated document."
+msgstr ""
+"Wenn die PO-Datei übersetzt ist, fügt es die Übersetzung wieder in die "
+"Struktur des Dokuments ein und erstellt das übersetzte Dokument."
+
+#. type: Content of: <html><body><div><div><p>
+#: html/features.php.en:24
+msgid ""
+"If a string is not translated (i.e. it was not translated or it is \"fuzzy\" "
+"because the original document was updated), the original string is used."
+msgstr ""
+"Falls eine Zeichenkette nicht übersetzt ist (d.h. sie war nicht übersetzt "
+"oder sie ist »unscharf«, da das Originaldokument aktualisiert wurde), wird "
+"die Originalzeichenkette verwandt."
+
+#. type: Content of: <html><body><div><div><p>
+#: html/features.php.en:27
+msgid "This permits to provide always up-to-date documentation."
+msgstr "Dies erlaubt es Ihnen, immer aktuelle Dokumentation bereitzustellen."
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/features.php.en:31
+msgid "Supported formats"
+msgstr "Unterstützte Formate"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/features.php.en:32
+msgid "po4a supports currently the following formats:"
+msgstr "Po4a unterstützt derzeit die folgenden Formate:"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: html/features.php.en:34
+msgid "manpages"
+msgstr "Handbuchseiten"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: html/features.php.en:35
+msgid "POD"
+msgstr "POD"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: html/features.php.en:36
+msgid "XML (generic, DocBook, XHTML, Dia, Guide, or WML)"
+msgstr "XML (generic, DocBook, XHTML, Dia, Guide oder WML)"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: html/features.php.en:37
+msgid "SGML"
+msgstr "SGML"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: html/features.php.en:38
+msgid "TeX (generic, LaTeX, or Texinfo)"
+msgstr "TeX (generic, LaTeX oder Texinfo)"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: html/features.php.en:39
+msgid "text (simple text files with some formatting, markdown, or AsciiDoc)"
+msgstr "Text (einfacher Text mit etwas Formatierung, Markdown oder AsciiDoc)"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: html/features.php.en:41
+msgid "INI"
+msgstr "INI"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: html/features.php.en:42
+msgid "KernelHelp"
+msgstr "Kernel-Hilfe"
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/features.php.en:46
+msgid "Configuration file"
+msgstr "Konfigurationsdatei"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/features.php.en:47
+msgid ""
+"You can use a configuration file to ease its usage to a single command "
+"invocation. This configuration file will contain the list of documents, the "
+"options, etc."
+msgstr ""
+"Sie können eine Konfigurationsdatei verwenden, um seine Anwendung auf den "
+"Aufruf eines einzelnen Befehls zu reduzieren. Diese Konfigurationsdatei wird "
+"die Liste der Dokumente, die Optionen usw. enthalten."
+
+#. type: Content of: <html><body><div><div><p>
+#: html/features.php.en:51
+msgid ""
+"When invoked with a configuration file, po4a uses an 'a la make' algorithm "
+"to detect if files changed and if an operation is required."
+msgstr ""
+"Wenn es mit einer Konfigurationsdatei aufgerufen wird, verwendet Po4a einen "
+"Make-artigen Algorithmus, um zu erkennen, ob Dateien geändert wurden und ob "
+"eine Aktion notwendig ist."
+
+#. type: Content of: <html><head><title>
+#: html/getinvolved.php.en:11
+msgid "po4a - Get involved!"
+msgstr "Po4a - Machen Sie mit!"
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/getinvolved.php.en:18
+msgid "Get involved!"
+msgstr "Machen Sie mit!"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/getinvolved.php.en:19
+msgid "If you want to participate, you can contact us"
+msgstr "Falls Sie mitmachen möchten, können Sie mit uns Kontakt aufnehmen"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: html/getinvolved.php.en:21
+msgid ""
+"on our <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">mailing list</"
+"a>,"
+msgstr ""
+"auf unserer <a href=\"mailto:po4a-devel@lists.alioth.debian.org"
+"\">Mailingliste</a>,"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: html/getinvolved.php.en:22
+msgid "on IRC (#po4a on oftc)."
+msgstr "im IRC (#po4a auf oftc)."
+
+#. type: Content of: <html><body><div><div><p>
+#: html/getinvolved.php.en:23
+msgid ""
+"Bug reports, patches, feature requests or any feedback are welcome on the "
+"mailing list, in the <a href=\"http://alioth.debian.org/tracker/?"
+"atid=410622&amp;group_id=30267\">Alioth tracker</a> or in the <a href="
+"\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable"
+"\">Debian BTS</a>."
+msgstr ""
+"Fehlerberichte, Patches, Funktionalitätswünsche oder andere Rückmeldungen "
+"sind auf der Mailingliste, im <a href=\"http://alioth.debian.org/tracker/?"
+"atid=410622&amp;group_id=30267\">Alioth-Tracker</a> oder im <a href=\"http://"
+"bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable\">Debian-BTS</"
+"a> willkommen."
+
+#. type: Content of: <html><body><div><div><p>
+#: html/getinvolved.php.en:27
+msgid ""
+"Commit emails are sent on a separate <a href=\"mailto:po4a-commits@lists."
+"alioth.debian.org\">mailing list</a>."
+msgstr ""
+"Commit-E-Mails werden auf eine separate <a href=\"mailto:po4a-commits@lists."
+"alioth.debian.org\">Mailingliste</a> gesandt."
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/getinvolved.php.en:31
+msgid "TODO"
+msgstr "TODO"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/getinvolved.php.en:32
+msgid "We are looking for people interesting in testing/porting on Windows"
+msgstr ""
+"Wir suchen Leute, die am Testen/Portieren auf Windows interessiert sind"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/getinvolved.php.en:34
+msgid "Support for XLIFF would be welcome."
+msgstr "Unterstützung für XLIFF wäre willkommen."
+
+#. type: Content of: <html><body><div><div><p>
+#: html/getinvolved.php.en:35
+msgid "Implementation of a C extension to make po4a faster is ongoing."
+msgstr ""
+"Implementierung einer C-Erweiterung, um Po4a zu beschleunigen, ist in Arbeit."
+
+#. type: Content of: <div><div><h1><sup>
+#: html/header.php.en:4
+msgid "po4a<sup>v"
+msgstr "po4a<sup>v"
+
+#. type: Content of: <div><div><h1>
+#: html/header.php.en:4
+msgid "</sup>"
+msgstr "</sup>"
+
+#. type: Content of: <div><a>
+#: html/header.php.en:8
+msgid "Welcome"
+msgstr "Willkommen"
+
+#. type: Content of: <div><a><span>
+#: html/header.php.en:8 html/header.php.en:9 html/header.php.en:10
+#: html/header.php.en:11 html/header.php.en:12 html/header.php.en:13
+msgid "&nbsp;&nbsp;&lt;"
+msgstr "&nbsp;&nbsp;&lt;"
+
+#. type: Content of: <div><a>
+#: html/header.php.en:9
+msgid "Features"
+msgstr "Funktionalitäten"
+
+#. type: Content of: <div><a>
+#: html/header.php.en:11
+msgid "Download"
+msgstr "Herunterladen"
+
+#. type: Content of: <div><a>
+#: html/header.php.en:12
+msgid "Get Involved"
+msgstr "Machen Sie mit"
+
+#. type: Content of: <div><a>
+#: html/header.php.en:13
+msgid "Translations"
+msgstr "Übersetzungen"
+
+#. type: Content of: <html><head><title>
+#: html/translations.php.en:11
+msgid "po4a - Translations"
+msgstr "Po4a - Übersetzungen"
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/translations.php.en:18
+msgid "Translating"
+msgstr "Übersetzen"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/translations.php.en:19
+msgid ""
+"Strings are usually frozen one or two week before the releases. Tell us if "
+"you want to be notified."
+msgstr ""
+"Die Zeichenketten werden normalerweise eine oder zwei Wochen vor der "
+"Veröffentlichung eingefroren. Teilen Sie uns mit, falls Sie davon informiert "
+"werden möchten."
+
+#. type: Content of: <html><body><div><div><p>
+#: html/translations.php.en:21
+msgid "See below for the list of available translations and work needed."
+msgstr ""
+"Weiter unten folgt die Liste der verfügbaren Übersetzungen und der "
+"benötigten Arbeit."
+
+#. type: Content of: <html><body><div><div><p>
+#: html/translations.php.en:23
+msgid ""
+"You can find the translation material on our Subversion repository (<a href="
+"\"http://anonscm.debian.org/viewvc/po4a/trunk/po/bin/\">translation of the "
+"program</a>, <a href=\"http://anonscm.debian.org/viewvc/po4a/trunk/po/pod/"
+"\">translation of the documentation</a>, <a href=\"http://anonscm.debian.org/"
+"viewvc/po4a/web/po/\">translation of the website</a>)."
+msgstr ""
+"Sie finden das übersetzbare Material in unserem Subversion-Depot (<a href="
+"\"http://anonscm.debian.org/viewvc/po4a/trunk/po/bin/\">Übersetzung des "
+"Programms</a>, <a href=\"http://anonscm.debian.org/viewvc/po4a/trunk/po/pod/"
+"\">Übersetzung der Dokumentation</a>, <a href=\"http://anonscm.debian.org/"
+"viewvc/po4a/web/po/\">Übersetzung der Website</a>)."
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/translations.php.en:29
+msgid "Available translations"
+msgstr "Verfügbare Übersetzungen"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/translations.php.en:30
+msgid "Po4a is currently translated in the following languages:"
+msgstr "Po4a ist derzeit in die folgenden Sprachen übersetzt:"
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/translations.php.en:35
+msgid "Translations of the documentation"
+msgstr "Übersetzung der Dokumentation"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/translations.php.en:36
+msgid "The po4a documentation is also translated in the following languages:"
+msgstr "Die Po4a-Dokumentation ist auch in die folgenden Sprachen übersetzt:"
+
+#. type: Content of: <html><body><div><div><h2>
+#: html/translations.php.en:40
+msgid "Translations of the web site"
+msgstr "Übersetzungen der Website"
+
+#. type: Content of: <html><body><div><div><p>
+#: html/translations.php.en:41
+msgid "This web site is also translated in the following languages:"
+msgstr "Diese Website ist auch in die folgenden Sprachen übersetzt:"
+
+#~ msgid "CVS"
+#~ msgstr "CVS"
