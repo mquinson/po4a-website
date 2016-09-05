@@ -27,8 +27,10 @@
 			probably others).</p>
 		</div>
 		<div class="item">
-			<h2>Subversion</h2>
-			<p>The latest sources are available from our <a href="http://alioth.debian.org/scm/?group_id=30267">Subversion repository</a>.</p>
+			<h2>Git repository</h2>
+			<p>The latest sources are available from our
+                        <a href="https://alioth.debian.org/scm/browser.php?group_id=30267">Git
+                        repository</a>.</p>
 			<p>It also contains additional modules which are being
 			considered, but are not of a sufficient quality.</p>
 		</div>

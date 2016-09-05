@@ -24,6 +24,10 @@
 			feedback are welcome on the mailing list, in the
 			<a href="http://alioth.debian.org/tracker/?atid=410622&amp;group_id=30267">Alioth tracker</a>
 			or in the <a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable">Debian BTS</a>.</p>
+			<p>You can also submit Pull Requests against
+                         this <a href="https://github.com/mquinson/po4a">GitHub repository</a>, 
+			 even if we try to reduce our dependency on
+                         GitHub to the minimum ourselves.</p>
 			<p>Commit emails are sent on a separate
 			<a href="mailto:po4a-commits@lists.alioth.debian.org">mailing list</a>.</p>
 		</div>
@@ -32,8 +36,6 @@
 			<p>We are looking for people interesting in
 			testing/porting on Windows</p>
 			<p>Support for XLIFF would be welcome.</p>
-			<p>Implementation of a C extension to make po4a faster
-			is ongoing.</p>
 		</div>
 	</div>
 

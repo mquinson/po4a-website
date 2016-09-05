@@ -20,10 +20,10 @@
 			the releases. Tell us if you want to be notified.</p>
 			<p>See below for the list of available translations and
 			work needed.</p>
-			<p>You can find the translation material on our Subversion
-			repository (<a href="http://anonscm.debian.org/viewvc/po4a/trunk/po/bin/">translation of the program</a>,
-			<a href="http://anonscm.debian.org/viewvc/po4a/trunk/po/pod/">translation of the documentation</a>,
-			<a href="http://anonscm.debian.org/viewvc/po4a/web/po/">translation of the website</a>).</p>
+			<p>You can find the translation material in our gits
+			(<a  href="https://alioth.debian.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=po4a/po4a.git;a=tree;f=po/bin">program</a>,
+			<a href="https://alioth.debian.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=po4a/po4a.git;a=tree;f=po/pod">documentation</a>,
+			<a href="https://alioth.debian.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=po4a/po4a-website.git;a=tree;f=po/www">website</a>).</p>
 		</div>
 		<div class="item">
 			<h2>Available translations</h2>
