@@ -44,6 +44,7 @@ PO4AFLAGS='-k 0' ./Build
 cd $curdir
 
 rm -rf html/
+find src -name \*~ -exec rm {} \;
 cp -a $srcdir/blib/man html
 #cp -a $srcdir/blib/libdoc html/man3
 find html -name \*.gz -exec gunzip {} \;
