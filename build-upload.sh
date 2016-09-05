@@ -43,20 +43,20 @@ perl Build.PL
 PO4AFLAGS='-k 0' ./Build
 cd $curdir
 
-rm -rf html.gen/
-find html -name \*~ -exec rm {} \;
-cp -a $srcdir/blib/man html.gen
-#cp -a $srcdir/blib/libdoc html.gen/man3
-find html.gen -name \*.gz -exec gunzip {} \;
-#find html.gen/man3 html.gen/*/man3 -name \*.3 -exec mv {} {}pm \;
-for f in $(find html.gen/man1 html.gen/*/man1 -name \*.1p); do mv $f ${f%p}; done
-mkdir -p html.gen/en/
-mv html.gen/man* html.gen/en/
-mkdir html.gen/man
-mkdir html.gen/man/man1
-mkdir html.gen/man/man3
-mkdir html.gen/man/man5
-mkdir html.gen/man/man7
+rm -rf html/
+find src -name \*~ -exec rm {} \;
+cp -a $srcdir/blib/man html
+#cp -a $srcdir/blib/libdoc html/man3
+find html -name \*.gz -exec gunzip {} \;
+#find html/man3 html/*/man3 -name \*.3 -exec mv {} {}pm \;
+for f in $(find html/man1 html/*/man1 -name \*.1p); do mv $f ${f%p}; done
+mkdir -p html/en/
+mv html/man* html/en/
+mkdir html/man
+mkdir html/man/man1
+mkdir html/man/man3
+mkdir html/man/man5
+mkdir html/man/man7
 
 libver=$(grep '$VERSION=' $srcdir/lib/Locale/Po4a/TransTractor.pm | \
          sed -e 's/^.*"\([^"]*\)".*/\1/')
@@ -67,7 +67,7 @@ PERLLIB=$srcdir/lib $srcdir/po4a --previous -v --msgid-bugs-address po4a-devel@l
 for lang in po/www/*.po
 do
 	lang=$(basename ${lang%.po})
-	for f in html.gen/*.$lang
+	for f in html/*.$lang
 	do
 		sed -i -e "s/\.en\"; ?>/\.$lang\"; ?>/" $f
 	done
@@ -79,17 +79,17 @@ done
 #	echo "   $lang ($PERC% translated):
 #   <a href=\"$lang/man7/po4a.7.php\">Introduction</a>
 #   <a href=\"$lang/\">Index</a>
-#   <br>" >> html.gen/documentation_translations.php
+#   <br>" >> html/documentation_translations.php
 #done
 #echo "   <br>
-#   Last update: `LANG=C date`" >> html.gen/documentation_translations.php
+#   Last update: `LANG=C date`" >> html/documentation_translations.php
 
 for lang in en $LANGS ; do
 	header=header.php.$lang
-	[ -e html.gen/$header ] || header=header.php.en
+	[ -e html/$header ] || header=header.php.en
 	echo Generate the $lang index
 
-	cat << EOT > html.gen/man/index.php.$lang
+	cat << EOT > html/man/index.php.$lang
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
  <head>
@@ -106,28 +106,28 @@ for lang in en $LANGS ; do
   <h1>Table of Contents</h1>
    <table>
 EOT
-	for man in html.gen/en/man*/*
+	for man in html/en/man*/*
 	do
-		man=${man#html.gen/en/}
-		if test -e html.gen/$lang/$man
+		man=${man#html/en/}
+		if test -e html/$lang/$man
 		then
-			page=html.gen/$lang/$man
+			page=html/$lang/$man
 		else
-			page=html.gen/en/$man
+			page=html/en/$man
 		fi
 		title=$(lexgrog "$page" |
 		        sed -ne 's/.*: \".* - //;s/"$//;p')
 		ref=$man.php
 		man=$(basename $man)
 		man=$(echo $man | sed -e 's/^\(.*\)\.\([0-9]\(pm\)\?\)$/\1(\2)/')
-		cat << EOT >> html.gen/man/index.php.$lang
+		cat << EOT >> html/man/index.php.$lang
     <tr>
      <td><a href="$ref">$man</a></td>
      <td>$title</td>
     </tr>
 EOT
 	done
-	cat << EOT >> html.gen/man/index.php.$lang
+	cat << EOT >> html/man/index.php.$lang
    </table>
   </div>
   <?php include "footer_index.php"; ?>
@@ -137,10 +137,10 @@ EOT
 EOT
 
 	echo Generate the $lang HTML pages
-	for man in html.gen/$lang/man*/*
+	for man in html/$lang/man*/*
 	do
 		#test -e $man || continue
-		out=html.gen/man/${man#html.gen/$lang/}.php.$lang
+		out=html/man/${man#html/$lang/}.php.$lang
 		footer=footer_$(basename $out)
 		footer=${footer%.$lang}
 		man2html -r $man | sed -e '/Content-type: text.html/d' \
@@ -154,10 +154,10 @@ EOT
 
 	if [ "$lang" != "en" ]
 	then
-		rm -rf html.gen/$lang
+		rm -rf html/$lang
 	fi
 done
-rm -rf html.gen/en
+rm -rf html/en
 
 gen_translations() {
 	dir="$1"
@@ -195,14 +195,14 @@ gen_translations() {
 }
 
 echo Generate the translation statistics for po/bin
-gen_translations $srcdir/po/bin > html.gen/table_translations_bin.php
+gen_translations $srcdir/po/bin > html/table_translations_bin.php
 echo Generate the translation statistics for po/pod
-gen_translations $srcdir/po/pod > html.gen/table_translations_pod.php
+gen_translations $srcdir/po/pod > html/table_translations_pod.php
 echo Generate the translation statistics for po/www
-gen_translations po/www > html.gen/table_translations_www.php
+gen_translations po/www > html/table_translations_www.php
 
 echo Extract the version
-echo $libver > html.gen/version.php
+echo $libver > html/version.php
 
 get_language() {
 # FIXME: use gettext
@@ -254,15 +254,15 @@ gen_language_footer() {
 	page="$1"
 #	echo "Generating language footer for $page"
 	page=${page%.en}
+	page=${page#src/}
 	page=${page#html/}
-	page=${page#html.gen/}
-	out=html.gen/$(dirname $page)/footer_$(basename $page)
+	out=html/$(dirname $page)/footer_$(basename $page)
 	echo "<div id=\"languages\">" > $out
-	for langcode in $(ls html/$page.* html.gen/$page.* 2>/dev/null)
+	for langcode in $(ls src/$page.* html/$page.* 2>/dev/null)
 	do
 		echo $langcode
+		langcode=${langcode#src/$page.}
 		langcode=${langcode#html/$page.}
-		langcode=${langcode#html.gen/$page.}
 		language=$(get_language $langcode)
 		echo "<a href=\"$(basename $page | sed -e 's/:/%3A/g').$langcode\">$language</a>" >> $out
 	done
@@ -271,12 +271,12 @@ gen_language_footer() {
 }
 
 echo "Generating language footers"
-for page in html/*.en
+for page in src/*.en
 do
 	gen_language_footer "$page"
 done
 
-find html.gen -name "*.en" |
+find html -name "*.en" |
 while read page
 do
 	gen_language_footer "$page"
@@ -284,10 +284,10 @@ done
 
 echo Uploading...
 aliothdir=/srv/home/groups/po4a/htdocs/
+scp -r src/*.* po4a.alioth.debian.org:$aliothdir
 scp -r html/*.* po4a.alioth.debian.org:$aliothdir
-scp -r html.gen/*.* po4a.alioth.debian.org:$aliothdir
-scp -r html.gen/man po4a.alioth.debian.org:$aliothdir
-scp -r html/.htaccess po4a.alioth.debian.org:$aliothdir || true
+scp -r html/man po4a.alioth.debian.org:$aliothdir
+scp -r src/.htaccess po4a.alioth.debian.org:$aliothdir || true
 ssh po4a.alioth.debian.org chgrp -R po4a $aliothdir 2> /dev/null || true 
 ssh po4a.alioth.debian.org chmod -R g+rw $aliothdir
 ssh po4a.alioth.debian.org chmod -R g+rw $aliothdir/.htaccess
