@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a\n"
 "Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
-"POT-Creation-Date: 2016-09-05 20:48+0200\n"
+"POT-Creation-Date: 2016-09-05 21:36+0200\n"
 "PO-Revision-Date: 2013-08-21 22:44+0200\n"
 "Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
@@ -155,20 +155,24 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:30
-msgid "Subversion"
-msgstr "Subversion"
+msgid "Git repository"
+msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:31
+#, fuzzy
+#| msgid ""
+#| "The latest sources are available from our <a href=\"http://alioth.debian."
+#| "org/scm/?group_id=30267\">Subversion repository</a>."
 msgid ""
-"The latest sources are available from our <a href=\"http://alioth.debian.org/"
-"scm/?group_id=30267\">Subversion repository</a>."
+"The latest sources are available from our <a href=\"https://alioth.debian."
+"org/scm/browser.php?group_id=30267\">Git repository</a>."
 msgstr ""
 "Les dernières sources sont disponibles sur notre <a href=\"http://alioth."
 "debian.org/scm/?group_id=30267\">dépôt Subversion</a>."
 
 #. type: Content of: <html><body><div><div><p>
-#: src/download.php.en:32
+#: src/download.php.en:34
 msgid ""
 "It also contains additional modules which are being considered, but are not "
 "of a sufficient quality."
@@ -342,6 +346,14 @@ msgstr ""
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:27
 msgid ""
+"You can also submit Pull Requests against this <a href=\"https://github.com/"
+"mquinson/po4a\">GitHub repository</a>, even if we try to reduce our "
+"dependency on GitHub to the minimum ourselves."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: src/getinvolved.php.en:31
+msgid ""
 "Commit emails are sent on a separate <a href=\"mailto:po4a-commits@lists."
 "alioth.debian.org\">mailing list</a>."
 msgstr ""
@@ -350,28 +362,21 @@ msgstr ""
 "séparée."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/getinvolved.php.en:31
+#: src/getinvolved.php.en:35
 msgid "TODO"
 msgstr "À faire"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/getinvolved.php.en:32
+#: src/getinvolved.php.en:36
 msgid "We are looking for people interesting in testing/porting on Windows"
 msgstr ""
 "Nous recherchons des personnes intéressées pour tester et porter sous "
 "Windows."
 
 #. type: Content of: <html><body><div><div><p>
-#: src/getinvolved.php.en:34
+#: src/getinvolved.php.en:38
 msgid "Support for XLIFF would be welcome."
 msgstr "Le support du format XLIFF serait le bienvenu."
-
-#. type: Content of: <html><body><div><div><p>
-#: src/getinvolved.php.en:35
-msgid "Implementation of a C extension to make po4a faster is ongoing."
-msgstr ""
-"Une implémentation d'une extension en C pour rendre po4a plus rapide est en "
-"cours."
 
 #. type: Content of: <div><div><h1><sup>
 #: src/header.php.en:4
@@ -442,12 +447,20 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/translations.php.en:23
+#, fuzzy
+#| msgid ""
+#| "You can find the translation material on our Subversion repository (<a "
+#| "href=\"http://anonscm.debian.org/viewvc/po4a/trunk/po/bin/\">translation "
+#| "of the program</a>, <a href=\"http://anonscm.debian.org/viewvc/po4a/trunk/"
+#| "po/pod/\">translation of the documentation</a>, <a href=\"http://anonscm."
+#| "debian.org/viewvc/po4a/web/po/\">translation of the website</a>)."
 msgid ""
-"You can find the translation material on our Subversion repository (<a href="
-"\"http://anonscm.debian.org/viewvc/po4a/trunk/po/bin/\">translation of the "
-"program</a>, <a href=\"http://anonscm.debian.org/viewvc/po4a/trunk/po/pod/"
-"\">translation of the documentation</a>, <a href=\"http://anonscm.debian.org/"
-"viewvc/po4a/web/po/\">translation of the website</a>)."
+"You can find the translation material in our gits (<a href=\"https://alioth."
+"debian.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=po4a/po4a.git;a=tree;f=po/bin"
+"\">program</a>, <a href=\"https://alioth.debian.org/plugins/scmgit/cgi-bin/"
+"gitweb.cgi?p=po4a/po4a.git;a=tree;f=po/pod\">documentation</a>, <a href="
+"\"https://alioth.debian.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=po4a/po4a-"
+"website.git;a=tree;f=po/www\">website</a>)."
 msgstr ""
 "Vous trouverez les fichiers PO pour les traductions dans notre dépôt "
 "Subversion (<a href=\"http://anonscm.debian.org/viewvc/po4a/trunk/po/bin/"
@@ -487,3 +500,10 @@ msgstr "Traductions du site web"
 msgid "This web site is also translated in the following languages:"
 msgstr "Ce site web est aussi traduit dans les langues suivantes :"
 
+#~ msgid "Subversion"
+#~ msgstr "Subversion"
+
+#~ msgid "Implementation of a C extension to make po4a faster is ongoing."
+#~ msgstr ""
+#~ "Une implémentation d'une extension en C pour rendre po4a plus rapide est "
+#~ "en cours."
