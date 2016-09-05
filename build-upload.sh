@@ -44,7 +44,6 @@ PO4AFLAGS='-k 0' ./Build
 cd $curdir
 
 rm -rf html/
-find src -name \*~ -exec rm {} \;
 cp -a $srcdir/blib/man html
 #cp -a $srcdir/blib/libdoc html/man3
 find html -name \*.gz -exec gunzip {} \;
@@ -252,13 +251,13 @@ get_language() {
 
 gen_language_footer() {
 	page="$1"
-#	echo "Generating language footer for $page"
 	page=${page%.en}
 	page=${page#src/}
 	page=${page#html/}
 	out=html/$(dirname $page)/footer_$(basename $page)
+#	echo "Generating language footer for $page in $out"
 	echo "<div id=\"languages\">" > $out
-	for langcode in $(ls src/$page.* html/$page.* 2>/dev/null)
+	for langcode in $(ls src/$page.* html/$page.* 2>/dev/null |grep -v *~)
 	do
 		echo $langcode
 		langcode=${langcode#src/$page.}
