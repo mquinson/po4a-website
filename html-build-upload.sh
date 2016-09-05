@@ -8,7 +8,14 @@ set -e # we want to fail on any error instead of risking uploading broken stuff
 curdir=$(pwd)
 
 # Path to po4a sources
-srcdir=../trunk
+srcdir=../po4a
+
+if [ ! -e ${srcdir}/po4a-gettextize ]
+then 
+	echo "The source tree of po4a does not seem to be in '${srcdir}'."
+	echo "Please fix the srcdir variable at the top of this script."
+	exit 1
+fi
 
 percent_lang() {
 	STATS=`msgfmt -o /dev/null --statistics $srcdir/po/pod/$1.po 2>&1`
