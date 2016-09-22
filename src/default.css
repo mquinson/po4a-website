@@ -40,6 +40,8 @@ h1 { font-size: x-large; border-bottom: 1px rgb(200,200,200) solid; text-align: 
 h1 sup { font-size: small; position: absolute; }
 
 h2 { margin: 0; font-size: small;}
+h3 { margin: 0; font-size: small;}
+h4 { margin: 0; font-size: small;}
 
 
 a { font-weight: bold; text-decoration: none; color: black; }
