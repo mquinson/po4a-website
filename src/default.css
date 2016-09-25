@@ -59,6 +59,12 @@ dd p { margin: .5em 0 .5em; }
 a[name] { display: block; line-height: 0; }
 h3 + a[name] { margin-top: -.7em; } 
 h3 + a[name="lbAG" ] { margin-top: 0; }
+h3 + a[name="lbBB"] { margin-top: 0; }
+
+table td {
+    padding: .3em;
+    border-bottom: 1px solid rgb(230,230,230);
+}
 
 a { font-weight: bold; text-decoration: none; color: black; }
 a:visited { font-weight: normal; }
