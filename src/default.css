@@ -1,7 +1,7 @@
 body {
     font-family: Tahoma,Verdana,sans-serif;
     font-size: small;
-    color: rgb(100,100,100);
+    color: rgb(70,70,70);
     margin: 0;
     background: rgb(250,255,252);
 }
@@ -31,18 +31,34 @@ body {
     position: absolute;
 }
 
-#body {
+/*body {
     margin: 0 15% 0 15%;
     max-width: 50em;
-}
+}*/
 
 h1 { font-size: x-large; border-bottom: 1px rgb(200,200,200) solid; text-align: right; margin: 0 0 0.7em 0; padding: 0 0 0.2em 0; }
 h1 sup { font-size: small; position: absolute; }
 
-h2 { margin: 0; font-size: small;}
-h3 { margin: 0; font-size: small;}
-h4 { margin: 0; font-size: small;}
+h2 { margin: 1.2em 0 .7em; }
+h3 { margin: .7em 0; }
+p { margin: 1em 0; }
 
+pre {
+    overflow: auto;
+    padding: 1em 0 0 1em;
+    border: 1px rgb(200,200,200) solid;
+    background: rgb(243,246,249);
+    margin: 1em 0;
+}
+
+dl { margin: 1em 0; }
+dt { margin: 1em  0 0; }
+dd { margin: .5em 0 .5em 5%; }
+dd p { margin: .5em 0 .5em; }
+
+a[name] { display: block; line-height: 0; }
+h3 + a[name] { margin-top: -.7em; } 
+h3 + a[name="lbAG" ] { margin-top: 0; }
 
 a { font-weight: bold; text-decoration: none; color: black; }
 a:visited { font-weight: normal; }
@@ -63,6 +79,7 @@ a:hover { font-style: italic; }
 
 #content {
     /*background: lightsteelblue;*/
+    max-width: 57em;
     margin: 0 0 0 10em;
     padding: 1em 1em 0 1em;
     border-left: 1px rgb(200,200,200) solid;
