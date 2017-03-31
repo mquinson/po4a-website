@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.45\n"
 "Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
-"POT-Creation-Date: 2016-09-05 21:36+0200\n"
+"POT-Creation-Date: 2017-03-31 22:39+0200\n"
 "PO-Revision-Date: 2013-09-09 16:54+0200\n"
 "Last-Translator: Helge Kreutzmann <debian@helgefjell.de>\n"
 "Language-Team: de <debian-l10n-german@lists.debian.org>\n"
@@ -41,21 +41,41 @@ msgstr ""
 #: src/index.php.en:25
 #, fuzzy
 #| msgid "2012-10-17 - po4a 0.43 released"
-msgid "2016-06-17 - po4a 0.48 released"
+msgid "2017-03-28 - po4a 0.51 released"
 msgstr "2012-10-17 - Po4a 0.43 veröffentlicht"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:26
+#, fuzzy
+#| msgid ""
+#| "You can find the sources of the latest release on <a href=\"http://alioth."
+#| "debian.org/frs/?group_id=30267\">Alioth</a>."
+msgid ""
+"This release introduces many many bugfixes and some new developments (<a "
+"href=\"https://alioth.debian.org/frs/?group_id=30267\">more details</a>)."
+msgstr ""
+"Sie finden die Quellen der neusten Veröffentlichung auf <a href=\"http://"
+"alioth.debian.org/frs/?group_id=30267\">Alioth</a>."
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:32
+#, fuzzy
+#| msgid "2012-10-17 - po4a 0.43 released"
+msgid "2016-06-17 - po4a 0.48 released"
+msgstr "2012-10-17 - Po4a 0.43 veröffentlicht"
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:33
 msgid "This release introduces bugfixes and translation updates."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:30
+#: src/index.php.en:37
 msgid "Project links"
 msgstr "Projekt-Links"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:31
+#: src/index.php.en:38
 msgid ""
 "The <a href=\"http://alioth.debian.org/projects/po4a/\">po4a project</a> is "
 "hosted on <a href=\"http://alioth.debian.org\">Alioth</a>."
