@@ -22,6 +22,13 @@
 			they were not expected like documentation.</p>
 		</div>
 		<div class="item">
+			<h2>2017-03-28 - po4a 0.51 released</h2>
+			<p>This release introduces many many bugfixes
+                           and some new developments 
+			   (<a href="https://alioth.debian.org/frs/?group_id=30267">more details</a>).
+			</p>
+		</div>
+		<div class="item">
 			<h2>2016-06-17 - po4a 0.48 released</h2>
 			<p>This release introduces bugfixes and translation updates.
 			</p>
