@@ -1,7 +1,7 @@
 # Sources of the po4a website
 
 This repository contains everything needed to generate the 
-[po4a website](https://po4a.alioth.debian.org/). Most of its content
+[po4a website](https://po4a.org/). Most of its content
 is translated, using po4a of course.
 
 The build scripts are not very advanced for now, and you must clone
