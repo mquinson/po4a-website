@@ -22,14 +22,13 @@
 				<li>on IRC (#po4a on oftc).</li></ul>
 			<p>Bug reports, patches, feature requests or any
 			feedback are welcome on the mailing list, in the
-			<a href="http://alioth.debian.org/tracker/?atid=410622&amp;group_id=30267">Alioth tracker</a>
+			<a href="https://github.com/mquinson/po4a/issues">GitHub tracker</a>
 			or in the <a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable">Debian BTS</a>.</p>
-			<p>You can also submit Pull Requests against
-                         this <a href="https://github.com/mquinson/po4a">GitHub repository</a>, 
-			 even if we try to reduce our dependency on
-                         GitHub to the minimum ourselves.</p>
-			<p>Commit emails are sent on a separate
-			<a href="mailto:po4a-commits@lists.alioth.debian.org">mailing list</a>.</p>
+			<p>If you can improve the code yourself, Pull Requests against
+                         the <a href="https://github.com/mquinson/po4a">GitHub repository</a>
+			 are more than welcomed.</p>
+			<p>Translators are always welcome to contribute on our 
+			<a href="https://hosted.weblate.org/projects/po4a/">weblate project</a>.</p>
 		</div>
 		<div class="item">
 			<h2>TODO</h2>

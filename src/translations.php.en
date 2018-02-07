@@ -18,28 +18,33 @@
 			<h2>Translating</h2>
 			<p>Strings are usually frozen one or two week before
 			the releases. Tell us if you want to be notified.</p>
-			<p>See below for the list of available translations and
-			work needed.</p>
-			<p>You can find the translation material in our gits
-			(<a  href="https://alioth.debian.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=po4a/po4a.git;a=tree;f=po/bin">program</a>,
-			<a href="https://alioth.debian.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=po4a/po4a.git;a=tree;f=po/pod">documentation</a>,
-			<a href="https://alioth.debian.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=po4a/po4a-website.git;a=tree;f=po/www">website</a>).</p>
+			<p>The easiest to contribute to the po4a
+			translation is to go through 
+			<a href="https://hosted.weblate.org/projects/po4a/">weblate</a>
+			but you can also provide pull requests on the
+			source git directly if you prefer.</p>
+		</div>
+		<div  class="item" style="display: flex">
+		  <div>
+			<h2 style="text-align: center" >Runtime Translations</h2>
+			<a href="https://hosted.weblate.org/engage/po4a/?utm_source=widget">
+			  <img style="float: right" src="https://hosted.weblate.org/widgets/po4a/-/po4a/287x66-white.png" /><br/>
+  		 	  <img src="https://hosted.weblate.org/widgets/po4a/-/po4a/multi-auto.svg"/>
+			</a>
+		  </div>
+		  <div>
+			<h2 style="text-align: center" >Documentation Translations</h2>
+			<a href="https://hosted.weblate.org/engage/po4a/?utm_source=widget">
+			  <img style="float: right" src="https://hosted.weblate.org/widgets/po4a/-/po4a-doc/287x66-white.png" /><br/>
+ 			  <img src="https://hosted.weblate.org/widgets/po4a/-/po4a-doc/multi-auto.svg"/>
+			</a>
+		  </div>
 		</div>
 		<div class="item">
-			<h2>Available translations</h2>
-			<p>Po4a is currently translated in the following
-			languages:</p>
-			<?php include "table_translations_bin.php";?>
-		</div>
-		<div class="item">
-			<h2>Translations of the documentation</h2>
-			<p>The po4a documentation is also translated in the following languages:</p>
-			<?php include "table_translations_pod.php";?>
-		</div>
-		<div class="item">
-			<h2>Translations of the web site</h2>
-			<p>This web site is also translated in the following languages:</p>
-			<?php include "table_translations_www.php";?>
+                       <h2>Translations of the web site</h2>
+                       <p>This web site is also translated in the following languages. Please provide your pull requests against the 
+		       <a href="https://github.com/mquinson/po4a-website">website repository</a> directly.</p>
+                       <?php include "table_translations_www.php";?>
 		</div>
 	</div>
 

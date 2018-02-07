@@ -195,10 +195,6 @@ gen_translations() {
 	echo "<p>Last update: `LC_ALL=C date`.</p>"
 }
 
-echo Generate the translation statistics for po/bin
-gen_translations $srcdir/po/bin > html/table_translations_bin.php
-echo Generate the translation statistics for po/pod
-gen_translations $srcdir/po/pod > html/table_translations_pod.php
 echo Generate the translation statistics for po/www
 gen_translations po/www > html/table_translations_www.php
 
