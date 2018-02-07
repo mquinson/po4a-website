@@ -144,6 +144,7 @@ EOT
 		footer=footer_$(basename $out)
 		footer=${footer%.$lang}
 		man2html -r $man | sed -e '/Content-type: text.html/d' \
+		                       -e '/HREF="\/man\/man2html/d' \
 		                       -e '/cgi-bin.man.man2html/d' \
 		                       -e 's/\.html"/\.php"/g' \
 		                       -e 's,/man3pm/,/man3/,g' \
@@ -224,6 +225,9 @@ get_language() {
 			;;
 		it)
 			echo -n "Italiano"
+			;;
+		nb)
+			echo -n "Bokmål"
 			;;
 		pl)
 			echo -n "polski"

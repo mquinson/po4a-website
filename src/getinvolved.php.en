@@ -11,7 +11,7 @@
 	<title>po4a - Get involved!</title>
 </head>
 <body>
-	<? include "header.php.en"; ?>
+	<?php include "header.php.en"; ?>
 
 	<div id="content">
 		<div class="item">
@@ -39,7 +39,7 @@
 		</div>
 	</div>
 
-	<? include "footer_getinvolved.php"; ?>
-	<? include "footer.php"; ?>
+	<?php include "footer_getinvolved.php"; ?>
+	<?php include "footer.php"; ?>
 </body>
 </html>
