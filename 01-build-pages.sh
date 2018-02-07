@@ -258,7 +258,7 @@ gen_language_footer() {
 	out=html/$(dirname $page)/footer_$(basename $page)
 #	echo "Generating language footer for $page in $out"
 	echo "<div id=\"languages\">" > $out
-	for langcode in $(ls src/$page.* html/$page.* 2>/dev/null |grep -v *~)
+	for langcode in $(ls src/$page.* html/$page.* 2>/dev/null |grep -v ~)
 	do
 		echo $langcode
 		langcode=${langcode#src/$page.}
