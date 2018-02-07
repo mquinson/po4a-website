@@ -4,13 +4,6 @@
 
 
 echo "Uploading now. I hope you rebuilt it first..."
-aliothdir=/srv/home/groups/po4a/htdocs/
-scp -r src/*.* po4a.alioth.debian.org:$aliothdir
-scp -r html/*.* po4a.alioth.debian.org:$aliothdir
-scp -r html/man po4a.alioth.debian.org:$aliothdir
-scp -r src/.htaccess po4a.alioth.debian.org:$aliothdir || true
-ssh po4a.alioth.debian.org chgrp -R po4a $aliothdir 2> /dev/null || true 
-ssh po4a.alioth.debian.org chmod -R g+rw $aliothdir
-ssh po4a.alioth.debian.org chmod -R g+rw $aliothdir/.htaccess
+rsync -rltogvz --delete-after --omit-dir-times src/ html/ po4a-uploader@www.po4a.org:/var/www/www.po4a.org/
 echo done
 

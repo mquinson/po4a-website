@@ -8,6 +8,8 @@ The build scripts are not very advanced for now, and you must clone
 this repository in a directory containing an uptodate checkout of po4a
 (the source code repository). That other repo *must* be called `po4a`.
 
+The build scripts also require that man2html be available in your path.
+
 ### Editing
 
 The source files are located in `src/`.

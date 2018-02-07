@@ -11,7 +11,7 @@
 	<title>po4a-build - generating content from translations</title>
 </head>
 <body>
-	<? include "header.php.en"; ?>
+	<?php include "header.php.en"; ?>
 
 	<div id="content">
 		<div class="item">
@@ -69,7 +69,7 @@
 			</ul>
 		</div>
 	</div>
-	<? include "footer_index.php"; ?>
-	<? include "footer.php"; ?>
+	<?php include "footer_index.php"; ?>
+	<?php include "footer.php"; ?>
 </body>
 </html>

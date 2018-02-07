@@ -11,7 +11,7 @@
 	<title>po4a - Translations</title>
 </head>
 <body>
-	<? include "header.php.en"; ?>
+	<?php include "header.php.en"; ?>
 
 	<div id="content">
 		<div class="item">
@@ -29,21 +29,21 @@
 			<h2>Available translations</h2>
 			<p>Po4a is currently translated in the following
 			languages:</p>
-			<? include "table_translations_bin.php";?>
+			<?php include "table_translations_bin.php";?>
 		</div>
 		<div class="item">
 			<h2>Translations of the documentation</h2>
 			<p>The po4a documentation is also translated in the following languages:</p>
-			<? include "table_translations_pod.php";?>
+			<?php include "table_translations_pod.php";?>
 		</div>
 		<div class="item">
 			<h2>Translations of the web site</h2>
 			<p>This web site is also translated in the following languages:</p>
-			<? include "table_translations_www.php";?>
+			<?php include "table_translations_www.php";?>
 		</div>
 	</div>
 
-	<? include "footer_translations.php"; ?>
-	<? include "footer.php"; ?>
+	<?php include "footer_translations.php"; ?>
+	<?php include "footer.php"; ?>
 </body>
 </html>
