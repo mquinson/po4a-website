@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.48\n"
 "Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
-"POT-Creation-Date: 2017-03-31 22:39+0200\n"
+"POT-Creation-Date: 2018-02-07 23:33+0100\n"
 "PO-Revision-Date: 2016-11-29 17:13+0100\n"
 "Last-Translator: Marco Ciampa <ciampix@libero.it>\n"
 "Language-Team: Italian <it@li.org>\n"
@@ -144,9 +144,13 @@ msgstr "Sorgenti"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:19
+#, fuzzy
+#| msgid ""
+#| "You can find the sources of the latest release on <a href=\"http://alioth."
+#| "debian.org/frs/?group_id=30267\">Alioth</a>."
 msgid ""
-"You can find the sources of the latest release on <a href=\"http://alioth."
-"debian.org/frs/?group_id=30267\">Alioth</a>."
+"You can find the sources of the latest release on <a href=\"https://github."
+"com/mquinson/po4a/releases\">GitHub</a>."
 msgstr ""
 "Puoi trovare i sorgenti dell'ultima versione su <a href=\"http://alioth."
 "debian.org/frs/?group_id=30267\">Alioth</a>."
@@ -174,18 +178,27 @@ msgstr "Repository Git"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:31
+#, fuzzy
+#| msgid ""
+#| "The latest sources are available from our <a href=\"https://alioth.debian."
+#| "org/scm/browser.php?group_id=30267\">Git repository</a>."
 msgid ""
-"The latest sources are available from our <a href=\"https://alioth.debian."
-"org/scm/browser.php?group_id=30267\">Git repository</a>."
+"The latest sources are available from our <a href=\"https://github.com/"
+"mquinson/po4a\">Git repository</a>."
 msgstr ""
 "Gli ultimi sorgenti sono disponibili dal nostro <a href=\"https://alioth."
 "debian.org/scm/browser.php?group_id=30267\">repository Git</a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:34
+#, fuzzy
+#| msgid ""
+#| "It also contains additional modules which are being considered, but are "
+#| "not of a sufficient quality."
 msgid ""
 "It also contains additional modules which are being considered, but are not "
-"of a sufficient quality."
+"of sufficient quality to be released yet. In other words, they are still "
+"waiting for your contributions :)"
 msgstr ""
 "Esso comprende ulteriori moduli, non di qualità sufficientemente elevata."
 
@@ -337,12 +350,18 @@ msgstr "su IRC (#po4a su oftc)."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:23
+#, fuzzy
+#| msgid ""
+#| "Bug reports, patches, feature requests or any feedback are welcome on the "
+#| "mailing list, in the <a href=\"http://alioth.debian.org/tracker/?"
+#| "atid=410622&amp;group_id=30267\">Alioth tracker</a> or in the <a href="
+#| "\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable"
+#| "\">Debian BTS</a>."
 msgid ""
 "Bug reports, patches, feature requests or any feedback are welcome on the "
-"mailing list, in the <a href=\"http://alioth.debian.org/tracker/?"
-"atid=410622&amp;group_id=30267\">Alioth tracker</a> or in the <a href="
-"\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable"
-"\">Debian BTS</a>."
+"mailing list, in the <a href=\"https://github.com/mquinson/po4a/issues"
+"\">GitHub tracker</a> or in the <a href=\"http://bugs.debian.org/cgi-bin/"
+"pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>."
 msgstr ""
 "Rapporti su difetti, patch, richieste di funzionalità o qualsiasi feedback "
 "sono benvenuti sulla mailing list, nel <a href=\"http://alioth.debian.org/"
@@ -352,36 +371,39 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:27
+#, fuzzy
+#| msgid ""
+#| "You can also submit Pull Requests against this <a href=\"https://github."
+#| "com/mquinson/po4a\">GitHub repository</a>, even if we try to reduce our "
+#| "dependency on GitHub to the minimum ourselves."
 msgid ""
-"You can also submit Pull Requests against this <a href=\"https://github.com/"
-"mquinson/po4a\">GitHub repository</a>, even if we try to reduce our "
-"dependency on GitHub to the minimum ourselves."
+"If you can improve the code yourself, Pull Requests against the <a href="
+"\"https://github.com/mquinson/po4a\">GitHub repository</a> are more than "
+"welcomed."
 msgstr ""
 "È anche possibile inviare richieste di Pull su questo <a href=\"https://"
 "github.com/mquinson/po4a\">repository GitHub</a>, anche se tentiamo di "
 "ridurre la nostra dipendenza da GitHub al minimo possibile."
 
 #. type: Content of: <html><body><div><div><p>
-#: src/getinvolved.php.en:31
+#: src/getinvolved.php.en:30
 msgid ""
-"Commit emails are sent on a separate <a href=\"mailto:po4a-commits@lists."
-"alioth.debian.org\">mailing list</a>."
+"Translators are always welcome to contribute on our <a href=\"https://hosted."
+"weblate.org/projects/po4a/\">weblate project</a>."
 msgstr ""
-"Le email dei commit vengono spedite su una <a href=\"mailto:po4a-"
-"commits@lists.alioth.debian.org\">mailing list</a> separata."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/getinvolved.php.en:35
+#: src/getinvolved.php.en:34
 msgid "TODO"
 msgstr "DA FARE"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/getinvolved.php.en:36
+#: src/getinvolved.php.en:35
 msgid "We are looking for people interesting in testing/porting on Windows"
 msgstr "Stiamo cercando persone interessate ad effettuare test/port su Windows"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/getinvolved.php.en:38
+#: src/getinvolved.php.en:37
 msgid "Support for XLIFF would be welcome."
 msgstr "Il supporto a XLIFF sarebbe benvenuto."
 
@@ -447,54 +469,94 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/translations.php.en:21
-msgid "See below for the list of available translations and work needed."
-msgstr ""
-"Consultare sotto l'elenco delle traduzioni disponibili e quelle che "
-"necessitano di aiuto."
-
-#. type: Content of: <html><body><div><div><p>
-#: src/translations.php.en:23
 msgid ""
-"You can find the translation material in our gits (<a href=\"https://alioth."
-"debian.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=po4a/po4a.git;a=tree;f=po/bin"
-"\">program</a>, <a href=\"https://alioth.debian.org/plugins/scmgit/cgi-bin/"
-"gitweb.cgi?p=po4a/po4a.git;a=tree;f=po/pod\">documentation</a>, <a href="
-"\"https://alioth.debian.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=po4a/po4a-"
-"website.git;a=tree;f=po/www\">website</a>)."
+"The easiest to contribute to the po4a translation is to go through <a href="
+"\"https://hosted.weblate.org/projects/po4a/\">weblate</a> but you can also "
+"provide pull requests on the source git directly if you prefer."
 msgstr ""
-"Potete trovare il materiale di traduzione nei nostri repository git (<a href="
-"\"https://alioth.debian.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=po4a/po4a."
-"git;a=tree;f=po/bin\">programma</a>, <a href=\"https://alioth.debian.org/"
-"plugins/scmgit/cgi-bin/gitweb.cgi?p=po4a/po4a.git;a=tree;f=po/pod"
-"\">documentazione</a>, <a href=\"https://alioth.debian.org/plugins/scmgit/"
-"cgi-bin/gitweb.cgi?p=po4a/po4a-website.git;a=tree;f=po/www\">sito web</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/translations.php.en:29
-msgid "Available translations"
-msgstr "Traduzioni disponibili"
+#: src/translations.php.en:28
+#, fuzzy
+#| msgid "Translations"
+msgid "Runtime Translations"
+msgstr "Traduzioni"
 
-#. type: Content of: <html><body><div><div><p>
+#. type: Content of: <html><body><div><div><a>
+#: src/translations.php.en:29 src/translations.php.en:35
+msgid "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><div><a><img>
 #: src/translations.php.en:30
-msgid "Po4a is currently translated in the following languages:"
-msgstr "Po4a viene attualmente tradotto nelle lingue seguenti:"
+#, fuzzy
+#| msgid "po4a - Translations"
+msgid "po4a runtime translation"
+msgstr "po4a - Traduzioni"
+
+#. type: Content of: <html><body><div><div>
+#: src/translations.php.en:31 src/translations.php.en:37
+msgid "</a>"
+msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/translations.php.en:35
-msgid "Translations of the documentation"
-msgstr "Traduzioni della documentazione"
+#: src/translations.php.en:34
+#, fuzzy
+#| msgid "Documentation"
+msgid "Documentation Translations"
+msgstr "Documentazione"
 
-#. type: Content of: <html><body><div><div><p>
+#. type: Attribute 'alt' of: <html><body><div><div><a><img>
 #: src/translations.php.en:36
-msgid "The po4a documentation is also translated in the following languages:"
-msgstr "La documentazione di po4a è anch'essa tradotta nelle lingue seguenti:"
+#, fuzzy
+#| msgid "po4a - Documentation"
+msgid "po4a documentation translation"
+msgstr "po4a - Documentazione"
 
-#. type: Content of: <html><body><div><div><h2>
-#: src/translations.php.en:40
-msgid "Translations of the web site"
-msgstr "Traduzione del sito web"
+#~ msgid "Translations of the web site"
+#~ msgstr "Traduzione del sito web"
 
-#. type: Content of: <html><body><div><div><p>
-#: src/translations.php.en:41
-msgid "This web site is also translated in the following languages:"
-msgstr "Questo sito web è anch'esso tradotto nelle lingue seguenti:"
+#~ msgid "This web site is also translated in the following languages:"
+#~ msgstr "Questo sito web è anch'esso tradotto nelle lingue seguenti:"
+
+#~ msgid "See below for the list of available translations and work needed."
+#~ msgstr ""
+#~ "Consultare sotto l'elenco delle traduzioni disponibili e quelle che "
+#~ "necessitano di aiuto."
+
+#~ msgid ""
+#~ "You can find the translation material in our gits (<a href=\"https://"
+#~ "alioth.debian.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=po4a/po4a.git;"
+#~ "a=tree;f=po/bin\">program</a>, <a href=\"https://alioth.debian.org/"
+#~ "plugins/scmgit/cgi-bin/gitweb.cgi?p=po4a/po4a.git;a=tree;f=po/pod"
+#~ "\">documentation</a>, <a href=\"https://alioth.debian.org/plugins/scmgit/"
+#~ "cgi-bin/gitweb.cgi?p=po4a/po4a-website.git;a=tree;f=po/www\">website</a>)."
+#~ msgstr ""
+#~ "Potete trovare il materiale di traduzione nei nostri repository git (<a "
+#~ "href=\"https://alioth.debian.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=po4a/"
+#~ "po4a.git;a=tree;f=po/bin\">programma</a>, <a href=\"https://alioth.debian."
+#~ "org/plugins/scmgit/cgi-bin/gitweb.cgi?p=po4a/po4a.git;a=tree;f=po/pod"
+#~ "\">documentazione</a>, <a href=\"https://alioth.debian.org/plugins/scmgit/"
+#~ "cgi-bin/gitweb.cgi?p=po4a/po4a-website.git;a=tree;f=po/www\">sito web</"
+#~ "a>)."
+
+#~ msgid "Available translations"
+#~ msgstr "Traduzioni disponibili"
+
+#~ msgid "Po4a is currently translated in the following languages:"
+#~ msgstr "Po4a viene attualmente tradotto nelle lingue seguenti:"
+
+#~ msgid "Translations of the documentation"
+#~ msgstr "Traduzioni della documentazione"
+
+#~ msgid ""
+#~ "The po4a documentation is also translated in the following languages:"
+#~ msgstr ""
+#~ "La documentazione di po4a è anch'essa tradotta nelle lingue seguenti:"
+
+#~ msgid ""
+#~ "Commit emails are sent on a separate <a href=\"mailto:po4a-commits@lists."
+#~ "alioth.debian.org\">mailing list</a>."
+#~ msgstr ""
+#~ "Le email dei commit vengono spedite su una <a href=\"mailto:po4a-"
+#~ "commits@lists.alioth.debian.org\">mailing list</a> separata."
