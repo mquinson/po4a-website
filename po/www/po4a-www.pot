@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.52\n"
 "Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
-"POT-Creation-Date: 2018-02-09 22:09+0100\n"
+"POT-Creation-Date: 2018-02-09 22:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -312,25 +312,56 @@ msgid ""
 "than welcomed."
 msgstr ""
 
+#. type: Content of: <html><body><div><div><h2>
+#: src/getinvolved.php.en:32
+msgid "Translating"
+msgstr ""
+
 #. type: Content of: <html><body><div><div><p>
-#: src/getinvolved.php.en:30
+#: src/getinvolved.php.en:33
 msgid ""
-"Translators are always welcome to contribute on our <a "
-"href=\"https://hosted.weblate.org/projects/po4a/\">weblate project</a>."
+"The easiest to help translating po4a is to go through <a "
+"href=\"https://hosted.weblate.org/projects/po4a/\">weblate</a> but you can "
+"also provide pull requests on the source git directly if you prefer."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><h2>
+#: src/getinvolved.php.en:40
+msgid "Runtime Translations"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><a>
+#: src/getinvolved.php.en:41 src/getinvolved.php.en:48 src/getinvolved.php.en:53
+msgid "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: src/getinvolved.php.en:44 src/getinvolved.php.en:51 src/getinvolved.php.en:56
+msgid "</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><h2>
+#: src/getinvolved.php.en:47
+msgid "Documentation Translations"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><h2>
+#: src/getinvolved.php.en:52
+msgid "Website Translations"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/getinvolved.php.en:34
+#: src/getinvolved.php.en:60
 msgid "TODO"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: src/getinvolved.php.en:35
+#: src/getinvolved.php.en:61
 msgid "We are looking for people interesting in testing/porting on Windows"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: src/getinvolved.php.en:37
+#: src/getinvolved.php.en:63
 msgid "Support for XLIFF would be welcome."
 msgstr ""
 
@@ -350,7 +381,7 @@ msgid "Welcome"
 msgstr ""
 
 #. type: Content of: <div><a><span>
-#: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10 src/header.php.en:11 src/header.php.en:12 src/header.php.en:13
+#: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10 src/header.php.en:11 src/header.php.en:12
 msgid "&nbsp;&nbsp;&lt;"
 msgstr ""
 
@@ -367,59 +398,4 @@ msgstr ""
 #. type: Content of: <div><a>
 #: src/header.php.en:12 src/header.php.en:12
 msgid "Get Involved"
-msgstr ""
-
-#. type: Content of: <div><a>
-#: src/header.php.en:13 src/header.php.en:13
-msgid "Translations"
-msgstr ""
-
-#. type: Content of: <html><head><title>
-#: src/translations.php.en:11
-msgid "po4a - Translations"
-msgstr ""
-
-#. type: Content of: <html><body><div><div><h2>
-#: src/translations.php.en:18
-msgid "Translating"
-msgstr ""
-
-#. type: Content of: <html><body><div><div><p>
-#: src/translations.php.en:19
-msgid ""
-"Strings are usually frozen one or two week before the releases. Tell us if "
-"you want to be notified."
-msgstr ""
-
-#. type: Content of: <html><body><div><div><p>
-#: src/translations.php.en:21
-msgid ""
-"The easiest to contribute to the po4a translation is to go through <a "
-"href=\"https://hosted.weblate.org/projects/po4a/\">weblate</a> but you can "
-"also provide pull requests on the source git directly if you prefer."
-msgstr ""
-
-#. type: Content of: <html><body><div><div><div><h2>
-#: src/translations.php.en:29
-msgid "Runtime Translations"
-msgstr ""
-
-#. type: Content of: <html><body><div><div><div><a>
-#: src/translations.php.en:30 src/translations.php.en:37 src/translations.php.en:42
-msgid "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
-msgstr ""
-
-#. type: Content of: <html><body><div><div><div>
-#: src/translations.php.en:33 src/translations.php.en:40 src/translations.php.en:45
-msgid "</a>"
-msgstr ""
-
-#. type: Content of: <html><body><div><div><div><h2>
-#: src/translations.php.en:36
-msgid "Documentation Translations"
-msgstr ""
-
-#. type: Content of: <html><body><div><div><div><h2>
-#: src/translations.php.en:41
-msgid "Website Translations"
 msgstr ""

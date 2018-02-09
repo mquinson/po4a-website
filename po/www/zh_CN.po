@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a-translation\n"
 "Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
-"POT-Creation-Date: 2018-02-09 22:09+0100\n"
+"POT-Creation-Date: 2018-02-09 22:27+0100\n"
 "PO-Revision-Date: 2013-06-11 07:28+0000\n"
 "Last-Translator: hottea <hot123tea123@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/po4a-"
@@ -375,25 +375,64 @@ msgstr ""
 "你可以在 <a href=\"http://alioth.debian.org/frs/?group_id=30267\">Alioth</a> "
 "找到最新版本的源码。"
 
+#. type: Content of: <html><body><div><div><h2>
+#: src/getinvolved.php.en:32
+msgid "Translating"
+msgstr "翻译"
+
 #. type: Content of: <html><body><div><div><p>
-#: src/getinvolved.php.en:30
+#: src/getinvolved.php.en:33
 msgid ""
-"Translators are always welcome to contribute on our <a href=\"https://hosted."
-"weblate.org/projects/po4a/\">weblate project</a>."
+"The easiest to help translating po4a is to go through <a href=\"https://"
+"hosted.weblate.org/projects/po4a/\">weblate</a> but you can also provide "
+"pull requests on the source git directly if you prefer."
 msgstr ""
 
+#. type: Content of: <html><body><div><div><div><h2>
+#: src/getinvolved.php.en:40
+#, fuzzy
+#| msgid "Translations"
+msgid "Runtime Translations"
+msgstr "翻译"
+
+#. type: Content of: <html><body><div><div><div><a>
+#: src/getinvolved.php.en:41 src/getinvolved.php.en:48
+#: src/getinvolved.php.en:53
+msgid "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: src/getinvolved.php.en:44 src/getinvolved.php.en:51
+#: src/getinvolved.php.en:56
+msgid "</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><h2>
+#: src/getinvolved.php.en:47
+#, fuzzy
+#| msgid "Documentation"
+msgid "Documentation Translations"
+msgstr "文档"
+
+#. type: Content of: <html><body><div><div><div><h2>
+#: src/getinvolved.php.en:52
+#, fuzzy
+#| msgid "Translations"
+msgid "Website Translations"
+msgstr "翻译"
+
 #. type: Content of: <html><body><div><div><h2>
-#: src/getinvolved.php.en:34
+#: src/getinvolved.php.en:60
 msgid "TODO"
 msgstr "TODO"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/getinvolved.php.en:35
+#: src/getinvolved.php.en:61
 msgid "We are looking for people interesting in testing/porting on Windows"
 msgstr "我们正在寻找有兴趣在 Windows 平台进行测试/移植的人。"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/getinvolved.php.en:37
+#: src/getinvolved.php.en:63
 msgid "Support for XLIFF would be welcome."
 msgstr "非常欢迎添加对 XLIFF 的支持。"
 
@@ -414,7 +453,7 @@ msgstr "欢迎"
 
 #. type: Content of: <div><a><span>
 #: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10
-#: src/header.php.en:11 src/header.php.en:12 src/header.php.en:13
+#: src/header.php.en:11 src/header.php.en:12
 msgid "&nbsp;&nbsp;&lt;"
 msgstr "&nbsp;&nbsp;&lt;"
 
@@ -433,69 +472,18 @@ msgstr "下载"
 msgid "Get Involved"
 msgstr "参与"
 
-#. type: Content of: <div><a>
-#: src/header.php.en:13
-msgid "Translations"
-msgstr "翻译"
+#~ msgid "Translations"
+#~ msgstr "翻译"
 
-#. type: Content of: <html><head><title>
-#: src/translations.php.en:11
-msgid "po4a - Translations"
-msgstr "po4a - 翻译"
+#~ msgid "po4a - Translations"
+#~ msgstr "po4a - 翻译"
 
-#. type: Content of: <html><body><div><div><h2>
-#: src/translations.php.en:18
-msgid "Translating"
-msgstr "翻译"
-
-#. type: Content of: <html><body><div><div><p>
-#: src/translations.php.en:19
-msgid ""
-"Strings are usually frozen one or two week before the releases. Tell us if "
-"you want to be notified."
-msgstr ""
-"在发布之前的一两周，我们要冻结字符串的翻译。如果你想要得到通知，请告诉我们。"
-
-#. type: Content of: <html><body><div><div><p>
-#: src/translations.php.en:21
-msgid ""
-"The easiest to contribute to the po4a translation is to go through <a href="
-"\"https://hosted.weblate.org/projects/po4a/\">weblate</a> but you can also "
-"provide pull requests on the source git directly if you prefer."
-msgstr ""
-
-#. type: Content of: <html><body><div><div><div><h2>
-#: src/translations.php.en:29
-#, fuzzy
-#| msgid "Translations"
-msgid "Runtime Translations"
-msgstr "翻译"
-
-#. type: Content of: <html><body><div><div><div><a>
-#: src/translations.php.en:30 src/translations.php.en:37
-#: src/translations.php.en:42
-msgid "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
-msgstr ""
-
-#. type: Content of: <html><body><div><div><div>
-#: src/translations.php.en:33 src/translations.php.en:40
-#: src/translations.php.en:45
-msgid "</a>"
-msgstr ""
-
-#. type: Content of: <html><body><div><div><div><h2>
-#: src/translations.php.en:36
-#, fuzzy
-#| msgid "Documentation"
-msgid "Documentation Translations"
-msgstr "文档"
-
-#. type: Content of: <html><body><div><div><div><h2>
-#: src/translations.php.en:41
-#, fuzzy
-#| msgid "Translations"
-msgid "Website Translations"
-msgstr "翻译"
+#~ msgid ""
+#~ "Strings are usually frozen one or two week before the releases. Tell us "
+#~ "if you want to be notified."
+#~ msgstr ""
+#~ "在发布之前的一两周，我们要冻结字符串的翻译。如果你想要得到通知，请告诉我"
+#~ "们。"
 
 #, fuzzy
 #~| msgid "po4a - Translations"
