@@ -73,16 +73,6 @@ do
 	done
 done
 
-# Main page
-#for lang in $LANGS ; do
-#	PERC=`percent_lang $lang`
-#	echo "   $lang ($PERC% translated):
-#   <a href=\"$lang/man7/po4a.7.php\">Introduction</a>
-#   <a href=\"$lang/\">Index</a>
-#   <br>" >> html/documentation_translations.php
-#done
-#echo "   <br>
-#   Last update: `LANG=C date`" >> html/documentation_translations.php
 
 for lang in en $LANGS ; do
 	header=header.php.$lang
@@ -159,44 +149,6 @@ EOT
 	fi
 done
 rm -rf html/en
-
-gen_translations() {
-	dir="$1"
-
-	total=$(LC_ALL=C msgfmt -o /dev/null --statistics "$dir"/*.pot 2>&1 | \
-	        sed -ne "s/^.* \([0-9]*\) untranslated.*$/\1/p;d")
-
-	echo "<table>"
-	for pofile in "$dir"/*.po
-	do
-		lang=${pofile%.po}
-		lang=$(basename $lang)
-		stats=$(LC_ALL=C msgfmt -o /dev/null --statistics $pofile 2>&1)
-		echo -n "<tr><td>$lang</td><td>"
-		for type in translated fuzzy untranslated
-		do
-			strings=$(echo " $stats" | \
-			          sed -ne "s/^.* \([0-9]*\) $type.*$/\1/p;d")
-			if [ -n "$strings" ]
-			then
-				pcent=$((strings*100/total))
-				width=$((strings*200/total))
-				echo -n "<img height=\"10\" src=\"$type.png\" "
-				echo -n "style=\"height: 1em;\" "
-				echo -n "width=\"$width\" "
-				echo -n "alt=\"$pcent% $type ($strings/$total), \" "
-				echo -n "title=\"$type: $pcent% ($strings/$total)\"/>"
-			fi
-		done
-		echo "</td></tr>"
-	done
-	echo "<?php include \"table_translations_legend.php\";?>"
-	echo "</table>"
-	echo "<p>Last update: `LC_ALL=C date`.</p>"
-}
-
-echo Generate the translation statistics for po/www
-gen_translations po/www > html/table_translations_www.php
 
 echo Extract the version
 echo $libver > html/version.php

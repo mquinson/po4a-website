@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a\n"
 "Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
-"POT-Creation-Date: 2018-02-07 23:33+0100\n"
+"POT-Creation-Date: 2018-02-09 22:09+0100\n"
 "PO-Revision-Date: 2013-08-21 22:44+0200\n"
 "Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
@@ -484,43 +484,48 @@ msgid ""
 "provide pull requests on the source git directly if you prefer."
 msgstr ""
 
-#. type: Content of: <html><body><div><div><h2>
-#: src/translations.php.en:28
+#. type: Content of: <html><body><div><div><div><h2>
+#: src/translations.php.en:29
 #, fuzzy
 #| msgid "Translations"
 msgid "Runtime Translations"
 msgstr "Traductions"
 
-#. type: Content of: <html><body><div><div><a>
-#: src/translations.php.en:29 src/translations.php.en:35
+#. type: Content of: <html><body><div><div><div><a>
+#: src/translations.php.en:30 src/translations.php.en:37
+#: src/translations.php.en:42
 msgid "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
 msgstr ""
 
-#. type: Attribute 'alt' of: <html><body><div><div><a><img>
-#: src/translations.php.en:30
-#, fuzzy
-#| msgid "po4a - Translations"
-msgid "po4a runtime translation"
-msgstr "po4a — Traductions"
-
-#. type: Content of: <html><body><div><div>
-#: src/translations.php.en:31 src/translations.php.en:37
+#. type: Content of: <html><body><div><div><div>
+#: src/translations.php.en:33 src/translations.php.en:40
+#: src/translations.php.en:45
 msgid "</a>"
 msgstr ""
 
-#. type: Content of: <html><body><div><div><h2>
-#: src/translations.php.en:34
+#. type: Content of: <html><body><div><div><div><h2>
+#: src/translations.php.en:36
 #, fuzzy
 #| msgid "Documentation"
 msgid "Documentation Translations"
 msgstr "Documentation"
 
-#. type: Attribute 'alt' of: <html><body><div><div><a><img>
-#: src/translations.php.en:36
+#. type: Content of: <html><body><div><div><div><h2>
+#: src/translations.php.en:41
 #, fuzzy
-#| msgid "po4a - Documentation"
-msgid "po4a documentation translation"
-msgstr "po4a — Documentation"
+#| msgid "Translations"
+msgid "Website Translations"
+msgstr "Traductions"
+
+#, fuzzy
+#~| msgid "po4a - Translations"
+#~ msgid "po4a runtime translation"
+#~ msgstr "po4a — Traductions"
+
+#, fuzzy
+#~| msgid "po4a - Documentation"
+#~ msgid "po4a documentation translation"
+#~ msgstr "po4a — Documentation"
 
 #~ msgid "Translations of the web site"
 #~ msgstr "Traductions du site web"

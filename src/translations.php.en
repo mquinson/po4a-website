@@ -38,13 +38,14 @@
 			  <img style="float: right" src="https://hosted.weblate.org/widgets/po4a/-/po4a-doc/287x66-white.png" /><br/>
  			  <img src="https://hosted.weblate.org/widgets/po4a/-/po4a-doc/multi-auto.svg"/>
 			</a>
+			<h2 style="text-align: center" >Website Translations</h2>
+			<a href="https://hosted.weblate.org/engage/po4a/?utm_source=widget">
+			  <img style="float: right" src="https://hosted.weblate.org/widgets/po4a/-/po4a-website/287x66-white.png" /><br/>
+ 			  <img src="https://hosted.weblate.org/widgets/po4a/-/po4a-website/multi-auto.svg"/>
+			</a>
 		  </div>
 		</div>
 		<div class="item">
-                       <h2>Translations of the web site</h2>
-                       <p>This web site is also translated in the following languages. Please provide your pull requests against the 
-		       <a href="https://github.com/mquinson/po4a-website">website repository</a> directly.</p>
-                       <?php include "table_translations_www.php";?>
 		</div>
 	</div>
 
