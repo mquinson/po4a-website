@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: po4a 0.45\n"
 "Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
 "POT-Creation-Date: 2018-02-07 23:33+0100\n"
-"PO-Revision-Date: 2014-01-17 05:14-0300\n"
-"Last-Translator: Rafael Ferreira <rafael.f.f1@gmail.com>\n"
-"Language-Team: Brazilian Portuguese <debian-l10n-portuguese@lists.debian."
-"net>\n"
+"PO-Revision-Date: 2018-02-09 21:08+0000\n"
+"Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/po4a"
+"/po4a-website/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.6.3\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2.19-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -43,35 +43,27 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:25
-#, fuzzy
-#| msgid "2012-10-17 - po4a 0.43 released"
 msgid "2017-03-28 - po4a 0.51 released"
-msgstr "17-10-2012 - Lançamento do po4a 0.43"
+msgstr "28-03-2017 - Lançamento do po4a 0.51"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:26
-#, fuzzy
-#| msgid ""
-#| "You can find the sources of the latest release on <a href=\"http://alioth."
-#| "debian.org/frs/?group_id=30267\">Alioth</a>."
 msgid ""
 "This release introduces many many bugfixes and some new developments (<a "
 "href=\"https://alioth.debian.org/frs/?group_id=30267\">more details</a>)."
 msgstr ""
-"Você pode encontrar o código fonte do último lançamento em <a href=\"http://"
-"alioth.debian.org/frs/?group_id=30267\">Alioth</a>."
+"Esta versão introduz muitas correções e alguns novos desenvolvimentos (\n"
+"<a href=\"http://alioth.debian.org/frs/?group_id=30267\">mais detalhes</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:32
-#, fuzzy
-#| msgid "2012-10-17 - po4a 0.43 released"
 msgid "2016-06-17 - po4a 0.48 released"
-msgstr "17-10-2012 - Lançamento do po4a 0.43"
+msgstr "17-06-2016 - Lançamento do po4a 0.48"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:33
 msgid "This release introduces bugfixes and translation updates."
-msgstr ""
+msgstr "Esta versão introduz muitas correções e atualizações nas traduções."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:37
@@ -150,16 +142,12 @@ msgstr "Fontes"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:19
-#, fuzzy
-#| msgid ""
-#| "You can find the sources of the latest release on <a href=\"http://alioth."
-#| "debian.org/frs/?group_id=30267\">Alioth</a>."
 msgid ""
 "You can find the sources of the latest release on <a href=\"https://github."
 "com/mquinson/po4a/releases\">GitHub</a>."
 msgstr ""
-"Você pode encontrar o código fonte do último lançamento em <a href=\"http://"
-"alioth.debian.org/frs/?group_id=30267\">Alioth</a>."
+"Você pode encontrar o código fonte da última versão no <a href=\""
+"https://github.com/mquinson/po4a/releases\">GitHub</a>."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:23
