@@ -10,6 +10,5 @@
 		<a href="<?= $topdir ?>documentation.php" title="Documentation">Documentation<span>&nbsp;&nbsp;&lt;</span></a>
 		<a href="<?= $topdir ?>download.php"      title="Download"     >Download<span>&nbsp;&nbsp;&lt;</span></a>
 		<a href="<?= $topdir ?>getinvolved.php"   title="Get Involved" >Get Involved<span>&nbsp;&nbsp;&lt;</span></a>
-		<a href="<?= $topdir ?>translations.php"  title="Translations" >Translations<span>&nbsp;&nbsp;&lt;</span></a>
 	</div>
 <!-- end header.php -->
