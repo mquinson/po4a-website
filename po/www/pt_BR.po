@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.45\n"
 "Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
 "POT-Creation-Date: 2018-02-09 22:27+0100\n"
-"PO-Revision-Date: 2018-02-09 21:08+0000\n"
+"PO-Revision-Date: 2018-02-09 23:30+0000\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/po4a"
 "/po4a-website/pt_BR/>\n"
@@ -168,34 +168,27 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:30
 msgid "Git repository"
-msgstr ""
+msgstr "Repositório Git"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:31
-#, fuzzy
-#| msgid ""
-#| "The latest sources are available from our <a href=\"http://alioth.debian."
-#| "org/scm/?group_id=30267\">Subversion repository</a>."
 msgid ""
 "The latest sources are available from our <a href=\"https://github.com/"
 "mquinson/po4a\">Git repository</a>."
 msgstr ""
-"Os códigos fontes mais recentes de nosso <a href=\"http://alioth.debian.org/"
-"scm/?group_id=30267\">repositório Subversion</a>."
+"Os códigos fontes mais recentes estão disponíveis em nosso <a href=\""
+"https://github.com/mquinson/po4a\">repositório Git</a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:34
-#, fuzzy
-#| msgid ""
-#| "It also contains additional modules which are being considered, but are "
-#| "not of a sufficient quality."
 msgid ""
 "It also contains additional modules which are being considered, but are not "
 "of sufficient quality to be released yet. In other words, they are still "
 "waiting for your contributions :)"
 msgstr ""
-"Ela também contém módulos adicionais que estão sendo considerado, mas não "
-"possuem qualidade suficiente."
+"Ela também contém módulos adicionais que estão sendo considerados, mas não "
+"possuem qualidade suficiente para serem lançados ainda. Em outras palavras, "
+"eles ainda estão aguardando sua contribuição ;)"
 
 #. type: Content of: <html><head><title>
 #: src/features.php.en:11
@@ -239,7 +232,7 @@ msgstr "Isso permite fornecer uma documentação sempre atualizada."
 #. type: Content of: <html><body><div><div><h2>
 #: src/features.php.en:31
 msgid "Supported formats"
-msgstr "Formatos com suporte"
+msgstr "Formatos suportados"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/features.php.en:32
@@ -344,38 +337,28 @@ msgstr "no IRC (#po4a em oftc)."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:23
-#, fuzzy
-#| msgid ""
-#| "Bug reports, patches, feature requests or any feedback are welcome on the "
-#| "mailing list, in the <a href=\"http://alioth.debian.org/tracker/?"
-#| "atid=410622&amp;group_id=30267\">Alioth tracker</a> or in the <a href="
-#| "\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable"
-#| "\">Debian BTS</a>."
 msgid ""
 "Bug reports, patches, feature requests or any feedback are welcome on the "
 "mailing list, in the <a href=\"https://github.com/mquinson/po4a/issues"
 "\">GitHub tracker</a> or in the <a href=\"http://bugs.debian.org/cgi-bin/"
 "pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>."
 msgstr ""
-"Relatórios de erros, patches, requisições de recursos ou qualquer feedback "
-"são bem-vindos na lista de discussão, no <a href=\"http://alioth.debian.org/"
-"tracker/?atid=410622&amp;group_id=30267\">rastreador do Alioth</a> ou no <a "
-"href=\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable"
-"\">Debian BTS</a>."
+"Relatórios de erros, correções, solicitações de recursos ou qualquer "
+"comentário são bem-vindos na lista de discussão, no <a href=\""
+"https://github.com/mquinson/po4a/issues\">rastreador do GitHub</a> ou no <a "
+"href=\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable\">"
+"Debian BTS</a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:27
-#, fuzzy
-#| msgid ""
-#| "You can find the sources of the latest release on <a href=\"http://alioth."
-#| "debian.org/frs/?group_id=30267\">Alioth</a>."
 msgid ""
 "If you can improve the code yourself, Pull Requests against the <a href="
 "\"https://github.com/mquinson/po4a\">GitHub repository</a> are more than "
 "welcomed."
 msgstr ""
-"Você pode encontrar o código fonte do último lançamento em <a href=\"http://"
-"alioth.debian.org/frs/?group_id=30267\">Alioth</a>."
+"Se você pode aprimorar o código você mesmo, \"Pull Requests\" no <a href=\""
+"https://github.com/mquinson/po4a\">repositório GitHub</a> são mais que bem-"
+"vindos."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:32
@@ -389,39 +372,37 @@ msgid ""
 "hosted.weblate.org/projects/po4a/\">weblate</a> but you can also provide "
 "pull requests on the source git directly if you prefer."
 msgstr ""
+"A forma mais fácil de ajudar a traduzir o po4a é através do <a href=\""
+"https://hosted.weblate.org/projects/po4a/\">weblate</a>, mas você também "
+"pode fornecer \"pull requests\" no código fonte diretamente no git se "
+"preferir."
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:40
-#, fuzzy
-#| msgid "Translations"
 msgid "Runtime Translations"
-msgstr "Traduções"
+msgstr "Traduções em tempo de execução"
 
 #. type: Content of: <html><body><div><div><div><a>
 #: src/getinvolved.php.en:41 src/getinvolved.php.en:48
 #: src/getinvolved.php.en:53
 msgid "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
-msgstr ""
+msgstr "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
 
 #. type: Content of: <html><body><div><div><div>
 #: src/getinvolved.php.en:44 src/getinvolved.php.en:51
 #: src/getinvolved.php.en:56
 msgid "</a>"
-msgstr ""
+msgstr "</a>"
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:47
-#, fuzzy
-#| msgid "Documentation"
 msgid "Documentation Translations"
-msgstr "Documentação"
+msgstr "Traduções da documentação"
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:52
-#, fuzzy
-#| msgid "Translations"
 msgid "Website Translations"
-msgstr "Traduções"
+msgstr "Traduções do site"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:60
