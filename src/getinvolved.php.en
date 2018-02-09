@@ -27,8 +27,34 @@
 			<p>If you can improve the code yourself, Pull Requests against
                          the <a href="https://github.com/mquinson/po4a">GitHub repository</a>
 			 are more than welcomed.</p>
-			<p>Translators are always welcome to contribute on our 
-			<a href="https://hosted.weblate.org/projects/po4a/">weblate project</a>.</p>
+		</div>
+		<div class="item">
+			<h2>Translating</h2>
+			<p>The easiest to help translating po4a is to go through 
+			<a href="https://hosted.weblate.org/projects/po4a/">weblate</a>
+			but you can also provide pull requests on the
+			source git directly if you prefer.</p>
+		</div>
+		<div  class="item" style="display: flex">
+		  <div>
+			<h2 style="text-align: center" >Runtime Translations</h2>
+			<a href="https://hosted.weblate.org/engage/po4a/?utm_source=widget">
+			  <img style="float: right" src="https://hosted.weblate.org/widgets/po4a/-/po4a/287x66-white.png" /><br/>
+  		 	  <img src="https://hosted.weblate.org/widgets/po4a/-/po4a/multi-auto.svg"/>
+			</a>
+		  </div>
+		  <div>
+			<h2 style="text-align: center" >Documentation Translations</h2>
+			<a href="https://hosted.weblate.org/engage/po4a/?utm_source=widget">
+			  <img style="float: right" src="https://hosted.weblate.org/widgets/po4a/-/po4a-doc/287x66-white.png" /><br/>
+ 			  <img src="https://hosted.weblate.org/widgets/po4a/-/po4a-doc/multi-auto.svg"/>
+			</a>
+			<h2 style="text-align: center" >Website Translations</h2>
+			<a href="https://hosted.weblate.org/engage/po4a/?utm_source=widget">
+			  <img style="float: right" src="https://hosted.weblate.org/widgets/po4a/-/po4a-website/287x66-white.png" /><br/>
+ 			  <img src="https://hosted.weblate.org/widgets/po4a/-/po4a-website/multi-auto.svg"/>
+			</a>
+		  </div>
 		</div>
 		<div class="item">
 			<h2>TODO</h2>

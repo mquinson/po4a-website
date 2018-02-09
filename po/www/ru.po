@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.36.6\n"
 "Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
-"POT-Creation-Date: 2018-02-07 23:33+0100\n"
+"POT-Creation-Date: 2018-02-09 22:27+0100\n"
 "PO-Revision-Date: 2010-03-17 11:46+0300\n"
 "Last-Translator: kruvalig <kruvalig@gmail.com>\n"
 "Language-Team: no command yet <kruvalig@gmail.com>\n"
@@ -388,25 +388,64 @@ msgstr ""
 "Исходные тексты последнего выпуска можно найти на <a href=\"http://alioth."
 "debian.org/frs/?group_id=30267\">Alioth</a>."
 
+#. type: Content of: <html><body><div><div><h2>
+#: src/getinvolved.php.en:32
+msgid "Translating"
+msgstr "В процессе перевода"
+
 #. type: Content of: <html><body><div><div><p>
-#: src/getinvolved.php.en:30
+#: src/getinvolved.php.en:33
 msgid ""
-"Translators are always welcome to contribute on our <a href=\"https://hosted."
-"weblate.org/projects/po4a/\">weblate project</a>."
+"The easiest to help translating po4a is to go through <a href=\"https://"
+"hosted.weblate.org/projects/po4a/\">weblate</a> but you can also provide "
+"pull requests on the source git directly if you prefer."
 msgstr ""
 
+#. type: Content of: <html><body><div><div><div><h2>
+#: src/getinvolved.php.en:40
+#, fuzzy
+#| msgid "Translations"
+msgid "Runtime Translations"
+msgstr "Переводы"
+
+#. type: Content of: <html><body><div><div><div><a>
+#: src/getinvolved.php.en:41 src/getinvolved.php.en:48
+#: src/getinvolved.php.en:53
+msgid "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: src/getinvolved.php.en:44 src/getinvolved.php.en:51
+#: src/getinvolved.php.en:56
+msgid "</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><h2>
+#: src/getinvolved.php.en:47
+#, fuzzy
+#| msgid "Documentation"
+msgid "Documentation Translations"
+msgstr "Документация"
+
+#. type: Content of: <html><body><div><div><div><h2>
+#: src/getinvolved.php.en:52
+#, fuzzy
+#| msgid "Translations"
+msgid "Website Translations"
+msgstr "Переводы"
+
 #. type: Content of: <html><body><div><div><h2>
-#: src/getinvolved.php.en:34
+#: src/getinvolved.php.en:60
 msgid "TODO"
 msgstr "TODO"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/getinvolved.php.en:35
+#: src/getinvolved.php.en:61
 msgid "We are looking for people interesting in testing/porting on Windows"
 msgstr "Мы ищем людей заинтересованных в тестировании/переносе на Windows"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/getinvolved.php.en:37
+#: src/getinvolved.php.en:63
 msgid "Support for XLIFF would be welcome."
 msgstr "Поддержка для XLIFF будет приветствоваться."
 
@@ -427,7 +466,7 @@ msgstr "Добро пожаловать"
 
 #. type: Content of: <div><a><span>
 #: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10
-#: src/header.php.en:11 src/header.php.en:12 src/header.php.en:13
+#: src/header.php.en:11 src/header.php.en:12
 msgid "&nbsp;&nbsp;&lt;"
 msgstr "&nbsp;&nbsp;&lt;"
 
@@ -446,75 +485,28 @@ msgstr "Загрузка"
 msgid "Get Involved"
 msgstr "Участвуйте"
 
-#. type: Content of: <div><a>
-#: src/header.php.en:13
-msgid "Translations"
-msgstr "Переводы"
+#~ msgid "Translations"
+#~ msgstr "Переводы"
 
-#. type: Content of: <html><head><title>
-#: src/translations.php.en:11
-msgid "po4a - Translations"
-msgstr "po4a - Переводы"
+#~ msgid "po4a - Translations"
+#~ msgstr "po4a - Переводы"
 
-#. type: Content of: <html><body><div><div><h2>
-#: src/translations.php.en:18
-msgid "Translating"
-msgstr "В процессе перевода"
+#~ msgid ""
+#~ "Strings are usually frozen one or two week before the releases. Tell us "
+#~ "if you want to be notified."
+#~ msgstr ""
+#~ "Строки обычно замораживаются за неделю или две до выпуска релиза. Скажите "
+#~ "нам если хотите получать уведомления."
 
-#. type: Content of: <html><body><div><div><p>
-#: src/translations.php.en:19
-msgid ""
-"Strings are usually frozen one or two week before the releases. Tell us if "
-"you want to be notified."
-msgstr ""
-"Строки обычно замораживаются за неделю или две до выпуска релиза. Скажите "
-"нам если хотите получать уведомления."
-
-#. type: Content of: <html><body><div><div><p>
-#: src/translations.php.en:21
-msgid ""
-"The easiest to contribute to the po4a translation is to go through <a href="
-"\"https://hosted.weblate.org/projects/po4a/\">weblate</a> but you can also "
-"provide pull requests on the source git directly if you prefer."
-msgstr ""
-
-#. type: Content of: <html><body><div><div><h2>
-#: src/translations.php.en:28
 #, fuzzy
-#| msgid "Translations"
-msgid "Runtime Translations"
-msgstr "Переводы"
+#~| msgid "po4a - Translations"
+#~ msgid "po4a runtime translation"
+#~ msgstr "po4a - Переводы"
 
-#. type: Content of: <html><body><div><div><a>
-#: src/translations.php.en:29 src/translations.php.en:35
-msgid "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
-msgstr ""
-
-#. type: Attribute 'alt' of: <html><body><div><div><a><img>
-#: src/translations.php.en:30
 #, fuzzy
-#| msgid "po4a - Translations"
-msgid "po4a runtime translation"
-msgstr "po4a - Переводы"
-
-#. type: Content of: <html><body><div><div>
-#: src/translations.php.en:31 src/translations.php.en:37
-msgid "</a>"
-msgstr ""
-
-#. type: Content of: <html><body><div><div><h2>
-#: src/translations.php.en:34
-#, fuzzy
-#| msgid "Documentation"
-msgid "Documentation Translations"
-msgstr "Документация"
-
-#. type: Attribute 'alt' of: <html><body><div><div><a><img>
-#: src/translations.php.en:36
-#, fuzzy
-#| msgid "po4a - Documentation"
-msgid "po4a documentation translation"
-msgstr "po4a - Документация"
+#~| msgid "po4a - Documentation"
+#~ msgid "po4a documentation translation"
+#~ msgstr "po4a - Документация"
 
 #~ msgid "Translations of the web site"
 #~ msgstr "Переводы веб сайта"
