@@ -23,8 +23,7 @@
 			
 			<p>po4a extracts the translatable material
 			from the original document, and places it into a PO file that is well
-			adapted to the translation work.
-			input in a PO file.</p>
+			adapted to the translation work.</p>
 			<p>Once the translation is completed in the PO file,
 			po4a re-injects the translation into the structure of the document to
 			generate a translated document.</p>
@@ -36,7 +35,7 @@
 			<p>You can fully automatize the translation
 			maintainance with a single configuration file, specifying all settings
 			and the list of documents to translate. With this information, po4a
-			automatically detects what should be updated on file change.</p>
+			automatically detectermines the files to update when something changes.</p>
 		</div>
 		<div>
 			<h2>Supported formats</h2>

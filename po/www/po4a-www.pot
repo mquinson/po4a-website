@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.52\n"
 "Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
-"POT-Creation-Date: 2018-02-10 09:06+0100\n"
+"POT-Creation-Date: 2018-02-10 11:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,12 +39,11 @@ msgstr ""
 #: src/index.php.en:24
 msgid ""
 "po4a extracts the translatable material from the original document, and "
-"places it into a PO file that is well adapted to the translation work.  "
-"input in a PO file."
+"places it into a PO file that is well adapted to the translation work."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:28
+#: src/index.php.en:27
 msgid ""
 "Once the translation is completed in the PO file, po4a re-injects the "
 "translation into the structure of the document to generate a translated "
@@ -52,7 +51,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:31
+#: src/index.php.en:30
 msgid ""
 "If the translation is only partially completed, the original (english) text "
 "is used instead. This ensures that your translated documentation is always "
@@ -61,71 +60,71 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:36
+#: src/index.php.en:35
 msgid ""
 "You can fully automatize the translation maintainance with a single "
 "configuration file, specifying all settings and the list of documents to "
-"translate. With this information, po4a automatically detects what should be "
-"updated on file change."
+"translate. With this information, po4a automatically detectermines the files "
+"to update when something changes."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:42
+#: src/index.php.en:41
 msgid "Supported formats"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:43
+#: src/index.php.en:42
 msgid "po4a currently supports the following formats:"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:45
+#: src/index.php.en:44
 msgid "manpages"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:46
+#: src/index.php.en:45
 msgid "POD"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:47
+#: src/index.php.en:46
 msgid "XML (generic, DocBook, XHTML, Dia, Guide, or WML)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:48
+#: src/index.php.en:47
 msgid "SGML"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:49
+#: src/index.php.en:48
 msgid "TeX (generic, LaTeX, or Texinfo)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:50
+#: src/index.php.en:49
 msgid "text (simple text files with some formatting, markdown, or AsciiDoc)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:51
+#: src/index.php.en:50
 msgid "INI"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:52
+#: src/index.php.en:51
 msgid "KernelHelp"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:56
+#: src/index.php.en:55
 msgid "2017-03-28 - po4a 0.51 released"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:57
+#: src/index.php.en:56
 msgid ""
 "This release introduces many many bugfixes and some new developments (<a "
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">more "
