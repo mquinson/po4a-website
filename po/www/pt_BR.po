@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: po4a 0.45\n"
 "Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
 "POT-Creation-Date: 2018-02-10 09:06+0100\n"
-"PO-Revision-Date: 2018-02-09 23:30+0000\n"
+"PO-Revision-Date: 2018-02-11 10:36+0000\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
-"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/po4a/"
-"po4a-website/pt_BR/>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/po4a"
+"/po4a-website/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -88,10 +88,8 @@ msgstr "Formatos suportados"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:43
-#, fuzzy
-#| msgid "po4a supports currently the following formats:"
 msgid "po4a currently supports the following formats:"
-msgstr "po4a atualmente tem suporte aos formatos a seguir:"
+msgstr "O po4a atualmente tem suporte aos seguintes formatos:"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:45
