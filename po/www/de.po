@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.51\n"
 "Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
 "POT-Creation-Date: 2018-02-10 11:19+0100\n"
-"PO-Revision-Date: 2018-02-08 17:36+0100\n"
+"PO-Revision-Date: 2018-02-10 20:52+0100\n"
 "Last-Translator: Helge Kreutzmann <debian@helgefjell.de>\n"
 "Language-Team: de <debian-l10n-german@lists.debian.org>\n"
 "Language: de\n"
@@ -39,28 +39,23 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:24
-#, fuzzy
-#| msgid "po4a extracts the translatable material from its input in a PO file."
 msgid ""
 "po4a extracts the translatable material from the original document, and "
 "places it into a PO file that is well adapted to the translation work."
 msgstr ""
-"Po4a extrahiert das übersetzbare Material aus seiner Eingabe in eine PO-"
-"Datei."
+"Po4a extrahiert das übersetzbare Material aus dem ursprünglichen Dokument und "
+"legt es in eine PO-Datei, die gut der Übersetzungsarbeit angepasst ist."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:27
-#, fuzzy
-#| msgid ""
-#| "When the PO file is translated, it re-injects the translation in the "
-#| "structure of the document, and generates the translated document."
 msgid ""
 "Once the translation is completed in the PO file, po4a re-injects the "
 "translation into the structure of the document to generate a translated "
 "document."
 msgstr ""
-"Wenn die PO-Datei übersetzt ist, fügt es die Übersetzung wieder in die "
-"Struktur des Dokuments ein und erstellt das übersetzte Dokument."
+"Sobald die Übersetzung in der PO-Datei abgeschlossen ist, fügt po4a die "
+"Übersetzung wieder in die Struktur des Dokuments ein und erstellt ein "
+"übersetztes Dokument."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:30
@@ -70,6 +65,10 @@ msgid ""
 "both up to date with regard to the original one, and as translated as "
 "possible."
 msgstr ""
+"Falls die Übersetzung nur teilweise abgeschlossen ist, wird stattdessen der "
+"ursprüngliche (englische) Text verwandt. Dies stellt sicher, dass ihr "
+"übersetztes Dokument immer im Hinblick auf das Original aktuell und soweit "
+"wie möglich übersetzt ist."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:35
@@ -79,6 +78,11 @@ msgid ""
 "translate. With this information, po4a automatically detectermines the files "
 "to update when something changes."
 msgstr ""
+"Sie können die Wartung der Übersetzung mit einer einzelnen "
+"Konfigurationsdatei, in der Sie alle Einstellungen und die Liste der zu "
+"übersetzenden Dokumente angeben, vollständig automatisieren. Mit dieser "
+"Information erkennt po4a die zu aktualisierenden Dateien automatisch, wenn "
+"sich etwas ändert."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:41
@@ -87,8 +91,6 @@ msgstr "Unterstützte Formate"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:42
-#, fuzzy
-#| msgid "po4a supports currently the following formats:"
 msgid "po4a currently supports the following formats:"
 msgstr "Po4a unterstützt derzeit die folgenden Formate:"
 
@@ -139,18 +141,14 @@ msgstr "2017-03-28 - Po4a 0.51 veröffentlicht"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
-#, fuzzy
-#| msgid ""
-#| "This release introduces many many bugfixes and some new developments (<a "
-#| "href=\"https://alioth.debian.org/frs/?group_id=30267\">more details</a>)."
 msgid ""
 "This release introduces many many bugfixes and some new developments (<a "
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">more details</"
 "a>)."
 msgstr ""
 "Diese Veröffentlichung enthält viele Fehlerkorrekturen und einige neue "
-"Entwicklungen (siehe (<a href=\"https://alioth.debian.org/frs/?"
-"group_id=30267\">für mehr Details</a>)."
+"Entwicklungen (siehe (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.52\">für mehr Details</a>)."
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
@@ -327,17 +325,12 @@ msgstr "Übersetzen"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:33
-#, fuzzy
-#| msgid ""
-#| "The easiest to contribute to the po4a translation is to go through <a "
-#| "href=\"https://hosted.weblate.org/projects/po4a/\">weblate</a> but you "
-#| "can also provide pull requests on the source git directly if you prefer."
 msgid ""
 "The easiest to help translating po4a is to go through <a href=\"https://"
 "hosted.weblate.org/projects/po4a/\">weblate</a> but you can also provide "
 "pull requests on the source git directly if you prefer."
 msgstr ""
-"Der einfachste Weg, zu der Po4a-Übersetzung beizutragen, ist über <a href="
+"Der einfachste Weg, bei der Po4a-Übersetzung mitzuhelfen, ist über <a href="
 "\"https://hosted.weblate.org/projects/po4a/\">Weblate</a>. Falls Sie es "
 "bevorzugen, können Sie aber auch Pull-Anfragen direkt an das Quellcode-Git "
 "richten."
@@ -366,10 +359,8 @@ msgstr "Dokumentationsübersetzungen"
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:52
-#, fuzzy
-#| msgid "Runtime Translations"
 msgid "Website Translations"
-msgstr "Laufzeitübersetzungen"
+msgstr "Website-Übersetzungen"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:60
