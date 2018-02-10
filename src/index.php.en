@@ -20,24 +20,44 @@
 			translations (and more interestingly, the maintenance
 			of translations) using gettext tools on areas where
 			they were not expected like documentation.</p>
+			
+			<p>po4a extracts the translatable material
+			from the original document, and places it into a PO file that is well
+			adapted to the translation work.
+			input in a PO file.</p>
+			<p>Once the translation is completed in the PO file,
+			po4a re-injects the translation into the structure of the document to
+			generate a translated document.</p>
+			<p>If the translation is only partially
+			completed, the original (english) text is used instead. This ensures
+			that your translated documentation is always both up to date with regard to
+			the original one, and as translated as possible.</p>
+			
+			<p>You can fully automatize the translation
+			maintainance with a single configuration file, specifying all settings
+			and the list of documents to translate. With this information, po4a
+			automatically detects what should be updated on file change.</p>
+		</div>
+		<div>
+			<h2>Supported formats</h2>
+			<p>po4a currently supports the following formats:</p>
+			<ul>
+				<li>manpages</li>
+				<li>POD</li>
+				<li>XML (generic, DocBook, XHTML, Dia, Guide, or WML)</li>
+				<li>SGML</li>
+				<li>TeX (generic, LaTeX, or Texinfo)</li>
+				<li>text (simple text files with some formatting, markdown, or AsciiDoc)</li>
+				<li>INI</li>
+				<li>KernelHelp</li>
+			</ul>
 		</div>
 		<div class="item">
 			<h2>2017-03-28 - po4a 0.51 released</h2>
 			<p>This release introduces many many bugfixes
                            and some new developments 
-			   (<a href="https://alioth.debian.org/frs/?group_id=30267">more details</a>).
+			   (<a href="https://github.com/mquinson/po4a/releases/tag/v0.52">more details</a>).
 			</p>
-		</div>
-		<div class="item">
-			<h2>2016-06-17 - po4a 0.48 released</h2>
-			<p>This release introduces bugfixes and translation updates.
-			</p>
-		</div>
-		<div class="item">
-			<h2>Project links</h2>
-			<p>The <a href="http://alioth.debian.org/projects/po4a/">po4a project</a>
-			is hosted on
-			<a href="http://alioth.debian.org">Alioth</a>.</p>
 		</div>
 	</div>
 
