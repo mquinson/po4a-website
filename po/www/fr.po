@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: po4a\n"
 "Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
 "POT-Creation-Date: 2018-02-10 11:19+0100\n"
-"PO-Revision-Date: 2018-02-10 10:14+0000\n"
+"PO-Revision-Date: 2018-02-10 11:25+0100\n"
 "Last-Translator: Martin Quinson <martin.quinson@ens-rennes.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "fr/>\n"
@@ -44,11 +44,6 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:24
-#, fuzzy
-#| msgid ""
-#| "po4a extracts the translatable material from the original document, and "
-#| "places it into a PO file that is well adapted to the translation work.  "
-#| "input in a PO file."
 msgid ""
 "po4a extracts the translatable material from the original document, and "
 "places it into a PO file that is well adapted to the translation work."
@@ -81,12 +76,6 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:35
-#, fuzzy
-#| msgid ""
-#| "You can fully automatize the translation maintainance with a single "
-#| "configuration file, specifying all settings and the list of documents to "
-#| "translate. With this information, po4a automatically detects what should "
-#| "be updated on file change."
 msgid ""
 "You can fully automatize the translation maintainance with a single "
 "configuration file, specifying all settings and the list of documents to "
@@ -421,150 +410,3 @@ msgstr "Téléchargement"
 #: src/header.php.en:11
 msgid "Get Involved"
 msgstr "Participer"
-
-#, fuzzy
-#~| msgid "2012-10-17 - po4a 0.43 released"
-#~ msgid "2016-06-17 - po4a 0.48 released"
-#~ msgstr "17/10/2012 — po4a 0.43 est sorti"
-
-#~ msgid "Project links"
-#~ msgstr "Liens du projet"
-
-#~ msgid ""
-#~ "The <a href=\"http://alioth.debian.org/projects/po4a/\">po4a project</a> "
-#~ "is hosted on <a href=\"http://alioth.debian.org\">Alioth</a>."
-#~ msgstr ""
-#~ "Le <a href=\"http://alioth.debian.org/projects/po4a/\">projet po4a</a> "
-#~ "est hébergé sur <a href=\"http://alioth.debian.org\">Alioth</a>."
-
-#~ msgid "po4a - Features"
-#~ msgstr "po4a — Fonctionnalités"
-
-#~ msgid "Introduction"
-#~ msgstr "Introduction"
-
-#~ msgid "po4a extracts the translatable material from its input in a PO file."
-#~ msgstr ""
-#~ "po4a extrait ce qui est traduisible des fichiers fournis en entrée dans "
-#~ "un fichier PO."
-
-#~ msgid ""
-#~ "If a string is not translated (i.e. it was not translated or it is \"fuzzy"
-#~ "\" because the original document was updated), the original string is "
-#~ "used."
-#~ msgstr ""
-#~ "Si une chaîne n'est pas traduite (c'est-à-dire si elle n'est pas traduite "
-#~ "ou si elle est marquée comme étant « fuzzy » parce que le document a été "
-#~ "mis à jour), la chaîne du document d'origine est utilisée."
-
-#~ msgid "This permits to provide always up-to-date documentation."
-#~ msgstr "Ceci permet de toujours fournir une traduction à jour."
-
-#~ msgid "Configuration file"
-#~ msgstr "Fichier de configuration"
-
-#~ msgid ""
-#~ "You can use a configuration file to ease its usage to a single command "
-#~ "invocation. This configuration file will contain the list of documents, "
-#~ "the options, etc."
-#~ msgstr ""
-#~ "Vous pouvez utiliser un fichier de configuration pour faciliter son "
-#~ "utilisation, une seule commande étant alors suffisante. Ce fichier de "
-#~ "configuration contiendra la liste des documents, les options, etc."
-
-#~ msgid ""
-#~ "When invoked with a configuration file, po4a uses an 'a la make' "
-#~ "algorithm to detect if files changed and if an operation is required."
-#~ msgstr ""
-#~ "Lorsqu'un fichier de configuration est utilisé, po4a utilise un mécanisme "
-#~ "similaire à « make » pour détecter si des fichiers ont changé et si une "
-#~ "opération est nécessaire."
-
-#~ msgid "Features"
-#~ msgstr "Fonctionnalités"
-
-#~ msgid "Translations"
-#~ msgstr "Traductions"
-
-#~ msgid "po4a - Translations"
-#~ msgstr "po4a — Traductions"
-
-#~ msgid ""
-#~ "Strings are usually frozen one or two week before the releases. Tell us "
-#~ "if you want to be notified."
-#~ msgstr ""
-#~ "Les chaînes sont généralement gelées une à deux semaines avant la sortie "
-#~ "d'une version. Indiquez-nous si vous voulez être informé."
-
-#, fuzzy
-#~| msgid "po4a - Translations"
-#~ msgid "po4a runtime translation"
-#~ msgstr "po4a — Traductions"
-
-#, fuzzy
-#~| msgid "po4a - Documentation"
-#~ msgid "po4a documentation translation"
-#~ msgstr "po4a — Documentation"
-
-#~ msgid "Translations of the web site"
-#~ msgstr "Traductions du site web"
-
-#~ msgid "This web site is also translated in the following languages:"
-#~ msgstr "Ce site web est aussi traduit dans les langues suivantes :"
-
-#~ msgid "See below for the list of available translations and work needed."
-#~ msgstr ""
-#~ "Voyez ci-dessous pour la liste des traductions disponibles et le travail "
-#~ "restant à faire."
-
-#, fuzzy
-#~| msgid ""
-#~| "You can find the translation material on our Subversion repository (<a "
-#~| "href=\"http://anonscm.debian.org/viewvc/po4a/trunk/po/bin/\">translation "
-#~| "of the program</a>, <a href=\"http://anonscm.debian.org/viewvc/po4a/"
-#~| "trunk/po/pod/\">translation of the documentation</a>, <a href=\"http://"
-#~| "anonscm.debian.org/viewvc/po4a/web/po/\">translation of the website</a>)."
-#~ msgid ""
-#~ "You can find the translation material in our gits (<a href=\"https://"
-#~ "alioth.debian.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=po4a/po4a.git;"
-#~ "a=tree;f=po/bin\">program</a>, <a href=\"https://alioth.debian.org/"
-#~ "plugins/scmgit/cgi-bin/gitweb.cgi?p=po4a/po4a.git;a=tree;f=po/pod"
-#~ "\">documentation</a>, <a href=\"https://alioth.debian.org/plugins/scmgit/"
-#~ "cgi-bin/gitweb.cgi?p=po4a/po4a-website.git;a=tree;f=po/www\">website</a>)."
-#~ msgstr ""
-#~ "Vous trouverez les fichiers PO pour les traductions dans notre dépôt "
-#~ "Subversion (<a href=\"http://anonscm.debian.org/viewvc/po4a/trunk/po/bin/"
-#~ "\">traduction des programmes</a>, <a href=\"http://anonscm.debian.org/"
-#~ "viewvc/po4a/trunk/po/pod/\">traduction de la documentation</a>, <a href="
-#~ "\"http://anonscm.debian.org/viewvc/po4a/web/po/\">traduction du site</a>)."
-
-#~ msgid "Available translations"
-#~ msgstr "Traductions disponibles"
-
-#~ msgid "Po4a is currently translated in the following languages:"
-#~ msgstr "Po4a est traduit dans les langues suivantes :"
-
-#~ msgid "Translations of the documentation"
-#~ msgstr "Traductions de la documentation"
-
-#~ msgid ""
-#~ "The po4a documentation is also translated in the following languages:"
-#~ msgstr ""
-#~ "La documentation de po4a est également disponible dans les langues "
-#~ "suivantes :"
-
-#~ msgid ""
-#~ "Commit emails are sent on a separate <a href=\"mailto:po4a-commits@lists."
-#~ "alioth.debian.org\">mailing list</a>."
-#~ msgstr ""
-#~ "Les courriers de notifications de commit sont envoyés sur une <a href="
-#~ "\"mailto:po4a-commits@lists.alioth.debian.org\">liste de diffusion</a> "
-#~ "séparée."
-
-#~ msgid "Subversion"
-#~ msgstr "Subversion"
-
-#~ msgid "Implementation of a C extension to make po4a faster is ongoing."
-#~ msgstr ""
-#~ "Une implémentation d'une extension en C pour rendre po4a plus rapide est "
-#~ "en cours."
