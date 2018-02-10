@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.43-1\n"
 "Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
-"POT-Creation-Date: 2018-02-09 22:27+0100\n"
+"POT-Creation-Date: 2018-02-10 09:06+0100\n"
 "PO-Revision-Date: 2013-02-12 10:00+0200\n"
 "Last-Translator: Omar Campagne <ocampagne@gmail.com>\n"
 "Language-Team: Debian l10n Spanish <debian-l10n-spanish@lists.debian.org>\n"
@@ -57,51 +57,119 @@ msgstr ""
 "las herramientas de gettext en áreas dónde no eran de esperar, como en la "
 "documentación."
 
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:24
+msgid ""
+"po4a extracts the translatable material from the original document, and "
+"places it into a PO file that is well adapted to the translation work.  "
+"input in a PO file."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:28
+#, fuzzy
+#| msgid ""
+#| "When the PO file is translated, it re-injects the translation in the "
+#| "structure of the document, and generates the translated document."
+msgid ""
+"Once the translation is completed in the PO file, po4a re-injects the "
+"translation into the structure of the document to generate a translated "
+"document."
+msgstr ""
+"Cuando el fichero PO ya está traducido, devuelve la traducción a la "
+"estructura del documento, y genera el documento traducido."
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:31
+msgid ""
+"If the translation is only partially completed, the original (english) text "
+"is used instead. This ensures that your translated documentation is always "
+"both up to date with regard to the original one, and as translated as "
+"possible."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:36
+msgid ""
+"You can fully automatize the translation maintainance with a single "
+"configuration file, specifying all settings and the list of documents to "
+"translate. With this information, po4a automatically detects what should be "
+"updated on file change."
+msgstr ""
+
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:25
+#: src/index.php.en:42
+msgid "Supported formats"
+msgstr "Formatos compatibles"
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:43
+#, fuzzy
+#| msgid "po4a supports currently the following formats:"
+msgid "po4a currently supports the following formats:"
+msgstr "po4a es actualmente compatible con los siguientes formatos:"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:45
+msgid "manpages"
+msgstr "páginas de manual"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:46
+msgid "POD"
+msgstr "POD"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:47
+msgid "XML (generic, DocBook, XHTML, Dia, Guide, or WML)"
+msgstr "XML (genérico, DocBook, XHTML, Dia, Guide, o WML)"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:48
+msgid "SGML"
+msgstr "SGML"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:49
+msgid "TeX (generic, LaTeX, or Texinfo)"
+msgstr "TeX (genérico, LaTeX, o Texinfo)"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:50
+msgid "text (simple text files with some formatting, markdown, or AsciiDoc)"
+msgstr ""
+"text (ficheros simples de texto con algún formato, markdown o AsciiDoc)"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:51
+msgid "INI"
+msgstr "INI"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:52
+msgid "KernelHelp"
+msgstr "KernelHelp (Ayuda del núcleo)"
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:56
 #, fuzzy
 #| msgid "2012-10-17 - po4a 0.43 released"
 msgid "2017-03-28 - po4a 0.51 released"
 msgstr "17-10-2012 - publicado po4a 0.43"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:26
+#: src/index.php.en:57
 #, fuzzy
 #| msgid ""
 #| "You can find the sources of the latest release on <a href=\"http://alioth."
 #| "debian.org/frs/?group_id=30267\">Alioth</a>."
 msgid ""
 "This release introduces many many bugfixes and some new developments (<a "
-"href=\"https://alioth.debian.org/frs/?group_id=30267\">more details</a>)."
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">more details</"
+"a>)."
 msgstr ""
 "Puede obtener las fuentes de la última publicación en <a href=\"http://"
 "alioth.debian.org/frs/?group_id=30267\">Alioth</a>."
-
-#. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:32
-#, fuzzy
-#| msgid "2012-10-17 - po4a 0.43 released"
-msgid "2016-06-17 - po4a 0.48 released"
-msgstr "17-10-2012 - publicado po4a 0.43"
-
-#. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:33
-msgid "This release introduces bugfixes and translation updates."
-msgstr ""
-
-#. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:37
-msgid "Project links"
-msgstr "Enlaces al proyecto"
-
-#. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:38
-msgid ""
-"The <a href=\"http://alioth.debian.org/projects/po4a/\">po4a project</a> is "
-"hosted on <a href=\"http://alioth.debian.org\">Alioth</a>."
-msgstr ""
-"El <a href=\"http://alioth.debian.org/projects/po4a/\">proyecto po4a</a> "
-"está alojado en <a href=\"http://alioth.debian.org\">Alioth</a>."
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
@@ -109,7 +177,7 @@ msgid "po4a - Documentation"
 msgstr "po4a - Documentación"
 
 #. type: Content of: <div><a>
-#: src/documentation.php.en:18 src/header.php.en:10
+#: src/documentation.php.en:18 src/header.php.en:9
 msgid "Documentation"
 msgstr "Documentación"
 
@@ -224,121 +292,6 @@ msgid ""
 msgstr ""
 "También contiene módulos adicionales que se están considerando, pero que aún "
 "no alcanzan la calidad necesaria."
-
-#. type: Content of: <html><head><title>
-#: src/features.php.en:11
-msgid "po4a - Features"
-msgstr "po4a - Características"
-
-#. type: Content of: <html><body><div><div><h2>
-#: src/features.php.en:18
-msgid "Introduction"
-msgstr "Introducción"
-
-#. type: Content of: <html><body><div><div><p>
-#: src/features.php.en:19
-msgid "po4a extracts the translatable material from its input in a PO file."
-msgstr "po4a extrae el material traducible desde su entrada a un fichero PO."
-
-#. type: Content of: <html><body><div><div><p>
-#: src/features.php.en:21
-msgid ""
-"When the PO file is translated, it re-injects the translation in the "
-"structure of the document, and generates the translated document."
-msgstr ""
-"Cuando el fichero PO ya está traducido, devuelve la traducción a la "
-"estructura del documento, y genera el documento traducido."
-
-#. type: Content of: <html><body><div><div><p>
-#: src/features.php.en:24
-msgid ""
-"If a string is not translated (i.e. it was not translated or it is \"fuzzy\" "
-"because the original document was updated), the original string is used."
-msgstr ""
-"Si una cadena no está traducida (p. ej., no se ha traducido o es borrosa "
-"porque el documento original se ha actualizado), se usa la cadena original."
-
-#. type: Content of: <html><body><div><div><p>
-#: src/features.php.en:27
-msgid "This permits to provide always up-to-date documentation."
-msgstr "Esto permite ofrecer siempre una documentación al día."
-
-#. type: Content of: <html><body><div><div><h2>
-#: src/features.php.en:31
-msgid "Supported formats"
-msgstr "Formatos compatibles"
-
-#. type: Content of: <html><body><div><div><p>
-#: src/features.php.en:32
-msgid "po4a supports currently the following formats:"
-msgstr "po4a es actualmente compatible con los siguientes formatos:"
-
-#. type: Content of: <html><body><div><div><ul><li>
-#: src/features.php.en:34
-msgid "manpages"
-msgstr "páginas de manual"
-
-#. type: Content of: <html><body><div><div><ul><li>
-#: src/features.php.en:35
-msgid "POD"
-msgstr "POD"
-
-#. type: Content of: <html><body><div><div><ul><li>
-#: src/features.php.en:36
-msgid "XML (generic, DocBook, XHTML, Dia, Guide, or WML)"
-msgstr "XML (genérico, DocBook, XHTML, Dia, Guide, o WML)"
-
-#. type: Content of: <html><body><div><div><ul><li>
-#: src/features.php.en:37
-msgid "SGML"
-msgstr "SGML"
-
-#. type: Content of: <html><body><div><div><ul><li>
-#: src/features.php.en:38
-msgid "TeX (generic, LaTeX, or Texinfo)"
-msgstr "TeX (genérico, LaTeX, o Texinfo)"
-
-#. type: Content of: <html><body><div><div><ul><li>
-#: src/features.php.en:39
-msgid "text (simple text files with some formatting, markdown, or AsciiDoc)"
-msgstr ""
-"text (ficheros simples de texto con algún formato, markdown o AsciiDoc)"
-
-#. type: Content of: <html><body><div><div><ul><li>
-#: src/features.php.en:41
-msgid "INI"
-msgstr "INI"
-
-#. type: Content of: <html><body><div><div><ul><li>
-#: src/features.php.en:42
-msgid "KernelHelp"
-msgstr "KernelHelp (Ayuda del núcleo)"
-
-#. type: Content of: <html><body><div><div><h2>
-#: src/features.php.en:46
-msgid "Configuration file"
-msgstr "Fichero de configuración"
-
-#. type: Content of: <html><body><div><div><p>
-#: src/features.php.en:47
-msgid ""
-"You can use a configuration file to ease its usage to a single command "
-"invocation. This configuration file will contain the list of documents, the "
-"options, etc."
-msgstr ""
-"Puede usar un fichero de configuración para facilitar su uso con una sola "
-"invocación a una orden. Este fichero de configuración contiene la lista de "
-"documentos, opciones, etc..."
-
-#. type: Content of: <html><body><div><div><p>
-#: src/features.php.en:51
-msgid ""
-"When invoked with a configuration file, po4a uses an 'a la make' algorithm "
-"to detect if files changed and if an operation is required."
-msgstr ""
-"Cuando se invoca con un fichero de configuración, po4a emplea un algoritmo "
-"tipo «make» para detectar si los ficheros se han modificado y es necesaria "
-"alguna operación."
 
 #. type: Content of: <html><head><title>
 #: src/getinvolved.php.en:11
@@ -482,24 +435,79 @@ msgstr "Bienvenido"
 
 #. type: Content of: <div><a><span>
 #: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10
-#: src/header.php.en:11 src/header.php.en:12
+#: src/header.php.en:11
 msgid "&nbsp;&nbsp;&lt;"
 msgstr "&nbsp;&nbsp;&lt;"
 
 #. type: Content of: <div><a>
-#: src/header.php.en:9
-msgid "Features"
-msgstr "Características"
-
-#. type: Content of: <div><a>
-#: src/header.php.en:11
+#: src/header.php.en:10
 msgid "Download"
 msgstr "Descargar"
 
 #. type: Content of: <div><a>
-#: src/header.php.en:12
+#: src/header.php.en:11
 msgid "Get Involved"
 msgstr "Colaborar"
+
+#, fuzzy
+#~| msgid "2012-10-17 - po4a 0.43 released"
+#~ msgid "2016-06-17 - po4a 0.48 released"
+#~ msgstr "17-10-2012 - publicado po4a 0.43"
+
+#~ msgid "Project links"
+#~ msgstr "Enlaces al proyecto"
+
+#~ msgid ""
+#~ "The <a href=\"http://alioth.debian.org/projects/po4a/\">po4a project</a> "
+#~ "is hosted on <a href=\"http://alioth.debian.org\">Alioth</a>."
+#~ msgstr ""
+#~ "El <a href=\"http://alioth.debian.org/projects/po4a/\">proyecto po4a</a> "
+#~ "está alojado en <a href=\"http://alioth.debian.org\">Alioth</a>."
+
+#~ msgid "po4a - Features"
+#~ msgstr "po4a - Características"
+
+#~ msgid "Introduction"
+#~ msgstr "Introducción"
+
+#~ msgid "po4a extracts the translatable material from its input in a PO file."
+#~ msgstr ""
+#~ "po4a extrae el material traducible desde su entrada a un fichero PO."
+
+#~ msgid ""
+#~ "If a string is not translated (i.e. it was not translated or it is \"fuzzy"
+#~ "\" because the original document was updated), the original string is "
+#~ "used."
+#~ msgstr ""
+#~ "Si una cadena no está traducida (p. ej., no se ha traducido o es borrosa "
+#~ "porque el documento original se ha actualizado), se usa la cadena "
+#~ "original."
+
+#~ msgid "This permits to provide always up-to-date documentation."
+#~ msgstr "Esto permite ofrecer siempre una documentación al día."
+
+#~ msgid "Configuration file"
+#~ msgstr "Fichero de configuración"
+
+#~ msgid ""
+#~ "You can use a configuration file to ease its usage to a single command "
+#~ "invocation. This configuration file will contain the list of documents, "
+#~ "the options, etc."
+#~ msgstr ""
+#~ "Puede usar un fichero de configuración para facilitar su uso con una sola "
+#~ "invocación a una orden. Este fichero de configuración contiene la lista "
+#~ "de documentos, opciones, etc..."
+
+#~ msgid ""
+#~ "When invoked with a configuration file, po4a uses an 'a la make' "
+#~ "algorithm to detect if files changed and if an operation is required."
+#~ msgstr ""
+#~ "Cuando se invoca con un fichero de configuración, po4a emplea un "
+#~ "algoritmo tipo «make» para detectar si los ficheros se han modificado y "
+#~ "es necesaria alguna operación."
+
+#~ msgid "Features"
+#~ msgstr "Características"
 
 #~ msgid "Translations"
 #~ msgstr "Traducciones"

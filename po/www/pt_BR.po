@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.45\n"
 "Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
-"POT-Creation-Date: 2018-02-09 22:27+0100\n"
+"POT-Creation-Date: 2018-02-10 09:06+0100\n"
 "PO-Revision-Date: 2018-02-09 23:30+0000\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
-"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/po4a"
-"/po4a-website/pt_BR/>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/po4a/"
+"po4a-website/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,43 +41,118 @@ msgstr ""
 "usando as ferramentas do gettext em áreas em que não se esperava, como "
 "documentação."
 
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:24
+msgid ""
+"po4a extracts the translatable material from the original document, and "
+"places it into a PO file that is well adapted to the translation work.  "
+"input in a PO file."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:28
+#, fuzzy
+#| msgid ""
+#| "When the PO file is translated, it re-injects the translation in the "
+#| "structure of the document, and generates the translated document."
+msgid ""
+"Once the translation is completed in the PO file, po4a re-injects the "
+"translation into the structure of the document to generate a translated "
+"document."
+msgstr ""
+"Quando o arquivo PO é traduzido, ele reinjeta a tradução na estrutura do "
+"documento e gera o documento traduzido."
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:31
+msgid ""
+"If the translation is only partially completed, the original (english) text "
+"is used instead. This ensures that your translated documentation is always "
+"both up to date with regard to the original one, and as translated as "
+"possible."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:36
+msgid ""
+"You can fully automatize the translation maintainance with a single "
+"configuration file, specifying all settings and the list of documents to "
+"translate. With this information, po4a automatically detects what should be "
+"updated on file change."
+msgstr ""
+
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:25
+#: src/index.php.en:42
+msgid "Supported formats"
+msgstr "Formatos suportados"
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:43
+#, fuzzy
+#| msgid "po4a supports currently the following formats:"
+msgid "po4a currently supports the following formats:"
+msgstr "po4a atualmente tem suporte aos formatos a seguir:"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:45
+msgid "manpages"
+msgstr "páginas de manual"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:46
+msgid "POD"
+msgstr "POD"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:47
+msgid "XML (generic, DocBook, XHTML, Dia, Guide, or WML)"
+msgstr "XML (genérico, DocBook, XHTML, Dia, Guide ou WML)"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:48
+msgid "SGML"
+msgstr "SGML"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:49
+msgid "TeX (generic, LaTeX, or Texinfo)"
+msgstr "TeX (genérico, LaTeX ou Texinfo)"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:50
+msgid "text (simple text files with some formatting, markdown, or AsciiDoc)"
+msgstr ""
+"text (arquivos de texto simples com algumas formatações, markdown ou "
+"AsciiDoc)"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:51
+msgid "INI"
+msgstr "INI"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:52
+msgid "KernelHelp"
+msgstr "KernelHelp"
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:56
 msgid "2017-03-28 - po4a 0.51 released"
 msgstr "28-03-2017 - Lançamento do po4a 0.51"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:26
+#: src/index.php.en:57
+#, fuzzy
+#| msgid ""
+#| "This release introduces many many bugfixes and some new developments (<a "
+#| "href=\"https://alioth.debian.org/frs/?group_id=30267\">more details</a>)."
 msgid ""
 "This release introduces many many bugfixes and some new developments (<a "
-"href=\"https://alioth.debian.org/frs/?group_id=30267\">more details</a>)."
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">more details</"
+"a>)."
 msgstr ""
 "Esta versão introduz muitas correções e alguns novos desenvolvimentos (\n"
 "<a href=\"http://alioth.debian.org/frs/?group_id=30267\">mais detalhes</a>)."
-
-#. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:32
-msgid "2016-06-17 - po4a 0.48 released"
-msgstr "17-06-2016 - Lançamento do po4a 0.48"
-
-#. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:33
-msgid "This release introduces bugfixes and translation updates."
-msgstr "Esta versão introduz muitas correções e atualizações nas traduções."
-
-#. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:37
-msgid "Project links"
-msgstr "Links do projeto"
-
-#. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:38
-msgid ""
-"The <a href=\"http://alioth.debian.org/projects/po4a/\">po4a project</a> is "
-"hosted on <a href=\"http://alioth.debian.org\">Alioth</a>."
-msgstr ""
-"O <a href=\"http://alioth.debian.org/projects/po4a/\">projeto po4a</a> está "
-"hospedado em <a href=\"http://alioth.debian.org\">Alioth</a>."
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
@@ -85,7 +160,7 @@ msgid "po4a - Documentation"
 msgstr "po4a - Documentação"
 
 #. type: Content of: <div><a>
-#: src/documentation.php.en:18 src/header.php.en:10
+#: src/documentation.php.en:18 src/header.php.en:9
 msgid "Documentation"
 msgstr "Documentação"
 
@@ -146,8 +221,8 @@ msgid ""
 "You can find the sources of the latest release on <a href=\"https://github."
 "com/mquinson/po4a/releases\">GitHub</a>."
 msgstr ""
-"Você pode encontrar o código fonte da última versão no <a href=\""
-"https://github.com/mquinson/po4a/releases\">GitHub</a>."
+"Você pode encontrar o código fonte da última versão no <a href=\"https://"
+"github.com/mquinson/po4a/releases\">GitHub</a>."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:23
@@ -176,8 +251,8 @@ msgid ""
 "The latest sources are available from our <a href=\"https://github.com/"
 "mquinson/po4a\">Git repository</a>."
 msgstr ""
-"Os códigos fontes mais recentes estão disponíveis em nosso <a href=\""
-"https://github.com/mquinson/po4a\">repositório Git</a>."
+"Os códigos fontes mais recentes estão disponíveis em nosso <a href=\"https://"
+"github.com/mquinson/po4a\">repositório Git</a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:34
@@ -189,122 +264,6 @@ msgstr ""
 "Ela também contém módulos adicionais que estão sendo considerados, mas não "
 "possuem qualidade suficiente para serem lançados ainda. Em outras palavras, "
 "eles ainda estão aguardando sua contribuição ;)"
-
-#. type: Content of: <html><head><title>
-#: src/features.php.en:11
-msgid "po4a - Features"
-msgstr "po4a - Recursos"
-
-#. type: Content of: <html><body><div><div><h2>
-#: src/features.php.en:18
-msgid "Introduction"
-msgstr "Introdução"
-
-#. type: Content of: <html><body><div><div><p>
-#: src/features.php.en:19
-msgid "po4a extracts the translatable material from its input in a PO file."
-msgstr "O po4a extrai o material traduzível da sua entrada em um arquivo PO."
-
-#. type: Content of: <html><body><div><div><p>
-#: src/features.php.en:21
-msgid ""
-"When the PO file is translated, it re-injects the translation in the "
-"structure of the document, and generates the translated document."
-msgstr ""
-"Quando o arquivo PO é traduzido, ele reinjeta a tradução na estrutura do "
-"documento e gera o documento traduzido."
-
-#. type: Content of: <html><body><div><div><p>
-#: src/features.php.en:24
-msgid ""
-"If a string is not translated (i.e. it was not translated or it is \"fuzzy\" "
-"because the original document was updated), the original string is used."
-msgstr ""
-"Se uma string não está traduzida (ex: não foi traduzido ou está marcada como "
-"aproximada/fuzzy porque o documento original foi atualizado), a string "
-"original é usada."
-
-#. type: Content of: <html><body><div><div><p>
-#: src/features.php.en:27
-msgid "This permits to provide always up-to-date documentation."
-msgstr "Isso permite fornecer uma documentação sempre atualizada."
-
-#. type: Content of: <html><body><div><div><h2>
-#: src/features.php.en:31
-msgid "Supported formats"
-msgstr "Formatos suportados"
-
-#. type: Content of: <html><body><div><div><p>
-#: src/features.php.en:32
-msgid "po4a supports currently the following formats:"
-msgstr "po4a atualmente tem suporte aos formatos a seguir:"
-
-#. type: Content of: <html><body><div><div><ul><li>
-#: src/features.php.en:34
-msgid "manpages"
-msgstr "páginas de manual"
-
-#. type: Content of: <html><body><div><div><ul><li>
-#: src/features.php.en:35
-msgid "POD"
-msgstr "POD"
-
-#. type: Content of: <html><body><div><div><ul><li>
-#: src/features.php.en:36
-msgid "XML (generic, DocBook, XHTML, Dia, Guide, or WML)"
-msgstr "XML (genérico, DocBook, XHTML, Dia, Guide ou WML)"
-
-#. type: Content of: <html><body><div><div><ul><li>
-#: src/features.php.en:37
-msgid "SGML"
-msgstr "SGML"
-
-#. type: Content of: <html><body><div><div><ul><li>
-#: src/features.php.en:38
-msgid "TeX (generic, LaTeX, or Texinfo)"
-msgstr "TeX (genérico, LaTeX ou Texinfo)"
-
-#. type: Content of: <html><body><div><div><ul><li>
-#: src/features.php.en:39
-msgid "text (simple text files with some formatting, markdown, or AsciiDoc)"
-msgstr ""
-"text (arquivos de texto simples com algumas formatações, markdown ou "
-"AsciiDoc)"
-
-#. type: Content of: <html><body><div><div><ul><li>
-#: src/features.php.en:41
-msgid "INI"
-msgstr "INI"
-
-#. type: Content of: <html><body><div><div><ul><li>
-#: src/features.php.en:42
-msgid "KernelHelp"
-msgstr "KernelHelp"
-
-#. type: Content of: <html><body><div><div><h2>
-#: src/features.php.en:46
-msgid "Configuration file"
-msgstr "Arquivo de configuração"
-
-#. type: Content of: <html><body><div><div><p>
-#: src/features.php.en:47
-msgid ""
-"You can use a configuration file to ease its usage to a single command "
-"invocation. This configuration file will contain the list of documents, the "
-"options, etc."
-msgstr ""
-"Você pode usar um arquivo configuração para facilitar seu uso em com a "
-"invocação de apenas um comando. Este arquivo de configuração vai conter a "
-"lista de documentos, das opções, etc."
-
-#. type: Content of: <html><body><div><div><p>
-#: src/features.php.en:51
-msgid ""
-"When invoked with a configuration file, po4a uses an 'a la make' algorithm "
-"to detect if files changed and if an operation is required."
-msgstr ""
-"Ao invocar um arquivo de configuração, o po4a usa um algorítimo \"a la make"
-"\" para detectar se arquivos foram alterados e se uma operação for requerida."
 
 #. type: Content of: <html><head><title>
 #: src/getinvolved.php.en:11
@@ -344,10 +303,10 @@ msgid ""
 "pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>."
 msgstr ""
 "Relatórios de erros, correções, solicitações de recursos ou qualquer "
-"comentário são bem-vindos na lista de discussão, no <a href=\""
-"https://github.com/mquinson/po4a/issues\">rastreador do GitHub</a> ou no <a "
-"href=\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable\">"
-"Debian BTS</a>."
+"comentário são bem-vindos na lista de discussão, no <a href=\"https://github."
+"com/mquinson/po4a/issues\">rastreador do GitHub</a> ou no <a href=\"http://"
+"bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</"
+"a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:27
@@ -356,8 +315,8 @@ msgid ""
 "\"https://github.com/mquinson/po4a\">GitHub repository</a> are more than "
 "welcomed."
 msgstr ""
-"Se você pode aprimorar o código você mesmo, \"Pull Requests\" no <a href=\""
-"https://github.com/mquinson/po4a\">repositório GitHub</a> são mais que bem-"
+"Se você pode aprimorar o código você mesmo, \"Pull Requests\" no <a href="
+"\"https://github.com/mquinson/po4a\">repositório GitHub</a> são mais que bem-"
 "vindos."
 
 #. type: Content of: <html><body><div><div><h2>
@@ -372,8 +331,8 @@ msgid ""
 "hosted.weblate.org/projects/po4a/\">weblate</a> but you can also provide "
 "pull requests on the source git directly if you prefer."
 msgstr ""
-"A forma mais fácil de ajudar a traduzir o po4a é através do <a href=\""
-"https://hosted.weblate.org/projects/po4a/\">weblate</a>, mas você também "
+"A forma mais fácil de ajudar a traduzir o po4a é através do <a href="
+"\"https://hosted.weblate.org/projects/po4a/\">weblate</a>, mas você também "
 "pode fornecer \"pull requests\" no código fonte diretamente no git se "
 "preferir."
 
@@ -437,24 +396,80 @@ msgstr "Bem-vindo"
 
 #. type: Content of: <div><a><span>
 #: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10
-#: src/header.php.en:11 src/header.php.en:12
+#: src/header.php.en:11
 msgid "&nbsp;&nbsp;&lt;"
 msgstr "&nbsp;&nbsp;&lt;"
 
 #. type: Content of: <div><a>
-#: src/header.php.en:9
-msgid "Features"
-msgstr "Recursos"
-
-#. type: Content of: <div><a>
-#: src/header.php.en:11
+#: src/header.php.en:10
 msgid "Download"
 msgstr "Download"
 
 #. type: Content of: <div><a>
-#: src/header.php.en:12
+#: src/header.php.en:11
 msgid "Get Involved"
 msgstr "Envolva-se"
+
+#~ msgid "2016-06-17 - po4a 0.48 released"
+#~ msgstr "17-06-2016 - Lançamento do po4a 0.48"
+
+#~ msgid "This release introduces bugfixes and translation updates."
+#~ msgstr "Esta versão introduz muitas correções e atualizações nas traduções."
+
+#~ msgid "Project links"
+#~ msgstr "Links do projeto"
+
+#~ msgid ""
+#~ "The <a href=\"http://alioth.debian.org/projects/po4a/\">po4a project</a> "
+#~ "is hosted on <a href=\"http://alioth.debian.org\">Alioth</a>."
+#~ msgstr ""
+#~ "O <a href=\"http://alioth.debian.org/projects/po4a/\">projeto po4a</a> "
+#~ "está hospedado em <a href=\"http://alioth.debian.org\">Alioth</a>."
+
+#~ msgid "po4a - Features"
+#~ msgstr "po4a - Recursos"
+
+#~ msgid "Introduction"
+#~ msgstr "Introdução"
+
+#~ msgid "po4a extracts the translatable material from its input in a PO file."
+#~ msgstr ""
+#~ "O po4a extrai o material traduzível da sua entrada em um arquivo PO."
+
+#~ msgid ""
+#~ "If a string is not translated (i.e. it was not translated or it is \"fuzzy"
+#~ "\" because the original document was updated), the original string is "
+#~ "used."
+#~ msgstr ""
+#~ "Se uma string não está traduzida (ex: não foi traduzido ou está marcada "
+#~ "como aproximada/fuzzy porque o documento original foi atualizado), a "
+#~ "string original é usada."
+
+#~ msgid "This permits to provide always up-to-date documentation."
+#~ msgstr "Isso permite fornecer uma documentação sempre atualizada."
+
+#~ msgid "Configuration file"
+#~ msgstr "Arquivo de configuração"
+
+#~ msgid ""
+#~ "You can use a configuration file to ease its usage to a single command "
+#~ "invocation. This configuration file will contain the list of documents, "
+#~ "the options, etc."
+#~ msgstr ""
+#~ "Você pode usar um arquivo configuração para facilitar seu uso em com a "
+#~ "invocação de apenas um comando. Este arquivo de configuração vai conter a "
+#~ "lista de documentos, das opções, etc."
+
+#~ msgid ""
+#~ "When invoked with a configuration file, po4a uses an 'a la make' "
+#~ "algorithm to detect if files changed and if an operation is required."
+#~ msgstr ""
+#~ "Ao invocar um arquivo de configuração, o po4a usa um algorítimo \"a la "
+#~ "make\" para detectar se arquivos foram alterados e se uma operação for "
+#~ "requerida."
+
+#~ msgid "Features"
+#~ msgstr "Recursos"
 
 #~ msgid "Translations"
 #~ msgstr "Traduções"
