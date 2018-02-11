@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.48\n"
 "Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
 "POT-Creation-Date: 2018-02-10 11:19+0100\n"
-"PO-Revision-Date: 2018-02-09 11:12+0100\n"
+"PO-Revision-Date: 2018-02-10 22:41+0100\n"
 "Last-Translator: Marco Ciampa <ciampix@libero.it>\n"
 "Language-Team: Italian <it@li.org>\n"
 "Language: it\n"
@@ -39,28 +39,18 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:24
-#, fuzzy
-#| msgid "po4a extracts the translatable material from its input in a PO file."
 msgid ""
 "po4a extracts the translatable material from the original document, and "
 "places it into a PO file that is well adapted to the translation work."
-msgstr ""
-"po4a estrae il materiale traducibile dal suo ingresso (N.d.T. e lo "
-"inserisce) in un file PO."
+msgstr "po4a estrae il materiale da tradurre dal documento originale, e lo mette in un file PO, un formato adatto per favorire il lavoro di traduzione."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:27
-#, fuzzy
-#| msgid ""
-#| "When the PO file is translated, it re-injects the translation in the "
-#| "structure of the document, and generates the translated document."
 msgid ""
 "Once the translation is completed in the PO file, po4a re-injects the "
 "translation into the structure of the document to generate a translated "
 "document."
-msgstr ""
-"Una volta che file PO è stato tradotto, esso re-inserisce la traduzione "
-"nella struttura del documento, e genera il documento tradotto."
+msgstr "Una volta che file PO è stato tradotto, po4a re-inserisce la traduzione nella struttura del documento, per generare il documento tradotto."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:30
@@ -69,7 +59,7 @@ msgid ""
 "is used instead. This ensures that your translated documentation is always "
 "both up to date with regard to the original one, and as translated as "
 "possible."
-msgstr ""
+msgstr "Se la traduzione è solo parzialmente completata, viene usato il testo originale (in inglese). Questo assicura che la traduzione della documentazione sia sempre aggiornata rispetto all'originale e tradotta per quanto possibile."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:35
@@ -78,7 +68,7 @@ msgid ""
 "configuration file, specifying all settings and the list of documents to "
 "translate. With this information, po4a automatically detectermines the files "
 "to update when something changes."
-msgstr ""
+msgstr "È possibile automatizzare la manutenzione della traduzione tramite un singolo file di configurazione, specificando tutte le impostazioni e l'elenco dei documenti da tradurre. Con queste informazioni, po4a determina automaticamente i file da aggiornare quando qualcosa viene cambiato."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:41
@@ -87,10 +77,8 @@ msgstr "Formati supportati"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:42
-#, fuzzy
-#| msgid "po4a supports currently the following formats:"
 msgid "po4a currently supports the following formats:"
-msgstr "po4a supporta attualmente i seguenti formati:"
+msgstr "po4a attualmente supporta i seguenti formati:"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:44
@@ -140,18 +128,11 @@ msgstr "2017-03-28 - rilasciato po4a 0.51"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
-#, fuzzy
-#| msgid ""
-#| "This release introduces many many bugfixes and some new developments (<a "
-#| "href=\"https://alioth.debian.org/frs/?group_id=30267\">more details</a>)."
 msgid ""
 "This release introduces many many bugfixes and some new developments (<a "
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">more details</"
 "a>)."
-msgstr ""
-"Questa versione introduce molte correzioni ed alcune nuove caratteristiche "
-"(<a href=\"http://alioth.debian.org/frs/?group_id=30267\">ulteriori "
-"dettagli</a>)."
+msgstr "Questa versione contiene molte correzioni ed alcune nuove caratteristiche (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">ulteriori dettagli</a>)."
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
@@ -323,11 +304,6 @@ msgstr "Traduzioni"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:33
-#, fuzzy
-#| msgid ""
-#| "The easiest to contribute to the po4a translation is to go through <a "
-#| "href=\"https://hosted.weblate.org/projects/po4a/\">weblate</a> but you "
-#| "can also provide pull requests on the source git directly if you prefer."
 msgid ""
 "The easiest to help translating po4a is to go through <a href=\"https://"
 "hosted.weblate.org/projects/po4a/\">weblate</a> but you can also provide "
@@ -362,10 +338,8 @@ msgstr "Traduzioni della documentazione"
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:52
-#, fuzzy
-#| msgid "Runtime Translations"
 msgid "Website Translations"
-msgstr "Traduzioni dell'eseguibile"
+msgstr "Traduzioni del sito"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:60
@@ -412,87 +386,3 @@ msgstr "Scarica"
 #: src/header.php.en:11
 msgid "Get Involved"
 msgstr "Contribuire"
-
-#~ msgid "2016-06-17 - po4a 0.48 released"
-#~ msgstr "2016-06-17 - rilasciato po4a 0.48"
-
-#~ msgid "This release introduces bugfixes and translation updates."
-#~ msgstr ""
-#~ "Questa versione introduce correzioni e aggiornamenti nelle traduzioni."
-
-#~ msgid "Project links"
-#~ msgstr "Collegamenti del progetto"
-
-#~ msgid ""
-#~ "The <a href=\"http://alioth.debian.org/projects/po4a/\">po4a project</a> "
-#~ "is hosted on <a href=\"http://alioth.debian.org\">Alioth</a>."
-#~ msgstr ""
-#~ "Il <a href=\"http://alioth.debian.org/projects/po4a/\">progetto po4a</a> "
-#~ "è ospitato da <a href=\"http://alioth.debian.org\">Alioth</a>."
-
-#~ msgid "po4a - Features"
-#~ msgstr "po4a - Caratteristiche"
-
-#~ msgid "Introduction"
-#~ msgstr "Introduzione"
-
-#~ msgid ""
-#~ "If a string is not translated (i.e. it was not translated or it is \"fuzzy"
-#~ "\" because the original document was updated), the original string is "
-#~ "used."
-#~ msgstr ""
-#~ "Se una stringa non è tradotta (cioè non era stata tradotta o è \"fuzzy\" "
-#~ "perché il documento originale è stato aggiornato), viene usata la stringa "
-#~ "originale."
-
-#~ msgid "This permits to provide always up-to-date documentation."
-#~ msgstr "Ciò permette di fornire sempre documentazione aggiornata."
-
-#~ msgid "Configuration file"
-#~ msgstr "File di configurazione"
-
-#~ msgid ""
-#~ "You can use a configuration file to ease its usage to a single command "
-#~ "invocation. This configuration file will contain the list of documents, "
-#~ "the options, etc."
-#~ msgstr ""
-#~ "Si può usare un file di configurazione per facilitarne l'uso riducendolo "
-#~ "alla chiamata di un singolo comando. Questo file di configurazione "
-#~ "conterrà l'elenco dei documenti, le opzioni, ecc."
-
-#~ msgid ""
-#~ "When invoked with a configuration file, po4a uses an 'a la make' "
-#~ "algorithm to detect if files changed and if an operation is required."
-#~ msgstr ""
-#~ "Se invocato con un file di configurazione, po4a usa un algoritmo 'alla "
-#~ "make' per rilevare se i file sono cambiati e se è necessaria qualche "
-#~ "operazione."
-
-#~ msgid "Features"
-#~ msgstr "Caratteristiche"
-
-#~ msgid ""
-#~ "Translators are always welcome to contribute on our <a href=\"https://"
-#~ "hosted.weblate.org/projects/po4a/\">weblate project</a>."
-#~ msgstr ""
-#~ "I traduttori sono sempre i benvenuti nel nostro <a href=\"https://hosted."
-#~ "weblate.org/projects/po4a/\">progetto weblate</a>."
-
-#~ msgid "Translations"
-#~ msgstr "Traduzioni"
-
-#~ msgid "po4a - Translations"
-#~ msgstr "po4a - Traduzioni"
-
-#~ msgid ""
-#~ "Strings are usually frozen one or two week before the releases. Tell us "
-#~ "if you want to be notified."
-#~ msgstr ""
-#~ "Le stringhe vengono normalmente bloccate una o due settimane prima della "
-#~ "pubblicazione di una nuova versione. Diteci se volete essere avvertiti."
-
-#~ msgid "po4a runtime translation"
-#~ msgstr "Traduzioni dell'eseguibile po4a"
-
-#~ msgid "po4a documentation translation"
-#~ msgstr "Traduzioni della documentazione di po4a"
