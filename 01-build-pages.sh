@@ -192,6 +192,9 @@ get_language() {
 		ru)
 			echo -n "Русский"
 			;;
+		uk)
+			echo -n "український"
+			;;
 		zh_CN)
 			echo -n "简体中文"
 			;;
