@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.45\n"
 "Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
 "POT-Creation-Date: 2018-02-10 09:06+0100\n"
-"PO-Revision-Date: 2018-02-11 10:36+0000\n"
+"PO-Revision-Date: 2018-02-14 12:23+0000\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/po4a"
 "/po4a-website/pt_BR/>\n"
@@ -48,20 +48,19 @@ msgid ""
 "places it into a PO file that is well adapted to the translation work.  "
 "input in a PO file."
 msgstr ""
+"O po4a extrai material traduzível da documentação original e o coloca em um "
+"arquivo PO que é bem adaptado para o trabalho de tradução.  Entrada em um "
+"arquivo PO."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:28
-#, fuzzy
-#| msgid ""
-#| "When the PO file is translated, it re-injects the translation in the "
-#| "structure of the document, and generates the translated document."
 msgid ""
 "Once the translation is completed in the PO file, po4a re-injects the "
 "translation into the structure of the document to generate a translated "
 "document."
 msgstr ""
-"Quando o arquivo PO é traduzido, ele reinjeta a tradução na estrutura do "
-"documento e gera o documento traduzido."
+"Uma vez que a tradução está concluída no arquivo PO, o po4a reinjeta a "
+"tradução na estrutura da documentação e gera uma documentação traduzida."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:31
@@ -71,6 +70,9 @@ msgid ""
 "both up to date with regard to the original one, and as translated as "
 "possible."
 msgstr ""
+"Se a tradução estiver apenas parcialmente concluída, o texto original "
+"(inglês) é usado. Isto garante que sua documentação traduzida esteja sempre "
+"atualizada com relação ao original e a mais traduzida possível."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:36
@@ -80,6 +82,10 @@ msgid ""
 "translate. With this information, po4a automatically detects what should be "
 "updated on file change."
 msgstr ""
+"Você pode automatizar completamente a manutenção da tradução com um arquivo "
+"de configuração simples, especificando todas as configurações e a lista de "
+"documentos a traduzir. Com esta informação o po4a automaticamente detecta o "
+"que deve ser atualizado na mudança de arquivo."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:42
@@ -140,17 +146,14 @@ msgstr "28-03-2017 - Lançamento do po4a 0.51"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:57
-#, fuzzy
-#| msgid ""
-#| "This release introduces many many bugfixes and some new developments (<a "
-#| "href=\"https://alioth.debian.org/frs/?group_id=30267\">more details</a>)."
 msgid ""
 "This release introduces many many bugfixes and some new developments (<a "
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">more details</"
 "a>)."
 msgstr ""
 "Esta versão introduz muitas correções e alguns novos desenvolvimentos (\n"
-"<a href=\"http://alioth.debian.org/frs/?group_id=30267\">mais detalhes</a>)."
+"<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">mais "
+"detalhes</a>)."
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
