@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a\n"
 "Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
-"POT-Creation-Date: 2018-02-10 11:19+0100\n"
-"PO-Revision-Date: 2018-02-10 11:25+0100\n"
+"POT-Creation-Date: 2018-02-10 09:06+0100\n"
+"PO-Revision-Date: 2018-02-11 10:36+0000\n"
 "Last-Translator: Martin Quinson <martin.quinson@ens-rennes.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "fr/>\n"
@@ -90,7 +90,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:41
 msgid "Supported formats"
-msgstr "Formats gérés"
+msgstr "Formats pris en charge"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:42
@@ -288,7 +288,7 @@ msgid ""
 "a>,"
 msgstr ""
 "Sur notre <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">liste de "
-"diffusion</a>."
+"diffusion</a>,"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:22
@@ -372,8 +372,7 @@ msgstr "À faire"
 #: src/getinvolved.php.en:61
 msgid "We are looking for people interesting in testing/porting on Windows"
 msgstr ""
-"Nous recherchons des personnes intéressées pour tester et porter sous "
-"Windows."
+"Nous recherchons des personnes intéressées pour tester et porter sous Windows"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:63

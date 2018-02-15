@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.45\n"
 "Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
-"POT-Creation-Date: 2018-02-10 11:19+0100\n"
-"PO-Revision-Date: 2018-02-09 23:30+0000\n"
+"POT-Creation-Date: 2018-02-10 09:06+0100\n"
+"PO-Revision-Date: 2018-02-15 12:38+0000\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
-"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/po4a/"
-"po4a-website/pt_BR/>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/po4a"
+"/po4a-website/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,22 +47,22 @@ msgstr ""
 #| msgid "po4a extracts the translatable material from its input in a PO file."
 msgid ""
 "po4a extracts the translatable material from the original document, and "
-"places it into a PO file that is well adapted to the translation work."
-msgstr "O po4a extrai o material traduzível da sua entrada em um arquivo PO."
+"places it into a PO file that is well adapted to the translation work.  "
+"input in a PO file."
+msgstr ""
+"O po4a extrai material traduzível da documentação original e o coloca em um "
+"arquivo PO que é bem adaptado para o trabalho de tradução.  Entrada em um "
+"arquivo PO."
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:27
-#, fuzzy
-#| msgid ""
-#| "When the PO file is translated, it re-injects the translation in the "
-#| "structure of the document, and generates the translated document."
+#: src/index.php.en:28
 msgid ""
 "Once the translation is completed in the PO file, po4a re-injects the "
 "translation into the structure of the document to generate a translated "
 "document."
 msgstr ""
-"Quando o arquivo PO é traduzido, ele reinjeta a tradução na estrutura do "
-"documento e gera o documento traduzido."
+"Uma vez que a tradução está concluída no arquivo PO, o po4a reinjeta a "
+"tradução na estrutura da documentação e gera uma documentação traduzida."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:30
@@ -72,6 +72,9 @@ msgid ""
 "both up to date with regard to the original one, and as translated as "
 "possible."
 msgstr ""
+"Se a tradução estiver apenas parcialmente concluída, o texto original "
+"(inglês) é usado. Isto garante que sua documentação traduzida esteja sempre "
+"atualizada com relação ao original e a mais traduzida possível."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:35
@@ -81,6 +84,10 @@ msgid ""
 "translate. With this information, po4a automatically detectermines the files "
 "to update when something changes."
 msgstr ""
+"Você pode automatizar completamente a manutenção da tradução com um arquivo "
+"de configuração simples, especificando todas as configurações e a lista de "
+"documentos a traduzir. Com esta informação o po4a automaticamente detecta o "
+"que deve ser atualizado na mudança de arquivo."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:41
@@ -88,11 +95,8 @@ msgid "Supported formats"
 msgstr "Formatos suportados"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:42
-#, fuzzy
-#| msgid "po4a supports currently the following formats:"
 msgid "po4a currently supports the following formats:"
-msgstr "po4a atualmente tem suporte aos formatos a seguir:"
+msgstr "O po4a atualmente suporta os seguintes formatos:"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:44
@@ -123,7 +127,7 @@ msgstr "TeX (genérico, LaTeX ou Texinfo)"
 #: src/index.php.en:49
 msgid "text (simple text files with some formatting, markdown, or AsciiDoc)"
 msgstr ""
-"text (arquivos de texto simples com algumas formatações, markdown ou "
+"texto (arquivos de texto simples com algumas formatações, markdown ou "
 "AsciiDoc)"
 
 #. type: Content of: <html><body><div><div><ul><li>
@@ -142,18 +146,15 @@ msgid "2017-03-28 - po4a 0.51 released"
 msgstr "28-03-2017 - Lançamento do po4a 0.51"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:56
 #, fuzzy
-#| msgid ""
-#| "This release introduces many many bugfixes and some new developments (<a "
-#| "href=\"https://alioth.debian.org/frs/?group_id=30267\">more details</a>)."
 msgid ""
 "This release introduces many many bugfixes and some new developments (<a "
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">more details</"
 "a>)."
 msgstr ""
-"Esta versão introduz muitas correções e alguns novos desenvolvimentos (\n"
-"<a href=\"http://alioth.debian.org/frs/?group_id=30267\">mais detalhes</a>)."
+"Esta versão introduz muitas correções e alguns novos desenvolvimentos (<a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">mais "
+"detalhes</a>)."
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
@@ -185,7 +186,7 @@ msgid ""
 "For more details, the <a href=\"man/\">index</a> provides the documentation "
 "of the various commands and modules."
 msgstr ""
-"Para mais detalhes, o <a href=\"man/\">índice</a> fornece a documentação em "
+"Para mais detalhes, o <a href=\"man/\">índice</a> fornece a documentação de "
 "vários comandos e módulos."
 
 #. type: Content of: <html><body><div><div><h2>
@@ -201,10 +202,11 @@ msgid ""
 "on our <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">mailing list</"
 "a> or on IRC (#po4a on oftc)."
 msgstr ""
-"Nós podemos ajudá-lo a montar uma framework de tradução para a documentação "
-"do seu projeto ou adaptar o po4a às suas necessidades. Não hesite em nos "
-"contatar em nossa <a href=\"mailto:po4a-devel@lists.alioth.debian.org"
-"\">lista de discussão</a> ou no IRC (#po4a em oftc)."
+"Nós podemos ajudá-lo a montar uma infraestrutura de tradução para a "
+"documentação do seu projeto ou adaptar o po4a às suas necessidades. Não "
+"hesite em nos contactar em nossa <a href=\"mailto:po4a-"
+"devel@lists.alioth.debian.org\">lista de discussão</a> ou no IRC (#po4a no "
+"oftc)."
 
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
@@ -239,7 +241,7 @@ msgid ""
 msgstr ""
 "O po4a is um módulo de Perl. Ele está disponível como um pacote binário em "
 "muitas distribuições de código aberto (Debian, Ubuntu, FreeBSD, Gentoo, "
-"Fedora, Mandriva e provavelmente outras)."
+"Fedora, Mandriva, openSUSE e provavelmente outras)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:30
@@ -264,7 +266,7 @@ msgid ""
 msgstr ""
 "Ela também contém módulos adicionais que estão sendo considerados, mas não "
 "possuem qualidade suficiente para serem lançados ainda. Em outras palavras, "
-"eles ainda estão aguardando sua contribuição ;)"
+"eles ainda estão aguardando sua contribuição :)"
 
 #. type: Content of: <html><head><title>
 #: src/getinvolved.php.en:11
@@ -279,7 +281,7 @@ msgstr "Envolva-se!"
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:19
 msgid "If you want to participate, you can contact us"
-msgstr "Se você quiser participar, você pode nos contata"
+msgstr "Se você quiser participar, você pode nos contactar"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:21
@@ -293,7 +295,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:22
 msgid "on IRC (#po4a on oftc)."
-msgstr "no IRC (#po4a em oftc)."
+msgstr "no IRC (#po4a no oftc)."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:23
@@ -367,7 +369,7 @@ msgstr "Traduções do site"
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:60
 msgid "TODO"
-msgstr "A Fazer"
+msgstr "A fazer"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:61
