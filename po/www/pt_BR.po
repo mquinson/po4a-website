@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.45\n"
 "Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
-"POT-Creation-Date: 2018-02-10 09:06+0100\n"
+"POT-Creation-Date: 2018-02-10 11:19+0100\n"
 "PO-Revision-Date: 2018-02-15 12:38+0000\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
-"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/po4a"
-"/po4a-website/pt_BR/>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/po4a/"
+"po4a-website/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,15 +47,14 @@ msgstr ""
 #| msgid "po4a extracts the translatable material from its input in a PO file."
 msgid ""
 "po4a extracts the translatable material from the original document, and "
-"places it into a PO file that is well adapted to the translation work.  "
-"input in a PO file."
+"places it into a PO file that is well adapted to the translation work."
 msgstr ""
 "O po4a extrai material traduzível da documentação original e o coloca em um "
 "arquivo PO que é bem adaptado para o trabalho de tradução.  Entrada em um "
 "arquivo PO."
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:28
+#: src/index.php.en:27
 msgid ""
 "Once the translation is completed in the PO file, po4a re-injects the "
 "translation into the structure of the document to generate a translated "
@@ -95,6 +94,7 @@ msgid "Supported formats"
 msgstr "Formatos suportados"
 
 #. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:42
 msgid "po4a currently supports the following formats:"
 msgstr "O po4a atualmente suporta os seguintes formatos:"
 
@@ -146,6 +146,7 @@ msgid "2017-03-28 - po4a 0.51 released"
 msgstr "28-03-2017 - Lançamento do po4a 0.51"
 
 #. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:56
 #, fuzzy
 msgid ""
 "This release introduces many many bugfixes and some new developments (<a "
@@ -153,8 +154,8 @@ msgid ""
 "a>)."
 msgstr ""
 "Esta versão introduz muitas correções e alguns novos desenvolvimentos (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">mais "
-"detalhes</a>)."
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">mais detalhes</"
+"a>)."
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
@@ -204,9 +205,8 @@ msgid ""
 msgstr ""
 "Nós podemos ajudá-lo a montar uma infraestrutura de tradução para a "
 "documentação do seu projeto ou adaptar o po4a às suas necessidades. Não "
-"hesite em nos contactar em nossa <a href=\"mailto:po4a-"
-"devel@lists.alioth.debian.org\">lista de discussão</a> ou no IRC (#po4a no "
-"oftc)."
+"hesite em nos contactar em nossa <a href=\"mailto:po4a-devel@lists.alioth."
+"debian.org\">lista de discussão</a> ou no IRC (#po4a no oftc)."
 
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
