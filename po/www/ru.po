@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.36.6\n"
 "Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
 "POT-Creation-Date: 2018-02-10 11:19+0100\n"
-"PO-Revision-Date: 2018-03-17 21:44+0000\n"
+"PO-Revision-Date: 2018-03-19 21:48+0000\n"
 "Last-Translator: Igor <f2404@yandex.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/ru/>\n"
@@ -337,7 +337,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:40
 msgid "Runtime Translations"
-msgstr "Переводы в реальном времени"
+msgstr "Переводы кода"
 
 #. type: Content of: <html><body><div><div><div><a>
 #: src/getinvolved.php.en:41 src/getinvolved.php.en:48
@@ -369,12 +369,12 @@ msgstr "TODO"
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:61
 msgid "We are looking for people interesting in testing/porting on Windows"
-msgstr "Мы ищем людей заинтересованных в тестировании/переносе на Windows"
+msgstr "Мы ищем людей, заинтересованных в тестировании/переносе на Windows"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:63
 msgid "Support for XLIFF would be welcome."
-msgstr "Поддержка для XLIFF будет приветствоваться."
+msgstr "Поддержка XLIFF будет приветствоваться."
 
 #. type: Content of: <div><div><h1><sup>
 #: src/header.php.en:4
