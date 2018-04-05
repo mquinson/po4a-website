@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.48\n"
 "Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
 "POT-Creation-Date: 2018-02-10 11:19+0100\n"
-"PO-Revision-Date: 2018-02-10 22:41+0100\n"
+"PO-Revision-Date: 2018-04-05 13:37+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@libero.it>\n"
 "Language-Team: Italian <it@li.org>\n"
 "Language: it\n"
@@ -42,7 +42,7 @@ msgstr ""
 msgid ""
 "po4a extracts the translatable material from the original document, and "
 "places it into a PO file that is well adapted to the translation work."
-msgstr "po4a estrae il materiale da tradurre dal documento originale, e lo mette in un file PO, un formato adatto per favorire il lavoro di traduzione."
+msgstr "po4a estrae il materiale da tradurre dal documento originale e lo mette in un file PO, un formato adatto per favorire il lavoro di traduzione."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:27
@@ -50,7 +50,7 @@ msgid ""
 "Once the translation is completed in the PO file, po4a re-injects the "
 "translation into the structure of the document to generate a translated "
 "document."
-msgstr "Una volta che file PO è stato tradotto, po4a re-inserisce la traduzione nella struttura del documento, per generare il documento tradotto."
+msgstr "Una volta tradotto file PO, po4a reinserisce la traduzione nella struttura del documento ottenendo il documento tradotto."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:30
