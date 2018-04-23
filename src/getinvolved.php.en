@@ -18,7 +18,7 @@
 			<h2>Get involved!</h2>
 			<p>If you want to participate, you can contact us</p>
 			<ul>
-				<li>on our <a href="mailto:po4a-devel@lists.alioth.debian.org">mailing list</a>,</li>
+				<li>on our <a href="https://lists.po4a.org/archives/list/devel@lists.po4a.org/">mailing list</a> - <a href="mailto:devel@po4a.org">devel@po4a.org</a>,</li>
 				<li>on IRC (#po4a on oftc).</li></ul>
 			<p>Bug reports, patches, feature requests or any
 			feedback are welcome on the mailing list, in the
