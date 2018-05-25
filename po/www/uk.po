@@ -2,18 +2,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Ukrainian (po4a)\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-21 18:07+0200\n"
+"Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
+"POT-Creation-Date: 2018-02-10 11:19+0100\n"
 "PO-Revision-Date: 2018-03-21 17:34+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/po4a/"
-"po4a-website/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/po4a/po4a-"
+"website/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.20-dev\n"
 
 #. type: Content of: <html><head><title>
@@ -141,11 +141,11 @@ msgstr "28 березня 2017 року — випущено po4a 0.51"
 #: src/index.php.en:56
 msgid ""
 "This release introduces many many bugfixes and some new developments (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">more "
-"details</a>)."
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">more details</"
+"a>)."
 msgstr ""
-"У цьому випуску виправлено дуже багато вад і дещо розроблено (<a href=\""
-"https://github.com/mquinson/po4a/releases/tag/v0.52\">докладніше</a>)."
+"У цьому випуску виправлено дуже багато вад і дещо розроблено (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.52\">докладніше</a>)."
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
@@ -153,7 +153,7 @@ msgid "po4a - Documentation"
 msgstr "po4a — Документація"
 
 #. type: Content of: <div><a>
-#: src/documentation.php.en:18 src/header.php.en:9 src/header.php.en:9
+#: src/documentation.php.en:18 src/header.php.en:9
 msgid "Documentation"
 msgstr "Документація"
 
@@ -190,14 +190,13 @@ msgstr "Довідка"
 msgid ""
 "We can help you to set up a translation framework for your project's "
 "documentation or to adapt po4a to your needs.  Do not hesitate to contact us "
-"on our <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">mailing "
-"list</a> or on IRC (#po4a on oftc)."
+"on our <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">mailing list</"
+"a> or on IRC (#po4a on oftc)."
 msgstr ""
 "Ми можемо допомогти вам налаштувати комплекс перекладу для документації до "
 "вашого проекту або адаптувати po4a до ваших потреб. Не вагайтеся і "
-"спілкуйтеся із нами за допомогою нашого <a href=\"mailto:po4a-"
-"devel@lists.alioth.debian.org\">списку листування</a> або каналу IRC (#po4a "
-"на oftc)."
+"спілкуйтеся із нами за допомогою нашого <a href=\"mailto:po4a-devel@lists."
+"alioth.debian.org\">списку листування</a> або каналу IRC (#po4a на oftc)."
 
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
@@ -212,8 +211,8 @@ msgstr "Початковий код"
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:19
 msgid ""
-"You can find the sources of the latest release on <a "
-"href=\"https://github.com/mquinson/po4a/releases\">GitHub</a>."
+"You can find the sources of the latest release on <a href=\"https://github."
+"com/mquinson/po4a/releases\">GitHub</a>."
 msgstr ""
 "Початковий код найсвіжішого випуску можна знайти на <a href=\"https://github."
 "com/mquinson/po4a/releases\">GitHub</a>."
@@ -242,8 +241,8 @@ msgstr "Сховище git"
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:31
 msgid ""
-"The latest sources are available from our <a "
-"href=\"https://github.com/mquinson/po4a\">Git repository</a>."
+"The latest sources are available from our <a href=\"https://github.com/"
+"mquinson/po4a\">Git repository</a>."
 msgstr ""
 "Найсвіжіший код можна знайти у нашому <a href=\"https://github.com/mquinson/"
 "po4a\">сховищі git</a>."
@@ -277,11 +276,11 @@ msgstr "Якщо ви хочете взяти участь у розробці, 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:21
 msgid ""
-"on our <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">mailing "
-"list</a>,"
+"on our <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">mailing list</"
+"a>,"
 msgstr ""
-"за допомогою нашого <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">"
-"списку листування</a>,"
+"за допомогою нашого <a href=\"mailto:po4a-devel@lists.alioth.debian.org"
+"\">списку листування</a>,"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:22
@@ -292,25 +291,22 @@ msgstr "за допомогою IRC (#po4a на oftc)."
 #: src/getinvolved.php.en:23
 msgid ""
 "Bug reports, patches, feature requests or any feedback are welcome on the "
-"mailing list, in the <a "
-"href=\"https://github.com/mquinson/po4a/issues\">GitHub tracker</a> or in "
-"the <a "
-"href=\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable\">Debian "
-"BTS</a>."
+"mailing list, in the <a href=\"https://github.com/mquinson/po4a/issues"
+"\">GitHub tracker</a> or in the <a href=\"http://bugs.debian.org/cgi-bin/"
+"pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>."
 msgstr ""
 "Ми будемо раді звітам щодо вад, латкам, запитам щодо реалізації нових "
-"можливостей та будь-яким відгукам у нашому списку листування, у <a href=\""
-"https://github.com/mquinson/po4a/issues\">системі стеження за вадами "
-"GitHub</a> або у <a href=\"http://bugs.debian.org/cgi-bin/"
-"pkgreport.cgi?pkg=po4a;dist=unstable\">системі стеження за вадами у "
-"Debian</a>."
+"можливостей та будь-яким відгукам у нашому списку листування, у <a href="
+"\"https://github.com/mquinson/po4a/issues\">системі стеження за вадами "
+"GitHub</a> або у <a href=\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?"
+"pkg=po4a;dist=unstable\">системі стеження за вадами у Debian</a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:27
 msgid ""
-"If you can improve the code yourself, Pull Requests against the <a "
-"href=\"https://github.com/mquinson/po4a\">GitHub repository</a> are more "
-"than welcomed."
+"If you can improve the code yourself, Pull Requests against the <a href="
+"\"https://github.com/mquinson/po4a\">GitHub repository</a> are more than "
+"welcomed."
 msgstr ""
 "Якщо ви можете поліпшити код власноруч, ми будемо дуже раді вашим запитами "
 "щодо злиття у нашому <a href=\"https://github.com/mquinson/po4a\">сховищі "
@@ -324,13 +320,13 @@ msgstr "Переклад"
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:33
 msgid ""
-"The easiest to help translating po4a is to go through <a "
-"href=\"https://hosted.weblate.org/projects/po4a/\">weblate</a> but you can "
-"also provide pull requests on the source git directly if you prefer."
+"The easiest to help translating po4a is to go through <a href=\"https://"
+"hosted.weblate.org/projects/po4a/\">weblate</a> but you can also provide "
+"pull requests on the source git directly if you prefer."
 msgstr ""
-"Найпростішим способом допомогти із перекладом po4a є використання <a href=\""
-"https://hosted.weblate.org/projects/po4a/\">weblate</a>, але ви можете, якщо "
-"хочете, надсилати і запити щодо злиття із початковим сховищем git."
+"Найпростішим способом допомогти із перекладом po4a є використання <a href="
+"\"https://hosted.weblate.org/projects/po4a/\">weblate</a>, але ви можете, "
+"якщо хочете, надсилати і запити щодо злиття із початковим сховищем git."
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:40
@@ -338,12 +334,14 @@ msgid "Runtime Translations"
 msgstr "Переклади інтерфейсу"
 
 #. type: Content of: <html><body><div><div><div><a>
-#: src/getinvolved.php.en:41 src/getinvolved.php.en:48 src/getinvolved.php.en:53
+#: src/getinvolved.php.en:41 src/getinvolved.php.en:48
+#: src/getinvolved.php.en:53
 msgid "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
 msgstr "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
 
 #. type: Content of: <html><body><div><div><div>
-#: src/getinvolved.php.en:44 src/getinvolved.php.en:51 src/getinvolved.php.en:56
+#: src/getinvolved.php.en:44 src/getinvolved.php.en:51
+#: src/getinvolved.php.en:56
 msgid "</a>"
 msgstr "</a>"
 
@@ -383,21 +381,22 @@ msgid "</sup>"
 msgstr "</sup>"
 
 #. type: Content of: <div><a>
-#: src/header.php.en:8 src/header.php.en:8
+#: src/header.php.en:8
 msgid "Welcome"
 msgstr "Вітаємо"
 
 #. type: Content of: <div><a><span>
-#: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10 src/header.php.en:11
+#: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10
+#: src/header.php.en:11
 msgid "&nbsp;&nbsp;&lt;"
 msgstr "&nbsp;&nbsp;&lt;"
 
 #. type: Content of: <div><a>
-#: src/header.php.en:10 src/header.php.en:10
+#: src/header.php.en:10
 msgid "Download"
 msgstr "Отримати"
 
 #. type: Content of: <div><a>
-#: src/header.php.en:11 src/header.php.en:11
+#: src/header.php.en:11
 msgid "Get Involved"
 msgstr "Взяти участь"
