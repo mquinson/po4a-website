@@ -62,7 +62,7 @@ libver=$(grep '$VERSION=' $srcdir/lib/Locale/Po4a/TransTractor.pm | \
          sed -e 's/^.*"\([^"]*\)".*/\1/')
 
 echo "Generate the web pages translations with po4a"
-PERLLIB=$srcdir/lib $srcdir/po4a --previous -v --msgid-bugs-address po4a-devel@lists.alioth.debian.org --package-name po4a --package-version $libver po/html.cfg
+PERLLIB=$srcdir/lib $srcdir/po4a --previous -v --msgid-bugs-address devel@lists.po4a.org --package-name po4a --package-version $libver po/html.cfg
 
 for lang in po/www/*.po
 do
