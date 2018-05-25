@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: po4a\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2018-05-25 15:29+0200\n"
-"PO-Revision-Date: 2018-05-25 13:36+0000\n"
+"PO-Revision-Date: 2018-05-26 13:38+0000\n"
 "Last-Translator: Martin Quinson <martin.quinson@ens-rennes.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "fr/>\n"
@@ -305,7 +305,7 @@ msgid ""
 msgstr ""
 "sur la <a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/\""
 ">liste de diffusion</a> -- <a href=\"mailto:devel@po4a.org\""
-">devel@po4a.org</a>;"
+">devel@po4a.org</a>,"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:22
