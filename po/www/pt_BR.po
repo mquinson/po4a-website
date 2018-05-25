@@ -6,12 +6,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.45\n"
-"Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
-"POT-Creation-Date: 2018-02-10 11:19+0100\n"
+"Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
+"POT-Creation-Date: 2018-05-25 15:29+0200\n"
 "PO-Revision-Date: 2018-02-19 21:13+0000\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
-"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/po4a"
-"/po4a-website/pt_BR/>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/po4a/"
+"po4a-website/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -74,11 +74,17 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:35
+#, fuzzy
+#| msgid ""
+#| "You can fully automatize the translation maintainance with a single "
+#| "configuration file, specifying all settings and the list of documents to "
+#| "translate. With this information, po4a automatically detectermines the "
+#| "files to update when something changes."
 msgid ""
 "You can fully automatize the translation maintainance with a single "
 "configuration file, specifying all settings and the list of documents to "
-"translate. With this information, po4a automatically detectermines the files "
-"to update when something changes."
+"translate. With this information, po4a automatically determines the files to "
+"update when something changes."
 msgstr ""
 "Você pode automatizar completamente a manutenção da tradução com um arquivo "
 "de configuração simples, especificando todas as configurações e a lista de "
@@ -139,19 +145,44 @@ msgstr "KernelHelp"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-msgid "2017-03-28 - po4a 0.51 released"
+#, fuzzy
+#| msgid "2017-03-28 - po4a 0.51 released"
+msgid "2018-05-25 - po4a 0.53 released"
 msgstr "28-03-2017 - Lançamento do po4a 0.51"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
+#, fuzzy
+#| msgid ""
+#| "This release introduces many many bugfixes and some new developments (<a "
+#| "href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">more "
+#| "details</a>)."
+msgid ""
+"The most visible change is a new YAML module, and the fact that alioth was "
+"turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.53\">more details</a>)."
+msgstr ""
+"Esta versão introduz muitas correções e alguns novos desenvolvimentos (<a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">mais detalhes</"
+"a>)."
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:60
+#, fuzzy
+#| msgid "2017-03-28 - po4a 0.51 released"
+msgid "2017-03-28 - po4a 0.52 released"
+msgstr "28-03-2017 - Lançamento do po4a 0.51"
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:61
 msgid ""
 "This release introduces many many bugfixes and some new developments (<a "
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">more details</"
 "a>)."
 msgstr ""
 "Esta versão introduz muitas correções e alguns novos desenvolvimentos (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">mais "
-"detalhes</a>)."
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">mais detalhes</"
+"a>)."
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
@@ -193,11 +224,17 @@ msgstr "Ajuda"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:28
+#, fuzzy
+#| msgid ""
+#| "We can help you to set up a translation framework for your project's "
+#| "documentation or to adapt po4a to your needs.  Do not hesitate to contact "
+#| "us on our <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">mailing "
+#| "list</a> or on IRC (#po4a on oftc)."
 msgid ""
 "We can help you to set up a translation framework for your project's "
 "documentation or to adapt po4a to your needs.  Do not hesitate to contact us "
-"on our <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">mailing list</"
-"a> or on IRC (#po4a on oftc)."
+"on our <a href=\"mailto:devel@lists.po4a.org\">mailing list</a> or on IRC "
+"(#po4a on oftc)."
 msgstr ""
 "Nós podemos ajudá-lo a montar uma infraestrutura de tradução para a "
 "documentação do seu projeto ou adaptar o po4a às suas necessidades. Não "
@@ -282,11 +319,9 @@ msgstr "Se você quiser participar, você pode nos contactar"
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:21
 msgid ""
-"on our <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">mailing list</"
-"a>,"
+"on our <a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/"
+"\">mailing list</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>,"
 msgstr ""
-"em nossa <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">lista de "
-"discussão</a>,"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:22
@@ -408,6 +443,13 @@ msgstr "Download"
 #: src/header.php.en:11
 msgid "Get Involved"
 msgstr "Envolva-se"
+
+#~ msgid ""
+#~ "on our <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">mailing "
+#~ "list</a>,"
+#~ msgstr ""
+#~ "em nossa <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">lista de "
+#~ "discussão</a>,"
 
 #~ msgid "2016-06-17 - po4a 0.48 released"
 #~ msgstr "17-06-2016 - Lançamento do po4a 0.48"

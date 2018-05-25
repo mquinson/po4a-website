@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: po4a-devel@lists.alioth.debian.org\n"
-"POT-Creation-Date: 2018-02-10 11:19+0100\n"
+"Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
+"POT-Creation-Date: 2018-05-25 15:29+0200\n"
 "PO-Revision-Date: 2013-04-26 21:20+0900\n"
 "Last-Translator: KURASAWA Nozomu (nabetaro) <nabetaro@debian.or.jp>\n"
 "Language-Team: Japanese <debian-japanese@lists.debian.org>\n"
@@ -73,8 +73,8 @@ msgstr ""
 msgid ""
 "You can fully automatize the translation maintainance with a single "
 "configuration file, specifying all settings and the list of documents to "
-"translate. With this information, po4a automatically detectermines the files "
-"to update when something changes."
+"translate. With this information, po4a automatically determines the files to "
+"update when something changes."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
@@ -134,11 +134,32 @@ msgstr "KernelHelp"
 #: src/index.php.en:55
 #, fuzzy
 #| msgid "2012-10-17 - po4a 0.43 released"
-msgid "2017-03-28 - po4a 0.51 released"
+msgid "2018-05-25 - po4a 0.53 released"
 msgstr "2012-10-17 - po4a 0.43 リリース"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
+#, fuzzy
+#| msgid ""
+#| "You can find the sources of the latest release on <a href=\"http://alioth."
+#| "debian.org/frs/?group_id=30267\">Alioth</a>."
+msgid ""
+"The most visible change is a new YAML module, and the fact that alioth was "
+"turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.53\">more details</a>)."
+msgstr ""
+"最新リリースのソースコードは、<a href=\"http://alioth.debian.org/frs/?"
+"group_id=30267\">Alioth</a> にあります。"
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:60
+#, fuzzy
+#| msgid "2012-10-17 - po4a 0.43 released"
+msgid "2017-03-28 - po4a 0.52 released"
+msgstr "2012-10-17 - po4a 0.43 リリース"
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:61
 #, fuzzy
 #| msgid ""
 #| "You can find the sources of the latest release on <a href=\"http://alioth."
@@ -191,11 +212,17 @@ msgstr "ヘルプ"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:28
+#, fuzzy
+#| msgid ""
+#| "We can help you to set up a translation framework for your project's "
+#| "documentation or to adapt po4a to your needs.  Do not hesitate to contact "
+#| "us on our <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">mailing "
+#| "list</a> or on IRC (#po4a on oftc)."
 msgid ""
 "We can help you to set up a translation framework for your project's "
 "documentation or to adapt po4a to your needs.  Do not hesitate to contact us "
-"on our <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">mailing list</"
-"a> or on IRC (#po4a on oftc)."
+"on our <a href=\"mailto:devel@lists.po4a.org\">mailing list</a> or on IRC "
+"(#po4a on oftc)."
 msgstr ""
 "私たちは、あなたのプロジェクトへの翻訳フレームワークのセットアップや、あなた"
 "のニーズに合わせて po4a を適用するお手伝いができます。<a href=\"mailto:po4a-"
@@ -291,11 +318,9 @@ msgstr "参加いただけるのであれば、連絡をいただきたいと思
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:21
 msgid ""
-"on our <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">mailing list</"
-"a>,"
+"on our <a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/"
+"\">mailing list</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>,"
 msgstr ""
-"<a href=\"mailto:po4a-devel@lists.alioth.debian.org\">メーリングリスト</a>"
-"で。"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:22
@@ -428,6 +453,13 @@ msgstr "ダウンロード"
 #: src/header.php.en:11
 msgid "Get Involved"
 msgstr "参加する"
+
+#~ msgid ""
+#~ "on our <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">mailing "
+#~ "list</a>,"
+#~ msgstr ""
+#~ "<a href=\"mailto:po4a-devel@lists.alioth.debian.org\">メーリングリスト</a>"
+#~ "で。"
 
 #, fuzzy
 #~| msgid "2012-10-17 - po4a 0.43 released"
