@@ -52,7 +52,12 @@
 			</ul>
 		</div>
 		<div class="item">
-			<h2>2017-03-28 - po4a 0.51 released</h2>
+			<h2>2018-05-25 - po4a 0.53 released</h2>
+			<p>The most visible change is a new YAML
+                           module, and the fact that alioth was turned off
+			   (<a href="https://github.com/mquinson/po4a/releases/tag/v0.53">more details</a>).
+			</p>
+			<h2>2017-03-28 - po4a 0.52 released</h2>
 			<p>This release introduces many many bugfixes
                            and some new developments 
 			   (<a href="https://github.com/mquinson/po4a/releases/tag/v0.52">more details</a>).
