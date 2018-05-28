@@ -4,17 +4,17 @@ msgstr ""
 "Project-Id-Version: Ukrainian (po4a)\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2018-05-25 15:29+0200\n"
-"PO-Revision-Date: 2018-03-21 17:34+0000\n"
+"PO-Revision-Date: 2018-05-25 14:34+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/po4a/po4a-"
-"website/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/po4a/"
+"po4a-website/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.20-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.0-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -70,12 +70,6 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:35
-#, fuzzy
-#| msgid ""
-#| "You can fully automatize the translation maintainance with a single "
-#| "configuration file, specifying all settings and the list of documents to "
-#| "translate. With this information, po4a automatically detectermines the "
-#| "files to update when something changes."
 msgid ""
 "You can fully automatize the translation maintainance with a single "
 "configuration file, specifying all settings and the list of documents to "
@@ -140,32 +134,23 @@ msgstr "довідка до ядра Linux"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-#, fuzzy
-#| msgid "2017-03-28 - po4a 0.51 released"
 msgid "2018-05-25 - po4a 0.53 released"
-msgstr "28 березня 2017 року — випущено po4a 0.51"
+msgstr "25 травня 2018 року — випущено po4a 0.53"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
-#, fuzzy
-#| msgid ""
-#| "This release introduces many many bugfixes and some new developments (<a "
-#| "href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">more "
-#| "details</a>)."
 msgid ""
 "The most visible change is a new YAML module, and the fact that alioth was "
 "turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.53\">more details</a>)."
 msgstr ""
-"У цьому випуску виправлено дуже багато вад і дещо розроблено (<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.52\">докладніше</a>)."
+"Найпомітнішою зміною є новий модуль YAML та те, що alioth було вимкнено (<a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.53\">докладніше</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:60
-#, fuzzy
-#| msgid "2017-03-28 - po4a 0.51 released"
 msgid "2017-03-28 - po4a 0.52 released"
-msgstr "28 березня 2017 року — випущено po4a 0.51"
+msgstr "28 березня 2017 року — випущено po4a 0.52"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:61
@@ -217,12 +202,6 @@ msgstr "Довідка"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:28
-#, fuzzy
-#| msgid ""
-#| "We can help you to set up a translation framework for your project's "
-#| "documentation or to adapt po4a to your needs.  Do not hesitate to contact "
-#| "us on our <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">mailing "
-#| "list</a> or on IRC (#po4a on oftc)."
 msgid ""
 "We can help you to set up a translation framework for your project's "
 "documentation or to adapt po4a to your needs.  Do not hesitate to contact us "
@@ -231,8 +210,8 @@ msgid ""
 msgstr ""
 "Ми можемо допомогти вам налаштувати комплекс перекладу для документації до "
 "вашого проекту або адаптувати po4a до ваших потреб. Не вагайтеся і "
-"спілкуйтеся із нами за допомогою нашого <a href=\"mailto:po4a-devel@lists."
-"alioth.debian.org\">списку листування</a> або каналу IRC (#po4a на oftc)."
+"спілкуйтеся із нами за допомогою нашого <a href=\"mailto:devel@lists.po4a."
+"org\">списку листування</a> або каналу IRC (#po4a на oftc)."
 
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
@@ -315,6 +294,9 @@ msgid ""
 "on our <a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/"
 "\">mailing list</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>,"
 msgstr ""
+"за допомогою нашого <a href=\"https://lists.po4a.org/archives/list/"
+"devel@lists.po4a.org/\">списку листування</a> — <a href=\"mailto:devel@po4a."
+"org\">devel@po4a.org</a>,"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:22
