@@ -30,7 +30,7 @@
 		</div>
 		<div class="item">
 			<h2>Translating</h2>
-			<p>The easiest to help translating po4a is to go through 
+			<p>The easiest to help translating po4a is to go through
 			<a href="https://hosted.weblate.org/projects/po4a/">weblate</a>
 			but you can also provide pull requests on the
 			source git directly if you prefer.</p>
@@ -58,7 +58,7 @@
 		</div>
 		<div class="item">
 			<h2>TODO</h2>
-			<p>We are looking for people interesting in
+			<p>We are looking for people interested in
 			testing/porting on Windows</p>
 			<p>Support for XLIFF would be welcome.</p>
 		</div>
