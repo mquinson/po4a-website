@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.41\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2018-05-25 15:29+0200\n"
+"POT-Creation-Date: 2018-06-30 00:57+0200\n"
 "PO-Revision-Date: 2012-03-13 22:06+0100\n"
 "Last-Translator: Robert Luberda <robert@debian.org>\n"
 "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
@@ -139,11 +139,31 @@ msgstr "komunikaty pomocy kompilacji jądra"
 #: src/index.php.en:55
 #, fuzzy
 #| msgid "2010-12-01 - po4a 0.41 released"
-msgid "2018-05-25 - po4a 0.53 released"
+msgid "2018-06-26 - po4a 0.54 released"
 msgstr "2010-12-01 - po4a 0.41 wydany"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
+#, fuzzy
+#| msgid ""
+#| "You can find the sources of the latest release on <a href=\"http://alioth."
+#| "debian.org/frs/?group_id=30267\">Alioth</a>."
+msgid ""
+"We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
+"com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
+msgstr ""
+"Źródła najnowszej wersji można pobrać z <a href=\"http://alioth.debian.org/"
+"frs/?group_id=30267\">serwera Alioth</a>."
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:59
+#, fuzzy
+#| msgid "2010-12-01 - po4a 0.41 released"
+msgid "2018-05-25 - po4a 0.53 released"
+msgstr "2010-12-01 - po4a 0.41 wydany"
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:60
 #, fuzzy
 #| msgid ""
 #| "You can find the sources of the latest release on <a href=\"http://alioth."
@@ -157,14 +177,14 @@ msgstr ""
 "frs/?group_id=30267\">serwera Alioth</a>."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:60
+#: src/index.php.en:64
 #, fuzzy
 #| msgid "2010-12-01 - po4a 0.41 released"
 msgid "2017-03-28 - po4a 0.52 released"
 msgstr "2010-12-01 - po4a 0.41 wydany"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:61
+#: src/index.php.en:65
 #, fuzzy
 #| msgid ""
 #| "You can find the sources of the latest release on <a href=\"http://alioth."
@@ -422,7 +442,9 @@ msgstr "DO ZROBIENIA"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:61
-msgid "We are looking for people interesting in testing/porting on Windows"
+#, fuzzy
+#| msgid "We are looking for people interesting in testing/porting on Windows"
+msgid "We are looking for people interested in testing/porting on Windows"
 msgstr ""
 "Poszukujemy ludzi zainteresowanych testowaniem i przenoszeniem po4a na "
 "platformę Windows. "

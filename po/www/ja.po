@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2018-05-25 15:29+0200\n"
+"POT-Creation-Date: 2018-06-30 00:57+0200\n"
 "PO-Revision-Date: 2013-04-26 21:20+0900\n"
 "Last-Translator: KURASAWA Nozomu (nabetaro) <nabetaro@debian.or.jp>\n"
 "Language-Team: Japanese <debian-japanese@lists.debian.org>\n"
@@ -134,11 +134,31 @@ msgstr "KernelHelp"
 #: src/index.php.en:55
 #, fuzzy
 #| msgid "2012-10-17 - po4a 0.43 released"
-msgid "2018-05-25 - po4a 0.53 released"
+msgid "2018-06-26 - po4a 0.54 released"
 msgstr "2012-10-17 - po4a 0.43 リリース"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
+#, fuzzy
+#| msgid ""
+#| "You can find the sources of the latest release on <a href=\"http://alioth."
+#| "debian.org/frs/?group_id=30267\">Alioth</a>."
+msgid ""
+"We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
+"com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
+msgstr ""
+"最新リリースのソースコードは、<a href=\"http://alioth.debian.org/frs/?"
+"group_id=30267\">Alioth</a> にあります。"
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:59
+#, fuzzy
+#| msgid "2012-10-17 - po4a 0.43 released"
+msgid "2018-05-25 - po4a 0.53 released"
+msgstr "2012-10-17 - po4a 0.43 リリース"
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:60
 #, fuzzy
 #| msgid ""
 #| "You can find the sources of the latest release on <a href=\"http://alioth."
@@ -152,14 +172,14 @@ msgstr ""
 "group_id=30267\">Alioth</a> にあります。"
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:60
+#: src/index.php.en:64
 #, fuzzy
 #| msgid "2012-10-17 - po4a 0.43 released"
 msgid "2017-03-28 - po4a 0.52 released"
 msgstr "2012-10-17 - po4a 0.43 リリース"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:61
+#: src/index.php.en:65
 #, fuzzy
 #| msgid ""
 #| "You can find the sources of the latest release on <a href=\"http://alioth."
@@ -415,7 +435,9 @@ msgstr "TODO"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:61
-msgid "We are looking for people interesting in testing/porting on Windows"
+#, fuzzy
+#| msgid "We are looking for people interesting in testing/porting on Windows"
+msgid "We are looking for people interested in testing/porting on Windows"
 msgstr "Windows での、テスト・移植に興味がある方を探しています。"
 
 #. type: Content of: <html><body><div><div><p>

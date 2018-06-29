@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2018-05-25 15:29+0200\n"
+"POT-Creation-Date: 2018-06-30 00:57+0200\n"
 "PO-Revision-Date: 2018-05-26 13:38+0000\n"
 "Last-Translator: Martin Quinson <martin.quinson@ens-rennes.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/po4a/po4a-website/"
@@ -141,11 +141,33 @@ msgstr "KernelHelp"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-msgid "2018-05-25 - po4a 0.53 released"
+#, fuzzy
+#| msgid "2018-05-25 - po4a 0.53 released"
+msgid "2018-06-26 - po4a 0.54 released"
 msgstr "25/05/2018 — po4a 0.53 est sorti"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
+#, fuzzy
+#| msgid ""
+#| "This release introduces many many bugfixes and some new developments (<a "
+#| "href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">more "
+#| "details</a>)."
+msgid ""
+"We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
+"com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
+msgstr ""
+"Cette version apporte de nombreuses corrections de bugs, ainsi que quelques "
+"développements nouveaux (<a href=\"https://github.com/mquinson/po4a/releases/"
+"tag/v0.52\">plus d’informations</a> -- en anglais)."
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:59
+msgid "2018-05-25 - po4a 0.53 released"
+msgstr "25/05/2018 — po4a 0.53 est sorti"
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:60
 msgid ""
 "The most visible change is a new YAML module, and the fact that alioth was "
 "turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
@@ -156,12 +178,12 @@ msgstr ""
 "mquinson/po4a/releases/tag/v0.53\">plus d’informations</a> -- en anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:60
+#: src/index.php.en:64
 msgid "2017-03-28 - po4a 0.52 released"
 msgstr "28/03/2017 — po4a 0.52 est sorti"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:61
+#: src/index.php.en:65
 msgid ""
 "This release introduces many many bugfixes and some new developments (<a "
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">more details</"
@@ -303,9 +325,9 @@ msgid ""
 "on our <a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/"
 "\">mailing list</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>,"
 msgstr ""
-"sur la <a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/\""
-">liste de diffusion</a> -- <a href=\"mailto:devel@po4a.org\""
-">devel@po4a.org</a>,"
+"sur la <a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/"
+"\">liste de diffusion</a> -- <a href=\"mailto:devel@po4a.org\">devel@po4a."
+"org</a>,"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:22
@@ -387,7 +409,9 @@ msgstr "À faire"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:61
-msgid "We are looking for people interesting in testing/porting on Windows"
+#, fuzzy
+#| msgid "We are looking for people interesting in testing/porting on Windows"
+msgid "We are looking for people interested in testing/porting on Windows"
 msgstr ""
 "Nous recherchons des personnes intéressées pour tester et porter sous Windows"
 
