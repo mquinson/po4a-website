@@ -58,8 +58,12 @@ mkdir html/man/man3
 mkdir html/man/man5
 mkdir html/man/man7
 
-libver=$(grep '$VERSION=' $srcdir/lib/Locale/Po4a/TransTractor.pm | \
-         sed -e 's/^.*"\([^"]*\)".*/\1/')
+if [ -e VERSION ] ; then
+  libver=`cat VERSION`
+else
+  libver=$(grep '$VERSION=' $srcdir/lib/Locale/Po4a/TransTractor.pm | \
+           sed -e 's/^.*"\([^"]*\)".*/\1/')
+fi
 
 echo "Generate the web pages translations with po4a"
 PERLLIB=$srcdir/lib $srcdir/po4a --previous -v --msgid-bugs-address devel@lists.po4a.org --package-name po4a --package-version $libver po/html.cfg
