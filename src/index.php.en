@@ -15,7 +15,7 @@
 
 	<div id="content">
 		<div class="item">
-			<h2>Welcome!</h2>
+			<h2>Maintain the translations of your documentation with ease</h2>
 			<p>The po4a (PO for anything) project goal is to ease
 			translations (and more interestingly, the maintenance
 			of translations) using gettext tools on areas where
