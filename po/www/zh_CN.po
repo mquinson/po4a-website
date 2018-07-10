@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: po4a-translation\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2018-06-30 00:57+0200\n"
-"PO-Revision-Date: 2013-06-11 07:28+0000\n"
-"Last-Translator: hottea <hot123tea123@gmail.com>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/projects/p/po4a-"
-"translation/language/zh_CN/)\n"
+"PO-Revision-Date: 2018-07-10 08:08+0000\n"
+"Last-Translator: Liu Guang <l.g110@163.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"po4a/po4a-website/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.1-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -41,26 +42,18 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:24
-#, fuzzy
-#| msgid "po4a extracts the translatable material from its input in a PO file."
 msgid ""
 "po4a extracts the translatable material from the original document, and "
 "places it into a PO file that is well adapted to the translation work."
-msgstr "po4a 从输入的 PO 文件中提取要翻译的内容。"
+msgstr "po4a从原始文档中提取可翻译材料，并将其放入适合翻译工作的PO文件中。"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:27
-#, fuzzy
-#| msgid ""
-#| "When the PO file is translated, it re-injects the translation in the "
-#| "structure of the document, and generates the translated document."
 msgid ""
 "Once the translation is completed in the PO file, po4a re-injects the "
 "translation into the structure of the document to generate a translated "
 "document."
-msgstr ""
-"当翻译完成之后，它会将翻译好的内容重新注入原文档的相应结构之中，然后生成翻译"
-"文档。"
+msgstr "在PO文件中完成翻译后，po4a将翻译重新注入文档结构以生成翻译文档。"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:30
@@ -69,7 +62,7 @@ msgid ""
 "is used instead. This ensures that your translated documentation is always "
 "both up to date with regard to the original one, and as translated as "
 "possible."
-msgstr ""
+msgstr "如果翻译只是部分完成，则使用原始（英文）文本。 这可确保你的翻译文档始终与原始文档保持同步，并尽可能地进行翻译。"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:35
@@ -78,7 +71,7 @@ msgid ""
 "configuration file, specifying all settings and the list of documents to "
 "translate. With this information, po4a automatically determines the files to "
 "update when something changes."
-msgstr ""
+msgstr "你可以使用单个配置文件完全自动化翻译维护，指定所有设置和要翻译的文档列表。 有了这些信息，当事情发生变化时，po4a会自动确定要更新的文件。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:41
@@ -87,10 +80,8 @@ msgstr "支持的格式"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:42
-#, fuzzy
-#| msgid "po4a supports currently the following formats:"
 msgid "po4a currently supports the following formats:"
-msgstr "目前 po4a 支持以下格式:"
+msgstr "po4a 目前支持以下格式:"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:44
@@ -134,65 +125,47 @@ msgstr "KernelHelp"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-#, fuzzy
-#| msgid "2012-10-17 - po4a 0.43 released"
 msgid "2018-06-26 - po4a 0.54 released"
-msgstr "2012-10-17 - po4a 0.43 released"
+msgstr "2018-06-26 - po4a 0.54 released"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
-#, fuzzy
-#| msgid ""
-#| "You can find the sources of the latest release on <a href=\"http://alioth."
-#| "debian.org/frs/?group_id=30267\">Alioth</a>."
 msgid ""
 "We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
 msgstr ""
-"你可以在 <a href=\"http://alioth.debian.org/frs/?group_id=30267\">Alioth</a> "
-"找到最新版本的源码。"
+"我们修复了大量的bug，并消除了许多故障<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.54\">更多细节</a>。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:59
-#, fuzzy
-#| msgid "2012-10-17 - po4a 0.43 released"
 msgid "2018-05-25 - po4a 0.53 released"
-msgstr "2012-10-17 - po4a 0.43 released"
+msgstr "2018-05-25 - po4a 0.53 发布"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:60
-#, fuzzy
-#| msgid ""
-#| "You can find the sources of the latest release on <a href=\"http://alioth."
-#| "debian.org/frs/?group_id=30267\">Alioth</a>."
 msgid ""
 "The most visible change is a new YAML module, and the fact that alioth was "
 "turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.53\">more details</a>)."
 msgstr ""
-"你可以在 <a href=\"http://alioth.debian.org/frs/?group_id=30267\">Alioth</a> "
-"找到最新版本的源码。"
+"最明显的变化是新的YAML模块，以及关闭了alioth的事实(<a href=\"https://github.com/mquinson/po4a/"
+"releases/tag/v0.53\">更多细节</a>）。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:64
-#, fuzzy
-#| msgid "2012-10-17 - po4a 0.43 released"
 msgid "2017-03-28 - po4a 0.52 released"
-msgstr "2012-10-17 - po4a 0.43 released"
+msgstr "2017-03-28 - po4a 0.52 发布"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:65
-#, fuzzy
-#| msgid ""
-#| "You can find the sources of the latest release on <a href=\"http://alioth."
-#| "debian.org/frs/?group_id=30267\">Alioth</a>."
 msgid ""
 "This release introduces many many bugfixes and some new developments (<a "
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">more details</"
 "a>)."
 msgstr ""
-"你可以在 <a href=\"http://alioth.debian.org/frs/?group_id=30267\">Alioth</a> "
-"找到最新版本的源码。"
+"此版本引入了许多错误修正和一些新的发展（<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.52\">更多细节</a>）。"
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
@@ -231,21 +204,14 @@ msgstr "帮助"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:28
-#, fuzzy
-#| msgid ""
-#| "We can help you to set up a translation framework for your project's "
-#| "documentation or to adapt po4a to your needs.  Do not hesitate to contact "
-#| "us on our <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">mailing "
-#| "list</a> or on IRC (#po4a on oftc)."
 msgid ""
 "We can help you to set up a translation framework for your project's "
 "documentation or to adapt po4a to your needs.  Do not hesitate to contact us "
 "on our <a href=\"mailto:devel@lists.po4a.org\">mailing list</a> or on IRC "
 "(#po4a on oftc)."
 msgstr ""
-"我们可以帮助你来为你的项目文档建立一个翻译框架或者调整 po4a 以符合你的需求，"
-"所以不要犹豫了，赶紧联系我们吧，使用 <a href=\"mailto:po4a-devel@lists."
-"alioth.debian.org\">邮件列表</a> 或者 IRC (在 oftc 上的 #po4a 频道)。"
+"我们可以帮助你来为你的项目文档建立一个翻译框架或者调整 po4a 以符合你的需求，所以不要犹豫了，赶紧联系我们吧，使用 <a href=\""
+"mailto:devel@lists.po4a.org\">邮件列表</a> 或者 IRC (在 oftc 上的 #po4a 频道)。"
 
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
@@ -259,16 +225,12 @@ msgstr "源码"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:19
-#, fuzzy
-#| msgid ""
-#| "You can find the sources of the latest release on <a href=\"http://alioth."
-#| "debian.org/frs/?group_id=30267\">Alioth</a>."
 msgid ""
 "You can find the sources of the latest release on <a href=\"https://github."
 "com/mquinson/po4a/releases\">GitHub</a>."
 msgstr ""
-"你可以在 <a href=\"http://alioth.debian.org/frs/?group_id=30267\">Alioth</a> "
-"找到最新版本的源码。"
+"你可以在<a href=\"https://github.com/mquinson/po4a/releases\""
+">GitHub上</a>找到最新版本的源码。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:23
@@ -288,32 +250,22 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:30
 msgid "Git repository"
-msgstr ""
+msgstr "Git存储库"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:31
-#, fuzzy
-#| msgid ""
-#| "The latest sources are available from our <a href=\"http://alioth.debian."
-#| "org/scm/?group_id=30267\">Subversion repository</a>."
 msgid ""
 "The latest sources are available from our <a href=\"https://github.com/"
 "mquinson/po4a\">Git repository</a>."
-msgstr ""
-"最新的源码可以在我们的 <a href=\"http://alioth.debian.org/scm/?"
-"group_id=30267\">Subversion 仓库</a> 找到。"
+msgstr "最新的源码可以在我们的 <a href=\"https://github.com/mquinson/po4a\">Git 仓库</a> 找到。"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:34
-#, fuzzy
-#| msgid ""
-#| "It also contains additional modules which are being considered, but are "
-#| "not of a sufficient quality."
 msgid ""
 "It also contains additional modules which are being considered, but are not "
 "of sufficient quality to be released yet. In other words, they are still "
 "waiting for your contributions :)"
-msgstr "它也包含了我们正在考虑之中，但是还没有能保证质量的额外模块，"
+msgstr "它也包含了我们正在考虑之中，但是还没有能保证质量的额外模块，换言之，他们仍在等待你的贡献：）"
 
 #. type: Content of: <html><head><title>
 #: src/getinvolved.php.en:11
@@ -336,6 +288,8 @@ msgid ""
 "on our <a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/"
 "\">mailing list</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>,"
 msgstr ""
+"在我们<a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/\""
+">邮件列表上</a>-<a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>，"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:22
@@ -344,37 +298,25 @@ msgstr "在 IRC 上 (在 oftc 的 #po4a 频道)"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:23
-#, fuzzy
-#| msgid ""
-#| "Bug reports, patches, feature requests or any feedback are welcome on the "
-#| "mailing list, in the <a href=\"http://alioth.debian.org/tracker/?"
-#| "atid=410622&amp;group_id=30267\">Alioth tracker</a> or in the <a href="
-#| "\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable"
-#| "\">Debian BTS</a>."
 msgid ""
 "Bug reports, patches, feature requests or any feedback are welcome on the "
 "mailing list, in the <a href=\"https://github.com/mquinson/po4a/issues"
 "\">GitHub tracker</a> or in the <a href=\"http://bugs.debian.org/cgi-bin/"
 "pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>."
 msgstr ""
-"bug 报告，补丁，特性请求或者其他任何回馈都非常欢迎在邮件列表提出，在 <a href="
-"\"http://alioth.debian.org/tracker/?atid=410622&amp;group_id=30267\">Alioth "
-"tracker</a> 或者 <a href=\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?"
-"pkg=po4a;dist=unstable\">Debian BTS</a>。"
+"bug 报告，补丁，特性请求或者其他任何回馈都非常欢迎在邮件列表提出，在 <a href=\"https://github.com/mquinson/"
+"po4a/issues\"> GitHub tracker</a> 或者 <a href=\"http://bugs.debian.org/"
+"cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>。"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:27
-#, fuzzy
-#| msgid ""
-#| "You can find the sources of the latest release on <a href=\"http://alioth."
-#| "debian.org/frs/?group_id=30267\">Alioth</a>."
 msgid ""
 "If you can improve the code yourself, Pull Requests against the <a href="
 "\"https://github.com/mquinson/po4a\">GitHub repository</a> are more than "
 "welcomed."
 msgstr ""
-"你可以在 <a href=\"http://alioth.debian.org/frs/?group_id=30267\">Alioth</a> "
-"找到最新版本的源码。"
+"如果你自己可以改善代码，非常欢迎你到GitHub仓库上合并请求<a href=\"https://github.com/mquinson/po4a\""
+"></a>。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:32
@@ -388,39 +330,35 @@ msgid ""
 "hosted.weblate.org/projects/po4a/\">weblate</a> but you can also provide "
 "pull requests on the source git directly if you prefer."
 msgstr ""
+"最简单帮助翻译po4a的方法是通过 <a href=\"https://hosted.weblate.org/projects/po4a/\"></a> "
+"但如果你愿意，也可以直接在源git上提供拉请求。"
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:40
-#, fuzzy
-#| msgid "Translations"
 msgid "Runtime Translations"
-msgstr "翻译"
+msgstr "运行时翻译"
 
 #. type: Content of: <html><body><div><div><div><a>
 #: src/getinvolved.php.en:41 src/getinvolved.php.en:48
 #: src/getinvolved.php.en:53
 msgid "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
-msgstr ""
+msgstr "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
 
 #. type: Content of: <html><body><div><div><div>
 #: src/getinvolved.php.en:44 src/getinvolved.php.en:51
 #: src/getinvolved.php.en:56
 msgid "</a>"
-msgstr ""
+msgstr "</a>"
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:47
-#, fuzzy
-#| msgid "Documentation"
 msgid "Documentation Translations"
-msgstr "文档"
+msgstr "文档翻译"
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:52
-#, fuzzy
-#| msgid "Translations"
 msgid "Website Translations"
-msgstr "翻译"
+msgstr "网站翻译"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:60
@@ -429,10 +367,8 @@ msgstr "TODO"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:61
-#, fuzzy
-#| msgid "We are looking for people interesting in testing/porting on Windows"
 msgid "We are looking for people interested in testing/porting on Windows"
-msgstr "我们正在寻找有兴趣在 Windows 平台进行测试/移植的人。"
+msgstr "我们正在寻找有兴趣在 Windows 平台进行测试/移植的人"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:63
