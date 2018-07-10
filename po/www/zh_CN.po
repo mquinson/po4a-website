@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: po4a-translation\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2018-06-30 00:57+0200\n"
-"PO-Revision-Date: 2018-07-10 08:08+0000\n"
+"PO-Revision-Date: 2018-07-11 09:35+0000\n"
 "Last-Translator: Liu Guang <l.g110@163.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "po4a/po4a-website/zh_Hans/>\n"
@@ -27,7 +27,7 @@ msgstr "po4a - 欢迎"
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:18
 msgid "Welcome!"
-msgstr "欢迎"
+msgstr "欢迎！"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:19
@@ -121,12 +121,12 @@ msgstr "INI"
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:51
 msgid "KernelHelp"
-msgstr "KernelHelp"
+msgstr "内核帮助"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
 msgid "2018-06-26 - po4a 0.54 released"
-msgstr "2018-06-26 - po4a 0.54 released"
+msgstr "2018-06-26 - po4a 0.54 发布"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
@@ -195,7 +195,7 @@ msgstr ""
 msgid ""
 "For more details, the <a href=\"man/\">index</a> provides the documentation "
 "of the various commands and modules."
-msgstr "详情请参考 <a href=\"man/\">index</a>，它提供了各种命令与模块的文档"
+msgstr "详情请参考 <a href=\"man/\"> 索引 </a>，它提供了各种命令与模块的文档。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/documentation.php.en:27
@@ -270,17 +270,17 @@ msgstr "它也包含了我们正在考虑之中，但是还没有能保证质量
 #. type: Content of: <html><head><title>
 #: src/getinvolved.php.en:11
 msgid "po4a - Get involved!"
-msgstr "po4a - 参与"
+msgstr "po4a - 参与其中！"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:18
 msgid "Get involved!"
-msgstr "参与"
+msgstr "参与其中！"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:19
 msgid "If you want to participate, you can contact us"
-msgstr "如果你想参与，欢迎联系我们。"
+msgstr "如果你想参与，欢迎联系我们"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:21
@@ -294,7 +294,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:22
 msgid "on IRC (#po4a on oftc)."
-msgstr "在 IRC 上 (在 oftc 的 #po4a 频道)"
+msgstr "在 IRC 上 (在 oftc 的 #po4a 频道)。"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:23
