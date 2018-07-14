@@ -11,4 +11,5 @@ AddType application/x-httpd-php pt
 AddType application/x-httpd-php pt_BR
 AddType application/x-httpd-php ru
 AddType application/x-httpd-php zh_CN
-
+AddLanguage pt-br .pt_BR
+AddLanguage zh-cn .zh_CN
