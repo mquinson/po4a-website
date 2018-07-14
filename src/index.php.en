@@ -33,7 +33,7 @@
 			the original one, and as translated as possible.</p>
 			
 			<p>You can fully automatize the translation
-			maintainance with a single configuration file, specifying all settings
+			maintenance with a single configuration file, specifying all settings
 			and the list of documents to translate. With this information, po4a
 			automatically determines the files to update when something changes.</p>
 		</div>
