@@ -227,6 +227,7 @@ gen_language_footer() {
 		language=$(get_language $langcode)
 		echo "<a href=\"$(basename $page | sed -e 's/:/%3A/g').$langcode\">$language</a>" >> $out
 	done
+	echo '(how to set the <a href="https://www.debian.org/intro/cn">default document language</a>)' >> $out
 	echo "</div>" >> $out
 #	echo "done"
 }
