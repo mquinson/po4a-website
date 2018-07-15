@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: po4a\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2018-07-15 11:01+0200\n"
-"PO-Revision-Date: 2018-05-26 13:38+0000\n"
+"PO-Revision-Date: 2018-07-15 09:47+0000\n"
 "Last-Translator: Martin Quinson <martin.quinson@ens-rennes.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "fr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.0-dev\n"
+"X-Generator: Weblate 3.1-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -28,7 +28,7 @@ msgstr "po4a — Bienvenue"
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:18
 msgid "Maintain the translations of your documentation with ease"
-msgstr ""
+msgstr "Maintenez facilement la traduction de votre documentation"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:19
@@ -76,12 +76,6 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:35
-#, fuzzy
-#| msgid ""
-#| "You can fully automatize the translation maintainance with a single "
-#| "configuration file, specifying all settings and the list of documents to "
-#| "translate. With this information, po4a automatically determines the files "
-#| "to update when something changes."
 msgid ""
 "You can fully automatize the translation maintenance with a single "
 "configuration file, specifying all settings and the list of documents to "
@@ -147,25 +141,18 @@ msgstr "KernelHelp"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-#, fuzzy
-#| msgid "2018-05-25 - po4a 0.53 released"
 msgid "2018-06-30 - po4a 0.54 released"
-msgstr "25/05/2018 — po4a 0.53 est sorti"
+msgstr "30 juin 2018 — po4a 0.54 est sorti"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
-#, fuzzy
-#| msgid ""
-#| "This release introduces many many bugfixes and some new developments (<a "
-#| "href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">more "
-#| "details</a>)."
 msgid ""
 "We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
 msgstr ""
-"Cette version apporte de nombreuses corrections de bugs, ainsi que quelques "
-"développements nouveaux (<a href=\"https://github.com/mquinson/po4a/releases/"
-"tag/v0.52\">plus d’informations</a> -- en anglais)."
+"Nous avons corrigé une tonne de bugs et autres problèmes (<a href=\""
+"https://github.com/mquinson/po4a/releases/tag/v0.54\">plus d’informations</a>"
+" -- en anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:59
@@ -415,8 +402,6 @@ msgstr "À faire"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:61
-#, fuzzy
-#| msgid "We are looking for people interesting in testing/porting on Windows"
 msgid "We are looking for people interested in testing/porting on Windows"
 msgstr ""
 "Nous recherchons des personnes intéressées pour tester et porter sous Windows"
