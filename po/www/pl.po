@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.41\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2018-06-30 00:57+0200\n"
+"POT-Creation-Date: 2018-07-15 11:01+0200\n"
 "PO-Revision-Date: 2012-03-13 22:06+0100\n"
 "Last-Translator: Robert Luberda <robert@debian.org>\n"
 "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
@@ -25,8 +25,10 @@ msgstr "po4a - Witamy"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:18
-msgid "Welcome!"
-msgstr "Witamy!"
+#, fuzzy
+#| msgid "Translations of the documentation"
+msgid "Maintain the translations of your documentation with ease"
+msgstr "Tłumaczenia dokumentacji"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:19
@@ -76,7 +78,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:35
 msgid ""
-"You can fully automatize the translation maintainance with a single "
+"You can fully automatize the translation maintenance with a single "
 "configuration file, specifying all settings and the list of documents to "
 "translate. With this information, po4a automatically determines the files to "
 "update when something changes."
@@ -139,7 +141,7 @@ msgstr "komunikaty pomocy kompilacji jądra"
 #: src/index.php.en:55
 #, fuzzy
 #| msgid "2010-12-01 - po4a 0.41 released"
-msgid "2018-06-26 - po4a 0.54 released"
+msgid "2018-06-30 - po4a 0.54 released"
 msgstr "2010-12-01 - po4a 0.41 wydany"
 
 #. type: Content of: <html><body><div><div><p>
@@ -485,6 +487,9 @@ msgstr "Pobieranie"
 msgid "Get Involved"
 msgstr "Zaangażuj się"
 
+#~ msgid "Welcome!"
+#~ msgstr "Witamy!"
+
 #~ msgid ""
 #~ "on our <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">mailing "
 #~ "list</a>,"
@@ -609,9 +614,6 @@ msgstr "Zaangażuj się"
 
 #~ msgid "Po4a is currently translated in the following languages:"
 #~ msgstr "Obecnie po4a zostało przetłumaczone na następujące języki:"
-
-#~ msgid "Translations of the documentation"
-#~ msgstr "Tłumaczenia dokumentacji"
 
 #~ msgid ""
 #~ "The po4a documentation is also translated in the following languages:"

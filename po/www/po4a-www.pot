@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: po4a 0.54\n"
+"Project-Id-Version: po4a 0.55-alpha\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2018-06-30 00:57+0200\n"
+"POT-Creation-Date: 2018-07-15 11:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:18
-msgid "Welcome!"
+msgid "Maintain the translations of your documentation with ease"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
@@ -62,7 +62,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:35
 msgid ""
-"You can fully automatize the translation maintainance with a single "
+"You can fully automatize the translation maintenance with a single "
 "configuration file, specifying all settings and the list of documents to "
 "translate. With this information, po4a automatically determines the files to "
 "update when something changes."
@@ -120,7 +120,7 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-msgid "2018-06-26 - po4a 0.54 released"
+msgid "2018-06-30 - po4a 0.54 released"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>

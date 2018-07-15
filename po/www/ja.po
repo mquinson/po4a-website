@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2018-06-30 00:57+0200\n"
+"POT-Creation-Date: 2018-07-15 11:01+0200\n"
 "PO-Revision-Date: 2013-04-26 21:20+0900\n"
 "Last-Translator: KURASAWA Nozomu (nabetaro) <nabetaro@debian.or.jp>\n"
 "Language-Team: Japanese <debian-japanese@lists.debian.org>\n"
@@ -21,8 +21,10 @@ msgstr "po4a - ようこそ"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:18
-msgid "Welcome!"
-msgstr "ようこそ!"
+#, fuzzy
+#| msgid "Translations of the documentation"
+msgid "Maintain the translations of your documentation with ease"
+msgstr "ドキュメントの翻訳"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:19
@@ -71,7 +73,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:35
 msgid ""
-"You can fully automatize the translation maintainance with a single "
+"You can fully automatize the translation maintenance with a single "
 "configuration file, specifying all settings and the list of documents to "
 "translate. With this information, po4a automatically determines the files to "
 "update when something changes."
@@ -134,7 +136,7 @@ msgstr "KernelHelp"
 #: src/index.php.en:55
 #, fuzzy
 #| msgid "2012-10-17 - po4a 0.43 released"
-msgid "2018-06-26 - po4a 0.54 released"
+msgid "2018-06-30 - po4a 0.54 released"
 msgstr "2012-10-17 - po4a 0.43 リリース"
 
 #. type: Content of: <html><body><div><div><p>
@@ -476,6 +478,9 @@ msgstr "ダウンロード"
 msgid "Get Involved"
 msgstr "参加する"
 
+#~ msgid "Welcome!"
+#~ msgstr "ようこそ!"
+
 #~ msgid ""
 #~ "on our <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">mailing "
 #~ "list</a>,"
@@ -596,9 +601,6 @@ msgstr "参加する"
 
 #~ msgid "Po4a is currently translated in the following languages:"
 #~ msgstr "Po4a は現在、以下の言語に翻訳されています。"
-
-#~ msgid "Translations of the documentation"
-#~ msgstr "ドキュメントの翻訳"
 
 #~ msgid ""
 #~ "The po4a documentation is also translated in the following languages:"

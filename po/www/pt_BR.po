@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.45\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2018-06-30 00:57+0200\n"
+"POT-Creation-Date: 2018-07-15 11:01+0200\n"
 "PO-Revision-Date: 2018-07-09 15:55+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/po4a/"
@@ -26,8 +26,10 @@ msgstr "po4a - Bem-vindo"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:18
-msgid "Welcome!"
-msgstr "Bem-vindo!"
+#, fuzzy
+#| msgid "Translations of the documentation"
+msgid "Maintain the translations of your documentation with ease"
+msgstr "Traduções da documentação"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:19
@@ -74,8 +76,14 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:35
+#, fuzzy
+#| msgid ""
+#| "You can fully automatize the translation maintainance with a single "
+#| "configuration file, specifying all settings and the list of documents to "
+#| "translate. With this information, po4a automatically determines the files "
+#| "to update when something changes."
 msgid ""
-"You can fully automatize the translation maintainance with a single "
+"You can fully automatize the translation maintenance with a single "
 "configuration file, specifying all settings and the list of documents to "
 "translate. With this information, po4a automatically determines the files to "
 "update when something changes."
@@ -139,7 +147,9 @@ msgstr "KernelHelp"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-msgid "2018-06-26 - po4a 0.54 released"
+#, fuzzy
+#| msgid "2018-06-26 - po4a 0.54 released"
+msgid "2018-06-30 - po4a 0.54 released"
 msgstr "26-06-2018 - Lançamento do po4a 0.54"
 
 #. type: Content of: <html><body><div><div><p>
@@ -439,6 +449,9 @@ msgstr "Download"
 msgid "Get Involved"
 msgstr "Envolva-se"
 
+#~ msgid "Welcome!"
+#~ msgstr "Bem-vindo!"
+
 #~ msgid ""
 #~ "on our <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">mailing "
 #~ "list</a>,"
@@ -563,9 +576,6 @@ msgstr "Envolva-se"
 
 #~ msgid "Po4a is currently translated in the following languages:"
 #~ msgstr "Po4a está traduzido atualmente nos idiomas a seguir:"
-
-#~ msgid "Translations of the documentation"
-#~ msgstr "Traduções da documentação"
 
 #~ msgid ""
 #~ "The po4a documentation is also translated in the following languages:"
