@@ -32,40 +32,40 @@ percent_lang() {
 	echo $((($YES*100)/$TOTAL))
 }
 
-cd $srcdir
-LANGS=
-for lang in po/pod/*.po
-do
-	LANGS=$LANGS" "$(echo $lang | sed -e 's,^po/pod/,,' -e 's,\.po$,,')
-done
-
-perl Build.PL
-PO4AFLAGS='-k 0' ./Build
-cd $curdir
-
-rm -rf html/
-find src -name \*~ -exec rm {} \;
-cp -a $srcdir/blib/man html
-#cp -a $srcdir/blib/libdoc html/man3
-find html -name \*.gz -exec gunzip {} \;
-#find html/man3 html/*/man3 -name \*.3 -exec mv {} {}pm \;
-for f in $(find html/man1 html/*/man1 -name \*.1p); do mv $f ${f%p}; done
-mkdir -p html/en/
-mv html/man* html/en/
-mkdir html/man
-mkdir html/man/man1
-mkdir html/man/man3
-mkdir html/man/man5
-mkdir html/man/man7
-
-if [ -e VERSION ] ; then
-  libver=`cat VERSION`
-else
-  libver=$(grep '$VERSION=' $srcdir/lib/Locale/Po4a/TransTractor.pm | \
+libver=$(grep '$VERSION=' $srcdir/lib/Locale/Po4a/TransTractor.pm | \
            sed -e 's/^.*"\([^"]*\)".*/\1/')
+webver=$(cat VERSION)
+if [ "x$libver" = "x$webver" ] ; then
+	echo "XXX Regenerating the documentation because the code is at the same version than the website ($libver)"
+	cd $srcdir
+	LANGS=
+	for lang in po/pod/*.po
+	do
+		LANGS=$LANGS" "$(echo $lang | sed -e 's,^po/pod/,,' -e 's,\.po$,,')
+	done
+
+	perl Build.PL
+	PO4AFLAGS='-k 0' ./Build
+	cd $curdir
+
+	rm -rf html/
+	find src -name \*~ -exec rm {} \;
+	cp -a $srcdir/blib/man html
+	find html -name \*.gz -exec gunzip {} \;
+	for f in $(find html/man1 html/*/man1 -name \*.1p); do mv $f ${f%p}; done
+	mkdir -p html/en/
+	mv html/man* html/en/
+	mkdir html/man
+	mkdir html/man/man1
+	mkdir html/man/man3
+	mkdir html/man/man5
+	mkdir html/man/man7
+else
+	echo "XXX Not regenerating the documentation because the webversion ($webver) is not the libversion ($libver)"
 fi
 
-echo "Generate the web pages translations with po4a"
+echo
+echo "XXX Generate the web pages translations with po4a"
 PERLLIB=$srcdir/lib $srcdir/po4a --previous -v --msgid-bugs-address devel@lists.po4a.org --package-name po4a --package-version $libver po/html.cfg
 
 for lang in po/www/*.po
@@ -78,6 +78,7 @@ do
 done
 
 
+if [ "x$libver" = "x$webver" ] ; then
 for lang in en $LANGS ; do
 	header=header.php.$lang
 	[ -e html/$header ] || header=header.php.en
@@ -130,7 +131,7 @@ EOT
 </html>
 EOT
 
-	echo Generate the $lang HTML pages
+	echo "XXX Generate the $lang HTML pages"
 	for man in html/$lang/man*/*
 	do
 		#test -e $man || continue
@@ -153,9 +154,10 @@ EOT
 	fi
 done
 rm -rf html/en
+fi
 
 echo Extract the version
-echo $libver > html/version.php
+echo $webver > html/version.php
 
 get_language() {
 # FIXME: use gettext
@@ -229,16 +231,20 @@ gen_language_footer() {
 #	echo "done"
 }
 
-echo "Generating language footers"
+echo
+echo "XXX Generating language footers"
 for page in src/*.en
 do
 	gen_language_footer "$page"
 done
 
-find html -name "*.en" |
-while read page
-do
-	gen_language_footer "$page"
-done
+if [ "x$libver" = "x$webver" ] ; then
+	find html -name "*.en" | 
+	while read page
+	do
+		gen_language_footer "$page"
+	done
+fi
 
-echo "The pages are built now. You can browse them in html/, or upload them"
+echo
+echo "XXX The pages are built now. You can browse them in html/, or upload them"
