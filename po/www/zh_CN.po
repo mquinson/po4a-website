@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: po4a-translation\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2018-07-15 11:01+0200\n"
-"PO-Revision-Date: 2018-07-11 09:35+0000\n"
+"PO-Revision-Date: 2018-07-20 09:58+0000\n"
 "Last-Translator: Liu Guang <l.g110@163.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "po4a/po4a-website/zh_Hans/>\n"
@@ -26,10 +26,8 @@ msgstr "po4a - 欢迎"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:18
-#, fuzzy
-#| msgid "Translations of the documentation"
 msgid "Maintain the translations of your documentation with ease"
-msgstr "文档的翻译"
+msgstr "轻松地维护文档的翻译"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:19
@@ -70,20 +68,12 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:35
-#, fuzzy
-#| msgid ""
-#| "You can fully automatize the translation maintainance with a single "
-#| "configuration file, specifying all settings and the list of documents to "
-#| "translate. With this information, po4a automatically determines the files "
-#| "to update when something changes."
 msgid ""
 "You can fully automatize the translation maintenance with a single "
 "configuration file, specifying all settings and the list of documents to "
 "translate. With this information, po4a automatically determines the files to "
 "update when something changes."
-msgstr ""
-"你可以使用单个配置文件完全自动化翻译维护，指定所有设置和要翻译的文档列表。 有"
-"了这些信息，当事情发生变化时，po4a会自动确定要更新的文件。"
+msgstr "你可以使用单个配置文件完全自动化翻译维护，指定所有设置和要翻译的文档列表。 有了这些信息，当事情发生变化时，po4a会自动确定要更新的文件。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:41
@@ -98,7 +88,7 @@ msgstr "po4a 目前支持以下格式:"
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:44
 msgid "manpages"
-msgstr "手册页"
+msgstr "手册页面"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:45
@@ -137,10 +127,8 @@ msgstr "内核帮助"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-#, fuzzy
-#| msgid "2018-06-26 - po4a 0.54 released"
 msgid "2018-06-30 - po4a 0.54 released"
-msgstr "2018-06-26 - po4a 0.54 发布"
+msgstr "2018-06-30 - po4a 0.54 发布"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
