@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: po4a-translation\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2018-07-15 11:01+0200\n"
-"PO-Revision-Date: 2018-07-20 09:58+0000\n"
+"PO-Revision-Date: 2018-07-21 10:35+0000\n"
 "Last-Translator: Liu Guang <l.g110@163.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "po4a/po4a-website/zh_Hans/>\n"
@@ -136,8 +136,8 @@ msgid ""
 "We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
 msgstr ""
-"我们修复了大量的bug，并消除了许多故障<a href=\"https://github.com/mquinson/"
-"po4a/releases/tag/v0.54\">更多细节</a>。"
+"我们修复了大量的bug，并消除了许多错误<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.54\">更多细节</a>。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:59
@@ -182,15 +182,14 @@ msgstr "文档"
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:19
 msgid "Here is an HTML version of the po4a's manpages."
-msgstr "这里有一个 HTML 版本的 po4a 手册页。"
+msgstr "这里有一个 HTML 版本的 po4a 手册。"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:20
 msgid ""
 "The <a href=\"man/man7/po4a.7.php\">po4a.7</a> manpage provides an "
 "introduction to po4a."
-msgstr ""
-"<a href=\"man/man7/po4a.7.php\">po4a.7</a> 手册页提供了对 po4a 的介绍。"
+msgstr "<a href=\"man/man7/po4a.7.php\">po4a.7</a> 手册提供了对 po4a 的介绍。"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:22
