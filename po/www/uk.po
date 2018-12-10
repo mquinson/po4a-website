@@ -4,17 +4,17 @@ msgstr ""
 "Project-Id-Version: Ukrainian (po4a)\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2018-12-10 12:05+0100\n"
-"PO-Revision-Date: 2018-07-15 09:19+0000\n"
+"PO-Revision-Date: 2018-12-11 12:09+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/po4a/po4a-"
-"website/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/po4a/"
+"po4a-website/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.1-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.4-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -134,25 +134,19 @@ msgstr "довідка до ядра Linux"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-#, fuzzy
-#| msgid "2018-06-30 - po4a 0.54 released"
 msgid "2018-12-09 - po4a 0.55 released"
-msgstr "30 червня 2018 року — випущено po4a 0.54"
+msgstr "9 грудня 2018 року — випущено po4a 0.55"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
-#, fuzzy
-#| msgid ""
-#| "This release introduces many many bugfixes and some new developments (<a "
-#| "href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">more "
-#| "details</a>)."
 msgid ""
 "New features and bug fixes to both the individual parsers and common parts "
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
 "details</a>)."
 msgstr ""
-"У цьому випуску виправлено дуже багато вад і дещо розроблено (<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.52\">докладніше</a>)."
+"Нові можливості і виправлення вад для окремих засобів обробки та загальних "
+"частин (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\""
+">докладніше</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:59
