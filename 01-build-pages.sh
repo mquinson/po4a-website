@@ -204,6 +204,9 @@ get_language() {
 		zh_CN)
 			echo -n "简体中文"
 			;;
+		zh_CHS)
+			echo -n "简体中文"
+			;;
 		*)
 			echo "Language '$1' not supported" >&2
 			exit 1

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a-translation\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2018-07-15 11:01+0200\n"
+"POT-Creation-Date: 2018-12-10 12:05+0100\n"
 "PO-Revision-Date: 2018-07-21 10:35+0000\n"
 "Last-Translator: Liu Guang <l.g110@163.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -73,7 +73,9 @@ msgid ""
 "configuration file, specifying all settings and the list of documents to "
 "translate. With this information, po4a automatically determines the files to "
 "update when something changes."
-msgstr "你可以使用单个配置文件完全自动化翻译维护，指定所有设置和要翻译的文档列表。 有了这些信息，当事情发生变化时，po4a会自动确定要更新的文件。"
+msgstr ""
+"你可以使用单个配置文件完全自动化翻译维护，指定所有设置和要翻译的文档列表。 有"
+"了这些信息，当事情发生变化时，po4a会自动确定要更新的文件。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:41
@@ -127,25 +129,47 @@ msgstr "内核帮助"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-msgid "2018-06-30 - po4a 0.54 released"
+#, fuzzy
+#| msgid "2018-06-30 - po4a 0.54 released"
+msgid "2018-12-09 - po4a 0.55 released"
 msgstr "2018-06-30 - po4a 0.54 发布"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
+#, fuzzy
+#| msgid ""
+#| "This release introduces many many bugfixes and some new developments (<a "
+#| "href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">more "
+#| "details</a>)."
+msgid ""
+"New features and bug fixes to both the individual parsers and common parts "
+"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
+"details</a>)."
+msgstr ""
+"此版本引入了许多错误修正和一些新的发展（<a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.52\">更多细节</a>）。"
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:59
+msgid "2018-06-30 - po4a 0.54 released"
+msgstr "2018-06-30 - po4a 0.54 发布"
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:60
 msgid ""
 "We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
 msgstr ""
-"我们修复了大量的bug，并消除了许多错误<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-"v0.54\">更多细节</a>。"
+"我们修复了大量的bug，并消除了许多错误<a href=\"https://github.com/mquinson/"
+"po4a/releases/tag/v0.54\">更多细节</a>。"
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:59
+#: src/index.php.en:63
 msgid "2018-05-25 - po4a 0.53 released"
 msgstr "2018-05-25 - po4a 0.53 发布"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:60
+#: src/index.php.en:64
 msgid ""
 "The most visible change is a new YAML module, and the fact that alioth was "
 "turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
@@ -153,21 +177,6 @@ msgid ""
 msgstr ""
 "最明显的变化是新的YAML模块，以及关闭了alioth的事实(<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.53\">更多细节</a>）。"
-
-#. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:64
-msgid "2017-03-28 - po4a 0.52 released"
-msgstr "2017-03-28 - po4a 0.52 发布"
-
-#. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:65
-msgid ""
-"This release introduces many many bugfixes and some new developments (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">more details</"
-"a>)."
-msgstr ""
-"此版本引入了许多错误修正和一些新的发展（<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.52\">更多细节</a>）。"
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
@@ -412,6 +421,9 @@ msgstr "下载"
 #: src/header.php.en:11
 msgid "Get Involved"
 msgstr "参与"
+
+#~ msgid "2017-03-28 - po4a 0.52 released"
+#~ msgstr "2017-03-28 - po4a 0.52 发布"
 
 #~ msgid "Welcome!"
 #~ msgstr "欢迎！"

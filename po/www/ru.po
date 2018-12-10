@@ -7,17 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.36.6\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2018-07-15 11:01+0200\n"
+"POT-Creation-Date: 2018-12-10 12:05+0100\n"
 "PO-Revision-Date: 2018-07-15 13:53+0000\n"
 "Last-Translator: Igor <f2404@yandex.ru>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/po4a/"
-"po4a-website/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/po4a/po4a-"
+"website/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.1-dev\n"
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
@@ -142,11 +142,33 @@ msgstr "KernelHelp"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-msgid "2018-06-30 - po4a 0.54 released"
+#, fuzzy
+#| msgid "2018-06-30 - po4a 0.54 released"
+msgid "2018-12-09 - po4a 0.55 released"
 msgstr "2018-06-30 - выпуск po4a 0.54"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
+#, fuzzy
+#| msgid ""
+#| "This release introduces many many bugfixes and some new developments (<a "
+#| "href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">more "
+#| "details</a>)."
+msgid ""
+"New features and bug fixes to both the individual parsers and common parts "
+"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
+"details</a>)."
+msgstr ""
+"Этот выпуск содержит много исправлений ошибок и новых разработок (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.52\">подробности</a>)."
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:59
+msgid "2018-06-30 - po4a 0.54 released"
+msgstr "2018-06-30 - выпуск po4a 0.54"
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:60
 msgid ""
 "We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
@@ -155,12 +177,12 @@ msgstr ""
 "com/mquinson/po4a/releases/tag/v0.54\">подробности</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:59
+#: src/index.php.en:63
 msgid "2018-05-25 - po4a 0.53 released"
 msgstr "2018-05-25 - выпуск po4a 0.53"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:60
+#: src/index.php.en:64
 msgid ""
 "The most visible change is a new YAML module, and the fact that alioth was "
 "turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
@@ -169,21 +191,6 @@ msgstr ""
 "Наиболее заметные изменения – это новый модуль YAML и тот факт, что alioth "
 "был отключен (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.53\">детали</a>)."
-
-#. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:64
-msgid "2017-03-28 - po4a 0.52 released"
-msgstr "2017-03-28 - выпуск po4a 0.52"
-
-#. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:65
-msgid ""
-"This release introduces many many bugfixes and some new developments (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">more details</"
-"a>)."
-msgstr ""
-"Этот выпуск содержит много исправлений ошибок и новых разработок (<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.52\">подробности</a>)."
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
@@ -437,6 +444,9 @@ msgstr "Загрузка"
 #: src/header.php.en:11
 msgid "Get Involved"
 msgstr "Участвуйте"
+
+#~ msgid "2017-03-28 - po4a 0.52 released"
+#~ msgstr "2017-03-28 - выпуск po4a 0.52"
 
 #~ msgid "Welcome!"
 #~ msgstr "Добро пожаловать!"
