@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: po4a\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2018-12-10 12:05+0100\n"
-"PO-Revision-Date: 2018-07-15 09:47+0000\n"
-"Last-Translator: Martin Quinson <martin.quinson@ens-rennes.fr>\n"
+"PO-Revision-Date: 2019-01-21 21:21+0000\n"
+"Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "fr/>\n"
 "Language: fr\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.1-dev\n"
+"X-Generator: Weblate 3.4-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -141,26 +141,19 @@ msgstr "KernelHelp"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-#, fuzzy
-#| msgid "2018-06-30 - po4a 0.54 released"
 msgid "2018-12-09 - po4a 0.55 released"
-msgstr "30 juin 2018 — po4a 0.54 est sorti"
+msgstr "9 septembre 2018 — po4a 0.55 est sorti"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
-#, fuzzy
-#| msgid ""
-#| "This release introduces many many bugfixes and some new developments (<a "
-#| "href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">more "
-#| "details</a>)."
 msgid ""
 "New features and bug fixes to both the individual parsers and common parts "
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
 "details</a>)."
 msgstr ""
-"Cette version apporte de nombreuses corrections de bugs, ainsi que quelques "
-"développements nouveaux (<a href=\"https://github.com/mquinson/po4a/releases/"
-"tag/v0.52\">plus d’informations</a> -- en anglais)."
+"Nouvelles fonctionnalités et corrections de bogues pour les analyseurs "
+"individuels et les parties communes (<a href=\"https://github.com/mquinson/"
+"po4a/releases/tag/v0.55\">plus de détails</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:59
