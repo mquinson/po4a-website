@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: po4a 0.45\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2018-12-10 12:05+0100\n"
-"PO-Revision-Date: 2018-12-11 06:08+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"PO-Revision-Date: 2019-01-30 16:10+0000\n"
+"Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.4-dev\n"
+"X-Generator: Weblate 3.5-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -164,7 +164,7 @@ msgid ""
 "We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
 msgstr ""
-"Corrigimos vários erros e removemos fárias falhas (<a href=\"https://github."
+"Corrigimos vários erros e removemos várias falhas (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.54\">mais detalhes</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
