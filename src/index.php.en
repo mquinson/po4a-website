@@ -52,6 +52,10 @@
 			</ul>
 		</div>
 		<div class="item">
+			<h2>2019-06-06 - po4a 0.56 released</h2>
+			<p>New features and bug fixes, mostly to the AsciiDoc parser
+			   (<a href="https://github.com/mquinson/po4a/releases/tag/v0.56">more details</a>).
+			</p>
 			<h2>2018-12-09 - po4a 0.55 released</h2>
 			<p>New features and bug fixes to both the individual parsers and common parts
 			   (<a href="https://github.com/mquinson/po4a/releases/tag/v0.55">more details</a>).
