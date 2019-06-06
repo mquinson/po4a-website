@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.48\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2018-12-10 12:05+0100\n"
+"POT-Creation-Date: 2019-06-06 10:35+0200\n"
 "PO-Revision-Date: 2018-06-14 11:11+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@libero.it>\n"
 "Language-Team: Italian <it@li.org>\n"
@@ -144,11 +144,33 @@ msgstr "KernelHelp"
 #: src/index.php.en:55
 #, fuzzy
 #| msgid "2018-05-25 - po4a 0.53 released"
-msgid "2018-12-09 - po4a 0.55 released"
+msgid "2019-06-06 - po4a 0.56 released"
 msgstr "2018-05-25 - rilasciato po4a 0.53"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
+#, fuzzy
+#| msgid ""
+#| "This release introduces many many bugfixes and some new developments (<a "
+#| "href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">more "
+#| "details</a>)."
+msgid ""
+"New features and bug fixes, mostly to the AsciiDoc parser (<a href=\"https://"
+"github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
+msgstr ""
+"Questa versione contiene molte correzioni ed alcune nuove caratteristiche "
+"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.52\">ulteriori "
+"dettagli</a>)."
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:59
+#, fuzzy
+#| msgid "2018-05-25 - po4a 0.53 released"
+msgid "2018-12-09 - po4a 0.55 released"
+msgstr "2018-05-25 - rilasciato po4a 0.53"
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:60
 #, fuzzy
 #| msgid ""
 #| "This release introduces many many bugfixes and some new developments (<a "
@@ -164,14 +186,14 @@ msgstr ""
 "dettagli</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:59
+#: src/index.php.en:63
 #, fuzzy
 #| msgid "2018-05-25 - po4a 0.53 released"
 msgid "2018-06-30 - po4a 0.54 released"
 msgstr "2018-05-25 - rilasciato po4a 0.53"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:60
+#: src/index.php.en:64
 #, fuzzy
 #| msgid ""
 #| "This release introduces many many bugfixes and some new developments (<a "
@@ -186,12 +208,12 @@ msgstr ""
 "dettagli</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:63
+#: src/index.php.en:67
 msgid "2018-05-25 - po4a 0.53 released"
 msgstr "2018-05-25 - rilasciato po4a 0.53"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:64
+#: src/index.php.en:68
 msgid ""
 "The most visible change is a new YAML module, and the fact that alioth was "
 "turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"

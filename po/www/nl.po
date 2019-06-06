@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.55\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2018-12-10 12:05+0100\n"
+"POT-Creation-Date: 2019-06-06 10:35+0200\n"
 "PO-Revision-Date: 2019-05-09 15:50+0000\n"
 "Last-Translator: Frans Spiesschaert <frans.spiesschaert@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/po4a/po4a-website/"
@@ -36,10 +36,10 @@ msgid ""
 "interestingly, the maintenance of translations) using gettext tools on areas "
 "where they were not expected like documentation."
 msgstr ""
-"Het doel van het project po4a (PO voor alles) is om de vertaalwerkzaamheden ("
-"en interessanter nog, het onderhoud van vertalingen) te vergemakkelijken met "
-"behulp van gettext-hulpmiddelen in domeinen waarin deze niet meteen verwacht "
-"worden, zoals documentatie."
+"Het doel van het project po4a (PO voor alles) is om de vertaalwerkzaamheden "
+"(en interessanter nog, het onderhoud van vertalingen) te vergemakkelijken "
+"met behulp van gettext-hulpmiddelen in domeinen waarin deze niet meteen "
+"verwacht worden, zoals documentatie."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:24
@@ -141,11 +141,33 @@ msgstr "Kernel-Hulp"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
+#, fuzzy
+#| msgid "2018-06-30 - po4a 0.54 released"
+msgid "2019-06-06 - po4a 0.56 released"
+msgstr "30-06-2018 - po4a 0.54 uitgebracht"
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:56
+#, fuzzy
+#| msgid ""
+#| "New features and bug fixes to both the individual parsers and common "
+#| "parts (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+#| "v0.55\">more details</a>)."
+msgid ""
+"New features and bug fixes, mostly to the AsciiDoc parser (<a href=\"https://"
+"github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
+msgstr ""
+"Nieuwe functionaliteit en reparaties van bugs, zowel in de individuele "
+"ontleders als in de gemeenschappelijke delen (<a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.55\">meer details</a>)."
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:59
 msgid "2018-12-09 - po4a 0.55 released"
 msgstr "09-12-2018 - po4a 0.55 uitgebracht"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:56
+#: src/index.php.en:60
 msgid ""
 "New features and bug fixes to both the individual parsers and common parts "
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
@@ -156,33 +178,31 @@ msgstr ""
 "mquinson/po4a/releases/tag/v0.55\">meer details</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:59
+#: src/index.php.en:63
 msgid "2018-06-30 - po4a 0.54 released"
 msgstr "30-06-2018 - po4a 0.54 uitgebracht"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:60
+#: src/index.php.en:64
 msgid ""
-"We fixed tons of bugs, and removed many glitches (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.54\">more "
-"details</a>)."
+"We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
+"com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
 msgstr ""
 "We hebben een groot aantal bugs gerepareerd en veel storingen verholpen (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.54\">meer "
-"details</a>)."
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.54\">meer details</"
+"a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:63
+#: src/index.php.en:67
 msgid "2018-05-25 - po4a 0.53 released"
 msgstr "25-05-2018 - po4a 0.53 uitgebracht"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:64
+#: src/index.php.en:68
 msgid ""
 "The most visible change is a new YAML module, and the fact that alioth was "
-"turned off (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.53\">more "
-"details</a>)."
+"turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.53\">more details</a>)."
 msgstr ""
 "De meest zichtbare verandering is een nieuwe YAML-module en het feit dat "
 "alioth afgeschakeld werd (<a href=\"https://github.com/mquinson/po4a/"
@@ -236,8 +256,8 @@ msgid ""
 msgstr ""
 "We kunnen u helpen om een raamwerk voor vertaling op te zetten voor de "
 "documentatie bij uw project of om po4a aan uw behoeften aan te passen. "
-"Aarzel niet om met ons contact op te nemen via onze <a href=\""
-"mailto:devel@lists.po4a.org\">mailinglijst</a> of via IRC (#po4a op oftc)."
+"Aarzel niet om met ons contact op te nemen via onze <a href=\"mailto:"
+"devel@lists.po4a.org\">mailinglijst</a> of via IRC (#po4a op oftc)."
 
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
@@ -252,8 +272,8 @@ msgstr "Broncode"
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:19
 msgid ""
-"You can find the sources of the latest release on <a "
-"href=\"https://github.com/mquinson/po4a/releases\">GitHub</a>."
+"You can find the sources of the latest release on <a href=\"https://github."
+"com/mquinson/po4a/releases\">GitHub</a>."
 msgstr ""
 "U vindt de broncode van de laatste uitgave op <a href=\"https://github.com/"
 "mquinson/po4a/releases\">GitHub</a>."
@@ -282,8 +302,8 @@ msgstr "Git-opslagruimte"
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:31
 msgid ""
-"The latest sources are available from our <a "
-"href=\"https://github.com/mquinson/po4a\">Git repository</a>."
+"The latest sources are available from our <a href=\"https://github.com/"
+"mquinson/po4a\">Git repository</a>."
 msgstr ""
 "De recentste broncode is te vinden in onze <a href=\"https://github.com/"
 "mquinson/po4a\">Git-opslagruimte</a>."
@@ -317,9 +337,8 @@ msgstr "Indien u wenst mee te werken, kunt u ons contacteren"
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:21
 msgid ""
-"on our <a "
-"href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/\">mailing "
-"list</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>,"
+"on our <a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/"
+"\">mailing list</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>,"
 msgstr ""
 "op onze <a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/"
 "\">mailinglijst</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>,"
@@ -333,28 +352,25 @@ msgstr "op IRC (#po4a op oftc)."
 #: src/getinvolved.php.en:23
 msgid ""
 "Bug reports, patches, feature requests or any feedback are welcome on the "
-"mailing list, in the <a "
-"href=\"https://github.com/mquinson/po4a/issues\">GitHub tracker</a> or in "
-"the <a "
-"href=\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable\">Debian "
-"BTS</a>."
+"mailing list, in the <a href=\"https://github.com/mquinson/po4a/issues"
+"\">GitHub tracker</a> or in the <a href=\"http://bugs.debian.org/cgi-bin/"
+"pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>."
 msgstr ""
 "Rapporten over bugs, patches, aanvragen voor extra functionaliteit en andere "
 "feedback zijn welkom op de mailinglijst, in de <a href=\"https://github.com/"
-"mquinson/po4a/issues\">GitHub tracker</a> en in het <a href=\""
-"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable\">BTS "
-"van Debian</a>."
+"mquinson/po4a/issues\">GitHub tracker</a> en in het <a href=\"http://bugs."
+"debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable\">BTS van Debian</a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:27
 msgid ""
-"If you can improve the code yourself, Pull Requests against the <a "
-"href=\"https://github.com/mquinson/po4a\">GitHub repository</a> are more "
-"than welcomed."
+"If you can improve the code yourself, Pull Requests against the <a href="
+"\"https://github.com/mquinson/po4a\">GitHub repository</a> are more than "
+"welcomed."
 msgstr ""
-"Indien u de code zelf kunt verbeteren, zijn uw voorgestelde wijzigingen ("
-"pull requests) tegenover de <a href=\"https://github.com/mquinson/po4a\""
-">GitHub-opslagruimte</a> meer dan welkom."
+"Indien u de code zelf kunt verbeteren, zijn uw voorgestelde wijzigingen "
+"(pull requests) tegenover de <a href=\"https://github.com/mquinson/po4a"
+"\">GitHub-opslagruimte</a> meer dan welkom."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:32
@@ -364,9 +380,9 @@ msgstr "Vertalen"
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:33
 msgid ""
-"The easiest to help translating po4a is to go through <a "
-"href=\"https://hosted.weblate.org/projects/po4a/\">weblate</a> but you can "
-"also provide pull requests on the source git directly if you prefer."
+"The easiest to help translating po4a is to go through <a href=\"https://"
+"hosted.weblate.org/projects/po4a/\">weblate</a> but you can also provide "
+"pull requests on the source git directly if you prefer."
 msgstr ""
 "De makkelijkste manier om te helpen bij het vertalen van po4a is via  <a "
 "href=\"https://hosted.weblate.org/projects/po4a/\">weblate</a>, maar indien "
@@ -379,12 +395,14 @@ msgid "Runtime Translations"
 msgstr "Vertaling van de software"
 
 #. type: Content of: <html><body><div><div><div><a>
-#: src/getinvolved.php.en:41 src/getinvolved.php.en:48 src/getinvolved.php.en:53
+#: src/getinvolved.php.en:41 src/getinvolved.php.en:48
+#: src/getinvolved.php.en:53
 msgid "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
 msgstr "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
 
 #. type: Content of: <html><body><div><div><div>
-#: src/getinvolved.php.en:44 src/getinvolved.php.en:51 src/getinvolved.php.en:56
+#: src/getinvolved.php.en:44 src/getinvolved.php.en:51
+#: src/getinvolved.php.en:56
 msgid "</a>"
 msgstr "</a>"
 
@@ -431,7 +449,8 @@ msgid "Welcome"
 msgstr "Welkom"
 
 #. type: Content of: <div><a><span>
-#: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10 src/header.php.en:11
+#: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10
+#: src/header.php.en:11
 msgid "&nbsp;&nbsp;&lt;"
 msgstr "&nbsp;&nbsp;&lt;"
 
