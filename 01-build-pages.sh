@@ -183,6 +183,9 @@ get_language() {
 		nb)
 			echo -n "Bokmål"
 			;;
+		nl)
+			echo -n "Nederlands"
+			;;
 		pl)
 			echo -n "polski"
 			;;
