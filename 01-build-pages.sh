@@ -5,6 +5,10 @@
 set -e # we want to fail on any error instead of risking uploading broken stuff
 #set -x
 
+echo
+echo "XXX Get the latest translations from git"
+git pull
+
 curdir=$(pwd)
 
 # Path to po4a sources
