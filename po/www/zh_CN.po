@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: po4a-translation\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2019-06-06 10:35+0200\n"
-"PO-Revision-Date: 2018-07-21 10:35+0000\n"
-"Last-Translator: Liu Guang <l.g110@163.com>\n"
+"PO-Revision-Date: 2019-08-01 05:12+0000\n"
+"Last-Translator: Elizabeth Sherrock <lizzyd710@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "po4a/po4a-website/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.1-dev\n"
+"X-Generator: Weblate 3.8-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -129,10 +129,8 @@ msgstr "内核帮助"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-#, fuzzy
-#| msgid "2018-06-30 - po4a 0.54 released"
 msgid "2019-06-06 - po4a 0.56 released"
-msgstr "2018-06-30 - po4a 0.54 发布"
+msgstr "2019年06月06号 – po4a 0.56发布"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
@@ -145,15 +143,13 @@ msgid ""
 "New features and bug fixes, mostly to the AsciiDoc parser (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
 msgstr ""
-"此版本引入了许多错误修正和一些新的发展（<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.52\">更多细节</a>）。"
+"此版本引入了许多错误修正和一些新的发展（<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.56\">更多细节</a>）。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:59
-#, fuzzy
-#| msgid "2018-06-30 - po4a 0.54 released"
 msgid "2018-12-09 - po4a 0.55 released"
-msgstr "2018-06-30 - po4a 0.54 发布"
+msgstr "2018年12月09号 - po4a 0.55 发布"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:60
@@ -167,8 +163,8 @@ msgid ""
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
 "details</a>)."
 msgstr ""
-"此版本引入了许多错误修正和一些新的发展（<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.52\">更多细节</a>）。"
+"此版本引入了许多错误修正和一些新的发展（<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.55\">更多细节</a>）。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:63
