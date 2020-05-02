@@ -8,23 +8,27 @@ msgstr ""
 "Project-Id-Version: po4a 0.56\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2019-06-06 10:35+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-05-03 12:11+0000\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/po4a/"
+"po4a-website/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.1-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
 msgid "po4a - Welcome"
-msgstr ""
+msgstr "po4a – Početna"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:18
 msgid "Maintain the translations of your documentation with ease"
-msgstr ""
+msgstr "Održavaj prijevode svoje dokumentacije s lakoćom"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:19
@@ -33,6 +37,9 @@ msgid ""
 "interestingly, the maintenance of translations) using gettext tools on areas "
 "where they were not expected like documentation."
 msgstr ""
+"Cilj projekta po4a (PO za bilo što) je olakšati prevođenje (i što je još "
+"zanimljivije, održavati prijevode) koristeći gettext alate na područjima za "
+"koja se od njih ne očekuje, poput dokumentacije."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:24
@@ -40,6 +47,8 @@ msgid ""
 "po4a extracts the translatable material from the original document, and "
 "places it into a PO file that is well adapted to the translation work."
 msgstr ""
+"po4a izdvaja prevodiv materijal iz izvornog dokumenta i sprema ga u PO "
+"datoteku, prilagođen za prevođenje."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:27
@@ -48,6 +57,8 @@ msgid ""
 "translation into the structure of the document to generate a translated "
 "document."
 msgstr ""
+"Nakon što je prijevod završen u PO datoteci, po4a ponovo umeće prijevod u "
+"strukturu dokumenta, kako bi se generirao prevedeni dokument."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:30
@@ -57,6 +68,10 @@ msgid ""
 "both up to date with regard to the original one, and as translated as "
 "possible."
 msgstr ""
+"Ako je prijevod samo djelomično završen, za neprevedene izraze koristi se "
+"izvorni (engleski) tekst. Time se osigurava, da je prevedena dokumentacija "
+"uvijek aktualna s obzirom na izvornu dokumentaciju i da je što više "
+"prevedena."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:35
@@ -66,61 +81,67 @@ msgid ""
 "translate. With this information, po4a automatically determines the files to "
 "update when something changes."
 msgstr ""
+"Održavanje prijevoda je u potpunosti moguće automatizirati s jednom "
+"konfiguracijskom datotekom, određujući sve postavke, kao i popis dokumenata "
+"za prevođenje. S tim podacima po4a automatski određuje datoteke koje će se "
+"aktualizirati kad se nešto promijeni."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:41
 msgid "Supported formats"
-msgstr ""
+msgstr "Podržani formati"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:42
 msgid "po4a currently supports the following formats:"
-msgstr ""
+msgstr "po4a trenutačno podržava sljedeće formate:"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:44
 msgid "manpages"
-msgstr ""
+msgstr "priručnik"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:45
 msgid "POD"
-msgstr ""
+msgstr "POD"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:46
 msgid "XML (generic, DocBook, XHTML, Dia, Guide, or WML)"
-msgstr ""
+msgstr "XML (generički, DocBook, XHTML, Dia, Guide ili WML)"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:47
 msgid "SGML"
-msgstr ""
+msgstr "SGML"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:48
 msgid "TeX (generic, LaTeX, or Texinfo)"
-msgstr ""
+msgstr "TeX (generički, LaTeX ili Texinfo)"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:49
 msgid "text (simple text files with some formatting, markdown, or AsciiDoc)"
 msgstr ""
+"tekst (jednostavne tekstualne datoteke s ponekim formatiranjem, markdown ili "
+"AsciiDoc)"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:50
 msgid "INI"
-msgstr ""
+msgstr "INI"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:51
 msgid "KernelHelp"
-msgstr ""
+msgstr "Kernel pomoć"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
 msgid "2019-06-06 - po4a 0.56 released"
-msgstr ""
+msgstr "2019-06-06 – objavljen po4a 0.56"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
@@ -129,11 +150,14 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">more "
 "details</a>)."
 msgstr ""
+"Nove funkcije i isrpavljanje grešaka, uglavnom zbog AsciiDoc parsera (<a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">daljnje "
+"informacije</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:59
 msgid "2018-12-09 - po4a 0.55 released"
-msgstr ""
+msgstr "2018-12-09 –objavljen po4a 0.55"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:60
@@ -142,11 +166,14 @@ msgid ""
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
 "details</a>)."
 msgstr ""
+"Nove funkcije i isrpavljanje grešaka parsera i zajedničkih dijelova (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.55\">daljnje "
+"informacije</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:63
 msgid "2018-06-30 - po4a 0.54 released"
-msgstr ""
+msgstr "2018-06-30 – objavljen po4a 0.54"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:64
@@ -155,11 +182,14 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.54\">more "
 "details</a>)."
 msgstr ""
+"Ispravili smo velik broj grešaka i uklonili mnoge smetnje (<a href=\""
+"https://github.com/mquinson/po4a/releases/tag/v0.54\">daljnje "
+"informacije</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:67
 msgid "2018-05-25 - po4a 0.53 released"
-msgstr ""
+msgstr "2018-05-25 – objavljen po4a 0.53"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:68
@@ -169,21 +199,24 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.53\">more "
 "details</a>)."
 msgstr ""
+"Najočitija promjena je novi YAML modul i činjenica da je alioth isključen (<"
+"a href=\"https://github.com/mquinson/po4a/releases/tag/v0.53\">daljnje "
+"informacije</a>)."
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
 msgid "po4a - Documentation"
-msgstr ""
+msgstr "po4a – Dokumentacija"
 
 #. type: Content of: <div><a>
 #: src/documentation.php.en:18 src/header.php.en:9
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentacija"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:19
 msgid "Here is an HTML version of the po4a's manpages."
-msgstr ""
+msgstr "Ovdje se nalazi HTML verzija priručnika za po4a."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:20
@@ -191,18 +224,19 @@ msgid ""
 "The <a href=\"man/man7/po4a.7.php\">po4a.7</a> manpage provides an "
 "introduction to po4a."
 msgstr ""
+"Priručnik za <a href=\"man/man7/po4a.7.php\">po4a.7</a> pruža uvod u po4a."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:22
 msgid ""
 "For more details, the <a href=\"man/\">index</a> provides the documentation "
 "of the various commands and modules."
-msgstr ""
+msgstr "Pregledaj <a href=\"man/\">dokumentaciju</a> naredbi i modula."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/documentation.php.en:27
 msgid "Help"
-msgstr ""
+msgstr "Pomoć"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:28
@@ -212,16 +246,20 @@ msgid ""
 "on our <a href=\"mailto:devel@lists.po4a.org\">mailing list</a> or on IRC "
 "(#po4a on oftc)."
 msgstr ""
+"Možemo ti pomoći postaviti radno okruženje za dokumentiranje tvog projekta "
+"ili prilagoditi po4a tvojim potrebama. Slobodno nas kontaktiraj na našoj <a "
+"href=\"mailto:devel@lists.po4a.org\">mailing listi</a> ili na IRC-u (#po4a "
+"na oftc)."
 
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
 msgid "po4a - Download"
-msgstr ""
+msgstr "po4a – Preuzimanje"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:18
 msgid "Sources"
-msgstr ""
+msgstr "Izvori"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:19
@@ -229,11 +267,13 @@ msgid ""
 "You can find the sources of the latest release on <a "
 "href=\"https://github.com/mquinson/po4a/releases\">GitHub</a>."
 msgstr ""
+"Preuzmi najnovije izdanje s <a href=\"https://github.com/mquinson/po4a/"
+"releases\">GitHub</a>-a."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:23
 msgid "Binary"
-msgstr ""
+msgstr "Binarni paketi"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:24
@@ -242,11 +282,14 @@ msgid ""
 "OpenSource distributions (Debian, Ubuntu, FreeBSD, Gentoo, Fedora, Mandriva, "
 "and probably others)."
 msgstr ""
+"po4a je Perl modul. Dostupan je kao binarni paket u mnogim distribucijama "
+"otvorenog koda (Debian, Ubuntu, FreeBSD, Gentoo, Fedora, Mandriva i "
+"vjerojatno drugima)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:30
 msgid "Git repository"
-msgstr ""
+msgstr "Git repozitoij"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:31
@@ -254,6 +297,8 @@ msgid ""
 "The latest sources are available from our <a "
 "href=\"https://github.com/mquinson/po4a\">Git repository</a>."
 msgstr ""
+"Najnoviji izvori su dostupni u našem <a href=\"https://github.com/mquinson/"
+"po4a\">Git repozitoriju</a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:34
@@ -262,21 +307,24 @@ msgid ""
 "of sufficient quality to be released yet. In other words, they are still "
 "waiting for your contributions :)"
 msgstr ""
+"Sadrži i dodatne module koji se razmatraju, ali koji još nisu dovoljno "
+"kvalitetni, da bi ih mogli objaviti. Drugim riječima, još uvijek čekaju "
+"tvoje priloge :)"
 
 #. type: Content of: <html><head><title>
 #: src/getinvolved.php.en:11
 msgid "po4a - Get involved!"
-msgstr ""
+msgstr "po4a – Surađuj!"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:18
 msgid "Get involved!"
-msgstr ""
+msgstr "Surađuj!"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:19
 msgid "If you want to participate, you can contact us"
-msgstr ""
+msgstr "Ako želiš sudjelovati, kontaktiraj nas"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:21
@@ -285,11 +333,13 @@ msgid ""
 "href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/\">mailing "
 "list</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>,"
 msgstr ""
+"<a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/\">"
+"mailing lista</a> – <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:22
 msgid "on IRC (#po4a on oftc)."
-msgstr ""
+msgstr "IRC (#po4a na oftc)."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:23
@@ -301,6 +351,10 @@ msgid ""
 "href=\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable\">Debian "
 "BTS</a>."
 msgstr ""
+"Prijavi greške, zatraži nove funkcije ili pošalji bilo koju vrstu povratnih "
+"informacija na<a href=\"https://github.com/mquinson/po4a/issues\">GitHub "
+"tracker</a> ili na <a href=\"http://bugs.debian.org/cgi-bin/"
+"pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:27
@@ -309,11 +363,14 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a\">GitHub repository</a> are more "
 "than welcomed."
 msgstr ""
+"Ako možeš poboljšati kod, zahtjevi za preuzimanjem na <a href=\""
+"https://github.com/mquinson/po4a\">GitHub repozitorij</a> su više nego "
+"dobrodošli."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:32
 msgid "Translating"
-msgstr ""
+msgstr "Prevođenje"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:33
@@ -322,73 +379,76 @@ msgid ""
 "href=\"https://hosted.weblate.org/projects/po4a/\">weblate</a> but you can "
 "also provide pull requests on the source git directly if you prefer."
 msgstr ""
+"Najednostavniji način pomoći prevesti po4a je putem <a href=\""
+"https://hosted.weblate.org/projects/po4a/\">weblate</a>-a. Ako ti je draže, "
+"pošalji zahtjev za preuzimanjem izravno na git-u."
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:40
 msgid "Runtime Translations"
-msgstr ""
+msgstr "Prijevod programa"
 
 #. type: Content of: <html><body><div><div><div><a>
 #: src/getinvolved.php.en:41 src/getinvolved.php.en:48 src/getinvolved.php.en:53
 msgid "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
-msgstr ""
+msgstr "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
 
 #. type: Content of: <html><body><div><div><div>
 #: src/getinvolved.php.en:44 src/getinvolved.php.en:51 src/getinvolved.php.en:56
 msgid "</a>"
-msgstr ""
+msgstr "</a>"
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:47
 msgid "Documentation Translations"
-msgstr ""
+msgstr "Prijevod dokumentacije"
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:52
 msgid "Website Translations"
-msgstr ""
+msgstr "Prijevod web-stranice"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:60
 msgid "TODO"
-msgstr ""
+msgstr "ZADACI"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:61
 msgid "We are looking for people interested in testing/porting on Windows"
-msgstr ""
+msgstr "Tražimo ljude koji žele testirati/portirati program za Windows"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:63
 msgid "Support for XLIFF would be welcome."
-msgstr ""
+msgstr "Podrška za XLIFF format je dobrodošla."
 
 #. type: Content of: <div><div><h1><sup>
 #: src/header.php.en:4
 msgid "po4a<sup>v"
-msgstr ""
+msgstr "po4a<sup>v"
 
 #. type: Content of: <div><div><h1>
 #: src/header.php.en:4
 msgid "</sup>"
-msgstr ""
+msgstr "</sup>"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:8
 msgid "Welcome"
-msgstr ""
+msgstr "Početna"
 
 #. type: Content of: <div><a><span>
 #: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10 src/header.php.en:11
 msgid "&nbsp;&nbsp;&lt;"
-msgstr ""
+msgstr "&nbsp;&nbsp;&lt;"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:10
 msgid "Download"
-msgstr ""
+msgstr "Preuzimanje"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:11
 msgid "Get Involved"
-msgstr ""
+msgstr "Surađuj"
