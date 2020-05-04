@@ -181,6 +181,9 @@ get_language() {
 		fr)
 			echo -n "français"
 			;;
+		hu)
+			echo -n "Magyar"
+			;;
 		it)
 			echo -n "Italiano"
 			;;
