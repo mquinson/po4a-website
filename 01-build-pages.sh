@@ -36,7 +36,7 @@ percent_lang() {
 	echo $((($YES*100)/$TOTAL))
 }
 
-libver=$(grep '$VERSION=' $srcdir/lib/Locale/Po4a/TransTractor.pm | \
+libver=$(grep '^$VERSION =' $srcdir/lib/Locale/Po4a/TransTractor.pm | \
            sed -e 's/^.*"\([^"]*\)".*/\1/')
 webver=$(cat VERSION)
 if [ "x$libver" = "x$webver" ] ; then
