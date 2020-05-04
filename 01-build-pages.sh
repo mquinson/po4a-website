@@ -191,6 +191,9 @@ get_language() {
 		it)
 			echo -n "Italiano"
 			;;
+		ja)
+			echo -n "日本語"
+			;;
 		nb)
 			echo -n "Bokmål"
 			;;
@@ -206,11 +209,11 @@ get_language() {
 		pt_BR)
 			echo -n "Português (Brasil)"
 			;;
-		ja)
-			echo -n "日本語"
-			;;
 		ru)
 			echo -n "Русский"
+			;;
+		sr_Cyrl)
+			echo -n "српски језик"
 			;;
 		uk)
 			echo -n "український"
