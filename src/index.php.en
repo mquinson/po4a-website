@@ -52,6 +52,18 @@
 			</ul>
 		</div>
 		<div class="item">
+			<h2>2020-05-04 - po4a 0.58 released</h2>
+			<ul>
+				<li>Rewrite all tests to make them more robust and less permissive.</li>
+				<li>Fix many issues reported against the parsers.</li>
+				<li>Rewrite the documentation for sake of clarity and brievty.</li>
+				<li>(<a href="https://github.com/mquinson/po4a/releases/tag/v0.58">more details</a>).
+			</ul>
+			</p>
+			<h2>2019-10-25 - po4a 0.57 released</h2>
+			<p>Translation update and one bug fix in AsciiDoc.
+			   (<a href="https://github.com/mquinson/po4a/releases/tag/v0.57">more details</a>).
+			</p>
 			<h2>2019-06-06 - po4a 0.56 released</h2>
 			<p>New features and bug fixes, mostly to the AsciiDoc parser
 			   (<a href="https://github.com/mquinson/po4a/releases/tag/v0.56">more details</a>).
