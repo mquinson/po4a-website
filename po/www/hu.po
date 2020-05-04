@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.55\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2018-12-10 12:05+0100\n"
+"POT-Creation-Date: 2020-05-04 09:50+0200\n"
 "PO-Revision-Date: 2019-06-27 20:01+0000\n"
 "Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/po4a/"
-"po4a-website/hu/>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/po4a/po4a-"
+"website/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,6 +23,12 @@ msgstr ""
 #: src/index.php.en:11
 msgid "po4a - Welcome"
 msgstr "po4a – Üdvözöljük"
+
+#. type: Content of: <html><body>
+#: src/index.php.en:14 src/documentation.php.en:14 src/download.php.en:14
+#: src/getinvolved.php.en:14
+msgid "<?php include \"header.php.en\"; ?>"
+msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:18
@@ -140,52 +146,135 @@ msgstr "KernelHelp"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
+#, fuzzy
+#| msgid "2018-05-25 - po4a 0.53 released"
+msgid "2020-05-04 - po4a 0.58 released"
+msgstr "2018-05-25 – megjelent a po4a 0.53"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:57
+msgid "Rewrite all tests to make them more robust and less permissive."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:58
+msgid "Fix many issues reported against the parsers."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:59
+msgid "Rewrite the documentation for sake of clarity and brievty."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:60
+#, fuzzy
+#| msgid ""
+#| "We fixed tons of bugs, and removed many glitches (<a href=\"https://"
+#| "github.com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
+msgid ""
+"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">more "
+"details</a>)."
+msgstr ""
+"Rengeteg programhibát javítottunk, valamint eltávolítottunk számos "
+"kellemetlenséget (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.54\">további részletek</a>)."
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:62
+#, fuzzy
+#| msgid "2018-05-25 - po4a 0.53 released"
+msgid "2019-10-25 - po4a 0.57 released"
+msgstr "2018-05-25 – megjelent a po4a 0.53"
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:63
+#, fuzzy
+#| msgid ""
+#| "New features and bug fixes to both the individual parsers and common "
+#| "parts (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+#| "v0.55\">more details</a>)."
+msgid ""
+"Translation update and one bug fix in AsciiDoc.  (<a href=\"https://github."
+"com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
+msgstr ""
+"Új funkciók és hibajavítások mind az egyéni feldolgozókban, mind a közös "
+"részekben (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.55\">további részletek</a>)."
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:66
+#, fuzzy
+#| msgid "2018-06-30 - po4a 0.54 released"
+msgid "2019-06-06 - po4a 0.56 released"
+msgstr "2018-06-30 – megjelent a po4a 0.54"
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:67
+#, fuzzy
+#| msgid ""
+#| "New features and bug fixes to both the individual parsers and common "
+#| "parts (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+#| "v0.55\">more details</a>)."
+msgid ""
+"New features and bug fixes, mostly to the AsciiDoc parser (<a href=\"https://"
+"github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
+msgstr ""
+"Új funkciók és hibajavítások mind az egyéni feldolgozókban, mind a közös "
+"részekben (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.55\">további részletek</a>)."
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:70
 msgid "2018-12-09 - po4a 0.55 released"
 msgstr "2018-12-09 – megjelent a po4a 0.55"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:56
+#: src/index.php.en:71
 msgid ""
 "New features and bug fixes to both the individual parsers and common parts "
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
 "details</a>)."
 msgstr ""
 "Új funkciók és hibajavítások mind az egyéni feldolgozókban, mind a közös "
-"részekben (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">"
-"további részletek</a>)."
+"részekben (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.55\">további részletek</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:59
+#: src/index.php.en:74
 msgid "2018-06-30 - po4a 0.54 released"
 msgstr "2018-06-30 – megjelent a po4a 0.54"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:60
+#: src/index.php.en:75
 msgid ""
-"We fixed tons of bugs, and removed many glitches (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.54\">more "
-"details</a>)."
+"We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
+"com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
 msgstr ""
 "Rengeteg programhibát javítottunk, valamint eltávolítottunk számos "
-"kellemetlenséget (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0."
-"54\">további részletek</a>)."
+"kellemetlenséget (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.54\">további részletek</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:63
+#: src/index.php.en:78
 msgid "2018-05-25 - po4a 0.53 released"
 msgstr "2018-05-25 – megjelent a po4a 0.53"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:64
+#: src/index.php.en:79
 msgid ""
 "The most visible change is a new YAML module, and the fact that alioth was "
-"turned off (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.53\">more "
-"details</a>)."
+"turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.53\">more details</a>)."
 msgstr ""
 "A leglátványosabb változtatás egy új YAML modul, valamint az a tény, hogy az "
 "alioth ki lett kapcsolva (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.53\">további részletek</a>)."
+
+#. type: Content of: <html><body>
+#: src/index.php.en:86
+msgid "<?php include \"footer_index.php\"; ?> <?php include \"footer.php\"; ?>"
+msgstr ""
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
@@ -235,9 +324,16 @@ msgid ""
 msgstr ""
 "Segíthetünk Önnek a fordítási keretrendszer létrehozásában a saját "
 "projektjének dokumentációjához, illetve a po4a alkalmazásában a saját "
-"igényeinek megfelelően. Ne habozzon kapcsolatba lépni velünk a <a href=\""
-"mailto:devel@lists.po4a.org\">levelezőlistán</a> vagy IRC-n (#po4a csatorna "
-"az oftc-n)."
+"igényeinek megfelelően. Ne habozzon kapcsolatba lépni velünk a <a href="
+"\"mailto:devel@lists.po4a.org\">levelezőlistán</a> vagy IRC-n (#po4a "
+"csatorna az oftc-n)."
+
+#. type: Content of: <html><body>
+#: src/documentation.php.en:36
+msgid ""
+"<?php include \"footer_documentation.php\"; ?> <?php include \"footer.php"
+"\"; ?>"
+msgstr ""
 
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
@@ -252,8 +348,8 @@ msgstr "Források"
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:19
 msgid ""
-"You can find the sources of the latest release on <a "
-"href=\"https://github.com/mquinson/po4a/releases\">GitHub</a>."
+"You can find the sources of the latest release on <a href=\"https://github."
+"com/mquinson/po4a/releases\">GitHub</a>."
 msgstr ""
 "A legújabb kiadás forrásait megtalálhatja a <a href=\"https://github.com/"
 "mquinson/po4a/releases\">GitHub tárolóban</a>."
@@ -282,11 +378,11 @@ msgstr "Git tároló"
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:31
 msgid ""
-"The latest sources are available from our <a "
-"href=\"https://github.com/mquinson/po4a\">Git repository</a>."
+"The latest sources are available from our <a href=\"https://github.com/"
+"mquinson/po4a\">Git repository</a>."
 msgstr ""
-"A legújabb források elérhetők a <a href=\"https://github.com/mquinson/po4a\">"
-"Git tárolónkból</a>."
+"A legújabb források elérhetők a <a href=\"https://github.com/mquinson/po4a"
+"\">Git tárolónkból</a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:34
@@ -298,6 +394,12 @@ msgstr ""
 "Ez további modulokat is tartalmaz, amelyeket figyelembe veszünk ugyan, de "
 "nem elégséges minőségűek ahhoz, hogy már kiadjuk azokat. Más szóval, még "
 "mindig a hozzájárulásaira várnak :)"
+
+#. type: Content of: <html><body>
+#: src/download.php.en:41
+msgid ""
+"<?php include \"footer_download.php\"; ?> <?php include \"footer.php\"; ?>"
+msgstr ""
 
 #. type: Content of: <html><head><title>
 #: src/getinvolved.php.en:11
@@ -317,13 +419,12 @@ msgstr "Ha szeretne részt venni, kapcsolatba léphet velünk"
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:21
 msgid ""
-"on our <a "
-"href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/\">mailing "
-"list</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>,"
+"on our <a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/"
+"\">mailing list</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>,"
 msgstr ""
-"a <a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/\""
-">levelezőlistánkon</a> – <a href=\"mailto:devel@po4a.org\""
-">devel@po4a.org</a>,"
+"a <a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/"
+"\">levelezőlistánkon</a> – <a href=\"mailto:devel@po4a.org\">devel@po4a.org</"
+"a>,"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:22
@@ -334,11 +435,9 @@ msgstr "IRC-n (#po4a csatorna oftc-n)."
 #: src/getinvolved.php.en:23
 msgid ""
 "Bug reports, patches, feature requests or any feedback are welcome on the "
-"mailing list, in the <a "
-"href=\"https://github.com/mquinson/po4a/issues\">GitHub tracker</a> or in "
-"the <a "
-"href=\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable\">Debian "
-"BTS</a>."
+"mailing list, in the <a href=\"https://github.com/mquinson/po4a/issues"
+"\">GitHub tracker</a> or in the <a href=\"http://bugs.debian.org/cgi-bin/"
+"pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>."
 msgstr ""
 "Hibajelentéseket, javításokat, funkciókéréseket vagy visszajelzéseket "
 "örömmel fogaduk a levelezőlistán, a <a href=\"https://github.com/mquinson/"
@@ -348,9 +447,9 @@ msgstr ""
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:27
 msgid ""
-"If you can improve the code yourself, Pull Requests against the <a "
-"href=\"https://github.com/mquinson/po4a\">GitHub repository</a> are more "
-"than welcomed."
+"If you can improve the code yourself, Pull Requests against the <a href="
+"\"https://github.com/mquinson/po4a\">GitHub repository</a> are more than "
+"welcomed."
 msgstr ""
 "Saját maga is javíthatja a kódot, a <a href=\"https://github.com/mquinson/"
 "po4a\">GitHub tárolóba</a> történő beolvasztási kérések küldését nagyra "
@@ -364,13 +463,13 @@ msgstr "Fordítás"
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:33
 msgid ""
-"The easiest to help translating po4a is to go through <a "
-"href=\"https://hosted.weblate.org/projects/po4a/\">weblate</a> but you can "
-"also provide pull requests on the source git directly if you prefer."
+"The easiest to help translating po4a is to go through <a href=\"https://"
+"hosted.weblate.org/projects/po4a/\">weblate</a> but you can also provide "
+"pull requests on the source git directly if you prefer."
 msgstr ""
-"A legegyszerűbb, ha segít a po4a fordításában a <a href=\""
-"https://hosted.weblate.org/projects/po4a/\">weblate</a> felületén keresztül, "
-"de akár beolvasztási kéréseket is küldhet közvetlenül a forrás Gitbe, ha azt "
+"A legegyszerűbb, ha segít a po4a fordításában a <a href=\"https://hosted."
+"weblate.org/projects/po4a/\">weblate</a> felületén keresztül, de akár "
+"beolvasztási kéréseket is küldhet közvetlenül a forrás Gitbe, ha azt "
 "részesíti előnyben."
 
 #. type: Content of: <html><body><div><div><div><h2>
@@ -379,12 +478,14 @@ msgid "Runtime Translations"
 msgstr "Futtatókörnyezet fordításai"
 
 #. type: Content of: <html><body><div><div><div><a>
-#: src/getinvolved.php.en:41 src/getinvolved.php.en:48 src/getinvolved.php.en:53
+#: src/getinvolved.php.en:41 src/getinvolved.php.en:48
+#: src/getinvolved.php.en:53
 msgid "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
 msgstr "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
 
 #. type: Content of: <html><body><div><div><div>
-#: src/getinvolved.php.en:44 src/getinvolved.php.en:51 src/getinvolved.php.en:56
+#: src/getinvolved.php.en:44 src/getinvolved.php.en:51
+#: src/getinvolved.php.en:56
 msgid "</a>"
 msgstr "</a>"
 
@@ -415,15 +516,22 @@ msgstr ""
 msgid "Support for XLIFF would be welcome."
 msgstr "Az XLIFF támogatás is nagyon jól jönne."
 
-#. type: Content of: <div><div><h1><sup>
-#: src/header.php.en:4
-msgid "po4a<sup>v"
-msgstr "po4a<sup>v"
+#. type: Content of: <html><body>
+#: src/getinvolved.php.en:67
+msgid ""
+"<?php include \"footer_getinvolved.php\"; ?> <?php include \"footer.php\"; ?>"
+msgstr ""
+
+#.  begin header.php 
+#. type: Content of: outside any tag (error?)
+#: src/header.php.en:2
+msgid "<?php if (!isset($topdir)) $topdir = \"./\"; ?>"
+msgstr ""
 
 #. type: Content of: <div><div><h1>
 #: src/header.php.en:4
-msgid "</sup>"
-msgstr "</sup>"
+msgid "po4a<sup>v<?php include \"version.php\"; ?></sup>"
+msgstr ""
 
 #. type: Content of: <div><a>
 #: src/header.php.en:8
@@ -431,7 +539,8 @@ msgid "Welcome"
 msgstr "Üdvözöljük"
 
 #. type: Content of: <div><a><span>
-#: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10 src/header.php.en:11
+#: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10
+#: src/header.php.en:11
 msgid "&nbsp;&nbsp;&lt;"
 msgstr "&nbsp;&nbsp;&lt;"
 
@@ -444,3 +553,9 @@ msgstr "Letöltés"
 #: src/header.php.en:11
 msgid "Get Involved"
 msgstr "Vegyen részt benne"
+
+#~ msgid "po4a<sup>v"
+#~ msgstr "po4a<sup>v"
+
+#~ msgid "</sup>"
+#~ msgstr "</sup>"

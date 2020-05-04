@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: po4a 0.56\n"
+"Project-Id-Version: po4a 0.58\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2019-06-06 10:35+0200\n"
+"POT-Creation-Date: 2020-05-04 09:50+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,6 +20,12 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
 msgid "po4a - Welcome"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: src/index.php.en:14 src/documentation.php.en:14 src/download.php.en:14
+#: src/getinvolved.php.en:14
+msgid "<?php include \"header.php.en\"; ?>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
@@ -120,11 +126,51 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
+msgid "2020-05-04 - po4a 0.58 released"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:57
+msgid "Rewrite all tests to make them more robust and less permissive."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:58
+msgid "Fix many issues reported against the parsers."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:59
+msgid "Rewrite the documentation for sake of clarity and brievty."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:60
+msgid ""
+"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">more "
+"details</a>)."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:62
+msgid "2019-10-25 - po4a 0.57 released"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:63
+msgid ""
+"Translation update and one bug fix in AsciiDoc.  (<a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.57\">more "
+"details</a>)."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:66
 msgid "2019-06-06 - po4a 0.56 released"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:56
+#: src/index.php.en:67
 msgid ""
 "New features and bug fixes, mostly to the AsciiDoc parser (<a "
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">more "
@@ -132,12 +178,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:59
+#: src/index.php.en:70
 msgid "2018-12-09 - po4a 0.55 released"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:60
+#: src/index.php.en:71
 msgid ""
 "New features and bug fixes to both the individual parsers and common parts "
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
@@ -145,12 +191,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:63
+#: src/index.php.en:74
 msgid "2018-06-30 - po4a 0.54 released"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:64
+#: src/index.php.en:75
 msgid ""
 "We fixed tons of bugs, and removed many glitches (<a "
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.54\">more "
@@ -158,17 +204,22 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:67
+#: src/index.php.en:78
 msgid "2018-05-25 - po4a 0.53 released"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:68
+#: src/index.php.en:79
 msgid ""
 "The most visible change is a new YAML module, and the fact that alioth was "
 "turned off (<a "
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.53\">more "
 "details</a>)."
+msgstr ""
+
+#. type: Content of: <html><body>
+#: src/index.php.en:86
+msgid "<?php include \"footer_index.php\"; ?> <?php include \"footer.php\"; ?>"
 msgstr ""
 
 #. type: Content of: <html><head><title>
@@ -212,6 +263,13 @@ msgid ""
 "documentation or to adapt po4a to your needs.  Do not hesitate to contact us "
 "on our <a href=\"mailto:devel@lists.po4a.org\">mailing list</a> or on IRC "
 "(#po4a on oftc)."
+msgstr ""
+
+#. type: Content of: <html><body>
+#: src/documentation.php.en:36
+msgid ""
+"<?php include \"footer_documentation.php\"; ?> <?php include \"footer.php\"; "
+"?>"
 msgstr ""
 
 #. type: Content of: <html><head><title>
@@ -262,6 +320,11 @@ msgid ""
 "It also contains additional modules which are being considered, but are not "
 "of sufficient quality to be released yet. In other words, they are still "
 "waiting for your contributions :)"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: src/download.php.en:41
+msgid "<?php include \"footer_download.php\"; ?> <?php include \"footer.php\"; ?>"
 msgstr ""
 
 #. type: Content of: <html><head><title>
@@ -330,12 +393,14 @@ msgid "Runtime Translations"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><a>
-#: src/getinvolved.php.en:41 src/getinvolved.php.en:48 src/getinvolved.php.en:53
+#: src/getinvolved.php.en:41 src/getinvolved.php.en:48
+#: src/getinvolved.php.en:53
 msgid "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div>
-#: src/getinvolved.php.en:44 src/getinvolved.php.en:51 src/getinvolved.php.en:56
+#: src/getinvolved.php.en:44 src/getinvolved.php.en:51
+#: src/getinvolved.php.en:56
 msgid "</a>"
 msgstr ""
 
@@ -364,14 +429,22 @@ msgstr ""
 msgid "Support for XLIFF would be welcome."
 msgstr ""
 
-#. type: Content of: <div><div><h1><sup>
-#: src/header.php.en:4
-msgid "po4a<sup>v"
+#. type: Content of: <html><body>
+#: src/getinvolved.php.en:67
+msgid ""
+"<?php include \"footer_getinvolved.php\"; ?> <?php include \"footer.php\"; "
+"?>"
+msgstr ""
+
+#.  begin header.php 
+#. type: Content of: outside any tag (error?)
+#: src/header.php.en:2
+msgid "<?php if (!isset($topdir)) $topdir = \"./\"; ?>"
 msgstr ""
 
 #. type: Content of: <div><div><h1>
 #: src/header.php.en:4
-msgid "</sup>"
+msgid "po4a<sup>v<?php include \"version.php\"; ?></sup>"
 msgstr ""
 
 #. type: Content of: <div><a>
@@ -380,7 +453,8 @@ msgid "Welcome"
 msgstr ""
 
 #. type: Content of: <div><a><span>
-#: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10 src/header.php.en:11
+#: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10
+#: src/header.php.en:11
 msgid "&nbsp;&nbsp;&lt;"
 msgstr ""
 
