@@ -165,6 +165,7 @@ echo $webver > html/version.php
 
 get_language() {
 # FIXME: use gettext
+# https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 	case $1 in
 		ca)
 			echo -n "català"
@@ -183,6 +184,9 @@ get_language() {
 			;;
 		hu)
 			echo -n "Magyar"
+			;;
+		hr)
+			echo -n "hrvatski"
 			;;
 		it)
 			echo -n "Italiano"
