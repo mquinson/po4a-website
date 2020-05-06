@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a-translation\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2020-05-04 09:50+0200\n"
+"POT-Creation-Date: 2020-05-06 22:38+0200\n"
 "PO-Revision-Date: 2019-08-01 05:12+0000\n"
 "Last-Translator: Elizabeth Sherrock <lizzyd710@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -23,12 +23,6 @@ msgstr ""
 #: src/index.php.en:11
 msgid "po4a - Welcome"
 msgstr "po4a - 欢迎"
-
-#. type: Content of: <html><body>
-#: src/index.php.en:14 src/documentation.php.en:14 src/download.php.en:14
-#: src/getinvolved.php.en:14
-msgid "<?php include \"header.php.en\"; ?>"
-msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:18
@@ -152,7 +146,7 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:59
-msgid "Rewrite the documentation for sake of clarity and brievty."
+msgid "Rewrite the documentation for sake of clarity and brevity."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
@@ -257,11 +251,6 @@ msgstr ""
 "最明显的变化是新的YAML模块，以及关闭了alioth的事实(<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.53\">更多细节</a>）。"
 
-#. type: Content of: <html><body>
-#: src/index.php.en:86
-msgid "<?php include \"footer_index.php\"; ?> <?php include \"footer.php\"; ?>"
-msgstr ""
-
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
 msgid "po4a - Documentation"
@@ -307,13 +296,6 @@ msgstr ""
 "我们可以帮助你来为你的项目文档建立一个翻译框架或者调整 po4a 以符合你的需求，"
 "所以不要犹豫了，赶紧联系我们吧，使用 <a href=\"mailto:devel@lists.po4a.org\">"
 "邮件列表</a> 或者 IRC (在 oftc 上的 #po4a 频道)。"
-
-#. type: Content of: <html><body>
-#: src/documentation.php.en:36
-msgid ""
-"<?php include \"footer_documentation.php\"; ?> <?php include \"footer.php"
-"\"; ?>"
-msgstr ""
 
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
@@ -372,12 +354,6 @@ msgid ""
 msgstr ""
 "它也包含了我们正在考虑之中，但是还没有能保证质量的额外模块，换言之，他们仍在"
 "等待你的贡献：）"
-
-#. type: Content of: <html><body>
-#: src/download.php.en:41
-msgid ""
-"<?php include \"footer_download.php\"; ?> <?php include \"footer.php\"; ?>"
-msgstr ""
 
 #. type: Content of: <html><head><title>
 #: src/getinvolved.php.en:11
@@ -488,22 +464,15 @@ msgstr "我们正在寻找有兴趣在 Windows 平台进行测试/移植的人"
 msgid "Support for XLIFF would be welcome."
 msgstr "非常欢迎添加对 XLIFF 的支持。"
 
-#. type: Content of: <html><body>
-#: src/getinvolved.php.en:67
-msgid ""
-"<?php include \"footer_getinvolved.php\"; ?> <?php include \"footer.php\"; ?>"
-msgstr ""
-
-#.  begin header.php 
-#. type: Content of: outside any tag (error?)
-#: src/header.php.en:2
-msgid "<?php if (!isset($topdir)) $topdir = \"./\"; ?>"
-msgstr ""
+#. type: Content of: <div><div><h1><sup>
+#: src/header.php.en:4
+msgid "po4a<sup>v"
+msgstr "po4a<sup>v"
 
 #. type: Content of: <div><div><h1>
 #: src/header.php.en:4
-msgid "po4a<sup>v<?php include \"version.php\"; ?></sup>"
-msgstr ""
+msgid "</sup>"
+msgstr "</sup>"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:8
@@ -525,12 +494,6 @@ msgstr "下载"
 #: src/header.php.en:11
 msgid "Get Involved"
 msgstr "参与"
-
-#~ msgid "po4a<sup>v"
-#~ msgstr "po4a<sup>v"
-
-#~ msgid "</sup>"
-#~ msgstr "</sup>"
 
 #~ msgid "2017-03-28 - po4a 0.52 released"
 #~ msgstr "2017-03-28 - po4a 0.52 发布"

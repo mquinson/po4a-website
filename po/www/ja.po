@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2020-05-04 09:50+0200\n"
+"POT-Creation-Date: 2020-05-06 22:38+0200\n"
 "PO-Revision-Date: 2013-04-26 21:20+0900\n"
 "Last-Translator: KURASAWA Nozomu (nabetaro) <nabetaro@debian.or.jp>\n"
 "Language-Team: Japanese <debian-japanese@lists.debian.org>\n"
@@ -18,12 +18,6 @@ msgstr ""
 #: src/index.php.en:11
 msgid "po4a - Welcome"
 msgstr "po4a - ようこそ"
-
-#. type: Content of: <html><body>
-#: src/index.php.en:14 src/documentation.php.en:14 src/download.php.en:14
-#: src/getinvolved.php.en:14
-msgid "<?php include \"header.php.en\"; ?>"
-msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:18
@@ -157,7 +151,7 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:59
-msgid "Rewrite the documentation for sake of clarity and brievty."
+msgid "Rewrite the documentation for sake of clarity and brevity."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
@@ -275,11 +269,6 @@ msgstr ""
 "最新リリースのソースコードは、<a href=\"http://alioth.debian.org/frs/?"
 "group_id=30267\">Alioth</a> にあります。"
 
-#. type: Content of: <html><body>
-#: src/index.php.en:86
-msgid "<?php include \"footer_index.php\"; ?> <?php include \"footer.php\"; ?>"
-msgstr ""
-
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
 msgid "po4a - Documentation"
@@ -336,13 +325,6 @@ msgstr ""
 "のニーズに合わせて po4a を適用するお手伝いができます。<a href=\"mailto:po4a-"
 "devel@lists.alioth.debian.org\">メーリングリスト</a>や IRC (oftc の #po4a) "
 "で、遠慮なくお問い合わせください。"
-
-#. type: Content of: <html><body>
-#: src/documentation.php.en:36
-msgid ""
-"<?php include \"footer_documentation.php\"; ?> <?php include \"footer.php"
-"\"; ?>"
-msgstr ""
 
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
@@ -414,12 +396,6 @@ msgid ""
 msgstr ""
 "ここには、よく考えられてはいますが、品質を満たしていない、追加モジュールもあ"
 "ります。"
-
-#. type: Content of: <html><body>
-#: src/download.php.en:41
-msgid ""
-"<?php include \"footer_download.php\"; ?> <?php include \"footer.php\"; ?>"
-msgstr ""
 
 #. type: Content of: <html><head><title>
 #: src/getinvolved.php.en:11
@@ -546,22 +522,15 @@ msgstr "Windows での、テスト・移植に興味がある方を探してい�
 msgid "Support for XLIFF would be welcome."
 msgstr "XLIFF のサポートを歓迎します。"
 
-#. type: Content of: <html><body>
-#: src/getinvolved.php.en:67
-msgid ""
-"<?php include \"footer_getinvolved.php\"; ?> <?php include \"footer.php\"; ?>"
-msgstr ""
-
-#.  begin header.php 
-#. type: Content of: outside any tag (error?)
-#: src/header.php.en:2
-msgid "<?php if (!isset($topdir)) $topdir = \"./\"; ?>"
-msgstr ""
+#. type: Content of: <div><div><h1><sup>
+#: src/header.php.en:4
+msgid "po4a<sup>v"
+msgstr "po4a<sup>v"
 
 #. type: Content of: <div><div><h1>
 #: src/header.php.en:4
-msgid "po4a<sup>v<?php include \"version.php\"; ?></sup>"
-msgstr ""
+msgid "</sup>"
+msgstr "</sup>"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:8
@@ -583,12 +552,6 @@ msgstr "ダウンロード"
 #: src/header.php.en:11
 msgid "Get Involved"
 msgstr "参加する"
-
-#~ msgid "po4a<sup>v"
-#~ msgstr "po4a<sup>v"
-
-#~ msgid "</sup>"
-#~ msgstr "</sup>"
 
 #, fuzzy
 #~| msgid "2012-10-17 - po4a 0.43 released"

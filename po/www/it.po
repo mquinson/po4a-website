@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.48\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2020-05-04 09:50+0200\n"
+"POT-Creation-Date: 2020-05-06 22:38+0200\n"
 "PO-Revision-Date: 2019-09-08 23:08+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@libero.it>\n"
 "Language-Team: Italian <it@li.org>\n"
@@ -20,12 +20,6 @@ msgstr ""
 #: src/index.php.en:11
 msgid "po4a - Welcome"
 msgstr "po4a - Benvenuti"
-
-#. type: Content of: <html><body>
-#: src/index.php.en:14 src/documentation.php.en:14 src/download.php.en:14
-#: src/getinvolved.php.en:14
-msgid "<?php include \"header.php.en\"; ?>"
-msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:18
@@ -159,7 +153,7 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:59
-msgid "Rewrite the documentation for sake of clarity and brievty."
+msgid "Rewrite the documentation for sake of clarity and brevity."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
@@ -258,11 +252,6 @@ msgstr ""
 "stato spento. Consultare (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.53\">questo link per ulteriori informazioni</a>)."
 
-#. type: Content of: <html><body>
-#: src/index.php.en:86
-msgid "<?php include \"footer_index.php\"; ?> <?php include \"footer.php\"; ?>"
-msgstr ""
-
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
 msgid "po4a - Documentation"
@@ -313,13 +302,6 @@ msgstr ""
 "per la documentazione del tuo progetto o per adattare po4a per le tue "
 "necessità.  Non esitare a contattarci sulla nostra <a href=\"mailto:"
 "devel@lists.po4a.org\">mailing list</a> o su IRC (#po4a su oftc)."
-
-#. type: Content of: <html><body>
-#: src/documentation.php.en:36
-msgid ""
-"<?php include \"footer_documentation.php\"; ?> <?php include \"footer.php"
-"\"; ?>"
-msgstr ""
 
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
@@ -380,12 +362,6 @@ msgstr ""
 "Esso comprende ulteriori moduli, non di qualità sufficientemente elevata da "
 "poter essere considerati pronti. In altre parole aspettiamo il vostro "
 "contributo :-)."
-
-#. type: Content of: <html><body>
-#: src/download.php.en:41
-msgid ""
-"<?php include \"footer_download.php\"; ?> <?php include \"footer.php\"; ?>"
-msgstr ""
 
 #. type: Content of: <html><head><title>
 #: src/getinvolved.php.en:11
@@ -499,22 +475,15 @@ msgstr "Stiamo cercando persone interessate ad effettuare test/port su Windows"
 msgid "Support for XLIFF would be welcome."
 msgstr "Il supporto a XLIFF sarebbe benvenuto."
 
-#. type: Content of: <html><body>
-#: src/getinvolved.php.en:67
-msgid ""
-"<?php include \"footer_getinvolved.php\"; ?> <?php include \"footer.php\"; ?>"
-msgstr ""
-
-#.  begin header.php 
-#. type: Content of: outside any tag (error?)
-#: src/header.php.en:2
-msgid "<?php if (!isset($topdir)) $topdir = \"./\"; ?>"
-msgstr ""
+#. type: Content of: <div><div><h1><sup>
+#: src/header.php.en:4
+msgid "po4a<sup>v"
+msgstr "po4a<sup>v"
 
 #. type: Content of: <div><div><h1>
 #: src/header.php.en:4
-msgid "po4a<sup>v<?php include \"version.php\"; ?></sup>"
-msgstr ""
+msgid "</sup>"
+msgstr "</sup>"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:8
@@ -536,9 +505,3 @@ msgstr "Scarica"
 #: src/header.php.en:11
 msgid "Get Involved"
 msgstr "Contribuire"
-
-#~ msgid "po4a<sup>v"
-#~ msgstr "po4a<sup>v"
-
-#~ msgid "</sup>"
-#~ msgstr "</sup>"

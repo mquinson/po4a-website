@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.45\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2020-05-04 09:50+0200\n"
+"POT-Creation-Date: 2020-05-06 22:38+0200\n"
 "PO-Revision-Date: 2020-05-06 20:44+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/po4a/"
@@ -23,12 +23,6 @@ msgstr ""
 #: src/index.php.en:11
 msgid "po4a - Welcome"
 msgstr "po4a - Bem-vindo"
-
-#. type: Content of: <html><body>
-#: src/index.php.en:14 src/documentation.php.en:14 src/download.php.en:14
-#: src/getinvolved.php.en:14
-msgid "<?php include \"header.php.en\"; ?>"
-msgstr "<?php include \"header.php.pt_BR\"; ?>"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:18
@@ -161,7 +155,9 @@ msgstr "Corrigidos muitos problemas relatados nos analisadores."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:59
-msgid "Rewrite the documentation for sake of clarity and brievty."
+#, fuzzy
+#| msgid "Rewrite the documentation for sake of clarity and brievty."
+msgid "Rewrite the documentation for sake of clarity and brevity."
 msgstr "Reescrita a documentação por uma questão de clareza e brevidade."
 
 #. type: Content of: <html><body><div><div><ul><li>
@@ -184,8 +180,8 @@ msgid ""
 "Translation update and one bug fix in AsciiDoc.  (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
 msgstr ""
-"Atualização de tradução e uma correção de erro no Asciidoc. (<a href=\""
-"https://github.com/mquinson/po4a/releases/tag/v0.57\">mais detalhes</a>)."
+"Atualização de tradução e uma correção de erro no Asciidoc. (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.57\">mais detalhes</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:66
@@ -248,11 +244,6 @@ msgstr ""
 "desligado (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.53\">mais detalhes</a>)."
 
-#. type: Content of: <html><body>
-#: src/index.php.en:86
-msgid "<?php include \"footer_index.php\"; ?> <?php include \"footer.php\"; ?>"
-msgstr "<?php include \"footer_index.php\"; ?> <?php include \"footer.php\"; ?>"
-
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
 msgid "po4a - Documentation"
@@ -303,15 +294,6 @@ msgstr ""
 "documentação do seu projeto ou adaptar o po4a às suas necessidades. Não "
 "hesite em nos contactar em nossa  <a href=\"mailto:devel@lists.po4a.org"
 "\">lista de discussão</a> ou no IRC (#po4a no oftc)."
-
-#. type: Content of: <html><body>
-#: src/documentation.php.en:36
-msgid ""
-"<?php include \"footer_documentation.php\"; ?> <?php include \"footer.php"
-"\"; ?>"
-msgstr ""
-"<?php include \"footer_documentation.php\"; ?> <?php include \"footer.php\"; "
-"?>"
 
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
@@ -372,13 +354,6 @@ msgstr ""
 "Ela também contém módulos adicionais que estão sendo considerados, mas não "
 "possuem qualidade suficiente para serem lançados ainda. Em outras palavras, "
 "eles ainda estão aguardando sua contribuição :)"
-
-#. type: Content of: <html><body>
-#: src/download.php.en:41
-msgid ""
-"<?php include \"footer_download.php\"; ?> <?php include \"footer.php\"; ?>"
-msgstr ""
-"<?php include \"footer_download.php\"; ?> <?php include \"footer.php\"; ?>"
 
 #. type: Content of: <html><head><title>
 #: src/getinvolved.php.en:11
@@ -494,23 +469,15 @@ msgstr "Estamos procurando pessoas interessadas em testar/portar para Windows"
 msgid "Support for XLIFF would be welcome."
 msgstr "Suporte para XLIFF seria muito bem-vindo."
 
-#. type: Content of: <html><body>
-#: src/getinvolved.php.en:67
-msgid ""
-"<?php include \"footer_getinvolved.php\"; ?> <?php include \"footer.php\"; ?>"
-msgstr ""
-"<?php include \"footer_getinvolved.php\"; ?> <?php include \"footer.php\"; ?>"
-
-#.  begin header.php 
-#. type: Content of: outside any tag (error?)
-#: src/header.php.en:2
-msgid "<?php if (!isset($topdir)) $topdir = \"./\"; ?>"
-msgstr "<?php if (!isset($topdir)) $topdir = \"./\"; ?>"
+#. type: Content of: <div><div><h1><sup>
+#: src/header.php.en:4
+msgid "po4a<sup>v"
+msgstr "po4a<sup>v"
 
 #. type: Content of: <div><div><h1>
 #: src/header.php.en:4
-msgid "po4a<sup>v<?php include \"version.php\"; ?></sup>"
-msgstr "po4a<sup>v<?php include \"version.php\"; ?></sup>"
+msgid "</sup>"
+msgstr "</sup>"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:8
@@ -533,11 +500,38 @@ msgstr "Download"
 msgid "Get Involved"
 msgstr "Envolva-se"
 
-#~ msgid "po4a<sup>v"
-#~ msgstr "po4a<sup>v"
+#~ msgid "<?php include \"header.php.en\"; ?>"
+#~ msgstr "<?php include \"header.php.pt_BR\"; ?>"
 
-#~ msgid "</sup>"
-#~ msgstr "</sup>"
+#~ msgid ""
+#~ "<?php include \"footer_index.php\"; ?> <?php include \"footer.php\"; ?>"
+#~ msgstr ""
+#~ "<?php include \"footer_index.php\"; ?> <?php include \"footer.php\"; ?>"
+
+#~ msgid ""
+#~ "<?php include \"footer_documentation.php\"; ?> <?php include \"footer.php"
+#~ "\"; ?>"
+#~ msgstr ""
+#~ "<?php include \"footer_documentation.php\"; ?> <?php include \"footer.php"
+#~ "\"; ?>"
+
+#~ msgid ""
+#~ "<?php include \"footer_download.php\"; ?> <?php include \"footer.php\"; ?>"
+#~ msgstr ""
+#~ "<?php include \"footer_download.php\"; ?> <?php include \"footer.php\"; ?>"
+
+#~ msgid ""
+#~ "<?php include \"footer_getinvolved.php\"; ?> <?php include \"footer.php"
+#~ "\"; ?>"
+#~ msgstr ""
+#~ "<?php include \"footer_getinvolved.php\"; ?> <?php include \"footer.php"
+#~ "\"; ?>"
+
+#~ msgid "<?php if (!isset($topdir)) $topdir = \"./\"; ?>"
+#~ msgstr "<?php if (!isset($topdir)) $topdir = \"./\"; ?>"
+
+#~ msgid "po4a<sup>v<?php include \"version.php\"; ?></sup>"
+#~ msgstr "po4a<sup>v<?php include \"version.php\"; ?></sup>"
 
 #~ msgid "2017-03-28 - po4a 0.52 released"
 #~ msgstr "28-03-2017 - Lançamento do po4a 0.52"
