@@ -56,7 +56,7 @@
 			<ul>
 				<li>Rewrite all tests to make them more robust and less permissive.</li>
 				<li>Fix many issues reported against the parsers.</li>
-				<li>Rewrite the documentation for sake of clarity and brievty.</li>
+				<li>Rewrite the documentation for sake of clarity and brevity.</li>
 				<li>(<a href="https://github.com/mquinson/po4a/releases/tag/v0.58">more details</a>).
 			</ul>
 			<h2>2019-10-25 - po4a 0.57 released</h2>
