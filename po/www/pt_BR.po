@@ -2,13 +2,13 @@
 # Copyright (C) 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the po4a package.
 # Translator: Rafael Ferreira <rafael.f.f1@gmail.com>, 2013, 2014.
-#
+# Rafael Fontenelle <rafaelff@gnome.org>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.45\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2020-05-04 09:50+0200\n"
-"PO-Revision-Date: 2019-06-27 20:01+0000\n"
+"PO-Revision-Date: 2020-05-06 20:44+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/pt_BR/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.7.1-dev\n"
+"X-Generator: Weblate 4.1-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -28,7 +28,7 @@ msgstr "po4a - Bem-vindo"
 #: src/index.php.en:14 src/documentation.php.en:14 src/download.php.en:14
 #: src/getinvolved.php.en:14
 msgid "<?php include \"header.php.en\"; ?>"
-msgstr ""
+msgstr "<?php include \"header.php.pt_BR\"; ?>"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:18
@@ -145,59 +145,47 @@ msgstr "KernelHelp"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-#, fuzzy
-#| msgid "2018-05-25 - po4a 0.53 released"
 msgid "2020-05-04 - po4a 0.58 released"
-msgstr "25-05-2018 - Lançamento do po4a 0.53"
+msgstr "2020-05-04 - Lançamento do po4a 0.58"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:57
 msgid "Rewrite all tests to make them more robust and less permissive."
 msgstr ""
+"Reescritos todos os testes para torná-los mais robustos e menos permissivos."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:58
 msgid "Fix many issues reported against the parsers."
-msgstr ""
+msgstr "Corrigidos muitos problemas relatados nos analisadores."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:59
 msgid "Rewrite the documentation for sake of clarity and brievty."
-msgstr ""
+msgstr "Reescrita a documentação por uma questão de clareza e brevidade."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:60
-#, fuzzy
-#| msgid ""
-#| "We fixed tons of bugs, and removed many glitches (<a href=\"https://"
-#| "github.com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
 msgid ""
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">more "
 "details</a>)."
 msgstr ""
-"Corrigimos vários erros e removemos várias falhas (<a href=\"https://github."
-"com/mquinson/po4a/releases/tag/v0.54\">mais detalhes</a>)."
+"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">mais "
+"detalhes</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:62
-#, fuzzy
-#| msgid "2018-05-25 - po4a 0.53 released"
 msgid "2019-10-25 - po4a 0.57 released"
-msgstr "25-05-2018 - Lançamento do po4a 0.53"
+msgstr "2019-10-25 - Lançamento do po4a 0.57"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:63
-#, fuzzy
-#| msgid ""
-#| "New features and bug fixes, mostly to the AsciiDoc parser (<a href="
-#| "\"https://github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
 msgid ""
 "Translation update and one bug fix in AsciiDoc.  (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
 msgstr ""
-"Novos recursos e correções de erros, principalmente ao analisador Asciidoc "
-"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">mais "
-"detalhes</a>)."
+"Atualização de tradução e uma correção de erro no Asciidoc. (<a href=\""
+"https://github.com/mquinson/po4a/releases/tag/v0.57\">mais detalhes</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:66
@@ -263,7 +251,7 @@ msgstr ""
 #. type: Content of: <html><body>
 #: src/index.php.en:86
 msgid "<?php include \"footer_index.php\"; ?> <?php include \"footer.php\"; ?>"
-msgstr ""
+msgstr "<?php include \"footer_index.php\"; ?> <?php include \"footer.php\"; ?>"
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
@@ -322,6 +310,8 @@ msgid ""
 "<?php include \"footer_documentation.php\"; ?> <?php include \"footer.php"
 "\"; ?>"
 msgstr ""
+"<?php include \"footer_documentation.php\"; ?> <?php include \"footer.php\"; "
+"?>"
 
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
@@ -388,6 +378,7 @@ msgstr ""
 msgid ""
 "<?php include \"footer_download.php\"; ?> <?php include \"footer.php\"; ?>"
 msgstr ""
+"<?php include \"footer_download.php\"; ?> <?php include \"footer.php\"; ?>"
 
 #. type: Content of: <html><head><title>
 #: src/getinvolved.php.en:11
@@ -508,17 +499,18 @@ msgstr "Suporte para XLIFF seria muito bem-vindo."
 msgid ""
 "<?php include \"footer_getinvolved.php\"; ?> <?php include \"footer.php\"; ?>"
 msgstr ""
+"<?php include \"footer_getinvolved.php\"; ?> <?php include \"footer.php\"; ?>"
 
 #.  begin header.php 
 #. type: Content of: outside any tag (error?)
 #: src/header.php.en:2
 msgid "<?php if (!isset($topdir)) $topdir = \"./\"; ?>"
-msgstr ""
+msgstr "<?php if (!isset($topdir)) $topdir = \"./\"; ?>"
 
 #. type: Content of: <div><div><h1>
 #: src/header.php.en:4
 msgid "po4a<sup>v<?php include \"version.php\"; ?></sup>"
-msgstr ""
+msgstr "po4a<sup>v<?php include \"version.php\"; ?></sup>"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:8
