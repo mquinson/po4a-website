@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: po4a\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2020-05-06 22:38+0200\n"
-"PO-Revision-Date: 2020-05-06 20:46+0000\n"
+"PO-Revision-Date: 2020-05-06 22:10+0000\n"
 "Last-Translator: Martin Quinson <martin.quinson@ens-rennes.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "fr/>\n"
@@ -143,7 +143,7 @@ msgstr "KernelHelp"
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
 msgid "2020-05-04 - po4a 0.58 released"
-msgstr "04/05/2020 — po4a 0.58 est sorti"
+msgstr "4 mai 2020 — po4a 0.58 est sorti"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:57
@@ -174,7 +174,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:62
 msgid "2019-10-25 - po4a 0.57 released"
-msgstr "25/10/2019 — po4a 0.57 est sorti"
+msgstr "25 octobre 2019 — po4a 0.57 est sorti"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:63
@@ -188,7 +188,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:66
 msgid "2019-06-06 - po4a 0.56 released"
-msgstr "2019-06-06 — po4a 0.56 est sorti"
+msgstr "6 juin 2019 — po4a 0.56 est sorti"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:67
@@ -234,7 +234,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:78
 msgid "2018-05-25 - po4a 0.53 released"
-msgstr "25/05/2018 — po4a 0.53 est sorti"
+msgstr "25 mai 2018 — po4a 0.53 est sorti"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:79
