@@ -10,14 +10,14 @@ msgstr ""
 "POT-Creation-Date: 2019-06-06 10:35+0200\n"
 "PO-Revision-Date: 2020-05-03 12:11+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
-"Language-Team: Croatian <https://hosted.weblate.org/projects/po4a/"
-"po4a-website/hr/>\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/po4a/po4a-"
+"website/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.1-dev\n"
 
 #. type: Content of: <html><head><title>
@@ -146,9 +146,8 @@ msgstr "2019-06-06 – objavljen po4a 0.56"
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
 msgid ""
-"New features and bug fixes, mostly to the AsciiDoc parser (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">more "
-"details</a>)."
+"New features and bug fixes, mostly to the AsciiDoc parser (<a href=\"https://"
+"github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
 msgstr ""
 "Nove funkcije i isrpavljanje grešaka, uglavnom zbog AsciiDoc parsera (<a "
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">daljnje "
@@ -167,8 +166,8 @@ msgid ""
 "details</a>)."
 msgstr ""
 "Nove funkcije i isrpavljanje grešaka parsera i zajedničkih dijelova (<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.55\">daljnje "
-"informacije</a>)."
+"\"https://github.com/mquinson/po4a/releases/tag/v0.55\">daljnje informacije</"
+"a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:63
@@ -178,13 +177,11 @@ msgstr "2018-06-30 – objavljen po4a 0.54"
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:64
 msgid ""
-"We fixed tons of bugs, and removed many glitches (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.54\">more "
-"details</a>)."
+"We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
+"com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
 msgstr ""
-"Ispravili smo velik broj grešaka i uklonili mnoge smetnje (<a href=\""
-"https://github.com/mquinson/po4a/releases/tag/v0.54\">daljnje "
-"informacije</a>)."
+"Ispravili smo velik broj grešaka i uklonili mnoge smetnje (<a href=\"https://"
+"github.com/mquinson/po4a/releases/tag/v0.54\">daljnje informacije</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:67
@@ -195,12 +192,11 @@ msgstr "2018-05-25 – objavljen po4a 0.53"
 #: src/index.php.en:68
 msgid ""
 "The most visible change is a new YAML module, and the fact that alioth was "
-"turned off (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.53\">more "
-"details</a>)."
+"turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.53\">more details</a>)."
 msgstr ""
-"Najočitija promjena je novi YAML modul i činjenica da je alioth isključen (<"
-"a href=\"https://github.com/mquinson/po4a/releases/tag/v0.53\">daljnje "
+"Najočitija promjena je novi YAML modul i činjenica da je alioth isključen "
+"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.53\">daljnje "
 "informacije</a>)."
 
 #. type: Content of: <html><head><title>
@@ -264,8 +260,8 @@ msgstr "Izvori"
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:19
 msgid ""
-"You can find the sources of the latest release on <a "
-"href=\"https://github.com/mquinson/po4a/releases\">GitHub</a>."
+"You can find the sources of the latest release on <a href=\"https://github."
+"com/mquinson/po4a/releases\">GitHub</a>."
 msgstr ""
 "Preuzmi najnovije izdanje s <a href=\"https://github.com/mquinson/po4a/"
 "releases\">GitHub</a>-a."
@@ -294,8 +290,8 @@ msgstr "Git repozitoij"
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:31
 msgid ""
-"The latest sources are available from our <a "
-"href=\"https://github.com/mquinson/po4a\">Git repository</a>."
+"The latest sources are available from our <a href=\"https://github.com/"
+"mquinson/po4a\">Git repository</a>."
 msgstr ""
 "Najnoviji izvori su dostupni u našem <a href=\"https://github.com/mquinson/"
 "po4a\">Git repozitoriju</a>."
@@ -329,12 +325,11 @@ msgstr "Ako želiš sudjelovati, kontaktiraj nas"
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:21
 msgid ""
-"on our <a "
-"href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/\">mailing "
-"list</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>,"
+"on our <a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/"
+"\">mailing list</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>,"
 msgstr ""
-"<a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/\">"
-"mailing lista</a> – <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>"
+"<a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/"
+"\">mailing lista</a> – <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:22
@@ -345,27 +340,24 @@ msgstr "IRC (#po4a na oftc)."
 #: src/getinvolved.php.en:23
 msgid ""
 "Bug reports, patches, feature requests or any feedback are welcome on the "
-"mailing list, in the <a "
-"href=\"https://github.com/mquinson/po4a/issues\">GitHub tracker</a> or in "
-"the <a "
-"href=\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable\">Debian "
-"BTS</a>."
+"mailing list, in the <a href=\"https://github.com/mquinson/po4a/issues"
+"\">GitHub tracker</a> or in the <a href=\"http://bugs.debian.org/cgi-bin/"
+"pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>."
 msgstr ""
 "Prijavi greške, zatraži nove funkcije ili pošalji bilo koju vrstu povratnih "
 "informacija na<a href=\"https://github.com/mquinson/po4a/issues\">GitHub "
-"tracker</a> ili na <a href=\"http://bugs.debian.org/cgi-bin/"
-"pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>."
+"tracker</a> ili na <a href=\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?"
+"pkg=po4a;dist=unstable\">Debian BTS</a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:27
 msgid ""
-"If you can improve the code yourself, Pull Requests against the <a "
-"href=\"https://github.com/mquinson/po4a\">GitHub repository</a> are more "
-"than welcomed."
+"If you can improve the code yourself, Pull Requests against the <a href="
+"\"https://github.com/mquinson/po4a\">GitHub repository</a> are more than "
+"welcomed."
 msgstr ""
-"Ako možeš poboljšati kod, zahtjevi za preuzimanjem na <a href=\""
-"https://github.com/mquinson/po4a\">GitHub repozitorij</a> su više nego "
-"dobrodošli."
+"Ako možeš poboljšati kod, zahtjevi za preuzimanjem na <a href=\"https://"
+"github.com/mquinson/po4a\">GitHub repozitorij</a> su više nego dobrodošli."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:32
@@ -375,13 +367,13 @@ msgstr "Prevođenje"
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:33
 msgid ""
-"The easiest to help translating po4a is to go through <a "
-"href=\"https://hosted.weblate.org/projects/po4a/\">weblate</a> but you can "
-"also provide pull requests on the source git directly if you prefer."
+"The easiest to help translating po4a is to go through <a href=\"https://"
+"hosted.weblate.org/projects/po4a/\">weblate</a> but you can also provide "
+"pull requests on the source git directly if you prefer."
 msgstr ""
-"Najednostavniji način pomoći prevesti po4a je putem <a href=\""
-"https://hosted.weblate.org/projects/po4a/\">weblate</a>-a. Ako ti je draže, "
-"pošalji zahtjev za preuzimanjem izravno na git-u."
+"Najednostavniji način pomoći prevesti po4a je putem <a href=\"https://hosted."
+"weblate.org/projects/po4a/\">weblate</a>-a. Ako ti je draže, pošalji zahtjev "
+"za preuzimanjem izravno na git-u."
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:40
@@ -389,12 +381,14 @@ msgid "Runtime Translations"
 msgstr "Prijevod programa"
 
 #. type: Content of: <html><body><div><div><div><a>
-#: src/getinvolved.php.en:41 src/getinvolved.php.en:48 src/getinvolved.php.en:53
+#: src/getinvolved.php.en:41 src/getinvolved.php.en:48
+#: src/getinvolved.php.en:53
 msgid "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
 msgstr "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
 
 #. type: Content of: <html><body><div><div><div>
-#: src/getinvolved.php.en:44 src/getinvolved.php.en:51 src/getinvolved.php.en:56
+#: src/getinvolved.php.en:44 src/getinvolved.php.en:51
+#: src/getinvolved.php.en:56
 msgid "</a>"
 msgstr "</a>"
 
@@ -439,7 +433,8 @@ msgid "Welcome"
 msgstr "Početna"
 
 #. type: Content of: <div><a><span>
-#: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10 src/header.php.en:11
+#: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10
+#: src/header.php.en:11
 msgid "&nbsp;&nbsp;&lt;"
 msgstr "&nbsp;&nbsp;&lt;"
 

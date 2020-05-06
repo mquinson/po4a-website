@@ -151,8 +151,8 @@ msgid ""
 "github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
 msgstr ""
 "Nouvelles fonctionnalités et corrections de bogues, surtout dans l'analyser "
-"AsciiDoc (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">"
-"plus de détails</a>)."
+"AsciiDoc (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.56\">plus de détails</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:59

@@ -151,8 +151,8 @@ msgid ""
 "github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
 msgstr ""
 "Nieuwe functionaliteit en reparaties van bugs, hoofdzakelijk in de AsciiDoc-"
-"ontleder (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">"
-"meer details</a>)."
+"ontleder (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.56\">meer details</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:59

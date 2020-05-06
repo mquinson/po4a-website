@@ -143,8 +143,8 @@ msgid ""
 "New features and bug fixes, mostly to the AsciiDoc parser (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
 msgstr ""
-"此版本引入了许多错误修正和一些新的发展（<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-"v0.56\">更多细节</a>）。"
+"此版本引入了许多错误修正和一些新的发展（<a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.56\">更多细节</a>）。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:59
@@ -163,8 +163,8 @@ msgid ""
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
 "details</a>)."
 msgstr ""
-"此版本引入了许多错误修正和一些新的发展（<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-"v0.55\">更多细节</a>）。"
+"此版本引入了许多错误修正和一些新的发展（<a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.55\">更多细节</a>）。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:63

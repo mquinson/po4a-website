@@ -144,7 +144,10 @@ msgstr "2019-06-06 - rilasciato po4a 0.56"
 msgid ""
 "New features and bug fixes, mostly to the AsciiDoc parser (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
-msgstr "Nuove caratteristiche e correzione difetti, più che altro relativi all'analizzatore AsciiDoc (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">ulteriori dettagli</a>)."
+msgstr ""
+"Nuove caratteristiche e correzione difetti, più che altro relativi "
+"all'analizzatore AsciiDoc (<a href=\"https://github.com/mquinson/po4a/"
+"releases/tag/v0.56\">ulteriori dettagli</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:59
@@ -157,7 +160,9 @@ msgid ""
 "New features and bug fixes to both the individual parsers and common parts "
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
 "details</a>)."
-msgstr "Nuove caratteristiche e correzione difetti (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">ulteriori dettagli</a>)."
+msgstr ""
+"Nuove caratteristiche e correzione difetti (<a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.55\">ulteriori dettagli</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:63
@@ -169,7 +174,10 @@ msgstr "2018-06-30 - rilasciato po4a 0.54"
 msgid ""
 "We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
-msgstr "Corretti una montagna di difetti e rimosse alcune imperfezioni (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.54\">ulteriori dettagli</a>)."
+msgstr ""
+"Corretti una montagna di difetti e rimosse alcune imperfezioni (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.54\">ulteriori dettagli</"
+"a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:67

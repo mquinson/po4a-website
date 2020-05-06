@@ -148,8 +148,8 @@ msgid ""
 "New features and bug fixes, mostly to the AsciiDoc parser (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
 msgstr ""
-"Novos recursos e correções de erros, principalmente ao analisador Asciidoc (<"
-"a href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">mais "
+"Novos recursos e correções de erros, principalmente ao analisador Asciidoc "
+"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">mais "
 "detalhes</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
