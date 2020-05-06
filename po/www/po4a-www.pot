@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.58.01\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2020-05-06 18:44+0200\n"
+"POT-Creation-Date: 2020-05-06 22:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,12 +20,6 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
 msgid "po4a - Welcome"
-msgstr ""
-
-#. type: Content of: <html><body>
-#: src/index.php.en:14 src/documentation.php.en:14 src/download.php.en:14
-#: src/getinvolved.php.en:14
-msgid "<?php include \"header.php.en\"; ?>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
@@ -217,11 +211,6 @@ msgid ""
 "details</a>)."
 msgstr ""
 
-#. type: Content of: <html><body>
-#: src/index.php.en:86
-msgid "<?php include \"footer_index.php\"; ?> <?php include \"footer.php\"; ?>"
-msgstr ""
-
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
 msgid "po4a - Documentation"
@@ -263,13 +252,6 @@ msgid ""
 "documentation or to adapt po4a to your needs.  Do not hesitate to contact us "
 "on our <a href=\"mailto:devel@lists.po4a.org\">mailing list</a> or on IRC "
 "(#po4a on oftc)."
-msgstr ""
-
-#. type: Content of: <html><body>
-#: src/documentation.php.en:36
-msgid ""
-"<?php include \"footer_documentation.php\"; ?> <?php include \"footer.php\"; "
-"?>"
 msgstr ""
 
 #. type: Content of: <html><head><title>
@@ -320,11 +302,6 @@ msgid ""
 "It also contains additional modules which are being considered, but are not "
 "of sufficient quality to be released yet. In other words, they are still "
 "waiting for your contributions :)"
-msgstr ""
-
-#. type: Content of: <html><body>
-#: src/download.php.en:41
-msgid "<?php include \"footer_download.php\"; ?> <?php include \"footer.php\"; ?>"
 msgstr ""
 
 #. type: Content of: <html><head><title>
@@ -429,22 +406,14 @@ msgstr ""
 msgid "Support for XLIFF would be welcome."
 msgstr ""
 
-#. type: Content of: <html><body>
-#: src/getinvolved.php.en:67
-msgid ""
-"<?php include \"footer_getinvolved.php\"; ?> <?php include \"footer.php\"; "
-"?>"
-msgstr ""
-
-#.  begin header.php 
-#. type: Content of: outside any tag (error?)
-#: src/header.php.en:2
-msgid "<?php if (!isset($topdir)) $topdir = \"./\"; ?>"
+#. type: Content of: <div><div><h1><sup>
+#: src/header.php.en:4
+msgid "po4a<sup>v"
 msgstr ""
 
 #. type: Content of: <div><div><h1>
 #: src/header.php.en:4
-msgid "po4a<sup>v<?php include \"version.php\"; ?></sup>"
+msgid "</sup>"
 msgstr ""
 
 #. type: Content of: <div><a>
