@@ -4,13 +4,14 @@
 #
 # Nicolas François <nicolas.francois@centraliens.net>, 2010.
 # David Prévot <david@tilapin.org>, 2010-2012.
+# Martin Quinson <martin.quinson@ens-rennes.fr>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2020-05-04 09:50+0200\n"
-"PO-Revision-Date: 2019-08-03 12:23+0000\n"
-"Last-Translator: Julien Lepiller <roptat@lepiller.eu>\n"
+"PO-Revision-Date: 2020-05-06 20:44+0000\n"
+"Last-Translator: Martin Quinson <martin.quinson@ens-rennes.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "fr/>\n"
 "Language: fr\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.8-dev\n"
+"X-Generator: Weblate 4.1-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -147,60 +148,47 @@ msgstr "KernelHelp"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-#, fuzzy
-#| msgid "2018-05-25 - po4a 0.53 released"
 msgid "2020-05-04 - po4a 0.58 released"
-msgstr "25/05/2018 — po4a 0.53 est sorti"
+msgstr "04/05/2020 — po4a 0.58 est sorti"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:57
 msgid "Rewrite all tests to make them more robust and less permissive."
-msgstr ""
+msgstr "Réécriture des tests pour les rendre plus robustes et moins permissifs."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:58
 msgid "Fix many issues reported against the parsers."
-msgstr ""
+msgstr "Correction de nombreux problèmes connus avec les parseurs."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:59
 msgid "Rewrite the documentation for sake of clarity and brievty."
 msgstr ""
+"Réécriture de la documentation pour la rendre plus claire et plus concise."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:60
-#, fuzzy
-#| msgid ""
-#| "We fixed tons of bugs, and removed many glitches (<a href=\"https://"
-#| "github.com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
 msgid ""
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">more "
 "details</a>)."
 msgstr ""
-"Nous avons corrigé une tonne de bugs et autres problèmes (<a href=\"https://"
-"github.com/mquinson/po4a/releases/tag/v0.54\">plus d’informations</a> -- en "
-"anglais)."
+"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">plus "
+"d’informations</a> -- en anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:62
-#, fuzzy
-#| msgid "2018-05-25 - po4a 0.53 released"
 msgid "2019-10-25 - po4a 0.57 released"
-msgstr "25/05/2018 — po4a 0.53 est sorti"
+msgstr "25/10/2019 — po4a 0.57 est sorti"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:63
-#, fuzzy
-#| msgid ""
-#| "New features and bug fixes, mostly to the AsciiDoc parser (<a href="
-#| "\"https://github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
 msgid ""
 "Translation update and one bug fix in AsciiDoc.  (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
 msgstr ""
-"Nouvelles fonctionnalités et corrections de bogues, surtout dans l'analyser "
-"AsciiDoc (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-"v0.56\">plus de détails</a>)."
+"Mise à jour des traductions et correction de bug dans AsciiDoc (<a href=\""
+"https://github.com/mquinson/po4a/releases/tag/v0.56\">plus de détails</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:66
@@ -266,8 +254,9 @@ msgstr ""
 
 #. type: Content of: <html><body>
 #: src/index.php.en:86
+#, fuzzy
 msgid "<?php include \"footer_index.php\"; ?> <?php include \"footer.php\"; ?>"
-msgstr ""
+msgstr "<?php include \"footer_index.php\"; ?> <?php include \"footer.php\"; ?>"
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
@@ -326,6 +315,8 @@ msgid ""
 "<?php include \"footer_documentation.php\"; ?> <?php include \"footer.php"
 "\"; ?>"
 msgstr ""
+"<?php include \"footer_documentation.php\"; ?> <?php include \"footer.php\"; "
+"?>"
 
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
