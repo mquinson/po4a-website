@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: po4a\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2020-05-06 22:38+0200\n"
-"PO-Revision-Date: 2020-05-06 20:44+0000\n"
+"PO-Revision-Date: 2020-05-06 20:46+0000\n"
 "Last-Translator: Martin Quinson <martin.quinson@ens-rennes.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "fr/>\n"
@@ -158,8 +158,6 @@ msgstr "Correction de nombreux problèmes connus avec les parseurs."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:59
-#, fuzzy
-#| msgid "Rewrite the documentation for sake of clarity and brievty."
 msgid "Rewrite the documentation for sake of clarity and brevity."
 msgstr ""
 "Réécriture de la documentation pour la rendre plus claire et plus concise."

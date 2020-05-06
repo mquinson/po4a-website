@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the po4a package.
 # Translator: Rafael Ferreira <rafael.f.f1@gmail.com>, 2013, 2014.
 # Rafael Fontenelle <rafaelff@gnome.org>, 2020.
+# Martin Quinson <martin.quinson@ens-rennes.fr>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.45\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2020-05-06 22:38+0200\n"
-"PO-Revision-Date: 2020-05-06 20:44+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"PO-Revision-Date: 2020-05-06 20:46+0000\n"
+"Last-Translator: Martin Quinson <martin.quinson@ens-rennes.fr>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -155,8 +156,6 @@ msgstr "Corrigidos muitos problemas relatados nos analisadores."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:59
-#, fuzzy
-#| msgid "Rewrite the documentation for sake of clarity and brievty."
 msgid "Rewrite the documentation for sake of clarity and brevity."
 msgstr "Reescrita a documentação por uma questão de clareza e brevidade."
 
