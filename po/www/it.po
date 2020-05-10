@@ -159,7 +159,10 @@ msgstr "Riscritta la documentazione rendendola più chiara e concisa."
 msgid ""
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">more "
 "details</a>)."
-msgstr "Corretti una montagna di difetti e rimosse alcune imperfezioni (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">ulteriori dettagli</a>)."
+msgstr ""
+"Corretti una montagna di difetti e rimosse alcune imperfezioni (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.58\">ulteriori dettagli</"
+"a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:62
@@ -171,7 +174,10 @@ msgstr "2019-10-25 - rilasciato po4a 0.57"
 msgid ""
 "Translation update and one bug fix in AsciiDoc.  (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
-msgstr "Aggiornamento traduzione e una correzione relativa all'AsciiDoc (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.57\">ulteriori dettagli</a>)."
+msgstr ""
+"Aggiornamento traduzione e una correzione relativa all'AsciiDoc (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.57\">ulteriori dettagli</"
+"a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:66

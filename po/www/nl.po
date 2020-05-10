@@ -159,7 +159,8 @@ msgstr ""
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:59
 msgid "Rewrite the documentation for sake of clarity and brevity."
-msgstr "Herschrijven van de documentatie om ze helderder en beknopter te maken."
+msgstr ""
+"Herschrijven van de documentatie om ze helderder en beknopter te maken."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:60
@@ -181,8 +182,8 @@ msgid ""
 "Translation update and one bug fix in AsciiDoc.  (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
 msgstr ""
-"Bijgewerkte vertalingen en een bugcorrectie in AsciiDoc. (<a href=\""
-"https://github.com/mquinson/po4a/releases/tag/v0.57\">meer informatie</a>)."
+"Bijgewerkte vertalingen en een bugcorrectie in AsciiDoc. (<a href=\"https://"
+"github.com/mquinson/po4a/releases/tag/v0.57\">meer informatie</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:66
