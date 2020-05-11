@@ -2,21 +2,22 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the po4a package.
 # Andrei Stepanov <adem4ik@gmail.com>, 2020.
+# Golubev Alexander <fatzer2@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.36.6\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2020-05-06 22:38+0200\n"
-"PO-Revision-Date: 2020-05-10 10:16+0000\n"
-"Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/po4a/po4a-"
-"website/ru/>\n"
+"PO-Revision-Date: 2020-05-11 10:41+0000\n"
+"Last-Translator: Golubev Alexander <fatzer2@gmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/po4a/"
+"po4a-website/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.1-dev\n"
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
@@ -148,14 +149,12 @@ msgstr "2020-05-04 - выпуск po4a 0.58"
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:57
 msgid "Rewrite all tests to make them more robust and less permissive."
-msgstr ""
-"Переписаны все тесты, чтобы сделать их более надёжными и менее "
-"снисходительными."
+msgstr "Переписаны все тесты, чтобы сделать их более надёжными и строгими."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:58
 msgid "Fix many issues reported against the parsers."
-msgstr "Исправление многих проблем, о которых сообщалось в отношении парсеров."
+msgstr "Исправлены многие известные проблемы в парсерах."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:59
