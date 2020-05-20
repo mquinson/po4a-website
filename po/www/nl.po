@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.55\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2020-05-06 22:38+0200\n"
-"PO-Revision-Date: 2020-05-08 23:12+0000\n"
+"PO-Revision-Date: 2020-05-20 18:41+0000\n"
 "Last-Translator: Frans Spiesschaert <frans.spiesschaert@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "nl/>\n"
@@ -260,7 +260,7 @@ msgstr "Documentatie"
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:19
 msgid "Here is an HTML version of the po4a's manpages."
-msgstr "Hier is een  HTML-versie van de man-pagina's van po4a."
+msgstr "Hier is een HTML-versie van de man-pagina's van po4a."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:20
@@ -268,8 +268,8 @@ msgid ""
 "The <a href=\"man/man7/po4a.7.php\">po4a.7</a> manpage provides an "
 "introduction to po4a."
 msgstr ""
-"De man-pagina  <a href=\"man/man7/po4a.7.php\">po4a.7</a> biedt een "
-"inleiding tot po4a."
+"De man-pagina <a href=\"man/man7/po4a.7.php\">po4a.7</a> biedt een inleiding "
+"tot po4a."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:22
@@ -277,7 +277,7 @@ msgid ""
 "For more details, the <a href=\"man/\">index</a> provides the documentation "
 "of the various commands and modules."
 msgstr ""
-"Met het oog op bijkomende informatie is er een <a href=\"man/\">index</a>  "
+"Met het oog op bijkomende informatie is er een <a href=\"man/\">index</a> "
 "van de documentatie bij de verschillende commando's en modules."
 
 #. type: Content of: <html><body><div><div><h2>
@@ -423,10 +423,9 @@ msgid ""
 "hosted.weblate.org/projects/po4a/\">weblate</a> but you can also provide "
 "pull requests on the source git directly if you prefer."
 msgstr ""
-"De makkelijkste manier om te helpen bij het vertalen van po4a is via  <a "
-"href=\"https://hosted.weblate.org/projects/po4a/\">weblate</a>, maar indien "
-"u dit wenst kunt u ook rechtstreeks 'pull requests' richten tot de broncode-"
-"git."
+"De makkelijkste manier om te helpen bij het vertalen van po4a is via <a href="
+"\"https://hosted.weblate.org/projects/po4a/\">weblate</a>, maar indien u dit "
+"wenst kunt u ook rechtstreeks 'pull requests' richten tot de broncode-git."
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:40
