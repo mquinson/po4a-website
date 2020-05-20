@@ -18,7 +18,9 @@
 			<h2>Documentation</h2>
 			<p>Here is an HTML version of the po4a's manpages.</p>
 			<p>The <a href="man/man7/po4a.7.php">po4a.7</a> manpage
-			provides an introduction to po4a.</p>
+			provides an introduction to po4a, while 
+			<a href="man/man1/po4a.1.php">po4a(1)</a>
+			presents the main po4a program.</p>
 			<p>For more details, the <a href="man/">index</a>
 			provides the documentation of the various commands
 			and modules.</p>
