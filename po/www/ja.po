@@ -4,11 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2020-05-06 22:38+0200\n"
+"POT-Creation-Date: 2020-07-16 00:28+0200\n"
 "PO-Revision-Date: 2020-06-03 19:41+0000\n"
 "Last-Translator: Masahiro Nakamura <marlsa_32.wwmd@icloud.com>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/po4a/"
-"po4a-website/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/po4a/po4a-"
+"website/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,7 +42,9 @@ msgstr ""
 msgid ""
 "po4a extracts the translatable material from the original document, and "
 "places it into a PO file that is well adapted to the translation work."
-msgstr "po4aは、元のドキュメントから翻訳できる素材を抽出し、翻訳作業に適したPOファイルを作成します。"
+msgstr ""
+"po4aは、元のドキュメントから翻訳できる素材を抽出し、翻訳作業に適したPOファイ"
+"ルを作成します。"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:27
@@ -50,7 +52,9 @@ msgid ""
 "Once the translation is completed in the PO file, po4a re-injects the "
 "translation into the structure of the document to generate a translated "
 "document."
-msgstr "PO ファイルを使った翻訳さえ完了すれば、po4aはその翻訳をドキュメントの構造に再注入し、翻訳済みドキュメントを生成します。"
+msgstr ""
+"PO ファイルを使った翻訳さえ完了すれば、po4aはその翻訳をドキュメントの構造に再"
+"注入し、翻訳済みドキュメントを生成します。"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:30
@@ -123,26 +127,67 @@ msgstr "KernelHelp"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
+#, fuzzy
+#| msgid "2020-05-04 - po4a 0.58 released"
+msgid "2020-15-07 - po4a 0.60 released"
+msgstr "2020-05-04 - po4a 0.58 リリース"
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:56
+#, fuzzy
+#| msgid ""
+#| "You can find the sources of the latest release on <a href=\"http://alioth."
+#| "debian.org/frs/?group_id=30267\">Alioth</a>."
+msgid ""
+"Bug fix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
+"releases/tag/v0.60\">more details</a>)."
+msgstr ""
+"最新リリースのソースコードは、<a href=\"http://alioth.debian.org/frs/?"
+"group_id=30267\">Alioth</a> にあります。"
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:58
+#, fuzzy
+#| msgid "2020-05-04 - po4a 0.58 released"
+msgid "2020-20-05 - po4a 0.59 released"
+msgstr "2020-05-04 - po4a 0.58 リリース"
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:59
+#, fuzzy
+#| msgid ""
+#| "You can find the sources of the latest release on <a href=\"http://alioth."
+#| "debian.org/frs/?group_id=30267\">Alioth</a>."
+msgid ""
+"Bug fix release to not break the build of several Debian packages (at "
+"least).  <a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.59\">More details</a>."
+msgstr ""
+"最新リリースのソースコードは、<a href=\"http://alioth.debian.org/frs/?"
+"group_id=30267\">Alioth</a> にあります。"
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:62
 msgid "2020-05-04 - po4a 0.58 released"
 msgstr "2020-05-04 - po4a 0.58 リリース"
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:57
+#: src/index.php.en:64
 msgid "Rewrite all tests to make them more robust and less permissive."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:58
+#: src/index.php.en:65
 msgid "Fix many issues reported against the parsers."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:59
+#: src/index.php.en:66
 msgid "Rewrite the documentation for sake of clarity and brevity."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:60
+#: src/index.php.en:67
 #, fuzzy
 #| msgid ""
 #| "You can find the sources of the latest release on <a href=\"http://alioth."
@@ -155,12 +200,12 @@ msgstr ""
 "group_id=30267\">Alioth</a> にあります。"
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:62
+#: src/index.php.en:69
 msgid "2019-10-25 - po4a 0.57 released"
 msgstr "2019-10-25 - po4a 0.57 リリース"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:63
+#: src/index.php.en:70
 #, fuzzy
 #| msgid ""
 #| "You can find the sources of the latest release on <a href=\"http://alioth."
@@ -173,12 +218,12 @@ msgstr ""
 "group_id=30267\">Alioth</a> にあります。"
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:66
+#: src/index.php.en:73
 msgid "2019-06-06 - po4a 0.56 released"
 msgstr "2019-06-06 - po4a 0.56 リリース"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:67
+#: src/index.php.en:74
 #, fuzzy
 #| msgid ""
 #| "You can find the sources of the latest release on <a href=\"http://alioth."
@@ -191,12 +236,12 @@ msgstr ""
 "group_id=30267\">Alioth</a> にあります。"
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:70
+#: src/index.php.en:77
 msgid "2018-12-09 - po4a 0.55 released"
 msgstr "2018-12-09 - po4a 0.55 リリース"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:71
+#: src/index.php.en:78
 #, fuzzy
 #| msgid ""
 #| "You can find the sources of the latest release on <a href=\"http://alioth."
@@ -210,12 +255,12 @@ msgstr ""
 "group_id=30267\">Alioth</a> にあります。"
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:74
+#: src/index.php.en:81
 msgid "2018-06-30 - po4a 0.54 released"
 msgstr "2018-06-30 - po4a 0.54 リリース"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:75
+#: src/index.php.en:82
 #, fuzzy
 #| msgid ""
 #| "You can find the sources of the latest release on <a href=\"http://alioth."
@@ -228,12 +273,12 @@ msgstr ""
 "group_id=30267\">Alioth</a> にあります。"
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:78
+#: src/index.php.en:85
 msgid "2018-05-25 - po4a 0.53 released"
 msgstr "2018-05-25 - po4a 0.53 リリース"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:79
+#: src/index.php.en:86
 #, fuzzy
 #| msgid ""
 #| "You can find the sources of the latest release on <a href=\"http://alioth."
@@ -263,15 +308,20 @@ msgstr "po4a の man ページの HTML 版があります。"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:20
+#, fuzzy
+#| msgid ""
+#| "The <a href=\"man/man7/po4a.7.php\">po4a.7</a> manpage provides an "
+#| "introduction to po4a."
 msgid ""
 "The <a href=\"man/man7/po4a.7.php\">po4a.7</a> manpage provides an "
-"introduction to po4a."
+"introduction to po4a, while <a href=\"man/man1/po4a.1.php\">po4a(1)</a> "
+"presents the main po4a program."
 msgstr ""
 "po4a の概要は、<a href=\"man/man7/po4a.7.php\">po4a.7</a> の man ページにあり"
 "ます。"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/documentation.php.en:22
+#: src/documentation.php.en:24
 msgid ""
 "For more details, the <a href=\"man/\">index</a> provides the documentation "
 "of the various commands and modules."
@@ -280,21 +330,22 @@ msgstr ""
 "をご覧ください。"
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/documentation.php.en:27
+#: src/documentation.php.en:29
 msgid "Help"
 msgstr "ヘルプ"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/documentation.php.en:28
+#: src/documentation.php.en:30
 msgid ""
 "We can help you to set up a translation framework for your project's "
 "documentation or to adapt po4a to your needs.  Do not hesitate to contact us "
 "on our <a href=\"mailto:devel@lists.po4a.org\">mailing list</a> or on IRC "
 "(#po4a on oftc)."
 msgstr ""
-"私たちは、あなたのプロジェクトへの翻訳フレームワークのセットアップや、あなたのニーズに合わせて po4a を適用するお手伝いができます。<a href="
-"\"mailto:devel@lists.po4a.org\">メーリングリスト</a>や IRC (oftc の #po4a) "
-"で、遠慮なくお問い合わせください。"
+"私たちは、あなたのプロジェクトへの翻訳フレームワークのセットアップや、あなた"
+"のニーズに合わせて po4a を適用するお手伝いができます。<a href=\"mailto:"
+"devel@lists.po4a.org\">メーリングリスト</a>や IRC (oftc の #po4a) で、遠慮な"
+"くお問い合わせください。"
 
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
@@ -312,8 +363,8 @@ msgid ""
 "You can find the sources of the latest release on <a href=\"https://github."
 "com/mquinson/po4a/releases\">GitHub</a>."
 msgstr ""
-"最新リリースのソースコードは、<a href=\"https://github.com/mquinson/po4a/releases\">GitHub</"
-"a> にあります。"
+"最新リリースのソースコードは、<a href=\"https://github.com/mquinson/po4a/"
+"releases\">GitHub</a> にあります。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:23
@@ -342,7 +393,8 @@ msgid ""
 "The latest sources are available from our <a href=\"https://github.com/"
 "mquinson/po4a\">Git repository</a>."
 msgstr ""
-"最新のソースコードは、<a href=\"https://github.com/mquinson/po4a\">Gitリポジトリ</a>から利用可能です。"
+"最新のソースコードは、<a href=\"https://github.com/mquinson/po4a\">Gitリポジ"
+"トリ</a>から利用可能です。"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:34
@@ -351,7 +403,8 @@ msgid ""
 "of sufficient quality to be released yet. In other words, they are still "
 "waiting for your contributions :)"
 msgstr ""
-"ここには、よく考えられてはいるが、まだリリースする品質に達していない追加モジュールもあります。言い換えれば、それらは今でもあなたの貢献を待っています :)"
+"ここには、よく考えられてはいるが、まだリリースする品質に達していない追加モ"
+"ジュールもあります。言い換えれば、それらは今でもあなたの貢献を待っています :)"
 
 #. type: Content of: <html><head><title>
 #: src/getinvolved.php.en:11
@@ -374,8 +427,8 @@ msgid ""
 "on our <a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/"
 "\">mailing list</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>,"
 msgstr ""
-"<a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/\""
-">メーリングリスト</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a> で、"
+"<a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/\">メーリ"
+"ングリスト</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a> で、"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:22
@@ -390,9 +443,10 @@ msgid ""
 "\">GitHub tracker</a> or in the <a href=\"http://bugs.debian.org/cgi-bin/"
 "pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>."
 msgstr ""
-"バグレポート、パッチ、機能の要望、その他フィードバックは、メーリングリスト、<a href=\"https://github.com/mquinson/"
-"po4a/issues\">GitHubのトラッカー</a>、<a href=\"http://bugs.debian.org/cgi-bin/"
-"pkgreport.cgi?pkg=po4a;dist=unstable\">Debian の BTS</a> にお寄せください。歓迎します。"
+"バグレポート、パッチ、機能の要望、その他フィードバックは、メーリングリスト、"
+"<a href=\"https://github.com/mquinson/po4a/issues\">GitHubのトラッカー</a>、"
+"<a href=\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable"
+"\">Debian の BTS</a> にお寄せください。歓迎します。"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:27
@@ -401,8 +455,8 @@ msgid ""
 "\"https://github.com/mquinson/po4a\">GitHub repository</a> are more than "
 "welcomed."
 msgstr ""
-"あなた自身でコードを改善できたなら、<a href=\"https://github.com/mquinson/po4a\""
-">GitHubリポジトリ</a>へのプルリクエストはより歓迎されます。"
+"あなた自身でコードを改善できたなら、<a href=\"https://github.com/mquinson/"
+"po4a\">GitHubリポジトリ</a>へのプルリクエストはより歓迎されます。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:32
@@ -416,8 +470,9 @@ msgid ""
 "hosted.weblate.org/projects/po4a/\">weblate</a> but you can also provide "
 "pull requests on the source git directly if you prefer."
 msgstr ""
-"po4aの翻訳を助ける一番簡単な方法は<a href=\"https://hosted.weblate.org/projects/po4a/\""
-">weblate</a>に行くことですが、お好みでgitリポジトリに直接プルリクエストを送ることもできます。"
+"po4aの翻訳を助ける一番簡単な方法は<a href=\"https://hosted.weblate.org/"
+"projects/po4a/\">weblate</a>に行くことですが、お好みでgitリポジトリに直接プル"
+"リクエストを送ることもできます。"
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:40
