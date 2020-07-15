@@ -52,6 +52,9 @@
 			</ul>
 		</div>
 		<div class="item">
+			<h2>2020-15-07 - po4a 0.60 released</h2>
+			<p>Bug fix and translation updates (<a href="https://github.com/mquinson/po4a/releases/tag/v0.60">more details</a>).
+			</p>
 			<h2>2020-20-05 - po4a 0.59 released</h2>
 			<p>Bug fix release to not break the build of several Debian packages (at least).
 			  <a href="https://github.com/mquinson/po4a/releases/tag/v0.59">More details</a>.
