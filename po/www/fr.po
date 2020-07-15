@@ -5,13 +5,14 @@
 # Nicolas François <nicolas.francois@centraliens.net>, 2010.
 # David Prévot <david@tilapin.org>, 2010-2012.
 # Martin Quinson <martin.quinson@ens-rennes.fr>, 2020.
+# Jean-Baptiste <jean-baptiste@holcroft.fr>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2020-05-06 22:38+0200\n"
-"PO-Revision-Date: 2020-05-06 22:10+0000\n"
-"Last-Translator: Martin Quinson <martin.quinson@ens-rennes.fr>\n"
+"PO-Revision-Date: 2020-05-21 19:41+0000\n"
+"Last-Translator: Jean-Baptiste <jean-baptiste@holcroft.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "fr/>\n"
 "Language: fr\n"
@@ -371,7 +372,7 @@ msgstr "Participez !"
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:19
 msgid "If you want to participate, you can contact us"
-msgstr "Si vous voulez participer, vous pouvez nous contacter :"
+msgstr "Si vous voulez participer, vous pouvez nous contacter"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:21

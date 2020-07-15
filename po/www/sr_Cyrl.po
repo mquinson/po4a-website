@@ -1,14 +1,13 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the po4a package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# eevan78 <ivan.pesic@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.56\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2020-05-06 22:38+0200\n"
-"PO-Revision-Date: 2020-04-10 22:09+0000\n"
+"PO-Revision-Date: 2020-05-28 21:43+0000\n"
 "Last-Translator: eevan78 <ivan.pesic@gmail.com>\n"
 "Language-Team: Serbian (cyrillic) <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/sr_Cyrl/>\n"
@@ -18,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.0-dev\n"
+"X-Generator: Weblate 4.1-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -140,58 +139,46 @@ msgstr "KernelHelp"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-#, fuzzy
-#| msgid "2018-05-25 - po4a 0.53 released"
 msgid "2020-05-04 - po4a 0.58 released"
-msgstr "2018-05-25 - објављен је po4a 0.53"
+msgstr "2020-05-04 - објављен је po4a 0.58"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:57
 msgid "Rewrite all tests to make them more robust and less permissive."
-msgstr ""
+msgstr "Прерађени су сви тестови како би били робустнији и мање попустљиви."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:58
 msgid "Fix many issues reported against the parsers."
-msgstr ""
+msgstr "Поправљено је доста пријављених проблема са парсерима."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:59
 msgid "Rewrite the documentation for sake of clarity and brevity."
-msgstr ""
+msgstr "Преправљена је документација како би постала јаснија и концизнија."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:60
-#, fuzzy
-#| msgid ""
-#| "We fixed tons of bugs, and removed many glitches (<a href=\"https://"
-#| "github.com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
 msgid ""
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">more "
 "details</a>)."
 msgstr ""
-"Исправили смо гомилу багова и уклонили многе омашке (<a href=\"https://"
-"github.com/mquinson/po4a/releases/tag/v0.54\">више детаља</a>)."
+"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">више "
+"детаља</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:62
-#, fuzzy
-#| msgid "2018-05-25 - po4a 0.53 released"
 msgid "2019-10-25 - po4a 0.57 released"
-msgstr "2018-05-25 - објављен је po4a 0.53"
+msgstr "2019-10-25 - објављен је po4a 0.57"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:63
-#, fuzzy
-#| msgid ""
-#| "New features and bug fixes, mostly to the AsciiDoc parser (<a href="
-#| "\"https://github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
 msgid ""
 "Translation update and one bug fix in AsciiDoc.  (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
 msgstr ""
-"Нове могућности и исправке багова, већином за AsciiDoc парсер (<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.56\">више детаља</a>)."
+"Ажурирање превода и исправка једног бага за AsciiDoc.  (<a href=\"https"
+"://github.com/mquinson/po4a/releases/tag/v0.57\">више детаља</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:66
