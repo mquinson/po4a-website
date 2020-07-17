@@ -4,17 +4,17 @@ msgstr ""
 "Project-Id-Version: Ukrainian (po4a)\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2020-07-16 00:28+0200\n"
-"PO-Revision-Date: 2020-05-06 20:46+0000\n"
+"PO-Revision-Date: 2020-07-17 10:41+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/po4a/po4a-"
-"website/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/po4a/"
+"po4a-website/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.1-dev\n"
+"X-Generator: Weblate 4.2-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -134,44 +134,33 @@ msgstr "довідка до ядра Linux"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-#, fuzzy
-#| msgid "2020-05-04 - po4a 0.58 released"
 msgid "2020-15-07 - po4a 0.60 released"
-msgstr "4 травня 2020 року — випущено po4a 0.58"
+msgstr "15 липня 2020 року — випущено po4a 0.60"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
-#, fuzzy
-#| msgid ""
-#| "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">more "
-#| "details</a>)."
 msgid ""
 "Bug fix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.60\">more details</a>)."
 msgstr ""
-"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">докладніше</"
-"a>)."
+"Виправлення вад і оновлення перекладів (<a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.60\">докладніше</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:58
-#, fuzzy
-#| msgid "2020-05-04 - po4a 0.58 released"
 msgid "2020-20-05 - po4a 0.59 released"
-msgstr "4 травня 2020 року — випущено po4a 0.58"
+msgstr "20 травня 2020 року — випущено po4a 0.59"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:59
-#, fuzzy
-#| msgid ""
-#| "We fixed tons of bugs, and removed many glitches (<a href=\"https://"
-#| "github.com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
 msgid ""
 "Bug fix release to not break the build of several Debian packages (at "
 "least).  <a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.59\">More details</a>."
 msgstr ""
-"Нами виправлено багато вад і усунено багато негараздів (<a href=\"https://"
-"github.com/mquinson/po4a/releases/tag/v0.54\">докладніше</a>)."
+"Випуск із виправленням вад, які заважали збиранню (принаймні) декількох "
+"пакунків Debian.  <a href=\"https://github.com/mquinson/po4a/releases/tag/v0."
+"59\">Докладніше</a>."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:62
@@ -293,17 +282,14 @@ msgstr "Це версія сторінок підручника з po4a у фо�
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:20
-#, fuzzy
-#| msgid ""
-#| "The <a href=\"man/man7/po4a.7.php\">po4a.7</a> manpage provides an "
-#| "introduction to po4a."
 msgid ""
 "The <a href=\"man/man7/po4a.7.php\">po4a.7</a> manpage provides an "
 "introduction to po4a, while <a href=\"man/man1/po4a.1.php\">po4a(1)</a> "
 "presents the main po4a program."
 msgstr ""
 "Вступні зауваження щодо роботи з po4a наведено на сторінці підручника з <a "
-"href=\"man/man7/po4a.7.php\">po4a.7</a>."
+"href=\"man/man7/po4a.7.php\">po4a.7</a>, а <a href=\"man/man1/po4a.1.php\""
+">po4a(1)</a> стосується основної програми po4a."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:24
