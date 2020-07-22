@@ -2,13 +2,14 @@
 # This file is distributed under the same license as the po4a package.
 #
 # Robert Luberda <robert@debian.org>, 2008 - 2012.
+# Stanisław Krukowski <pet209a1@riseup.net>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.41\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2020-07-16 00:28+0200\n"
-"PO-Revision-Date: 2019-08-18 15:53+0000\n"
-"Last-Translator: Robert Luberda <robert@debian.org>\n"
+"PO-Revision-Date: 2020-07-22 17:41+0000\n"
+"Last-Translator: Stanisław Krukowski <pet209a1@riseup.net>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "pl/>\n"
 "Language: pl\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 4.2-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -109,7 +110,7 @@ msgstr "POD"
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:46
 msgid "XML (generic, DocBook, XHTML, Dia, Guide, or WML)"
-msgstr "XML (ogólny, DocBook, XHTML, Dia,  Guide lub WML)"
+msgstr "XML (ogólny, DocBook, XHTML, Dia, Guide lub WML)"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:47
@@ -139,30 +140,22 @@ msgstr "komunikaty pomocy kompilacji jądra"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-#, fuzzy
-#| msgid "2018-05-25 - po4a 0.53 released"
 msgid "2020-15-07 - po4a 0.60 released"
-msgstr "2018-05-25 - po4a 0.53 wydany"
+msgstr "2020-15-07 - wydany po4a 0.60"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
-#, fuzzy
-#| msgid ""
-#| "We fixed tons of bugs, and removed many glitches (<a href=\"https://"
-#| "github.com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
 msgid ""
 "Bug fix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.60\">more details</a>)."
 msgstr ""
-"Poprawiliśmy tony błędów i zlikwidowaliśmy wiele usterek(<a href=\"https://"
-"github.com/mquinson/po4a/releases/tag/v0.54\">szczegółowe informacje</a>)."
+"Poprawki Bug'ów i aktualizacje tłumaczenia (<a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.60\">więcej szczegółów</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:58
-#, fuzzy
-#| msgid "2018-05-25 - po4a 0.53 released"
 msgid "2020-20-05 - po4a 0.59 released"
-msgstr "2018-05-25 - po4a 0.53 wydany"
+msgstr "2020-20-05 - wydany po4a 0.59"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:59
@@ -189,16 +182,17 @@ msgstr "2018-05-25 - po4a 0.53 wydany"
 #: src/index.php.en:64
 msgid "Rewrite all tests to make them more robust and less permissive."
 msgstr ""
+"Przepisz wszystkie testy, aby były bardziej niezawodne i mniej liberalne."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:65
 msgid "Fix many issues reported against the parsers."
-msgstr ""
+msgstr "Napraw wiele problemów zgłaszanych przez parsery."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:66
 msgid "Rewrite the documentation for sake of clarity and brevity."
-msgstr ""
+msgstr "Przepisz dokumentację dla zachowania jasności i zwięzłości."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:67
@@ -312,17 +306,14 @@ msgstr "Poniżej znajduje się wersja HTML stron podręcznika po4a."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:20
-#, fuzzy
-#| msgid ""
-#| "The <a href=\"man/man7/po4a.7.php\">po4a.7</a> manpage provides an "
-#| "introduction to po4a."
 msgid ""
 "The <a href=\"man/man7/po4a.7.php\">po4a.7</a> manpage provides an "
 "introduction to po4a, while <a href=\"man/man1/po4a.1.php\">po4a(1)</a> "
 "presents the main po4a program."
 msgstr ""
-"Strona <a href=\"man/man7/po4a.7.php.pl\">po4a.7</a> jest wprowadzeniem do "
-"po4a."
+"<a href=\"man/man7/po4a.7.php\">po4a.7</a> strona podręcznika dostarcza "
+"wprowadzenia do po4a, podczas, gdy <a href=\"man/man1/po4a.1.php\">po4a(1)</"
+"a> prezentuje główny program po4a."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:24
@@ -367,8 +358,8 @@ msgid ""
 "You can find the sources of the latest release on <a href=\"https://github."
 "com/mquinson/po4a/releases\">GitHub</a>."
 msgstr ""
-"Źródła najnowszej wersji można pobrać z  <a href=\"https://github.com/"
-"mquinson/po4a/releases\">GitHuba</a>."
+"Źródła najnowszej wersji można znaleźć na <a href=\"https://github.com/"
+"mquinson/po4a/releases\">GitHub</a>."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:23
@@ -451,9 +442,9 @@ msgid ""
 "pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>."
 msgstr ""
 "Z radością przyjmiemy wszelkie zgłoszenia błędów, łaty, żądania nowych "
-"funkcjonalności lub jakikolwiek opinie. Prosimy o ich przysyłanie  na naszą "
+"funkcjonalności lub jakikolwiek opinie. Prosimy o ich przysyłanie na naszą "
 "listę dyskusyjną lub rejestrowanie ich w <a href=\"https://github.com/"
-"mquinson/po4a/issues\">GitHubie</a> albo w <a href=\"http://bugs.debian.org/"
+"mquinson/po4a/issues\">GitHubi</a> albo w <a href=\"http://bugs.debian.org/"
 "cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable\">systemie śledzenia błędów "
 "Debiana</a>."
 
