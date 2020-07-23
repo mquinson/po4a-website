@@ -8,6 +8,7 @@ set -e # we want to fail on any error instead of risking uploading broken stuff
 echo
 echo "XXX Get the latest translations from git"
 git pull
+git pull salsa master
 
 curdir=$(pwd)
 
