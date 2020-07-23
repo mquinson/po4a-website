@@ -1,22 +1,20 @@
 # Translation of po4a webpage to German
 # This file is distributed under the same license as the po4a web page.
-# Copyright (C) Helge Kreutzmann <debian@helgefjell.de>, 2011-2013,2017,2018
+# Copyright (C) Helge Kreutzmann <debian@helgefjell.de>, 2011-2013,2017,2018,2020
 # Milo Ivir <mail@milotype.de>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: po4a 0.51\n"
+"Project-Id-Version: po4a 0.60\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2020-07-16 00:28+0200\n"
-"PO-Revision-Date: 2020-05-12 14:41+0000\n"
-"Last-Translator: Milo Ivir <mail@milotype.de>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/po4a/po4a-website/"
-"de/>\n"
+"PO-Revision-Date: 2020-07-23 13:51+0200\n"
+"Last-Translator: Helge Kreutzmann <debian@helgefjell.de>\n"
+"Language-Team: de <debian-l10n-german@lists.debian.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.1-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -139,44 +137,33 @@ msgstr "Kernel-Hilfe"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-#, fuzzy
-#| msgid "2020-05-04 - po4a 0.58 released"
 msgid "2020-15-07 - po4a 0.60 released"
-msgstr "2020-05-04 – po4a 0.58 veröffentlicht"
+msgstr "2020-15-07 – po4a 0.60 veröffentlicht"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
-#, fuzzy
-#| msgid ""
-#| "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">more "
-#| "details</a>)."
 msgid ""
 "Bug fix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.60\">more details</a>)."
 msgstr ""
-"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">weitere "
-"Details</a>)."
+"Fehlerkorrekturen und Übersetzungsaktualisierungen (<a href=\"https://github."
+"com/mquinson/po4a/releases/tag/v0.60\">weitere Details</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:58
-#, fuzzy
-#| msgid "2020-05-04 - po4a 0.58 released"
 msgid "2020-20-05 - po4a 0.59 released"
-msgstr "2020-05-04 – po4a 0.58 veröffentlicht"
+msgstr "2020-20-05 – po4a 0.59 veröffentlicht"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:59
-#, fuzzy
-#| msgid ""
-#| "We fixed tons of bugs, and removed many glitches (<a href=\"https://"
-#| "github.com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
 msgid ""
 "Bug fix release to not break the build of several Debian packages (at "
 "least).  <a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.59\">More details</a>."
 msgstr ""
-"Wir haben viele Fehler behoben und Störungen entfernt (<a href=\"https://"
-"github.com/mquinson/po4a/releases/tag/v0.54\">weitere Details</a>)."
+"Fehlerkorrekturveröffentlichung, um das Beschädigen des Baus (zumindestens) "
+"vieler Debian-Pakete zu beheben. <a href=\"https://github.com/mquinson/po4a/"
+"releases/tag/v0.59\">Weitere Details</a>."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:62
@@ -219,7 +206,7 @@ msgid ""
 "Translation update and one bug fix in AsciiDoc.  (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
 msgstr ""
-"Übersetzungen aktualisiert und ein Fehler korrrigiert im AsciiDoc.  (<a href="
+"Übersetzungen aktualisiert und ein Fehler in AsciiDoc korrigiert.  (<a href="
 "\"https://github.com/mquinson/po4a/releases/tag/v0.57\">weitere Details</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
@@ -233,7 +220,7 @@ msgid ""
 "New features and bug fixes, mostly to the AsciiDoc parser (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
 msgstr ""
-"Neue Features und Bugfixes vor allem am AsciiDoc-Parser (<a href=\"https://"
+"Neue Funktionalitäten und Fehlerkorrekturen vor allem am AsciiDoc-Parser (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.56\">weitere Infos</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
@@ -248,7 +235,7 @@ msgid ""
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
 "details</a>)."
 msgstr ""
-"Neue Features und Bugfixes sowohl für die einzelnen Parser als auch für die "
+"Neue Funktionalitäten und Fehlerkorrekturen sowohl für die einzelnen Parser als auch für die "
 "gemeinsamen Teile (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.55\">mehr Details</a>)."
 
@@ -302,17 +289,14 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:20
-#, fuzzy
-#| msgid ""
-#| "The <a href=\"man/man7/po4a.7.php\">po4a.7</a> manpage provides an "
-#| "introduction to po4a."
 msgid ""
 "The <a href=\"man/man7/po4a.7.php\">po4a.7</a> manpage provides an "
 "introduction to po4a, while <a href=\"man/man1/po4a.1.php\">po4a(1)</a> "
 "presents the main po4a program."
 msgstr ""
 "Die Handbuchseite <a href=\"man/man7/po4a.7.php\">po4a.7</a> bietet eine "
-"Einführung in Po4a."
+"Einführung in Po4a, während <a href=\"man/man1/po4a.1.php\">po4a(1)</a> das "
+"Po4a-Programm selbst vorstellt."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:24
