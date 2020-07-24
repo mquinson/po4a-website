@@ -7,17 +7,17 @@ msgstr ""
 "Project-Id-Version: po4a 0.56\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2020-07-16 00:28+0200\n"
-"PO-Revision-Date: 2020-05-08 23:12+0000\n"
+"PO-Revision-Date: 2020-07-24 11:41+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
-"Language-Team: Croatian <https://hosted.weblate.org/projects/po4a/po4a-"
-"website/hr/>\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/po4a/"
+"po4a-website/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.1-dev\n"
+"X-Generator: Weblate 4.2-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -139,44 +139,33 @@ msgstr "Kernel pomoć"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-#, fuzzy
-#| msgid "2020-05-04 - po4a 0.58 released"
 msgid "2020-15-07 - po4a 0.60 released"
-msgstr "2020-05-04 – objavljen po4a 0.58"
+msgstr "2020-15-07 – objavljen po4a 0.60"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
-#, fuzzy
-#| msgid ""
-#| "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">more "
-#| "details</a>)."
 msgid ""
 "Bug fix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.60\">more details</a>)."
 msgstr ""
-"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">daljnje "
-"informacije</a>)."
+"Ispravljanje grešaka i aktualiziranje prijevoda (<a href=\"https://github."
+"com/mquinson/po4a/releases/tag/v0.60\">daljnje informacije</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:58
-#, fuzzy
-#| msgid "2020-05-04 - po4a 0.58 released"
 msgid "2020-20-05 - po4a 0.59 released"
-msgstr "2020-05-04 – objavljen po4a 0.58"
+msgstr "2020-20-05 – objavljen po4a 0.59"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:59
-#, fuzzy
-#| msgid ""
-#| "We fixed tons of bugs, and removed many glitches (<a href=\"https://"
-#| "github.com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
 msgid ""
 "Bug fix release to not break the build of several Debian packages (at "
 "least).  <a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.59\">More details</a>."
 msgstr ""
-"Ispravili smo velik broj grešaka i uklonili mnoge smetnje (<a href=\"https://"
-"github.com/mquinson/po4a/releases/tag/v0.54\">daljnje informacije</a>)."
+"Ispravljanje greške koja je ometala izgradnju raznih Debian paketa (barem) ("
+"<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.59\">daljnje "
+"informacije</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:62
@@ -219,9 +208,9 @@ msgid ""
 "Translation update and one bug fix in AsciiDoc.  (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
 msgstr ""
-"Aktualiziranje prijevoda i jedna isrpavljenja greška u AsciiDoc.  (<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.57\">Daljnje informacije</"
-"a>)."
+"Aktualiziranje prijevoda i ispravljanje jedne greške u AsciiDoc.  (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.57\">daljnje "
+"informacije</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:73
@@ -234,7 +223,7 @@ msgid ""
 "New features and bug fixes, mostly to the AsciiDoc parser (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
 msgstr ""
-"Nove funkcije i isrpavljanje grešaka, uglavnom zbog AsciiDoc parsera (<a "
+"Nove funkcije i ispravljanje grešaka, uglavnom zbog AsciiDoc parsera (<a "
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">daljnje "
 "informacije</a>)."
 
@@ -250,9 +239,9 @@ msgid ""
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
 "details</a>)."
 msgstr ""
-"Nove funkcije i isrpavljanje grešaka parsera i zajedničkih dijelova (<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.55\">daljnje informacije</"
-"a>)."
+"Nove funkcije i ispravljanje grešaka parsera i zajedničkih dijelova (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.55\">daljnje "
+"informacije</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:81
@@ -301,16 +290,14 @@ msgstr "Ovdje se nalazi HTML verzija priručnika za po4a."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:20
-#, fuzzy
-#| msgid ""
-#| "The <a href=\"man/man7/po4a.7.php\">po4a.7</a> manpage provides an "
-#| "introduction to po4a."
 msgid ""
 "The <a href=\"man/man7/po4a.7.php\">po4a.7</a> manpage provides an "
 "introduction to po4a, while <a href=\"man/man1/po4a.1.php\">po4a(1)</a> "
 "presents the main po4a program."
 msgstr ""
-"Priručnik za <a href=\"man/man7/po4a.7.php\">po4a.7</a> pruža uvod u po4a."
+"Priručnik za <a href=\"man/man7/po4a.7.php\">po4a.7</a> pruža uvod u po4a, "
+"dok <a href=\"man/man1/po4a.1.php\">po4a(1)</a> predstavlja glavni program "
+"po4a."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:24
@@ -461,9 +448,9 @@ msgid ""
 "hosted.weblate.org/projects/po4a/\">weblate</a> but you can also provide "
 "pull requests on the source git directly if you prefer."
 msgstr ""
-"Najednostavniji način pomoći prevesti po4a je putem <a href=\"https://hosted."
-"weblate.org/projects/po4a/\">weblate</a>-a. Ako ti je draže, pošalji zahtjev "
-"za preuzimanjem izravno na git-u."
+"Najjednostavniji način pomoći prevesti po4a je putem <a href=\"https://hosted"
+".weblate.org/projects/po4a/\">weblate</a>-a. Ako ti je draže, pošalji "
+"zahtjev za preuzimanjem izravno na git-u."
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:40
