@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: po4a-translation\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2020-07-16 00:28+0200\n"
-"PO-Revision-Date: 2020-07-19 00:46+0000\n"
+"PO-Revision-Date: 2020-07-31 03:26+0000\n"
 "Last-Translator: taotieren <admin@taotieren.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "po4a/po4a-website/zh_Hans/>\n"
@@ -107,7 +107,7 @@ msgstr "SGML"
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:48
 msgid "TeX (generic, LaTeX, or Texinfo)"
-msgstr "TeX (一般的 TeX, LaTeX, 或 Texinfo)"
+msgstr "TeX (通用的 TeX, LaTeX, 或 Texinfo)"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:49
@@ -127,7 +127,7 @@ msgstr "内核帮助"
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
 msgid "2020-15-07 - po4a 0.60 released"
-msgstr "2020-15-07 - po4a 0.60 发布"
+msgstr "2020-07-15 - po4a 0.60 发布"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
@@ -141,7 +141,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:58
 msgid "2020-20-05 - po4a 0.59 released"
-msgstr "2020-20-05 - po4a 0.59 发布"
+msgstr "2020-05-20 - po4a 0.59 发布"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:59
