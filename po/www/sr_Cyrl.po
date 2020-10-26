@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.56\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2020-07-16 00:28+0200\n"
+"POT-Creation-Date: 2020-10-26 19:39+0100\n"
 "PO-Revision-Date: 2020-08-05 17:32+0000\n"
 "Last-Translator: eevan78 <ivan.pesic@gmail.com>\n"
 "Language-Team: Serbian (cyrillic) <https://hosted.weblate.org/projects/po4a/"
@@ -62,8 +62,14 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:30
+#, fuzzy
+#| msgid ""
+#| "If the translation is only partially completed, the original (english) "
+#| "text is used instead. This ensures that your translated documentation is "
+#| "always both up to date with regard to the original one, and as translated "
+#| "as possible."
 msgid ""
-"If the translation is only partially completed, the original (english) text "
+"If the translation is only partially completed, the original (English) text "
 "is used instead. This ensures that your translated documentation is always "
 "both up to date with regard to the original one, and as translated as "
 "possible."
@@ -75,11 +81,16 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:35
+#, fuzzy
+#| msgid ""
+#| "You can fully automatize the translation maintenance with a single "
+#| "configuration file, specifying all settings and the list of documents to "
+#| "translate. With this information, po4a automatically determines the files "
+#| "to update when something changes."
 msgid ""
-"You can fully automatize the translation maintenance with a single "
-"configuration file, specifying all settings and the list of documents to "
-"translate. With this information, po4a automatically determines the files to "
-"update when something changes."
+"Automate all the translation maintenance with one configuration file that "
+"specifies all settings, and a list of documents to translate. po4a will "
+"update them automatically when something happens."
 msgstr ""
 "Одржавање превода можете у потпуности да аутоматизујете само једним "
 "конфигурационим фајлом који наводи сва подешавања и излистава документе који "
@@ -139,13 +150,19 @@ msgstr "KernelHelp"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-msgid "2020-15-07 - po4a 0.60 released"
+#, fuzzy
+#| msgid "2020-15-07 - po4a 0.60 released"
+msgid "2020-07-15 - po4a 0.60 released"
 msgstr "2020-15-07 - објављен је po4a 0.60"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
+#, fuzzy
+#| msgid ""
+#| "Bug fix and translation updates (<a href=\"https://github.com/mquinson/"
+#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
-"Bug fix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
+"Bugfix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.60\">more details</a>)."
 msgstr ""
 "Исправке багова и ажурирања превода (<a href=\"https://github.com/mquinson/"
@@ -153,19 +170,26 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:58
-msgid "2020-20-05 - po4a 0.59 released"
+#, fuzzy
+#| msgid "2020-20-05 - po4a 0.59 released"
+msgid "2020-05-20 - po4a 0.59 released"
 msgstr "2020-20-05 - објављен је po4a 0.59"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:59
+#, fuzzy
+#| msgid ""
+#| "Bug fix release to not break the build of several Debian packages (at "
+#| "least).  <a href=\"https://github.com/mquinson/po4a/releases/tag/"
+#| "v0.59\">More details</a>."
 msgid ""
-"Bug fix release to not break the build of several Debian packages (at "
+"Bugfix release to not break the build of several Debian packages (at "
 "least).  <a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.59\">More details</a>."
 msgstr ""
 "Издање које исправља баг који спречава изградњу неколико Debian пакета "
-"(барем). <a href=\"https://github.com/mquinson/po4a/releases/tag/v0.59\""
-">Више детаља</a>."
+"(барем). <a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.59\">Више детаља</a>."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:62
@@ -203,8 +227,12 @@ msgstr "2019-10-25 - објављен је po4a 0.57"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:70
+#, fuzzy
+#| msgid ""
+#| "Translation update and one bug fix in AsciiDoc.  (<a href=\"https://"
+#| "github.com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
 msgid ""
-"Translation update and one bug fix in AsciiDoc.  (<a href=\"https://github."
+"Translation update and one bugfix in AsciiDoc.  (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
 msgstr ""
 "Ажурирање превода и исправка једног бага за AsciiDoc.  (<a href=\"https://"
@@ -217,8 +245,12 @@ msgstr "2019-06-06 - објављен је po4a 0.56"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:74
+#, fuzzy
+#| msgid ""
+#| "New features and bug fixes, mostly to the AsciiDoc parser (<a href="
+#| "\"https://github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
 msgid ""
-"New features and bug fixes, mostly to the AsciiDoc parser (<a href=\"https://"
+"New features and bugfixes, mostly to the AsciiDoc parser (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
 msgstr ""
 "Нове могућности и исправке багова, већином за AsciiDoc парсер (<a href="
@@ -231,8 +263,13 @@ msgstr "2018-12-09 - објављен је po4a 0.55"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:78
+#, fuzzy
+#| msgid ""
+#| "New features and bug fixes to both the individual parsers and common "
+#| "parts (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+#| "v0.55\">more details</a>)."
 msgid ""
-"New features and bug fixes to both the individual parsers and common parts "
+"New features and bugfixes to both the individual parsers and common parts "
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
 "details</a>)."
 msgstr ""
@@ -261,8 +298,13 @@ msgstr "2018-05-25 - објављен је po4a 0.53"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:86
+#, fuzzy
+#| msgid ""
+#| "The most visible change is a new YAML module, and the fact that alioth "
+#| "was turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+#| "v0.53\">more details</a>)."
 msgid ""
-"The most visible change is a new YAML module, and the fact that alioth was "
+"The most visible change is a new YAML module, and the fact that Alioth was "
 "turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.53\">more details</a>)."
 msgstr ""
@@ -311,11 +353,17 @@ msgstr "Помоћ"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:30
+#, fuzzy
+#| msgid ""
+#| "We can help you to set up a translation framework for your project's "
+#| "documentation or to adapt po4a to your needs.  Do not hesitate to contact "
+#| "us on our <a href=\"mailto:devel@lists.po4a.org\">mailing list</a> or on "
+#| "IRC (#po4a on oftc)."
 msgid ""
 "We can help you to set up a translation framework for your project's "
 "documentation or to adapt po4a to your needs.  Do not hesitate to contact us "
 "on our <a href=\"mailto:devel@lists.po4a.org\">mailing list</a> or on IRC "
-"(#po4a on oftc)."
+"(#po4a on OFTC)."
 msgstr ""
 "Ми можемо да вам помогнемо да поставите оквир за превођење документације "
 "свог пројекта или да прилагодимо po4a вашим потребама. Не устручавајте се да "
@@ -409,7 +457,9 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:22
-msgid "on IRC (#po4a on oftc)."
+#, fuzzy
+#| msgid "on IRC (#po4a on oftc)."
+msgid "on IRC (#po4a on OFTC)."
 msgstr "на IRC (#po4a на oftc)."
 
 #. type: Content of: <html><body><div><div><p>
@@ -427,8 +477,13 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:27
+#, fuzzy
+#| msgid ""
+#| "If you can improve the code yourself, Pull Requests against the <a href="
+#| "\"https://github.com/mquinson/po4a\">GitHub repository</a> are more than "
+#| "welcomed."
 msgid ""
-"If you can improve the code yourself, Pull Requests against the <a href="
+"If you can improve the code yourself, pull requests against the <a href="
 "\"https://github.com/mquinson/po4a\">GitHub repository</a> are more than "
 "welcomed."
 msgstr ""
@@ -442,9 +497,14 @@ msgstr "Превођење"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:33
+#, fuzzy
+#| msgid ""
+#| "The easiest to help translating po4a is to go through <a href=\"https://"
+#| "hosted.weblate.org/projects/po4a/\">weblate</a> but you can also provide "
+#| "pull requests on the source git directly if you prefer."
 msgid ""
 "The easiest to help translating po4a is to go through <a href=\"https://"
-"hosted.weblate.org/projects/po4a/\">weblate</a> but you can also provide "
+"hosted.weblate.org/projects/po4a/\">Weblate</a> but you can also provide "
 "pull requests on the source git directly if you prefer."
 msgstr ""
 "Најједноставнији начин да помогнете у превођењу програма po4a је да прођете "

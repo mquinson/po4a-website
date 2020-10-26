@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.60\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2020-07-16 00:28+0200\n"
+"POT-Creation-Date: 2020-10-26 19:39+0100\n"
 "PO-Revision-Date: 2020-10-26 18:46+0000\n"
 "Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/po4a/"
@@ -61,8 +61,14 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:30
+#, fuzzy
+#| msgid ""
+#| "If the translation is only partially completed, the original (english) "
+#| "text is used instead. This ensures that your translated documentation is "
+#| "always both up to date with regard to the original one, and as translated "
+#| "as possible."
 msgid ""
-"If the translation is only partially completed, the original (english) text "
+"If the translation is only partially completed, the original (English) text "
 "is used instead. This ensures that your translated documentation is always "
 "both up to date with regard to the original one, and as translated as "
 "possible."
@@ -73,11 +79,16 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:35
+#, fuzzy
+#| msgid ""
+#| "You can fully automatize the translation maintenance with a single "
+#| "configuration file, specifying all settings and the list of documents to "
+#| "translate. With this information, po4a automatically determines the files "
+#| "to update when something changes."
 msgid ""
-"You can fully automatize the translation maintenance with a single "
-"configuration file, specifying all settings and the list of documents to "
-"translate. With this information, po4a automatically determines the files to "
-"update when something changes."
+"Automate all the translation maintenance with one configuration file that "
+"specifies all settings, and a list of documents to translate. po4a will "
+"update them automatically when something happens."
 msgstr ""
 "Du kan automatisere oversettelsesvedlikeholdet mer én oppsettsfil, ved å "
 "angi alle innstillingene og dokumentene som skal oversettes. Med denne "
@@ -135,35 +146,46 @@ msgstr "KernelHelp"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-msgid "2020-15-07 - po4a 0.60 released"
+#, fuzzy
+#| msgid "2020-15-07 - po4a 0.60 released"
+msgid "2020-07-15 - po4a 0.60 released"
 msgstr "15.07 2020 - po4a 0.60 utgitt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
+#, fuzzy
+#| msgid ""
+#| "Bug fix and translation updates (<a href=\"https://github.com/mquinson/"
+#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
-"Bug fix and translation updates (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.60\">more "
-"details</a>)."
+"Bugfix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
+"releases/tag/v0.60\">more details</a>)."
 msgstr ""
 "Feilrettinger og oversettelsesoppdateringer (<a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.60\">flere detaljer</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:58
-msgid "2020-20-05 - po4a 0.59 released"
+#, fuzzy
+#| msgid "2020-20-05 - po4a 0.59 released"
+msgid "2020-05-20 - po4a 0.59 released"
 msgstr "20.05 2020 - po4a 0.59 utgitt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:59
+#, fuzzy
+#| msgid ""
+#| "Bug fix release to not break the build of several Debian packages (at "
+#| "least).  <a href=\"https://github.com/mquinson/po4a/releases/tag/"
+#| "v0.59\">More details</a>."
 msgid ""
-"Bug fix release to not break the build of several Debian packages (at "
-"least).  <a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.59\">More "
-"details</a>."
+"Bugfix release to not break the build of several Debian packages (at "
+"least).  <a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.59\">More details</a>."
 msgstr ""
-"Feilrettingsutgivelse for å ikke knekke byggprosessen i flere Debian-pakker ("
-"med flere). <a href=\"https://github.com/mquinson/po4a/releases/tag/v0.59\""
-">Flere detaljer</a>."
+"Feilrettingsutgivelse for å ikke knekke byggprosessen i flere Debian-pakker "
+"(med flere). <a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.59\">Flere detaljer</a>."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:62
@@ -202,13 +224,16 @@ msgstr "20.10 2019 - po4a 0.57 utgitt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:70
+#, fuzzy
+#| msgid ""
+#| "Translation update and one bug fix in AsciiDoc.  (<a href=\"https://"
+#| "github.com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
 msgid ""
-"Translation update and one bug fix in AsciiDoc.  (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.57\">more "
-"details</a>)."
+"Translation update and one bugfix in AsciiDoc.  (<a href=\"https://github."
+"com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
 msgstr ""
-"Oversettelsesoppdatering og en feilretting i AsciiDoc. (<a href=\"https"
-"://github.com/mquinson/po4a/releases/tag/v0.57\">flere detaljer</a>)."
+"Oversettelsesoppdatering og en feilretting i AsciiDoc. (<a href=\"https://"
+"github.com/mquinson/po4a/releases/tag/v0.57\">flere detaljer</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:73
@@ -217,14 +242,17 @@ msgstr "6.6 2019 - po4a 0.56 utgitt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:74
+#, fuzzy
+#| msgid ""
+#| "New features and bug fixes, mostly to the AsciiDoc parser (<a href="
+#| "\"https://github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
 msgid ""
-"New features and bug fixes, mostly to the AsciiDoc parser (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">more "
-"details</a>)."
+"New features and bugfixes, mostly to the AsciiDoc parser (<a href=\"https://"
+"github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
 msgstr ""
 "Nye funksjoner og feilrettinger, for det meste i AsciiDoc-fortolkeren (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">flere "
-"detaljer</a>)."
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">flere detaljer</"
+"a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:77
@@ -233,8 +261,13 @@ msgstr "9.12 2018 - po4a 0.55 utgitt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:78
+#, fuzzy
+#| msgid ""
+#| "New features and bug fixes to both the individual parsers and common "
+#| "parts (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+#| "v0.55\">more details</a>)."
 msgid ""
-"New features and bug fixes to both the individual parsers and common parts "
+"New features and bugfixes to both the individual parsers and common parts "
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
 "details</a>)."
 msgstr ""
@@ -251,12 +284,11 @@ msgstr "30.6 2018 - po4a 0.54 utgitt"
 #: src/index.php.en:82
 #, fuzzy
 msgid ""
-"We fixed tons of bugs, and removed many glitches (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.54\">more "
-"details</a>)."
+"We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
+"com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
 msgstr ""
-"Massevis av feilrettinger, og opprydding av grafisk tull (<a href=\"https"
-"://github.com/mquinson/po4a/releases/tag/v0.54\">flere detaljer</a>)."
+"Massevis av feilrettinger, og opprydding av grafisk tull (<a href=\"https://"
+"github.com/mquinson/po4a/releases/tag/v0.54\">flere detaljer</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:85
@@ -265,15 +297,19 @@ msgstr "25.5 2018 - po4a 0.53 utgitt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:86
+#, fuzzy
+#| msgid ""
+#| "The most visible change is a new YAML module, and the fact that alioth "
+#| "was turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+#| "v0.53\">more details</a>)."
 msgid ""
-"The most visible change is a new YAML module, and the fact that alioth was "
-"turned off (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.53\">more "
-"details</a>)."
+"The most visible change is a new YAML module, and the fact that Alioth was "
+"turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.53\">more details</a>)."
 msgstr ""
 "Den mest synlige endringen er YAML-modulen, og at Alioth ble avskrudd (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.53\">flere "
-"detaljer</a>)."
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.53\">flere detaljer</"
+"a>)."
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
@@ -317,11 +353,17 @@ msgstr "Hjelp"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:30
+#, fuzzy
+#| msgid ""
+#| "We can help you to set up a translation framework for your project's "
+#| "documentation or to adapt po4a to your needs.  Do not hesitate to contact "
+#| "us on our <a href=\"mailto:devel@lists.po4a.org\">mailing list</a> or on "
+#| "IRC (#po4a on oftc)."
 msgid ""
 "We can help you to set up a translation framework for your project's "
 "documentation or to adapt po4a to your needs.  Do not hesitate to contact us "
 "on our <a href=\"mailto:devel@lists.po4a.org\">mailing list</a> or on IRC "
-"(#po4a on oftc)."
+"(#po4a on OFTC)."
 msgstr ""
 "Vi kan hjelpe deg å sette opp et oversettelses-rammeverk for dokumentasjonen "
 "av ditt prosjekt, eller tilpasse po4a til dine behov. Ikke nøl med å "
@@ -341,8 +383,8 @@ msgstr "Kilder"
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:19
 msgid ""
-"You can find the sources of the latest release on <a "
-"href=\"https://github.com/mquinson/po4a/releases\">GitHub</a>."
+"You can find the sources of the latest release on <a href=\"https://github."
+"com/mquinson/po4a/releases\">GitHub</a>."
 msgstr ""
 "Du finner kildekoden til seneste utgivelse på <a href=\"https://github.com/"
 "mquinson/po4a/releases\">GitHub</a>."
@@ -371,8 +413,8 @@ msgstr "Git-kodelager"
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:31
 msgid ""
-"The latest sources are available from our <a "
-"href=\"https://github.com/mquinson/po4a\">Git repository</a>."
+"The latest sources are available from our <a href=\"https://github.com/"
+"mquinson/po4a\">Git repository</a>."
 msgstr ""
 "Seneste kildekode er å finne fra vårt <a href=\"https://github.com/mquinson/"
 "po4a\">Git-kodelager</a>."
@@ -405,27 +447,26 @@ msgstr "Hvis du ønsker å delta, kan du kontakte oss"
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:21
 msgid ""
-"on our <a "
-"href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/\">mailing "
-"list</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>,"
+"on our <a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/"
+"\">mailing list</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>,"
 msgstr ""
-"på vår <a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/\""
-">e-postliste</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>."
+"på vår <a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/"
+"\">e-postliste</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:22
-msgid "on IRC (#po4a on oftc)."
+#, fuzzy
+#| msgid "on IRC (#po4a on oftc)."
+msgid "on IRC (#po4a on OFTC)."
 msgstr "på IRC (#po4a på OFTC)."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:23
 msgid ""
 "Bug reports, patches, feature requests or any feedback are welcome on the "
-"mailing list, in the <a "
-"href=\"https://github.com/mquinson/po4a/issues\">GitHub tracker</a> or in "
-"the <a "
-"href=\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable\">Debian "
-"BTS</a>."
+"mailing list, in the <a href=\"https://github.com/mquinson/po4a/issues"
+"\">GitHub tracker</a> or in the <a href=\"http://bugs.debian.org/cgi-bin/"
+"pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>."
 msgstr ""
 "Feilrapporter, feilfikser, funksjonsforespørsler, og alle andre "
 "tilbakemeldinger er velkomne på e-postlisten, i <a href=\"https://github.com/"
@@ -434,10 +475,15 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:27
+#, fuzzy
+#| msgid ""
+#| "If you can improve the code yourself, Pull Requests against the <a href="
+#| "\"https://github.com/mquinson/po4a\">GitHub repository</a> are more than "
+#| "welcomed."
 msgid ""
-"If you can improve the code yourself, Pull Requests against the <a "
-"href=\"https://github.com/mquinson/po4a\">GitHub repository</a> are more "
-"than welcomed."
+"If you can improve the code yourself, pull requests against the <a href="
+"\"https://github.com/mquinson/po4a\">GitHub repository</a> are more than "
+"welcomed."
 msgstr ""
 "Hvis du kan forbedre kildekoden selv, send gjerne en flettingsforespørsel "
 "til <a href=\"https://github.com/mquinson/po4a\">GitHub-kodelageret</a>."
@@ -449,13 +495,18 @@ msgstr "Oversetting"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:33
+#, fuzzy
+#| msgid ""
+#| "The easiest to help translating po4a is to go through <a href=\"https://"
+#| "hosted.weblate.org/projects/po4a/\">weblate</a> but you can also provide "
+#| "pull requests on the source git directly if you prefer."
 msgid ""
-"The easiest to help translating po4a is to go through <a "
-"href=\"https://hosted.weblate.org/projects/po4a/\">weblate</a> but you can "
-"also provide pull requests on the source git directly if you prefer."
+"The easiest to help translating po4a is to go through <a href=\"https://"
+"hosted.weblate.org/projects/po4a/\">Weblate</a> but you can also provide "
+"pull requests on the source git directly if you prefer."
 msgstr ""
-"Den enkleste måten å hjelpe til i oversettelsen er gjennom <a href=\"https"
-"://hosted.weblate.org/projects/po4a/\">Weblate</a>, men du kan også sende "
+"Den enkleste måten å hjelpe til i oversettelsen er gjennom <a href=\"https://"
+"hosted.weblate.org/projects/po4a/\">Weblate</a>, men du kan også sende "
 "flettingsforespørsler til kodelageret hvis du foretrekker det."
 
 #. type: Content of: <html><body><div><div><div><h2>
