@@ -24,14 +24,14 @@
 			feedback are welcome on the mailing list, in the
 			<a href="https://github.com/mquinson/po4a/issues">GitHub tracker</a>
 			or in the <a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable">Debian BTS</a>.</p>
-			<p>If you can improve the code yourself, Pull Requests against
+			<p>If you can improve the code yourself, pull requests against
                          the <a href="https://github.com/mquinson/po4a">GitHub repository</a>
 			 are more than welcomed.</p>
 		</div>
 		<div class="item">
 			<h2>Translating</h2>
 			<p>The easiest to help translating po4a is to go through
-			<a href="https://hosted.weblate.org/projects/po4a/">weblate</a>
+			<a href="https://hosted.weblate.org/projects/po4a/">Weblate</a>
 			but you can also provide pull requests on the
 			source git directly if you prefer.</p>
 		</div>
