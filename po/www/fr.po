@@ -6,13 +6,14 @@
 # David Prévot <david@tilapin.org>, 2010-2012.
 # Martin Quinson <martin.quinson@ens-rennes.fr>, 2020.
 # Jean-Baptiste <jean-baptiste@holcroft.fr>, 2020.
+# jmichault <jmt.2000@free.fr>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2020-10-26 19:39+0100\n"
-"PO-Revision-Date: 2020-10-31 17:26+0000\n"
-"Last-Translator: Jean-Baptiste <jean-baptiste@holcroft.fr>\n"
+"PO-Revision-Date: 2020-11-16 17:28+0000\n"
+"Last-Translator: jmichault <jmt.2000@free.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "fr/>\n"
 "Language: fr\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.3.2-dev\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -72,7 +73,7 @@ msgid ""
 "possible."
 msgstr ""
 "Si la traduction n’est que partiellement complétée, le texte original (en "
-"anglais) est utilisé à la place. Cela garanti que votre documentation est "
+"anglais) est utilisé à la place. Cela garantit que votre documentation est "
 "tout le temps à la fois parfaitement à jour et aussi bien traduite que "
 "possible."
 
