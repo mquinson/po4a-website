@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.62-alpha\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2020-10-26 19:39+0100\n"
-"PO-Revision-Date: 2020-11-30 11:29+0000\n"
+"PO-Revision-Date: 2020-12-02 22:29+0000\n"
 "Last-Translator: jmichault <jmt.2000@free.fr>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/eo/>\n"
@@ -274,17 +274,17 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
 msgid "po4a - Documentation"
-msgstr ""
+msgstr "po4a - Dokumentaro"
 
 #. type: Content of: <div><a>
 #: src/documentation.php.en:18 src/header.php.en:9
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentaro"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:19
 msgid "Here is an HTML version of the po4a's manpages."
-msgstr ""
+msgstr "Jen HTML-versio de la manpaĝoj de po4a."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:20
@@ -293,6 +293,9 @@ msgid ""
 "introduction to po4a, while <a href=\"man/man1/po4a.1.php\">po4a(1)</a> "
 "presents the main po4a program."
 msgstr ""
+"La <a href=\"man/man7/po4a.7.php\">po4a.7</a> manpaĝo donas enkondukon al "
+"po4a, dum <a href=\"man/man1/po4a.1.php\">po4a(1)</a> prezentas la ĉefan "
+"po4a programon."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:24
@@ -300,11 +303,13 @@ msgid ""
 "For more details, the <a href=\"man/\">index</a> provides the documentation "
 "of the various commands and modules."
 msgstr ""
+"Por pli da detaloj, la <a href=\"man/\">indekso</a> provizas la dokumentaron "
+"de la diversaj komandoj kaj moduloj."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/documentation.php.en:29
 msgid "Help"
-msgstr ""
+msgstr "Helpo"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:30
@@ -314,16 +319,20 @@ msgid ""
 "on our <a href=\"mailto:devel@lists.po4a.org\">mailing list</a> or on IRC "
 "(#po4a on OFTC)."
 msgstr ""
+"Ni povas helpi vin starigi tradukan kadron por la dokumentado de via "
+"projekto aŭ adapti po4a al viaj bezonoj. Ne hezitu kontakti nin ĉe nia <a "
+"href=\"mailto:devel@lists.po4a.org\">dissendolisto</a> aŭ ĉe IRC (#po4a ĉe "
+"OFTC)."
 
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
 msgid "po4a - Download"
-msgstr ""
+msgstr "po4a - Elŝuti"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:18
 msgid "Sources"
-msgstr ""
+msgstr "Fontoj"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:19
@@ -331,11 +340,13 @@ msgid ""
 "You can find the sources of the latest release on <a "
 "href=\"https://github.com/mquinson/po4a/releases\">GitHub</a>."
 msgstr ""
+"Vi povas trovi la fontojn de la plej nova eldono ĉe <a href=\"https://github."
+"com/mquinson/po4a/releases\">GitHub</a>."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:23
 msgid "Binary"
-msgstr ""
+msgstr "Duuma"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:24
@@ -344,11 +355,14 @@ msgid ""
 "OpenSource distributions (Debian, Ubuntu, FreeBSD, Gentoo, Fedora, Mandriva, "
 "and probably others)."
 msgstr ""
+"po4a estas Perl-modulo. Ĝi haveblas kiel duuma pako en multaj OpenSource-"
+"distribuoj (Debian, Ubuntu, FreeBSD, Gentoo, Fedora, Mandriva, kaj probable "
+"aliaj)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:30
 msgid "Git repository"
-msgstr ""
+msgstr "Git-deponejo"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:31
@@ -356,6 +370,8 @@ msgid ""
 "The latest sources are available from our <a "
 "href=\"https://github.com/mquinson/po4a\">Git repository</a>."
 msgstr ""
+"La plej novaj fontoj haveblas ĉe nia <a href=\"https://github.com/mquinson/"
+"po4a\">Git-deponejo</a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:34
@@ -364,21 +380,23 @@ msgid ""
 "of sufficient quality to be released yet. In other words, they are still "
 "waiting for your contributions :)"
 msgstr ""
+"Ĝi ankaŭ enhavas pliajn modulojn pripensitajn, sed ankoraŭ ne sufiĉas por "
+"esti liberigitaj. Alivorte, ili ankoraŭ atendas viajn kontribuojn :)"
 
 #. type: Content of: <html><head><title>
 #: src/getinvolved.php.en:11
 msgid "po4a - Get involved!"
-msgstr ""
+msgstr "po4a - Partoprenu!"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:18
 msgid "Get involved!"
-msgstr ""
+msgstr "Partoprenu!"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:19
 msgid "If you want to participate, you can contact us"
-msgstr ""
+msgstr "Se vi volas partopreni, vi povas kontakti nin"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:21
@@ -387,11 +405,13 @@ msgid ""
 "href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/\">mailing "
 "list</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>,"
 msgstr ""
+"en nia <a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/\""
+">dissendolisto</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>,"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:22
 msgid "on IRC (#po4a on OFTC)."
-msgstr ""
+msgstr "ĉe IRC (#po4a ĉe OFTC)."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:23
