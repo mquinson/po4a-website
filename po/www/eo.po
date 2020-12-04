@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.62-alpha\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2020-10-26 19:39+0100\n"
-"PO-Revision-Date: 2020-12-02 22:29+0000\n"
+"PO-Revision-Date: 2020-12-04 13:29+0000\n"
 "Last-Translator: jmichault <jmt.2000@free.fr>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/eo/>\n"
@@ -423,6 +423,10 @@ msgid ""
 "href=\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable\">Debian "
 "BTS</a>."
 msgstr ""
+"Raportoj pri cimoj, flikaĵoj, prezentaj petoj aŭ iuj reagoj estas bonvenaj "
+"sur la dissendolisto, en la <a href=\"https://github.com/mquinson/po4a/"
+"issues\">GitHub-spuristo</a> aŭ en la <a href=\"http://bugs.debian.org/"
+"cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:27
@@ -431,11 +435,13 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a\">GitHub repository</a> are more "
 "than welcomed."
 msgstr ""
+"Se vi mem povas plibonigi la kodon, sendi petojn al la <a href=\"https"
+"://github.com/mquinson/po4a\">GitHub-deponejo</a> estas pli ol bonvenaj."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:32
 msgid "Translating"
-msgstr ""
+msgstr "Traduki"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:33
@@ -444,76 +450,79 @@ msgid ""
 "href=\"https://hosted.weblate.org/projects/po4a/\">Weblate</a> but you can "
 "also provide pull requests on the source git directly if you prefer."
 msgstr ""
+"La plej facila por helpi traduki po4a estas per <a href=\"https://hosted."
+"weblate.org/projects/po4a/\">Weblate</a> sed vi ankaŭ povas sendi petojn pri "
+"la fonta git rekte se vi preferas."
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:40
 msgid "Runtime Translations"
-msgstr ""
+msgstr "Programaj tradukoj"
 
 #. type: Content of: <html><body><div><div><div><a>
 #: src/getinvolved.php.en:41 src/getinvolved.php.en:48
 #: src/getinvolved.php.en:53
 msgid "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
-msgstr ""
+msgstr "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
 
 #. type: Content of: <html><body><div><div><div>
 #: src/getinvolved.php.en:44 src/getinvolved.php.en:51
 #: src/getinvolved.php.en:56
 msgid "</a>"
-msgstr ""
+msgstr "</a>"
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:47
 msgid "Documentation Translations"
-msgstr ""
+msgstr "Dokumentaraj Tradukoj"
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:52
 msgid "Website Translations"
-msgstr ""
+msgstr "Retejaj Tradukoj"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:60
 msgid "TODO"
-msgstr ""
+msgstr "FARENDA"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:61
 msgid "We are looking for people interested in testing/porting on Windows"
-msgstr ""
+msgstr "Ni serĉas homojn interesitajn testi/porti en Windows"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:63
 msgid "Support for XLIFF would be welcome."
-msgstr ""
+msgstr "Subteno por XLIFF estus bonvena."
 
 #. type: Content of: <div><div><h1><sup>
 #: src/header.php.en:4
 msgid "po4a<sup>v"
-msgstr ""
+msgstr "po4a<sup>v"
 
 #. type: Content of: <div><div><h1>
 #: src/header.php.en:4
 msgid "</sup>"
-msgstr ""
+msgstr "</sup>"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:8
 msgid "Welcome"
-msgstr ""
+msgstr "Bonvenon"
 
 #. type: Content of: <div><a><span>
 #: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10
 #: src/header.php.en:11
 msgid "&nbsp;&nbsp;&lt;"
-msgstr ""
+msgstr "&nbsp;&nbsp;&lt;"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:10
 msgid "Download"
-msgstr ""
+msgstr "Elŝuti"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:11
 msgid "Get Involved"
-msgstr ""
+msgstr "Partoprenu"
