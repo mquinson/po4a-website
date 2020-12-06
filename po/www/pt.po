@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.62-alpha\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2020-10-26 19:39+0100\n"
-"PO-Revision-Date: 2020-10-28 21:26+0000\n"
+"PO-Revision-Date: 2020-12-06 19:29+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/pt/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.3.2-dev\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -46,8 +46,8 @@ msgid ""
 "po4a extracts the translatable material from the original document, and "
 "places it into a PO file that is well adapted to the translation work."
 msgstr ""
-"O po4a extrai material traduzível da documentação original e o coloca num "
-"arquivo PO que é bem adaptado ao trabalho de tradução."
+"O po4a extrai material traduzível da documentação original e põe-o num "
+"ficheiro PO que é bem adaptado ao trabalho de tradução."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:27
@@ -56,7 +56,7 @@ msgid ""
 "translation into the structure of the document to generate a translated "
 "document."
 msgstr ""
-"Uma vez que a tradução está concluída no arquivo PO, o po4a reinjeta a "
+"Uma vez que a tradução está concluída no ficheiro PO, o po4a reinjeta a "
 "tradução na estrutura da documentação e gera uma documentação traduzida."
 
 #. type: Content of: <html><body><div><div><p>
@@ -122,7 +122,7 @@ msgstr "TeX (genérico, LaTeX ou Texinfo)"
 #: src/index.php.en:49
 msgid "text (simple text files with some formatting, markdown, or AsciiDoc)"
 msgstr ""
-"texto (arquivos de texto simples com algumas formatações, markdown ou "
+"texto (ficheiros de texto simples com algumas formatações, markdown ou "
 "AsciiDoc)"
 
 #. type: Content of: <html><body><div><div><ul><li>
