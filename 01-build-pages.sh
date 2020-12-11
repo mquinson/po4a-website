@@ -177,6 +177,9 @@ get_language() {
 		en)
 			echo -n "English"
 			;;
+		eo)
+			echo -n "Esperanto"
+			;;
 		es)
 			echo -n "español"
 			;;
