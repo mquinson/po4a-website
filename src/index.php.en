@@ -52,6 +52,12 @@
 			</ul>
 		</div>
 		<div class="item"><!-- Keep it YEAR-MONTH-DAY -->
+			<h2>2020-12-07 - po4a 0.62 released</h2>
+			<p>Unwrap asciidoc to avoid reformating issues and other bugfixes, plus translation updates (<a href="https://github.com/mquinson/po4a/releases/tag/v0.62">more details</a>).
+			</p>
+			<h2>2020-08-05 - po4a 0.61 released</h2>
+			<p>More bugfix (again to not break Debian packages depending on po4a), and translation updates (<a href="https://github.com/mquinson/po4a/releases/tag/v0.61">more details</a>).
+			</p>
 			<h2>2020-07-15 - po4a 0.60 released</h2>
 			<p>Bugfix and translation updates (<a href="https://github.com/mquinson/po4a/releases/tag/v0.60">more details</a>).
 			</p>
