@@ -4,10 +4,10 @@
 # Milo Ivir <mail@milotype.de>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: po4a 0.60\n"
+"Project-Id-Version: po4a 0.62\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2020-12-12 13:42+0100\n"
-"PO-Revision-Date: 2020-12-12 13:48+0100\n"
+"PO-Revision-Date: 2020-12-12 13:45+0100\n"
 "Last-Translator: Helge Kreutzmann <debian@helgefjell.de>\n"
 "Language-Team: de <debian-l10n-german@lists.debian.org>\n"
 "Language: de\n"
@@ -140,17 +140,14 @@ msgstr "2020-12-07 – po4a 0.62 veröffentlicht"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "Unwrap asciidoc to avoid reformating issues and other bugfixes, plus "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.62\">more details</a>)."
 msgstr ""
-"Fehlerkorrekturen und Übersetzungsaktualisierungen (<a href=\"https://github."
-"com/mquinson/po4a/releases/tag/v0.60\">weitere Details</a>)."
+"Kein Zeilenumbruch bei ASCIIDOC, um Neuformatierungsprobleme zu vermeiden "
+"und andere Fehlerkorrekturen, sowie Übersetzungsaktualisierungen (<a href=\"https://github."
+"com/mquinson/po4a/releases/tag/v0.62\">weitere Details</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:58
@@ -159,17 +156,14 @@ msgstr "2020-08-05 – po4a 0.61 veröffentlicht"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:59
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "More bugfix (again to not break Debian packages depending on po4a), and "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.61\">more details</a>)."
 msgstr ""
-"Fehlerkorrekturen und Übersetzungsaktualisierungen (<a href=\"https://github."
-"com/mquinson/po4a/releases/tag/v0.60\">weitere Details</a>)."
+"Weitere Fehlerkorrekturen (wieder um Debian-Pakete nicht zu beschädigen, die von Po4a abhängen) und "
+"und Übersetzungsaktualisierungen (<a href=\"https://github."
+"com/mquinson/po4a/releases/tag/v0.61\">weitere Details</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:61
