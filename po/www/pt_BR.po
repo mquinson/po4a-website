@@ -2,14 +2,14 @@
 # Copyright (C) 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the po4a package.
 # Translator: Rafael Ferreira <rafael.f.f1@gmail.com>, 2013, 2014.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2020.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2020, 2021.
 # Martin Quinson <martin.quinson@ens-rennes.fr>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.45\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2020-10-26 19:39+0100\n"
-"PO-Revision-Date: 2020-07-20 14:41+0000\n"
+"PO-Revision-Date: 2021-02-22 09:50+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/pt_BR/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.2-dev\n"
+"X-Generator: Weblate 4.5\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -63,12 +63,6 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:30
-#, fuzzy
-#| msgid ""
-#| "If the translation is only partially completed, the original (english) "
-#| "text is used instead. This ensures that your translated documentation is "
-#| "always both up to date with regard to the original one, and as translated "
-#| "as possible."
 msgid ""
 "If the translation is only partially completed, the original (English) text "
 "is used instead. This ensures that your translated documentation is always "
@@ -81,21 +75,14 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:35
-#, fuzzy
-#| msgid ""
-#| "You can fully automatize the translation maintenance with a single "
-#| "configuration file, specifying all settings and the list of documents to "
-#| "translate. With this information, po4a automatically determines the files "
-#| "to update when something changes."
 msgid ""
 "Automate all the translation maintenance with one configuration file that "
 "specifies all settings, and a list of documents to translate. po4a will "
 "update them automatically when something happens."
 msgstr ""
-"Você pode automatizar completamente a manutenção da tradução com um arquivo "
-"de configuração simples, especificando todas as configurações e a lista de "
-"documentos a traduzir. Com esta informação o po4a determina automaticamente "
-"quais arquivos atualizar quando algo é alterado."
+"Automatize toda a manutenção de tradução com um arquivo de configuração que "
+"especifica todas as configurações e uma lista de documentos para traduzir. "
+"po4a vai atualizá-los automaticamente quando algo acontecer."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:41
@@ -151,44 +138,31 @@ msgstr "KernelHelp"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-#, fuzzy
-#| msgid "2020-15-07 - po4a 0.60 released"
 msgid "2020-07-15 - po4a 0.60 released"
-msgstr "15-07-2020 - Lançamento do po4a 0.60"
+msgstr "2020-07-15 - Lançamento do po4a 0.60"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
-#, fuzzy
-#| msgid ""
-#| "Bug fix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "Bugfix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.60\">more details</a>)."
 msgstr ""
-"Correção de erro e atualizações de tradução (<a href=\"https://github.com/"
+"Correção de erros e atualizações de tradução (<a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.60\">mais detalhes</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:58
-#, fuzzy
-#| msgid "2020-20-05 - po4a 0.59 released"
 msgid "2020-05-20 - po4a 0.59 released"
 msgstr "2020-05-20 - Lançamento do po4a 0.59"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:59
-#, fuzzy
-#| msgid ""
-#| "Bug fix release to not break the build of several Debian packages (at "
-#| "least).  <a href=\"https://github.com/mquinson/po4a/releases/tag/"
-#| "v0.59\">More details</a>."
 msgid ""
 "Bugfix release to not break the build of several Debian packages (at "
 "least).  <a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.59\">More details</a>."
 msgstr ""
-"Lançamento de correção de erro para não quebrar a compilação de vários "
+"Lançamento de correção de erros para não quebrar a compilação de vários "
 "pacotes do Debian (no mínimo) <a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.59\">mais detalhes</a>."
 
@@ -229,16 +203,12 @@ msgstr "2019-10-25 - Lançamento do po4a 0.57"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:70
-#, fuzzy
-#| msgid ""
-#| "Translation update and one bug fix in AsciiDoc.  (<a href=\"https://"
-#| "github.com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
 msgid ""
 "Translation update and one bugfix in AsciiDoc.  (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
 msgstr ""
-"Atualização de tradução e uma correção de erro no Asciidoc. (<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.57\">mais detalhes</a>)."
+"Atualização de tradução e uma correção de erros no Asciidoc. (<a href=\"https"
+"://github.com/mquinson/po4a/releases/tag/v0.57\">mais detalhes</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:73
@@ -247,16 +217,12 @@ msgstr "2019-06-06 - Lançamento do po4a 0.56"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:74
-#, fuzzy
-#| msgid ""
-#| "New features and bug fixes, mostly to the AsciiDoc parser (<a href="
-#| "\"https://github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
 msgid ""
 "New features and bugfixes, mostly to the AsciiDoc parser (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
 msgstr ""
-"Novos recursos e correções de erros, principalmente ao analisador Asciidoc "
-"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">mais "
+"Novos recursos e correções de erros, principalmente ao analisador Asciidoc ("
+"<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">mais "
 "detalhes</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
@@ -266,11 +232,6 @@ msgstr "2018-12-09 - Lançamento do po4a 0.55"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:78
-#, fuzzy
-#| msgid ""
-#| "New features and bug fixes to both the individual parsers and common "
-#| "parts (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-#| "v0.55\">more details</a>)."
 msgid ""
 "New features and bugfixes to both the individual parsers and common parts "
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
@@ -301,19 +262,14 @@ msgstr "2018-05-25 - Lançamento do po4a 0.53"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:86
-#, fuzzy
-#| msgid ""
-#| "The most visible change is a new YAML module, and the fact that alioth "
-#| "was turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-#| "v0.53\">more details</a>)."
 msgid ""
 "The most visible change is a new YAML module, and the fact that Alioth was "
 "turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.53\">more details</a>)."
 msgstr ""
-"A alteração mais visível é o novo módulo YAML e o fato de que o alioth foi "
-"desligado (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-"v0.53\">mais detalhes</a>)."
+"A alteração mais visível é o novo módulo YAML e o fato de que o Alioth foi "
+"desligado (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.53\""
+">mais detalhes</a>)."
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
@@ -357,12 +313,6 @@ msgstr "Ajuda"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:30
-#, fuzzy
-#| msgid ""
-#| "We can help you to set up a translation framework for your project's "
-#| "documentation or to adapt po4a to your needs.  Do not hesitate to contact "
-#| "us on our <a href=\"mailto:devel@lists.po4a.org\">mailing list</a> or on "
-#| "IRC (#po4a on oftc)."
 msgid ""
 "We can help you to set up a translation framework for your project's "
 "documentation or to adapt po4a to your needs.  Do not hesitate to contact us "
@@ -371,8 +321,8 @@ msgid ""
 msgstr ""
 "Nós podemos ajudá-lo a montar uma infraestrutura de tradução para a "
 "documentação do seu projeto ou adaptar o po4a às suas necessidades. Não "
-"hesite em nos contactar em nossa  <a href=\"mailto:devel@lists.po4a.org"
-"\">lista de discussão</a> ou no IRC (#po4a no oftc)."
+"hesite em nos contactar em nossa  <a href=\"mailto:devel@lists.po4a.org\""
+">lista de discussão</a> ou no IRC (#po4a no OFTC)."
 
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
@@ -461,10 +411,8 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:22
-#, fuzzy
-#| msgid "on IRC (#po4a on oftc)."
 msgid "on IRC (#po4a on OFTC)."
-msgstr "no IRC (#po4a no oftc)."
+msgstr "no IRC (#po4a no OFTC)."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:23
@@ -482,19 +430,13 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:27
-#, fuzzy
-#| msgid ""
-#| "If you can improve the code yourself, Pull Requests against the <a href="
-#| "\"https://github.com/mquinson/po4a\">GitHub repository</a> are more than "
-#| "welcomed."
 msgid ""
 "If you can improve the code yourself, pull requests against the <a href="
 "\"https://github.com/mquinson/po4a\">GitHub repository</a> are more than "
 "welcomed."
 msgstr ""
-"Se você pode aprimorar o código você mesmo, \"Pull Requests\" no <a href="
-"\"https://github.com/mquinson/po4a\">repositório GitHub</a> são mais que bem-"
-"vindos."
+"Se você pode aprimorar o código você mesmo, pull requests no <a href=\"https"
+"://github.com/mquinson/po4a\">repositório GitHub</a> são mais que bem-vindos."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:32
@@ -503,20 +445,14 @@ msgstr "Traduzindo"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:33
-#, fuzzy
-#| msgid ""
-#| "The easiest to help translating po4a is to go through <a href=\"https://"
-#| "hosted.weblate.org/projects/po4a/\">weblate</a> but you can also provide "
-#| "pull requests on the source git directly if you prefer."
 msgid ""
 "The easiest to help translating po4a is to go through <a href=\"https://"
 "hosted.weblate.org/projects/po4a/\">Weblate</a> but you can also provide "
 "pull requests on the source git directly if you prefer."
 msgstr ""
-"A forma mais fácil de ajudar a traduzir o po4a é através do <a href="
-"\"https://hosted.weblate.org/projects/po4a/\">weblate</a>, mas você também "
-"pode fornecer \"pull requests\" no código fonte diretamente no git se "
-"preferir."
+"A forma mais fácil de ajudar a traduzir o po4a é através do <a href=\"https"
+"://hosted.weblate.org/projects/po4a/\">Weblate</a>, mas você também pode "
+"fornecer pull requests no código fonte diretamente no git se preferir."
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:40
