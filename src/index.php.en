@@ -52,6 +52,9 @@
 			</ul>
 		</div>
 		<div class="item"><!-- Keep it YEAR-MONTH-DAY -->
+			<h2>2021-02-02 - po4a 0.63 released</h2>
+			<p>Fix a regression in 0.62 where the translation of po4a binaries were not installed. Plus other bugfixes and translation updates (<a href="https://github.com/mquinson/po4a/releases/tag/v0.63">more details</a>).
+			</p>
 			<h2>2020-12-07 - po4a 0.62 released</h2>
 			<p>Unwrap asciidoc to avoid reformating issues and other bugfixes, plus translation updates (<a href="https://github.com/mquinson/po4a/releases/tag/v0.62">more details</a>).
 			</p>
