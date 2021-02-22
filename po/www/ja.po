@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2020-10-26 19:39+0100\n"
-"PO-Revision-Date: 2020-06-03 19:41+0000\n"
+"POT-Creation-Date: 2020-12-12 13:42+0100\n"
+"PO-Revision-Date: 2020-12-12 13:52+0100\n"
 "Last-Translator: Masahiro Nakamura <marlsa_32.wwmd@icloud.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/po4a/po4a-"
 "website/ja/>\n"
@@ -126,13 +126,49 @@ msgstr "KernelHelp"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-#, fuzzy
-#| msgid "2020-05-04 - po4a 0.58 released"
-msgid "2020-07-15 - po4a 0.60 released"
-msgstr "2020-05-04 - po4a 0.58 リリース"
+msgid "2020-12-07 - po4a 0.62 released"
+msgstr "2020-12-07 - po4a 0.62 リリース"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
+#, fuzzy
+#| msgid ""
+#| "You can find the sources of the latest release on <a href=\"http://alioth."
+#| "debian.org/frs/?group_id=30267\">Alioth</a>."
+msgid ""
+"Unwrap asciidoc to avoid reformating issues and other bugfixes, plus "
+"translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.62\">more details</a>)."
+msgstr ""
+"最新リリースのソースコードは、<a href=\"http://alioth.debian.org/frs/?"
+"group_id=30267\">Alioth</a> にあります。"
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:58
+msgid "2020-08-05 - po4a 0.61 released"
+msgstr "2020-08-05 - po4a 0.61 リリース"
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:59
+#, fuzzy
+#| msgid ""
+#| "You can find the sources of the latest release on <a href=\"http://alioth."
+#| "debian.org/frs/?group_id=30267\">Alioth</a>."
+msgid ""
+"More bugfix (again to not break Debian packages depending on po4a), and "
+"translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.61\">more details</a>)."
+msgstr ""
+"最新リリースのソースコードは、<a href=\"http://alioth.debian.org/frs/?"
+"group_id=30267\">Alioth</a> にあります。"
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:61
+msgid "2020-07-15 - po4a 0.60 released"
+msgstr "2020-07-15 - po4a 0.60 リリース"
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:62
 #, fuzzy
 #| msgid ""
 #| "You can find the sources of the latest release on <a href=\"http://alioth."
@@ -145,14 +181,12 @@ msgstr ""
 "group_id=30267\">Alioth</a> にあります。"
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:58
-#, fuzzy
-#| msgid "2020-05-04 - po4a 0.58 released"
+#: src/index.php.en:64
 msgid "2020-05-20 - po4a 0.59 released"
-msgstr "2020-05-04 - po4a 0.58 リリース"
+msgstr "2020-05-20 - po4a 0.59 リリース"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:59
+#: src/index.php.en:65
 #, fuzzy
 #| msgid ""
 #| "You can find the sources of the latest release on <a href=\"http://alioth."
@@ -166,27 +200,27 @@ msgstr ""
 "group_id=30267\">Alioth</a> にあります。"
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:62
+#: src/index.php.en:68
 msgid "2020-05-04 - po4a 0.58 released"
 msgstr "2020-05-04 - po4a 0.58 リリース"
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:64
+#: src/index.php.en:70
 msgid "Rewrite all tests to make them more robust and less permissive."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:65
+#: src/index.php.en:71
 msgid "Fix many issues reported against the parsers."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:66
+#: src/index.php.en:72
 msgid "Rewrite the documentation for sake of clarity and brevity."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:67
+#: src/index.php.en:73
 #, fuzzy
 #| msgid ""
 #| "You can find the sources of the latest release on <a href=\"http://alioth."
@@ -199,12 +233,12 @@ msgstr ""
 "group_id=30267\">Alioth</a> にあります。"
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:69
+#: src/index.php.en:75
 msgid "2019-10-25 - po4a 0.57 released"
 msgstr "2019-10-25 - po4a 0.57 リリース"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:70
+#: src/index.php.en:76
 #, fuzzy
 #| msgid ""
 #| "You can find the sources of the latest release on <a href=\"http://alioth."
@@ -217,12 +251,12 @@ msgstr ""
 "group_id=30267\">Alioth</a> にあります。"
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:73
+#: src/index.php.en:79
 msgid "2019-06-06 - po4a 0.56 released"
 msgstr "2019-06-06 - po4a 0.56 リリース"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:74
+#: src/index.php.en:80
 #, fuzzy
 #| msgid ""
 #| "You can find the sources of the latest release on <a href=\"http://alioth."
@@ -235,12 +269,12 @@ msgstr ""
 "group_id=30267\">Alioth</a> にあります。"
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:77
+#: src/index.php.en:83
 msgid "2018-12-09 - po4a 0.55 released"
 msgstr "2018-12-09 - po4a 0.55 リリース"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:78
+#: src/index.php.en:84
 #, fuzzy
 #| msgid ""
 #| "You can find the sources of the latest release on <a href=\"http://alioth."
@@ -254,12 +288,12 @@ msgstr ""
 "group_id=30267\">Alioth</a> にあります。"
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:81
+#: src/index.php.en:87
 msgid "2018-06-30 - po4a 0.54 released"
 msgstr "2018-06-30 - po4a 0.54 リリース"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:82
+#: src/index.php.en:88
 #, fuzzy
 #| msgid ""
 #| "You can find the sources of the latest release on <a href=\"http://alioth."
@@ -272,12 +306,12 @@ msgstr ""
 "group_id=30267\">Alioth</a> にあります。"
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:85
+#: src/index.php.en:91
 msgid "2018-05-25 - po4a 0.53 released"
 msgstr "2018-05-25 - po4a 0.53 リリース"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:86
+#: src/index.php.en:92
 #, fuzzy
 #| msgid ""
 #| "You can find the sources of the latest release on <a href=\"http://alioth."

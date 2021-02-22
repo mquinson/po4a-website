@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.41\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2020-10-26 19:39+0100\n"
+"POT-Creation-Date: 2020-12-12 13:42+0100\n"
 "PO-Revision-Date: 2020-07-22 17:41+0000\n"
 "Last-Translator: Stanisław Krukowski <pet209a1@riseup.net>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/po4a/po4a-website/"
@@ -153,11 +153,53 @@ msgstr "komunikaty pomocy kompilacji jądra"
 #: src/index.php.en:55
 #, fuzzy
 #| msgid "2020-15-07 - po4a 0.60 released"
-msgid "2020-07-15 - po4a 0.60 released"
+msgid "2020-12-07 - po4a 0.62 released"
 msgstr "2020-15-07 - wydany po4a 0.60"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
+#, fuzzy
+#| msgid ""
+#| "Bug fix and translation updates (<a href=\"https://github.com/mquinson/"
+#| "po4a/releases/tag/v0.60\">more details</a>)."
+msgid ""
+"Unwrap asciidoc to avoid reformating issues and other bugfixes, plus "
+"translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.62\">more details</a>)."
+msgstr ""
+"Poprawki Bug'ów i aktualizacje tłumaczenia (<a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.60\">więcej szczegółów</a>)."
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:58
+#, fuzzy
+#| msgid "2020-15-07 - po4a 0.60 released"
+msgid "2020-08-05 - po4a 0.61 released"
+msgstr "2020-15-07 - wydany po4a 0.60"
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:59
+#, fuzzy
+#| msgid ""
+#| "Bug fix and translation updates (<a href=\"https://github.com/mquinson/"
+#| "po4a/releases/tag/v0.60\">more details</a>)."
+msgid ""
+"More bugfix (again to not break Debian packages depending on po4a), and "
+"translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.61\">more details</a>)."
+msgstr ""
+"Poprawki Bug'ów i aktualizacje tłumaczenia (<a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.60\">więcej szczegółów</a>)."
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:61
+#, fuzzy
+#| msgid "2020-15-07 - po4a 0.60 released"
+msgid "2020-07-15 - po4a 0.60 released"
+msgstr "2020-15-07 - wydany po4a 0.60"
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:62
 #, fuzzy
 #| msgid ""
 #| "Bug fix and translation updates (<a href=\"https://github.com/mquinson/"
@@ -170,14 +212,14 @@ msgstr ""
 "mquinson/po4a/releases/tag/v0.60\">więcej szczegółów</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:58
+#: src/index.php.en:64
 #, fuzzy
 #| msgid "2020-20-05 - po4a 0.59 released"
 msgid "2020-05-20 - po4a 0.59 released"
 msgstr "2020-20-05 - wydany po4a 0.59"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:59
+#: src/index.php.en:65
 #, fuzzy
 #| msgid ""
 #| "We fixed tons of bugs, and removed many glitches (<a href=\"https://"
@@ -191,30 +233,30 @@ msgstr ""
 "github.com/mquinson/po4a/releases/tag/v0.54\">szczegółowe informacje</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:62
+#: src/index.php.en:68
 #, fuzzy
 #| msgid "2018-05-25 - po4a 0.53 released"
 msgid "2020-05-04 - po4a 0.58 released"
 msgstr "2018-05-25 - po4a 0.53 wydany"
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:64
+#: src/index.php.en:70
 msgid "Rewrite all tests to make them more robust and less permissive."
 msgstr ""
 "Przepisz wszystkie testy, aby były bardziej niezawodne i mniej liberalne."
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:65
+#: src/index.php.en:71
 msgid "Fix many issues reported against the parsers."
 msgstr "Napraw wiele problemów zgłaszanych przez parsery."
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:66
+#: src/index.php.en:72
 msgid "Rewrite the documentation for sake of clarity and brevity."
 msgstr "Przepisz dokumentację dla zachowania jasności i zwięzłości."
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:67
+#: src/index.php.en:73
 #, fuzzy
 #| msgid ""
 #| "We fixed tons of bugs, and removed many glitches (<a href=\"https://"
@@ -227,14 +269,14 @@ msgstr ""
 "github.com/mquinson/po4a/releases/tag/v0.54\">szczegółowe informacje</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:69
+#: src/index.php.en:75
 #, fuzzy
 #| msgid "2018-05-25 - po4a 0.53 released"
 msgid "2019-10-25 - po4a 0.57 released"
 msgstr "2018-05-25 - po4a 0.53 wydany"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:70
+#: src/index.php.en:76
 #, fuzzy
 #| msgid ""
 #| "New features and bug fixes, mostly to the AsciiDoc parser (<a href="
@@ -248,12 +290,12 @@ msgstr ""
 "informacje</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:73
+#: src/index.php.en:79
 msgid "2019-06-06 - po4a 0.56 released"
 msgstr "2019-06-06 - po4a 0.56 wydany"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:74
+#: src/index.php.en:80
 #, fuzzy
 #| msgid ""
 #| "New features and bug fixes, mostly to the AsciiDoc parser (<a href="
@@ -267,12 +309,12 @@ msgstr ""
 "informacje</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:77
+#: src/index.php.en:83
 msgid "2018-12-09 - po4a 0.55 released"
 msgstr "2018-12-09 - po4a 0.55 wydany"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:78
+#: src/index.php.en:84
 #, fuzzy
 #| msgid ""
 #| "New features and bug fixes to both the individual parsers and common "
@@ -288,12 +330,12 @@ msgstr ""
 "releases/tag/v0.55\">szczegółowe informacje</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:81
+#: src/index.php.en:87
 msgid "2018-06-30 - po4a 0.54 released"
 msgstr "2018-06-30 - po4a 0.54 wydany"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:82
+#: src/index.php.en:88
 msgid ""
 "We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
@@ -302,12 +344,12 @@ msgstr ""
 "github.com/mquinson/po4a/releases/tag/v0.54\">szczegółowe informacje</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:85
+#: src/index.php.en:91
 msgid "2018-05-25 - po4a 0.53 released"
 msgstr "2018-05-25 - po4a 0.53 wydany"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:86
+#: src/index.php.en:92
 #, fuzzy
 #| msgid ""
 #| "The most visible change is a new YAML module, and the fact that alioth "
