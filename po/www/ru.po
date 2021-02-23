@@ -2,23 +2,23 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the po4a package.
 # Andrei Stepanov <adem4ik@gmail.com>, 2020.
-# Golubev Alexander <fatzer2@gmail.com>, 2020.
+# Golubev Alexander <fatzer2@gmail.com>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.36.6\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2021-02-23 00:38+0100\n"
-"PO-Revision-Date: 2020-12-12 13:57+0100\n"
+"PO-Revision-Date: 2021-02-23 19:59+0000\n"
 "Last-Translator: Golubev Alexander <fatzer2@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/po4a/po4a-"
-"website/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/po4a/"
+"po4a-website/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.5\n"
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -26,7 +26,7 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
 msgid "po4a - Welcome"
-msgstr "po4a - Приветствие"
+msgstr "po4a — Приветствие"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:18
@@ -141,24 +141,20 @@ msgstr "KernelHelp"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-#, fuzzy
-#| msgid "2020-12-07 - po4a 0.62 released"
 msgid "2021-02-02 - po4a 0.63 released"
-msgstr "2020-12-07 - выпуск po4a 0.62"
+msgstr "2021-02-02 — выпуск po4a 0.63"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "Fix a regression in 0.62 where the translation of po4a binaries were not "
 "installed. Plus other bugfixes and translation updates (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.63\">more details</a>)."
 msgstr ""
-"Исправления ошибок и обновление переводов (<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.60\">подробности</a>)."
+"Исправлена регрессия в 0.62 из-за которой бинарные файлы переводов po4a не "
+"устанавливались. Плюс другие исправления ошибок и обновления переводов (<a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.63\""
+">подробности</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:58
@@ -167,41 +163,36 @@ msgstr "2020-12-07 - выпуск po4a 0.62"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:59
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "Unwrap asciidoc to avoid reformating issues and other bugfixes, plus "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.62\">more details</a>)."
 msgstr ""
-"Исправления ошибок и обновление переводов (<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.60\">подробности</a>)."
+"Отключение переноса строк в asciidoc, дабы избежать приблем с "
+"переворматированием и другие исправления ошибок, плюс обновление переводов ("
+"<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.62\""
+">подробности</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:61
 msgid "2020-08-05 - po4a 0.61 released"
-msgstr "2020-08-05 - выпуск po4a 0.61"
+msgstr "2020-08-05 — выпуск po4a 0.61"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:62
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "More bugfix (again to not break Debian packages depending on po4a), and "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.61\">more details</a>)."
 msgstr ""
-"Исправления ошибок и обновление переводов (<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.60\">подробности</a>)."
+"Ещё больше исправлений ошибок (снова, чтобы не ломать зависимости в Debian "
+"от po4a) и обновление переводов (<a href=\"https://github.com/mquinson/po4a/"
+"releases/tag/v0.61\">подробности</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:64
 msgid "2020-07-15 - po4a 0.60 released"
-msgstr "2020-07-15 - выпуск po4a 0.60"
+msgstr "2020-07-15 — выпуск po4a 0.60"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:65
@@ -215,7 +206,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:67
 msgid "2020-05-20 - po4a 0.59 released"
-msgstr "2020-05-20 - выпуск po4a 0.59"
+msgstr "2020-05-20 — выпуск po4a 0.59"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:68
@@ -231,7 +222,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:71
 msgid "2020-05-04 - po4a 0.58 released"
-msgstr "2020-05-04 - выпуск po4a 0.58"
+msgstr "2020-05-04 — выпуск po4a 0.58"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:73
@@ -260,7 +251,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:78
 msgid "2019-10-25 - po4a 0.57 released"
-msgstr "2019-10-25 - выпуск po4a 0.57"
+msgstr "2019-10-25 — выпуск po4a 0.57"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:79
@@ -274,7 +265,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:82
 msgid "2019-06-06 - po4a 0.56 released"
-msgstr "2019-06-06 - выпуск po4a 0.56"
+msgstr "2019-06-06 — выпуск po4a 0.56"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:83
@@ -289,7 +280,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:86
 msgid "2018-12-09 - po4a 0.55 released"
-msgstr "2018-12-09 - выпуск po4a 0.55"
+msgstr "2018-12-09 — выпуск po4a 0.55"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:87
@@ -305,7 +296,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:90
 msgid "2018-06-30 - po4a 0.54 released"
-msgstr "2018-06-30 - выпуск po4a 0.54"
+msgstr "2018-06-30 — выпуск po4a 0.54"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:91
@@ -319,7 +310,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:94
 msgid "2018-05-25 - po4a 0.53 released"
-msgstr "2018-05-25 - выпуск po4a 0.53"
+msgstr "2018-05-25 — выпуск po4a 0.53"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:95
@@ -335,7 +326,7 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
 msgid "po4a - Documentation"
-msgstr "po4a - Документация"
+msgstr "po4a — Документация"
 
 #. type: Content of: <div><a>
 #: src/documentation.php.en:18 src/header.php.en:9
@@ -388,7 +379,7 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
 msgid "po4a - Download"
-msgstr "po4a - Загрузить"
+msgstr "po4a — Загрузить"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:18
@@ -447,7 +438,7 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: src/getinvolved.php.en:11
 msgid "po4a - Get involved!"
-msgstr "po4a - Участвуйте!"
+msgstr "po4a — Участвуйте!"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:18
