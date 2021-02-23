@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the po4a package.
-# Allan Nordhøy <epost@anotheragency.no>, 2020.
+# Allan Nordhøy <epost@anotheragency.no>, 2020, 2021.
 # Petter Reinholdtsen <pere-weblate@hungry.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.60\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2021-02-23 00:38+0100\n"
-"PO-Revision-Date: 2020-12-12 13:53+0100\n"
-"Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
+"PO-Revision-Date: 2021-02-23 20:00+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/nb_NO/>\n"
 "Language: nb_NO\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.2-dev\n"
+"X-Generator: Weblate 4.5\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -57,7 +57,7 @@ msgid ""
 "document."
 msgstr ""
 "Når oversettelsen er fullført i en PO-fil, re-injiserer po4a oversettelsen "
-"inn i strukturen av dokumentet for å generere et oversatt dokument."
+"inn i dokumentstrukturen for å generere et oversatt dokument."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:30
@@ -134,24 +134,19 @@ msgstr "KernelHelp"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-#, fuzzy
-#| msgid "2020-12-07 - po4a 0.62 released"
 msgid "2021-02-02 - po4a 0.63 released"
-msgstr "2020-12-07 - po4a 0.62 utgitt"
+msgstr "2021-02-02 - po4a 0.63 utgitt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "Fix a regression in 0.62 where the translation of po4a binaries were not "
 "installed. Plus other bugfixes and translation updates (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.63\">more details</a>)."
 msgstr ""
-"Feilrettinger og oversettelsesoppdateringer (<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.60\">flere detaljer</a>)."
+"Fikset regresjon i 0.62 der oversettelsen av kjørbare po4a-filer ikke ble "
+"installert. Pluss andre feilrettinger og oversettelsesoppdateringer (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.63\">flere detaljer</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:58
@@ -160,17 +155,14 @@ msgstr "2020-12-07 - po4a 0.62 utgitt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:59
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "Unwrap asciidoc to avoid reformating issues and other bugfixes, plus "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.62\">more details</a>)."
 msgstr ""
-"Feilrettinger og oversettelsesoppdateringer (<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.60\">flere detaljer</a>)."
+"Opp-pakking av asciidoc for å unngå reformateringsproblemer, og andre "
+"feilfikser, pluss oversettelsesoppdateringer (<a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.62\">flere detaljer</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:61
@@ -179,17 +171,14 @@ msgstr "2020-08-05 - po4a 0.61 utgitt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:62
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "More bugfix (again to not break Debian packages depending on po4a), and "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.61\">more details</a>)."
 msgstr ""
-"Feilrettinger og oversettelsesoppdateringer (<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.60\">flere detaljer</a>)."
+"Flere feilfikser (igjen for å unngå å knekke bygging av Debian-pakker som "
+"avhenger av po4a), og oversettelsesoppdateringer (<a href=\"https://github."
+"com/mquinson/po4a/releases/tag/v0.61\">flere detaljer</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:64
