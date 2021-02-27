@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the po4a package.
-# eevan78 <ivan.pesic@gmail.com>, 2020.
+# eevan78 <ivan.pesic@gmail.com>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.56\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2021-02-23 00:38+0100\n"
-"PO-Revision-Date: 2020-12-12 13:57+0100\n"
+"PO-Revision-Date: 2021-02-27 10:50+0000\n"
 "Last-Translator: eevan78 <ivan.pesic@gmail.com>\n"
 "Language-Team: Serbian (cyrillic) <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/sr_Cyrl/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.3.2-dev\n"
+"X-Generator: Weblate 4.5\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -137,24 +137,20 @@ msgstr "KernelHelp"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-#, fuzzy
-#| msgid "2020-12-07 - po4a 0.62 released"
 msgid "2021-02-02 - po4a 0.63 released"
-msgstr "2020-12-07 - објављен је po4a 0.62"
+msgstr "2021-02-03 - објављен је po4a 0.63"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "Fix a regression in 0.62 where the translation of po4a binaries were not "
 "installed. Plus other bugfixes and translation updates (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.63\">more details</a>)."
 msgstr ""
-"Исправке багова и ажурирања превода (<a href=\"https://github.com/mquinson/"
-"po4a/releases/tag/v0.60\">више детаља</a>)."
+"Исправљен проблем који се појавио у 0.62 услед којег преводи po4a бинарних "
+"фајлова нису били инсталирани. Уз још исправки багова и ажурирања превода ("
+"<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.63\">више "
+"детаља</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:58
@@ -163,17 +159,14 @@ msgstr "2020-12-07 - објављен је po4a 0.62"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:59
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "Unwrap asciidoc to avoid reformating issues and other bugfixes, plus "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.62\">more details</a>)."
 msgstr ""
-"Исправке багова и ажурирања превода (<a href=\"https://github.com/mquinson/"
-"po4a/releases/tag/v0.60\">више детаља</a>)."
+"Уклања се обавијање asciidoc како би се спречили проблеме са поновним "
+"форматирањем и исправке осталих багова, као и ажурирања превода (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.62\">више детаља</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:61
@@ -182,17 +175,14 @@ msgstr "2020-08-05 - објављен је po4a 0.61"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:62
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "More bugfix (again to not break Debian packages depending on po4a), and "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.61\">more details</a>)."
 msgstr ""
-"Исправке багова и ажурирања превода (<a href=\"https://github.com/mquinson/"
-"po4a/releases/tag/v0.60\">више детаља</a>)."
+"Још исправки багова (опет како се не би покварили Дебиан пакети који зависе "
+"од po4a), ажурирања превода (<a href=\"https://github.com/mquinson/po4a/"
+"releases/tag/v0.61\">више детаља</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:64
