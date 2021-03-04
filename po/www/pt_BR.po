@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.45\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2021-02-23 00:38+0100\n"
-"PO-Revision-Date: 2020-12-12 13:56+0100\n"
+"PO-Revision-Date: 2021-03-04 16:50+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/pt_BR/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.5\n"
+"X-Generator: Weblate 4.5.1-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -138,24 +138,20 @@ msgstr "KernelHelp"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-#, fuzzy
-#| msgid "2020-12-07 - po4a 0.62 released"
 msgid "2021-02-02 - po4a 0.63 released"
-msgstr "07-12-2020 - Lançamento do po4a 0.62"
+msgstr "02-02-2021 - Lançamento do po4a 0.63"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
-#, fuzzy
-#| msgid ""
-#| "Bug fix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "Fix a regression in 0.62 where the translation of po4a binaries were not "
 "installed. Plus other bugfixes and translation updates (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.63\">more details</a>)."
 msgstr ""
-"Correção de erro e atualizações de tradução (<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.60\">mais detalhes</a>)."
+"Correção de uma regressão no 0.62, na qual a tradução de binários do po4a "
+"não eram instalados. Também, outras correções de erros e atualizações de "
+"tradução (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.63\""
+">mais detalhes</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:58
@@ -164,17 +160,14 @@ msgstr "07-12-2020 - Lançamento do po4a 0.62"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:59
-#, fuzzy
-#| msgid ""
-#| "Bug fix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "Unwrap asciidoc to avoid reformating issues and other bugfixes, plus "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.62\">more details</a>)."
 msgstr ""
-"Correção de erro e atualizações de tradução (<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.60\">mais detalhes</a>)."
+"Retirada a quebra de linha do asciidoc para evitar problemas de reformatação "
+"e outras correções de bugs, além de atualizações de tradução (<a href=\"https"
+"://github.com/mquinson/po4a/releases/tag/v0.62\">mais detalhes</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:61
@@ -183,17 +176,14 @@ msgstr "05-08-2020 - Lançamento do po4a 0.61"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:62
-#, fuzzy
-#| msgid ""
-#| "Bug fix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "More bugfix (again to not break Debian packages depending on po4a), and "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.61\">more details</a>)."
 msgstr ""
-"Correção de erro e atualizações de tradução (<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.60\">mais detalhes</a>)."
+"Mais correção de erros (novamente para não quebrar os pacotes Debian "
+"dependendo do po4a) e atualizações de tradução (<a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.61\">mais detalhes</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:64
