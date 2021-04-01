@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.56\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2021-02-23 00:38+0100\n"
-"PO-Revision-Date: 2021-03-26 17:29+0000\n"
+"PO-Revision-Date: 2021-04-01 12:27+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/hr/>\n"
@@ -142,17 +142,14 @@ msgstr "2021-02-02 – objavljen po4a 0.63"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "Fix a regression in 0.62 where the translation of po4a binaries were not "
 "installed. Plus other bugfixes and translation updates (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.63\">more details</a>)."
 msgstr ""
-"Ispravljanje grešaka i aktualiziranje prijevoda (<a href=\"https://github."
-"com/mquinson/po4a/releases/tag/v0.60\">daljnje informacije</a>)."
+"Ispravljanje verzije 0.62 gdje prijevod binarnih po4a-datoteka nije "
+"instaliran. Ispravljanje grešaka i aktualiziranje prijevoda (<a href=\"https"
+"://github.com/mquinson/po4a/releases/tag/v0.63\">daljnje informacije</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:58
