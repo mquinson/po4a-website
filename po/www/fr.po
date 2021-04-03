@@ -6,13 +6,13 @@
 # David Prévot <david@tilapin.org>, 2010-2012.
 # Martin Quinson <martin.quinson@ens-rennes.fr>, 2020.
 # Jean-Baptiste <jean-baptiste@holcroft.fr>, 2020.
-# jmichault <jmt.2000@free.fr>, 2020.
+# jmichault <jmt.2000@free.fr>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2021-02-23 00:38+0100\n"
-"PO-Revision-Date: 2020-11-16 17:28+0000\n"
+"PO-Revision-Date: 2021-04-03 19:26+0000\n"
 "Last-Translator: jmichault <jmt.2000@free.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "fr/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.6-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -142,69 +142,54 @@ msgstr "KernelHelp"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:55
-#, fuzzy
-#| msgid "2020-07-15 - po4a 0.60 released"
 msgid "2021-02-02 - po4a 0.63 released"
-msgstr "15 juillet 2020 — po4a 0.60 est sorti"
+msgstr "2 février 2021 — po4a 0.63 est sorti"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:56
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "Fix a regression in 0.62 where the translation of po4a binaries were not "
 "installed. Plus other bugfixes and translation updates (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.63\">more details</a>)."
 msgstr ""
-"Corrections de bugs et mises à jour des traductions (<a href=\"https://"
-"github.com/mquinson/po4a/releases/tag/v0.60\">plus d’informations</a> -- en "
-"anglais)."
+"Correction d'une régression en 0.62 où la traduction des binaires po4a "
+"n'était pas installée. Plus d'autres corrections de bogues et mises à jour "
+"de traduction (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0."
+"63\"> pour plus de détails </a>). -- en anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:58
-#, fuzzy
-#| msgid "2020-07-15 - po4a 0.60 released"
 msgid "2020-12-07 - po4a 0.62 released"
-msgstr "15 juillet 2020 — po4a 0.60 est sorti"
+msgstr "7 décembre 2020 — po4a 0.62 est sorti"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:59
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "Unwrap asciidoc to avoid reformating issues and other bugfixes, plus "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.62\">more details</a>)."
 msgstr ""
-"Corrections de bugs et mises à jour des traductions (<a href=\"https://"
-"github.com/mquinson/po4a/releases/tag/v0.60\">plus d’informations</a> -- en "
-"anglais)."
+"«Unwrap» asciidoc pour éviter les problèmes de reformatage et autres "
+"corrections de bogues, ainsi que les mises à jour de traduction (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.62\"> pour plus de "
+"détails </a>). -- en anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:61
-#, fuzzy
-#| msgid "2020-07-15 - po4a 0.60 released"
 msgid "2020-08-05 - po4a 0.61 released"
-msgstr "15 juillet 2020 — po4a 0.60 est sorti"
+msgstr "5 août 2020 — po4a 0.61 est sorti"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:62
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "More bugfix (again to not break Debian packages depending on po4a), and "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.61\">more details</a>)."
 msgstr ""
-"Corrections de bugs et mises à jour des traductions (<a href=\"https://"
-"github.com/mquinson/po4a/releases/tag/v0.60\">plus d’informations</a> -- en "
-"anglais)."
+"Plus de correction de bogues (encore une fois pour ne pas casser les paquets "
+"Debian dépendant de po4a), et des mises à jour de traduction (<a href=\"https"
+"://github.com/mquinson/po4a/releases/tag/v0.61\"> pour plus de détails </a>)"
+". -- en anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:64
