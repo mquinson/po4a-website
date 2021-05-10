@@ -1,22 +1,22 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the po4a package.
-# ssantos <ssantos@web.de>, 2020.
+# ssantos <ssantos@web.de>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.62-alpha\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2021-02-23 00:38+0100\n"
-"PO-Revision-Date: 2020-12-12 13:57+0100\n"
+"PO-Revision-Date: 2021-05-10 09:33+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/po4a/po4a-"
-"website/pt/>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/po4a/"
+"po4a-website/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.7-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -385,7 +385,7 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
 msgid "po4a - Download"
-msgstr "po4a - Download"
+msgstr "po4a - Descarregas"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:18
@@ -578,7 +578,7 @@ msgstr "&nbsp;&nbsp;&lt;"
 #. type: Content of: <div><a>
 #: src/header.php.en:10
 msgid "Download"
-msgstr "Download"
+msgstr "Descarrega"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:11
