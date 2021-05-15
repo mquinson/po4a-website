@@ -7,13 +7,14 @@
 # Martin Quinson <martin.quinson@ens-rennes.fr>, 2020.
 # Jean-Baptiste <jean-baptiste@holcroft.fr>, 2020.
 # jmichault <jmt.2000@free.fr>, 2020, 2021.
+# K. Herbert <herbert.ka@mailo.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2021-02-23 00:38+0100\n"
-"PO-Revision-Date: 2021-04-03 19:26+0000\n"
-"Last-Translator: jmichault <jmt.2000@free.fr>\n"
+"PO-Revision-Date: 2021-05-15 20:45+0000\n"
+"Last-Translator: K. Herbert <herbert.ka@mailo.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "fr/>\n"
 "Language: fr\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.6-dev\n"
+"X-Generator: Weblate 4.7-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -480,11 +481,11 @@ msgid ""
 "\">GitHub tracker</a> or in the <a href=\"http://bugs.debian.org/cgi-bin/"
 "pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>."
 msgstr ""
-"Rapport de bogues, patches, demandes de fonctionnalités ou toute forme de "
-"retour sont bienvenus sur la liste de diffusion, sur le <a href=\"https://"
-"github.com/mquinson/po4a/issues\">système de suivi de GitHub</a> ou le <a "
-"href=\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable"
-"\">système de suivi des bogues Debian</a>."
+"Rapport de bogues, correctifs, demandes de fonctionnalités ou toute forme de "
+"retour sont bienvenus sur la liste de diffusion, sur le <a href=\"https"
+"://github.com/mquinson/po4a/issues\">système de suivi de GitHub</a> ou le <a "
+"href=\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable\""
+">système de suivi des bogues Debian</a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:27
