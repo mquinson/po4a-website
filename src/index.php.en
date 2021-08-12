@@ -41,14 +41,32 @@
 			<h2>Supported formats</h2>
 			<p>po4a currently supports the following formats:</p>
 			<ul>
-				<li>manpages</li>
-				<li>POD</li>
-				<li>XML (generic, DocBook, XHTML, Dia, Guide, or WML)</li>
-				<li>SGML</li>
-				<li>TeX (generic, LaTeX, or Texinfo)</li>
-				<li>text (simple text files with some formatting, markdown, or AsciiDoc)</li>
-				<li>INI</li>
-				<li>KernelHelp</li>
+				<li>asciidoc: AsciiDoc format</li>
+				<li>man: Good old manual page format</li>
+				<li>pod: Perl Online Documentation (POD) format</li>
+				<li>xml: generic XML documents
+					<ul>
+						<li>docbook: DocBook XML</li>
+						<li>xhtml: XHTML documents</li>
+						<li>dia: uncompressed Dia diagrams</li>
+						<li>guide: Gentoo Linux's XML documentation format</li>
+						<li>wml: WML documents</li>
+					</ul>
+				</li>
+				<li>sgml: the standard generalized markup language (SGML) is for either DebianDoc or DocBook DTD</li>
+				<li>latex: LaTeX format
+					<ul>
+						<li>tex: generic TeX documents</li>
+						<li>texinfo: The info page format</li>
+						<li>bibtex: bibtex format</li>
+					</ul>
+				</li>
+				<li>text: simple text documents (including options for markdown, fortunes, YAML front matter section, debian/changelog, and debian/control)</li>
+				<li>yaml: YAML documents</li>
+  				<li>rubydoc: RubyDoc (RD) documents</li>
+				<li>halibut: Simon Tatham's documentation production system</li>
+				<li>ini: INI format</li>
+				<li>kernelhelp: Help messages of each kernel compilation option</li>
 			</ul>
 		</div>
 		<div class="item"><!-- Keep it YEAR-MONTH-DAY -->
