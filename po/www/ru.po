@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.36.6\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2021-02-23 00:38+0100\n"
+"POT-Creation-Date: 2021-09-14 20:26+0200\n"
 "PO-Revision-Date: 2021-02-23 19:59+0000\n"
 "Last-Translator: Golubev Alexander <fatzer2@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/po4a/"
-"po4a-website/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/po4a/po4a-"
+"website/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -99,53 +99,135 @@ msgstr "в настоящее время po4a поддерживает след�
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:44
-msgid "manpages"
-msgstr "man-страницы"
+msgid "asciidoc: AsciiDoc format"
+msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:45
-msgid "POD"
-msgstr "POD"
+msgid "man: Good old manual page format"
+msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:46
-msgid "XML (generic, DocBook, XHTML, Dia, Guide, or WML)"
-msgstr "XML (общий, DocBook, XHTML, Dia, Guide или WML)"
+msgid "pod: Perl Online Documentation (POD) format"
+msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:47
-msgid "SGML"
-msgstr "SGML"
-
-#. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:48
-msgid "TeX (generic, LaTeX, or Texinfo)"
-msgstr "TeX (общий, LaTeX или Texinfo)"
-
-#. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:49
-msgid "text (simple text files with some formatting, markdown, or AsciiDoc)"
+msgid "xml: generic XML documents"
 msgstr ""
-"text (простые текстовые файлы с некоторым форматированием, разметкой "
-"markdown или AsciiDoc)"
 
-#. type: Content of: <html><body><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li><ul><li>
+#: src/index.php.en:49
+msgid "docbook: DocBook XML"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:50
-msgid "INI"
-msgstr "INI"
+msgid "xhtml: XHTML documents"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><ul><li>
+#: src/index.php.en:51
+msgid "dia: uncompressed Dia diagrams"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><ul><li>
+#: src/index.php.en:52
+msgid "guide: Gentoo Linux's XML documentation format"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><ul><li>
+#: src/index.php.en:53
+msgid "wml: WML documents"
+msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:51
-msgid "KernelHelp"
-msgstr "KernelHelp"
+#: src/index.php.en:56
+msgid ""
+"sgml: the standard generalized markup language (SGML) is for either "
+"DebianDoc or DocBook DTD"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:57
+msgid "latex: LaTeX format"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><ul><li>
+#: src/index.php.en:59
+msgid "tex: generic TeX documents"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><ul><li>
+#: src/index.php.en:60
+msgid "texinfo: The info page format"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><ul><li>
+#: src/index.php.en:61
+msgid "bibtex: bibtex format"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:64
+msgid ""
+"text: simple text documents (including options for markdown, fortunes, YAML "
+"front matter section, debian/changelog, and debian/control)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:65
+msgid "yaml: YAML documents"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:66
+msgid "rubydoc: RubyDoc (RD) documents"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:67
+msgid "halibut: Simon Tatham's documentation production system"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:68
+msgid "ini: INI format"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: src/index.php.en:69
+msgid "kernelhelp: Help messages of each kernel compilation option"
+msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:55
+#: src/index.php.en:73
+#, fuzzy
+#| msgid "2021-02-02 - po4a 0.63 released"
+msgid "2021-09-12 - po4a 0.64 released"
+msgstr "2021-02-02 — выпуск po4a 0.63"
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:74
+#, fuzzy
+#| msgid ""
+#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
+#| "po4a/releases/tag/v0.60\">more details</a>)."
+msgid ""
+"Bugfix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
+"releases/tag/v0.64\">more details</a>)."
+msgstr ""
+"Исправления ошибок и обновление переводов (<a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.60\">подробности</a>)."
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:76
 msgid "2021-02-02 - po4a 0.63 released"
 msgstr "2021-02-02 — выпуск po4a 0.63"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:56
+#: src/index.php.en:77
 msgid ""
 "Fix a regression in 0.62 where the translation of po4a binaries were not "
 "installed. Plus other bugfixes and translation updates (<a href=\"https://"
@@ -153,33 +235,33 @@ msgid ""
 msgstr ""
 "Исправлена регрессия в 0.62 из-за которой бинарные файлы переводов po4a не "
 "устанавливались. Плюс другие исправления ошибок и обновления переводов (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.63\""
-">подробности</a>)."
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.63\">подробности</"
+"a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:58
+#: src/index.php.en:79
 msgid "2020-12-07 - po4a 0.62 released"
 msgstr "2020-12-07 - выпуск po4a 0.62"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:59
+#: src/index.php.en:80
 msgid ""
 "Unwrap asciidoc to avoid reformating issues and other bugfixes, plus "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.62\">more details</a>)."
 msgstr ""
 "Отключение переноса строк в asciidoc, дабы избежать приблем с "
-"переворматированием и другие исправления ошибок, плюс обновление переводов ("
-"<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.62\""
-">подробности</a>)."
+"переворматированием и другие исправления ошибок, плюс обновление переводов "
+"(<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.62\">подробности</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:61
+#: src/index.php.en:82
 msgid "2020-08-05 - po4a 0.61 released"
 msgstr "2020-08-05 — выпуск po4a 0.61"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:62
+#: src/index.php.en:83
 msgid ""
 "More bugfix (again to not break Debian packages depending on po4a), and "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
@@ -190,12 +272,12 @@ msgstr ""
 "releases/tag/v0.61\">подробности</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:64
+#: src/index.php.en:85
 msgid "2020-07-15 - po4a 0.60 released"
 msgstr "2020-07-15 — выпуск po4a 0.60"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:65
+#: src/index.php.en:86
 msgid ""
 "Bugfix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.60\">more details</a>)."
@@ -204,12 +286,12 @@ msgstr ""
 "mquinson/po4a/releases/tag/v0.60\">подробности</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:67
+#: src/index.php.en:88
 msgid "2020-05-20 - po4a 0.59 released"
 msgstr "2020-05-20 — выпуск po4a 0.59"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:68
+#: src/index.php.en:89
 msgid ""
 "Bugfix release to not break the build of several Debian packages (at "
 "least).  <a href=\"https://github.com/mquinson/po4a/releases/tag/"
@@ -220,27 +302,27 @@ msgstr ""
 "tag/v0.59\">Подробности</a>."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:71
+#: src/index.php.en:92
 msgid "2020-05-04 - po4a 0.58 released"
 msgstr "2020-05-04 — выпуск po4a 0.58"
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:73
+#: src/index.php.en:94
 msgid "Rewrite all tests to make them more robust and less permissive."
 msgstr "Переписаны все тесты, чтобы сделать их более надёжными и строгими."
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:74
+#: src/index.php.en:95
 msgid "Fix many issues reported against the parsers."
 msgstr "Исправлены многие известные проблемы в парсерах."
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:75
+#: src/index.php.en:96
 msgid "Rewrite the documentation for sake of clarity and brevity."
 msgstr "Переписана документация для большей ясности и краткости."
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:76
+#: src/index.php.en:97
 msgid ""
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">more "
 "details</a>)."
@@ -249,12 +331,12 @@ msgstr ""
 "v0.58\">подробности</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:78
+#: src/index.php.en:99
 msgid "2019-10-25 - po4a 0.57 released"
 msgstr "2019-10-25 — выпуск po4a 0.57"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:79
+#: src/index.php.en:100
 msgid ""
 "Translation update and one bugfix in AsciiDoc.  (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
@@ -263,12 +345,12 @@ msgstr ""
 "\"https://github.com/mquinson/po4a/releases/tag/v0.57\">подробности</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:82
+#: src/index.php.en:103
 msgid "2019-06-06 - po4a 0.56 released"
 msgstr "2019-06-06 — выпуск po4a 0.56"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:83
+#: src/index.php.en:104
 msgid ""
 "New features and bugfixes, mostly to the AsciiDoc parser (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
@@ -278,12 +360,12 @@ msgstr ""
 "a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:86
+#: src/index.php.en:107
 msgid "2018-12-09 - po4a 0.55 released"
 msgstr "2018-12-09 — выпуск po4a 0.55"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:87
+#: src/index.php.en:108
 msgid ""
 "New features and bugfixes to both the individual parsers and common parts "
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
@@ -294,12 +376,12 @@ msgstr ""
 "v0.55\">подробности</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:90
+#: src/index.php.en:111
 msgid "2018-06-30 - po4a 0.54 released"
 msgstr "2018-06-30 — выпуск po4a 0.54"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:91
+#: src/index.php.en:112
 msgid ""
 "We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
@@ -308,12 +390,12 @@ msgstr ""
 "com/mquinson/po4a/releases/tag/v0.54\">подробности</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:94
+#: src/index.php.en:115
 msgid "2018-05-25 - po4a 0.53 released"
 msgstr "2018-05-25 — выпуск po4a 0.53"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:95
+#: src/index.php.en:116
 msgid ""
 "The most visible change is a new YAML module, and the fact that Alioth was "
 "turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
@@ -577,6 +659,32 @@ msgstr "Загрузка"
 #: src/header.php.en:11
 msgid "Get Involved"
 msgstr "Участвуйте"
+
+#~ msgid "manpages"
+#~ msgstr "man-страницы"
+
+#~ msgid "POD"
+#~ msgstr "POD"
+
+#~ msgid "XML (generic, DocBook, XHTML, Dia, Guide, or WML)"
+#~ msgstr "XML (общий, DocBook, XHTML, Dia, Guide или WML)"
+
+#~ msgid "SGML"
+#~ msgstr "SGML"
+
+#~ msgid "TeX (generic, LaTeX, or Texinfo)"
+#~ msgstr "TeX (общий, LaTeX или Texinfo)"
+
+#~ msgid "text (simple text files with some formatting, markdown, or AsciiDoc)"
+#~ msgstr ""
+#~ "text (простые текстовые файлы с некоторым форматированием, разметкой "
+#~ "markdown или AsciiDoc)"
+
+#~ msgid "INI"
+#~ msgstr "INI"
+
+#~ msgid "KernelHelp"
+#~ msgstr "KernelHelp"
 
 #~ msgid "2017-03-28 - po4a 0.52 released"
 #~ msgstr "2017-03-28 - выпуск po4a 0.52"
