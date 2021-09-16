@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Ukrainian (po4a)\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2021-09-14 20:26+0200\n"
-"PO-Revision-Date: 2021-09-14 18:42+0000\n"
+"PO-Revision-Date: 2021-09-16 01:38+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/uk/>\n"
@@ -171,51 +171,47 @@ msgid ""
 "text: simple text documents (including options for markdown, fortunes, YAML "
 "front matter section, debian/changelog, and debian/control)"
 msgstr ""
+"text: прості текстові документи (із параметрами для markdown, fortune-ів, "
+"розділу титульних елементів YAML, debian/changelog і debian/control)"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:65
 msgid "yaml: YAML documents"
-msgstr ""
+msgstr "yaml: документи YAML"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:66
 msgid "rubydoc: RubyDoc (RD) documents"
-msgstr ""
+msgstr "rubydoc: документи RubyDoc (RD)"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:67
 msgid "halibut: Simon Tatham's documentation production system"
-msgstr ""
+msgstr "halibut: система обробки документації Саймона Тетгема (Simon Tatham)"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:68
 msgid "ini: INI format"
-msgstr ""
+msgstr "ini: формат INI"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:69
 msgid "kernelhelp: Help messages of each kernel compilation option"
-msgstr ""
+msgstr "kernelhelp: довідкові повідомлення для усіх параметрів компіляції ядра"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:73
-#, fuzzy
-#| msgid "2021-02-02 - po4a 0.63 released"
 msgid "2021-09-12 - po4a 0.64 released"
-msgstr "2 лютого 2021 року — випущено po4a 0.63"
+msgstr "12 вересня 2021 року — випущено po4a 0.64"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:74
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "Bugfix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.64\">more details</a>)."
 msgstr ""
 "Виправлення вад і оновлення перекладів (<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.60\">докладніше</a>)."
+"mquinson/po4a/releases/tag/v0.64\">докладніше</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:76
