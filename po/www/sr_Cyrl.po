@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.56\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2021-09-14 20:26+0200\n"
-"PO-Revision-Date: 2021-02-27 10:50+0000\n"
+"PO-Revision-Date: 2021-09-17 06:35+0000\n"
 "Last-Translator: eevan78 <ivan.pesic@gmail.com>\n"
 "Language-Team: Serbian (cyrillic) <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/sr_Cyrl/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.5\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -97,47 +97,47 @@ msgstr "po4a тренутно подржава следеће формате:"
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:44
 msgid "asciidoc: AsciiDoc format"
-msgstr ""
+msgstr "asciidoc: AsciiDoc формат"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:45
 msgid "man: Good old manual page format"
-msgstr ""
+msgstr "man: Добри стари формат странице упутства"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:46
 msgid "pod: Perl Online Documentation (POD) format"
-msgstr ""
+msgstr "pod: Perl Online Documentation (POD) формат"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:47
 msgid "xml: generic XML documents"
-msgstr ""
+msgstr "xml: генерички XML документи"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:49
 msgid "docbook: DocBook XML"
-msgstr ""
+msgstr "docbook: DocBook XML"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:50
 msgid "xhtml: XHTML documents"
-msgstr ""
+msgstr "xhtml: XHTML документи"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:51
 msgid "dia: uncompressed Dia diagrams"
-msgstr ""
+msgstr "dia: некомпресовани Dia дијаграми"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:52
 msgid "guide: Gentoo Linux's XML documentation format"
-msgstr ""
+msgstr "guide: XML формат документације за Gentoo Linux"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:53
 msgid "wml: WML documents"
-msgstr ""
+msgstr "wml: WML документи"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:56
@@ -145,26 +145,28 @@ msgid ""
 "sgml: the standard generalized markup language (SGML) is for either "
 "DebianDoc or DocBook DTD"
 msgstr ""
+"sgml: standard generalized markup language (SGML) је или за DebianDoc или за "
+"DocBook DTD"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:57
 msgid "latex: LaTeX format"
-msgstr ""
+msgstr "latex: LaTeX формат"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:59
 msgid "tex: generic TeX documents"
-msgstr ""
+msgstr "tex: генерички TeX документи"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:60
 msgid "texinfo: The info page format"
-msgstr ""
+msgstr "texinfo: Формат info странице"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:61
 msgid "bibtex: bibtex format"
-msgstr ""
+msgstr "bibtex: bibtex формат"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:64
@@ -172,51 +174,47 @@ msgid ""
 "text: simple text documents (including options for markdown, fortunes, YAML "
 "front matter section, debian/changelog, and debian/control)"
 msgstr ""
+"text: једноставни текст документи (укључујући опције за markdown, fortunes, "
+"YAML одељак испред главног текста, debian/changelog, и debian/control)"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:65
 msgid "yaml: YAML documents"
-msgstr ""
+msgstr "yaml: YAML документи"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:66
 msgid "rubydoc: RubyDoc (RD) documents"
-msgstr ""
+msgstr "rubydoc: RubyDoc (RD) документи"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:67
 msgid "halibut: Simon Tatham's documentation production system"
-msgstr ""
+msgstr "halibut: Систем за производњу документације Сајмона Татама"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:68
 msgid "ini: INI format"
-msgstr ""
+msgstr "ini: INI формат"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:69
 msgid "kernelhelp: Help messages of each kernel compilation option"
-msgstr ""
+msgstr "kernelhelp: Поруке помоћи за сваку од опција за компајлирање кернела"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:73
-#, fuzzy
-#| msgid "2021-02-02 - po4a 0.63 released"
 msgid "2021-09-12 - po4a 0.64 released"
-msgstr "2021-02-03 - објављен је po4a 0.63"
+msgstr "2021-09-12 - објављен је po4a 0.64"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:74
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "Bugfix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.64\">more details</a>)."
 msgstr ""
 "Исправке багова и ажурирања превода (<a href=\"https://github.com/mquinson/"
-"po4a/releases/tag/v0.60\">више детаља</a>)."
+"po4a/releases/tag/v0.64\">више детаља</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:76
