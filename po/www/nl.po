@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.55\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2021-09-14 20:26+0200\n"
-"PO-Revision-Date: 2021-10-05 17:03+0000\n"
+"PO-Revision-Date: 2021-10-06 19:06+0000\n"
 "Last-Translator: Frans Spiesschaert <frans.spiesschaert@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "nl/>\n"
@@ -175,31 +175,33 @@ msgid ""
 "text: simple text documents (including options for markdown, fortunes, YAML "
 "front matter section, debian/changelog, and debian/control)"
 msgstr ""
+"text: eenvoudige tekstdocumenten (met inbegrip van opties voor markdown, "
+"fortunes, YAML-voorwerksectie, debian/changelog en debian/control)"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:65
 msgid "yaml: YAML documents"
-msgstr ""
+msgstr "yaml: YAML-documenten"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:66
 msgid "rubydoc: RubyDoc (RD) documents"
-msgstr ""
+msgstr "rubydoc: RubyDoc-(RD-) documenten"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:67
 msgid "halibut: Simon Tatham's documentation production system"
-msgstr ""
+msgstr "halibut: documentatieproductiesysteem van Simon Tatham"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:68
 msgid "ini: INI format"
-msgstr ""
+msgstr "ini: INI-indeling"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:69
 msgid "kernelhelp: Help messages of each kernel compilation option"
-msgstr ""
+msgstr "kernelhelp: hulpberichten bij elk van de kernelcompilatieopties"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:73
