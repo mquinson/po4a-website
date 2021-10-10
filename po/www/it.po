@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.48\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2021-09-14 20:26+0200\n"
-"PO-Revision-Date: 2021-04-02 08:48+0200\n"
+"PO-Revision-Date: 2021-10-10 23:27+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@libero.it>\n"
 "Language-Team: Italian <it@li.org>\n"
 "Language: it\n"
@@ -94,126 +94,118 @@ msgstr "po4a attualmente supporta i seguenti formati:"
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:44
 msgid "asciidoc: AsciiDoc format"
-msgstr ""
+msgstr "asciidoc: formato AsciiDoc"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:45
 msgid "man: Good old manual page format"
-msgstr ""
+msgstr "man: formato pagine man"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:46
 msgid "pod: Perl Online Documentation (POD) format"
-msgstr ""
+msgstr "pod: formato POD (Perl Online Documentation)"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:47
 msgid "xml: generic XML documents"
-msgstr ""
+msgstr "xml: documenti generici XML"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:49
 msgid "docbook: DocBook XML"
-msgstr ""
+msgstr "docbook: XML DocBook"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:50
 msgid "xhtml: XHTML documents"
-msgstr ""
+msgstr "xhtml: documenti XHTML"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:51
 msgid "dia: uncompressed Dia diagrams"
-msgstr ""
+msgstr "dia: diagrammi Dia noncompressi"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:52
 msgid "guide: Gentoo Linux's XML documentation format"
-msgstr ""
+msgstr "guide: formato di documentazione XML di Linux Gentoo"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:53
 msgid "wml: WML documents"
-msgstr ""
+msgstr "wml: documenti WML"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:56
 msgid ""
 "sgml: the standard generalized markup language (SGML) is for either "
 "DebianDoc or DocBook DTD"
-msgstr ""
+msgstr "sgml: il formato SGML (Standard Generalized Markup Language) è per DebianDoc o per DTD DocBook"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:57
 msgid "latex: LaTeX format"
-msgstr ""
+msgstr "latex: formato LaTeX"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:59
 msgid "tex: generic TeX documents"
-msgstr ""
+msgstr "tex: documenti TeX generici"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:60
 msgid "texinfo: The info page format"
-msgstr ""
+msgstr "texinfo: il formato info"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:61
 msgid "bibtex: bibtex format"
-msgstr ""
+msgstr "bibtex: formato bibtex"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:64
 msgid ""
 "text: simple text documents (including options for markdown, fortunes, YAML "
 "front matter section, debian/changelog, and debian/control)"
-msgstr ""
+msgstr "text: semplici documenti di testo (incluse le opzioni per markdown, fortunes, YAML front matter section, debian/changelog, e debian/control)"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:65
 msgid "yaml: YAML documents"
-msgstr ""
+msgstr "yaml: documenti YAML"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:66
 msgid "rubydoc: RubyDoc (RD) documents"
-msgstr ""
+msgstr "rubydoc: documenti RubyDoc (RD)"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:67
 msgid "halibut: Simon Tatham's documentation production system"
-msgstr ""
+msgstr "halibut: il sistema di produzione di documentazione di Simon Tatham"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:68
 msgid "ini: INI format"
-msgstr ""
+msgstr "ini: formato INI"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:69
 msgid "kernelhelp: Help messages of each kernel compilation option"
-msgstr ""
+msgstr "kernelhelp: messaggi di errore per ogni opzione di compilazione del kernel"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:73
-#, fuzzy
-#| msgid "2021-02-02 - po4a 0.63 released"
 msgid "2021-09-12 - po4a 0.64 released"
-msgstr "2021-02-02 - rilasciato po4a 0.63"
+msgstr "2021-09-12 - rilasciato po4a 0.64"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:74
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "Bugfix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.64\">more details</a>)."
-msgstr ""
-"Correzioni e aggiornamento traduzioni (<a href=\"https://github.com/mquinson/"
-"po4a/releases/tag/v0.60\">ulteriori dettagli</a>)."
+msgstr "Correzioni e aggiornamento traduzioni (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.64\">ulteriori dettagli</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:76
@@ -657,29 +649,3 @@ msgstr "Scarica"
 #: src/header.php.en:11
 msgid "Get Involved"
 msgstr "Contribuire"
-
-#~ msgid "manpages"
-#~ msgstr "pagine man"
-
-#~ msgid "POD"
-#~ msgstr "POD"
-
-#~ msgid "XML (generic, DocBook, XHTML, Dia, Guide, or WML)"
-#~ msgstr "XML (generico, DocBook, XHTML, Dia, Guide, o WML)"
-
-#~ msgid "SGML"
-#~ msgstr "SGML"
-
-#~ msgid "TeX (generic, LaTeX, or Texinfo)"
-#~ msgstr "TeX (generico, LaTeX, o Texinfo)"
-
-#~ msgid "text (simple text files with some formatting, markdown, or AsciiDoc)"
-#~ msgstr ""
-#~ "text (file di testo semplice con alcune formattazioni, markdown, o "
-#~ "AsciiDoc)"
-
-#~ msgid "INI"
-#~ msgstr "INI"
-
-#~ msgid "KernelHelp"
-#~ msgstr "KernelHelp"
