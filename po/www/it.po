@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.48\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2021-11-14 13:22+0100\n"
-"PO-Revision-Date: 2021-10-10 23:27+0200\n"
+"PO-Revision-Date: 2021-12-02 21:37+0100\n"
 "Last-Translator: Marco Ciampa <ciampix@libero.it>\n"
 "Language-Team: Italian <it@li.org>\n"
 "Language: it\n"
@@ -202,24 +202,16 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:73
-#, fuzzy
-#| msgid "2021-09-12 - po4a 0.64 released"
 msgid "2021-11-14 - po4a 0.65 released"
-msgstr "2021-09-12 - rilasciato po4a 0.64"
+msgstr "2021-11-14 - rilasciato po4a 0.65"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:74
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.64\">more details</a>)."
 msgid ""
 "Allow to group several translations per POT file in split mode (+bugfix and "
 "translation updates -- <a href=\"https://github.com/mquinson/po4a/releases/"
 "tag/v0.65\">more details</a>)."
-msgstr ""
-"Correzioni e aggiornamento traduzioni (<a href=\"https://github.com/mquinson/"
-"po4a/releases/tag/v0.64\">ulteriori dettagli</a>)."
+msgstr "Permette di raggruppare diverse traduzioni per file POT in modalità split (+correzioni e aggiornamento traduzioni (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.65\">ulteriori dettagli</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:76
