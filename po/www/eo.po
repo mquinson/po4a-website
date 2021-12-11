@@ -1,14 +1,15 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
+# Translation of po4a webpage to Esperanto
+# Copyright (C) 2020-2021 Free Software Foundation, Inc.
 # This file is distributed under the same license as the po4a package.
 # jmichault <jmt.2000@free.fr>, 2020.
 # phlostically <phlostically@mailinator.com>, 2021.
+# Marco Ciampa <ciampix@posteo.net>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.62-alpha\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2021-11-14 13:22+0100\n"
-"PO-Revision-Date: 2021-03-14 21:19+0000\n"
+"PO-Revision-Date: 2021-12-11 16:20+0100\n"
 "Last-Translator: phlostically <phlostically@mailinator.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/po4a/po4a-"
 "website/eo/>\n"
@@ -95,147 +96,131 @@ msgstr "po4a nuntempe subtenas la jenajn formatojn:"
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:44
 msgid "asciidoc: AsciiDoc format"
-msgstr ""
+msgstr "asciidoc: formato AsciiDoc"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:45
 msgid "man: Good old manual page format"
-msgstr ""
+msgstr "man: bona malnova manlibropaĝa formato"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:46
 msgid "pod: Perl Online Documentation (POD) format"
-msgstr ""
+msgstr "pod: formato Perl Online Documentation (POD)"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:47
 msgid "xml: generic XML documents"
-msgstr ""
+msgstr "xml: ĝeneralaj XML-dokumentoj"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:49
 msgid "docbook: DocBook XML"
-msgstr ""
+msgstr "docbook: XML DocBook"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:50
 msgid "xhtml: XHTML documents"
-msgstr ""
+msgstr "xhtml: XHTML-dokumentoj"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:51
 msgid "dia: uncompressed Dia diagrams"
-msgstr ""
+msgstr "dia: nekunpremitaj Dia-diagramoj"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:52
 msgid "guide: Gentoo Linux's XML documentation format"
-msgstr ""
+msgstr "guide: XML-dokumentada formato de Gentoo Linukso"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:53
 msgid "wml: WML documents"
-msgstr ""
+msgstr "wml: WML-dokumentoj"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:56
 msgid ""
 "sgml: the standard generalized markup language (SGML) is for either "
 "DebianDoc or DocBook DTD"
-msgstr ""
+msgstr "sgml: la norma ĝeneraligita markadlingvo (SGML) estas por aŭ DebianDoc aŭ DocBook DTD"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:57
 msgid "latex: LaTeX format"
-msgstr ""
+msgstr "latex: LaTeX-formato"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:59
 msgid "tex: generic TeX documents"
-msgstr ""
+msgstr "tex: ĝeneralaj TeX-dokumentoj"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:60
 msgid "texinfo: The info page format"
-msgstr ""
+msgstr "texinfo: la formato de la paĝoj info"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:61
 msgid "bibtex: bibtex format"
-msgstr ""
+msgstr "bibtex: la formato bibtex"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:64
 msgid ""
 "text: simple text documents (including options for markdown, fortunes, YAML "
 "front matter section, debian/changelog, and debian/control)"
-msgstr ""
+msgstr "text: simplaj tekstdokumentoj (inkluzive de opcioj por markdown, fortune, YAML-antaŭa sekcio, debian/changelog, kaj debian/control)"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:65
 msgid "yaml: YAML documents"
-msgstr ""
+msgstr "yaml: la dokumentoj YAML"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:66
 msgid "rubydoc: RubyDoc (RD) documents"
-msgstr ""
+msgstr "rubydoc: la dokumentoj RubyDoc (RD)"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:67
 msgid "halibut: Simon Tatham's documentation production system"
-msgstr ""
+msgstr "halibut: la dokumentada produktadsistemo de Simon Tatham"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:68
 msgid "ini: INI format"
-msgstr ""
+msgstr "ini: la formato INI"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:69
 msgid "kernelhelp: Help messages of each kernel compilation option"
-msgstr ""
+msgstr "kernelhelp: la helpmesaĝoj de ĉiu kerna (Linukso) kompilopcio"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:73
-#, fuzzy
-#| msgid "2021-02-02 - po4a 0.63 released"
 msgid "2021-11-14 - po4a 0.65 released"
-msgstr "2021-02-02 - po4a 0.63 eldonita"
+msgstr "2021-11-14 - po4a 0.65 eldonita"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:74
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "Allow to group several translations per POT file in split mode (+bugfix and "
 "translation updates -- <a href=\"https://github.com/mquinson/po4a/releases/"
 "tag/v0.65\">more details</a>)."
-msgstr ""
-"Korektoj kaj tradukaj ĝisdatigoj (<a href=\"https://github.com/mquinson/po4a/"
-"releases/tag/v0.60\">pliaj detaloj</a>)."
+msgstr "Permesu grupigi plurajn tradukojn per POT-dosiero en dividita reĝimo (+korektoj kaj tradukaj ĝisdatigoj -- <a href=\"https://github.com/mquinson/po4a/releases/tag/v0.65\">pliaj detaloj</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:76
-#, fuzzy
-#| msgid "2021-02-02 - po4a 0.63 released"
 msgid "2021-09-12 - po4a 0.64 released"
-msgstr "2021-02-02 - po4a 0.63 eldonita"
+msgstr "2021-09-12 - po4a 0.64 eldonita"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:77
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "Bugfix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.64\">more details</a>)."
-msgstr ""
-"Korektoj kaj tradukaj ĝisdatigoj (<a href=\"https://github.com/mquinson/po4a/"
-"releases/tag/v0.60\">pliaj detaloj</a>)."
+msgstr "Korektoj kaj tradukaj ĝisdatigoj (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.64\">pliaj detaloj</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:79
@@ -244,17 +229,11 @@ msgstr "2021-02-02 - po4a 0.63 eldonita"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:80
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "Fix a regression in 0.62 where the translation of po4a binaries were not "
 "installed. Plus other bugfixes and translation updates (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.63\">more details</a>)."
-msgstr ""
-"Korektoj kaj tradukaj ĝisdatigoj (<a href=\"https://github.com/mquinson/po4a/"
-"releases/tag/v0.60\">pliaj detaloj</a>)."
+msgstr "Ripari regreson en 0.62 kie la traduko de po4a binaroj ne estis instalita. Krome aliaj eraroj kaj tradukaj ĝisdatigoj (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.63\">pli da detaloj</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:82
@@ -263,17 +242,11 @@ msgstr "2020-12-07 - po4a 0.62 eldonita"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:83
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "Unwrap asciidoc to avoid reformating issues and other bugfixes, plus "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.62\">more details</a>)."
-msgstr ""
-"Korektoj kaj tradukaj ĝisdatigoj (<a href=\"https://github.com/mquinson/po4a/"
-"releases/tag/v0.60\">pliaj detaloj</a>)."
+msgstr "Malvolvu asciidoc por eviti reformigajn problemojn kaj aliajn erarojn, krom tradukajn ĝisdatigojn (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.62\\\">pliajn detalojn</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:85
@@ -282,17 +255,11 @@ msgstr "2020-08-05 - po4a 0.61 eldonita"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:86
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "More bugfix (again to not break Debian packages depending on po4a), and "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.61\">more details</a>)."
-msgstr ""
-"Korektoj kaj tradukaj ĝisdatigoj (<a href=\"https://github.com/mquinson/po4a/"
-"releases/tag/v0.60\">pliaj detaloj</a>)."
+msgstr "Pli da eraroj (denove por ne rompi Debianajn pakaĵojn depende de po4a), kaj tradukajn ĝisdatigojn (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.61\\\">pli da detaloj</a >)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:88
@@ -680,28 +647,3 @@ msgstr "Elŝuti"
 #: src/header.php.en:11
 msgid "Get Involved"
 msgstr "Partoprenu"
-
-#~ msgid "manpages"
-#~ msgstr "manpaĝoj"
-
-#~ msgid "POD"
-#~ msgstr "POD"
-
-#~ msgid "XML (generic, DocBook, XHTML, Dia, Guide, or WML)"
-#~ msgstr "XML (ĝenerala, DocBook, XHTML, Dia, Guide aŭ WML)"
-
-#~ msgid "SGML"
-#~ msgstr "SGML"
-
-#~ msgid "TeX (generic, LaTeX, or Texinfo)"
-#~ msgstr "TeX (ĝenerala, LaTeX aŭ Texinfo)"
-
-#~ msgid "text (simple text files with some formatting, markdown, or AsciiDoc)"
-#~ msgstr ""
-#~ "teksto (simplaj tekstdosieroj kun iu formatado, markdown aŭ AsciiDoc)"
-
-#~ msgid "INI"
-#~ msgstr "INI"
-
-#~ msgid "KernelHelp"
-#~ msgstr "Kerna Helpo"
