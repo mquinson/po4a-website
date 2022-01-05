@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the po4a package.
-# eevan78 <ivan.pesic@gmail.com>, 2020, 2021.
+# eevan78 <ivan.pesic@gmail.com>, 2020, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.56\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2022-01-02 01:28+0100\n"
-"PO-Revision-Date: 2021-11-16 20:52+0000\n"
+"PO-Revision-Date: 2022-01-05 16:56+0000\n"
 "Last-Translator: eevan78 <ivan.pesic@gmail.com>\n"
 "Language-Team: Serbian (cyrillic) <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/sr_Cyrl/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9.1-dev\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -204,26 +204,19 @@ msgstr "kernelhelp: Поруке помоћи за сваку од опција 
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:73
-#, fuzzy
-#| msgid "2021-02-02 - po4a 0.63 released"
 msgid "2022-01-02 - po4a 0.66 released"
-msgstr "2021-02-03 - објављен је po4a 0.63"
+msgstr "2022-01-02 - објављен је po4a 0.66"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:74
-#, fuzzy
-#| msgid ""
-#| "Allow to group several translations per POT file in split mode (+bugfix "
-#| "and translation updates -- <a href=\"https://github.com/mquinson/po4a/"
-#| "releases/tag/v0.65\">more details</a>)."
 msgid ""
 "New option to select Yaml elements to select; More robust Asciidoc table "
 "handling (+bugfixes and translation updates -- <a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.66\">more details</a>)."
 msgstr ""
-"Дозвољено је груписање неколико превода у један POT фајл у подељеном режиму "
-"(+исправке багова и ажурирања превода – <a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.65\">више детаља</a>)."
+"Нова опција за избор Yaml елемената; Робуснија обрада Asciidoc табела (+"
+"исправке багова и ажурирања превода -- <a href=\"https://github.com/mquinson/"
+"po4a/releases/tag/v0.66\">више детаља</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:76
