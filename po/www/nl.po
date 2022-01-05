@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the po4a package.
-# Frans Spiesschaert <frans.spiesschaert@gmail.com>, 2020, 2021.
+# Frans Spiesschaert <frans.spiesschaert@gmail.com>, 2020, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.55\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2022-01-02 01:28+0100\n"
-"PO-Revision-Date: 2021-11-16 20:52+0000\n"
+"PO-Revision-Date: 2022-01-05 16:56+0000\n"
 "Last-Translator: Frans Spiesschaert <frans.spiesschaert@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "nl/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1-dev\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -205,26 +205,19 @@ msgstr "kernelhelp: hulpberichten bij elk van de kernelcompilatieopties"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:73
-#, fuzzy
-#| msgid "2021-02-02 - po4a 0.63 released"
 msgid "2022-01-02 - po4a 0.66 released"
-msgstr "02-02-2021 - po4a 0.63 uitgebracht"
+msgstr "02-01-2022 - po4a 0.66 uitgebracht"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:74
-#, fuzzy
-#| msgid ""
-#| "Allow to group several translations per POT file in split mode (+bugfix "
-#| "and translation updates -- <a href=\"https://github.com/mquinson/po4a/"
-#| "releases/tag/v0.65\">more details</a>)."
 msgid ""
 "New option to select Yaml elements to select; More robust Asciidoc table "
 "handling (+bugfixes and translation updates -- <a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.66\">more details</a>)."
 msgstr ""
-"Mogelijkheid om verschillende vertalingen te groeperen in een POT-bestand in "
-"split modus (+foutcorrectie en bijgewerkte vertalingen --<a href=\"https://"
-"github.com/mquinson/po4a/releases/tag/v0.65\">meer informatie</a>)."
+"Nieuwe optie om Yaml-elementen te selecteren; Een meer robuuste aanpak van "
+"Asciidoc-tabellen (+foutcorrectie en bijgewerkte vertalingen --<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.66\">meer informatie</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:76
