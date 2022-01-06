@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.55\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2022-01-04 08:23+0100\n"
-"PO-Revision-Date: 2022-01-05 16:56+0000\n"
+"PO-Revision-Date: 2022-01-06 20:53+0000\n"
 "Last-Translator: Frans Spiesschaert <frans.spiesschaert@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "nl/>\n"
@@ -210,19 +210,15 @@ msgstr "02-01-2022 - po4a 0.66 uitgebracht"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:74
-#, fuzzy
-#| msgid ""
-#| "New option to select Yaml elements to select; More robust Asciidoc table "
-#| "handling (+bugfixes and translation updates -- <a href=\"https://github."
-#| "com/mquinson/po4a/releases/tag/v0.66\">more details</a>)."
 msgid ""
 "New option to select Yaml elements to translate; More robust Asciidoc table "
 "handling (+bugfixes and translation updates -- <a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.66\">more details</a>)."
 msgstr ""
-"Nieuwe optie om Yaml-elementen te selecteren; Een meer robuuste aanpak van "
-"Asciidoc-tabellen (+foutcorrectie en bijgewerkte vertalingen --<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.66\">meer informatie</a>)."
+"Nieuwe optie om te vertalen Yaml-elementen te selecteren; Een meer robuuste "
+"aanpak van Asciidoc-tabellen (+foutcorrectie en bijgewerkte vertalingen --<a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.66\">meer "
+"informatie</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:76
