@@ -1,13 +1,13 @@
 # Translation of po4a webpage to Italian
 # This file is distributed under the same license as the po4a web page.
-# Copyright (C) Marco Ciampa <ciampix@posteo.net>, 2016-2021.
+# Copyright (C) Marco Ciampa <ciampix@posteo.net>, 2016-2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.48\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2022-01-04 08:23+0100\n"
-"PO-Revision-Date: 2021-12-02 21:37+0100\n"
+"PO-Revision-Date: 2022-01-07 10:09+0100\n"
 "Last-Translator: Marco Ciampa <ciampix@libero.it>\n"
 "Language-Team: Italian <it@li.org>\n"
 "Language: it\n"
@@ -202,26 +202,16 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:73
-#, fuzzy
-#| msgid "2021-02-02 - po4a 0.63 released"
 msgid "2022-01-02 - po4a 0.66 released"
-msgstr "2021-02-02 - rilasciato po4a 0.63"
+msgstr "2022-01-02 - rilasciato po4a 0.66"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:74
-#, fuzzy
-#| msgid ""
-#| "Allow to group several translations per POT file in split mode (+bugfix "
-#| "and translation updates -- <a href=\"https://github.com/mquinson/po4a/"
-#| "releases/tag/v0.65\">more details</a>)."
 msgid ""
 "New option to select Yaml elements to translate; More robust Asciidoc table "
 "handling (+bugfixes and translation updates -- <a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.66\">more details</a>)."
-msgstr ""
-"Permette di raggruppare diverse traduzioni per file POT in modalità split "
-"(+correzioni e aggiornamento traduzioni (<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.65\">ulteriori dettagli</a>)."
+msgstr "Nuova opzione per selezionare gli elementi Yaml da tradurre; gestione tabelle Asciidoc più robusta (+correzioni e aggiornamento traduzioni -- <a href=\"https://github.com/mquinson/po4a/releases/tag/v0.66\">ulteriori dettagli</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:76
@@ -234,10 +224,7 @@ msgid ""
 "Allow to group several translations per POT file in split mode (+bugfix and "
 "translation updates -- <a href=\"https://github.com/mquinson/po4a/releases/"
 "tag/v0.65\">more details</a>)."
-msgstr ""
-"Permette di raggruppare diverse traduzioni per file POT in modalità split "
-"(+correzioni e aggiornamento traduzioni (<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.65\">ulteriori dettagli</a>)."
+msgstr "Permette di raggruppare diverse traduzioni per file POT in modalità split (+correzioni e aggiornamento traduzioni -- <a href=\"https://github.com/mquinson/po4a/releases/tag/v0.65\">ulteriori dettagli</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:79
