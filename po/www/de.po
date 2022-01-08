@@ -1,13 +1,13 @@
 # Translation of po4a webpage to German
 # This file is distributed under the same license as the po4a web page.
-# Copyright (C) Helge Kreutzmann <debian@helgefjell.de>, 2011-2013,2017,2018,2020,2021
+# Copyright (C) Helge Kreutzmann <debian@helgefjell.de>, 2011-2013,2017,2018,2020-2022
 # Milo Ivir <mail@milotype.de>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: po4a 0.64\n"
+"Project-Id-Version: po4a 0.66\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2022-01-04 08:23+0100\n"
-"PO-Revision-Date: 2021-11-15 16:16+0100\n"
+"PO-Revision-Date: 2022-01-08 07:03+0100\n"
 "Last-Translator: Helge Kreutzmann <debian@helgefjell.de>\n"
 "Language-Team: de <debian-l10n-german@lists.debian.org>\n"
 "Language: de\n"
@@ -204,26 +204,20 @@ msgstr "kernelhelp: Hilfenachrichten jeder Kernel-Compilierungsoption"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:73
-#, fuzzy
-#| msgid "2021-02-02 - po4a 0.63 released"
 msgid "2022-01-02 - po4a 0.66 released"
-msgstr "2021-02-02 – po4a 0.63 veröffentlicht"
+msgstr "2022-02-02 – po4a 0.66 veröffentlicht"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:74
-#, fuzzy
-#| msgid ""
-#| "Allow to group several translations per POT file in split mode (+bugfix "
-#| "and translation updates -- <a href=\"https://github.com/mquinson/po4a/"
-#| "releases/tag/v0.65\">more details</a>)."
 msgid ""
 "New option to select Yaml elements to translate; More robust Asciidoc table "
 "handling (+bugfixes and translation updates -- <a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.66\">more details</a>)."
 msgstr ""
-"Ermöglicht, mehrere Übersetzungen pro POT-Datei im geteilten Modus zu "
-"gruppieren (+Fehlerkorrekturen und Übersetzungsaktualisierungen -- <a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.65\">weitere Details</a>)."
+"Neue Option, um zu übersetzende Yaml-Elemente auszuwählen; Robustere "
+"Handhabung von Asciidoc-Tabellen (+Fehlerkorrekturen und "
+"Übersetzungsaktualisierungen -- <a href=\"https://github.com/mquinson/po4a/"
+"releases/tag/v0.66\">weitere Details</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:76
