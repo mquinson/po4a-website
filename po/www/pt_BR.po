@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.45\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2022-01-04 08:23+0100\n"
-"PO-Revision-Date: 2022-01-05 16:56+0000\n"
+"PO-Revision-Date: 2022-02-13 21:54+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/pt_BR/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -209,18 +209,13 @@ msgstr "02-01-2022 - Lançamento do po4a 0.66"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:74
-#, fuzzy
-#| msgid ""
-#| "New option to select Yaml elements to select; More robust Asciidoc table "
-#| "handling (+bugfixes and translation updates -- <a href=\"https://github."
-#| "com/mquinson/po4a/releases/tag/v0.66\">more details</a>)."
 msgid ""
 "New option to select Yaml elements to translate; More robust Asciidoc table "
 "handling (+bugfixes and translation updates -- <a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.66\">more details</a>)."
 msgstr ""
-"Nova opção para selecionar elementos Yaml (+correções de erros e "
-"atualizações de tradução -- <a href=\"https://github.com/mquinson/po4a/"
+"Nova opção para selecionar elementos Yaml para traduzir (+correções de erros "
+"e atualizações de tradução -- <a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.66\">mais detalhes</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
