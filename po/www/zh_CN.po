@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the po4a package.
 #
 # Translators:
-# taotieren <admin@taotieren.com>, 2020, 2021.
+# taotieren <admin@taotieren.com>, 2020, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a-translation\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2022-01-04 08:23+0100\n"
-"PO-Revision-Date: 2021-04-30 06:32+0000\n"
+"PO-Revision-Date: 2022-03-24 13:05+0000\n"
 "Last-Translator: taotieren <admin@taotieren.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "po4a/po4a-website/zh_Hans/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -89,74 +89,74 @@ msgstr "po4a 目前支持以下格式:"
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:44
 msgid "asciidoc: AsciiDoc format"
-msgstr ""
+msgstr "asciidoc: AsciiDoc 格式"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:45
 msgid "man: Good old manual page format"
-msgstr ""
+msgstr "man: 老旧的手册页面格式"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:46
 msgid "pod: Perl Online Documentation (POD) format"
-msgstr ""
+msgstr "pod: Perl 在线文档 (POD) 格式"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:47
 msgid "xml: generic XML documents"
-msgstr ""
+msgstr "xml: 通用 XML 文档"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:49
 msgid "docbook: DocBook XML"
-msgstr ""
+msgstr "docbook: DocBook XML"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:50
 msgid "xhtml: XHTML documents"
-msgstr ""
+msgstr "xhtml: XHTML 文档"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:51
 msgid "dia: uncompressed Dia diagrams"
-msgstr ""
+msgstr "dia: 未压缩的 DIA 图表"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:52
 msgid "guide: Gentoo Linux's XML documentation format"
-msgstr ""
+msgstr "guide: Gentoo Linux 的 XML 文档格式"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:53
 msgid "wml: WML documents"
-msgstr ""
+msgstr "wml: WML 文档"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:56
 msgid ""
 "sgml: the standard generalized markup language (SGML) is for either "
 "DebianDoc or DocBook DTD"
-msgstr ""
+msgstr "sgml: 标准通用标记语言 (SGML) 用于 DebianDoc 或 DocBook DTD"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:57
 msgid "latex: LaTeX format"
-msgstr ""
+msgstr "latex: LaTeX 格式"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:59
 msgid "tex: generic TeX documents"
-msgstr ""
+msgstr "tex: 通用 TeX 文档"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:60
 msgid "texinfo: The info page format"
-msgstr ""
+msgstr "texinfo: 信息页面格式"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:61
 msgid "bibtex: bibtex format"
-msgstr ""
+msgstr "bibtex: bibtex 格式"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:64
@@ -164,93 +164,78 @@ msgid ""
 "text: simple text documents (including options for markdown, fortunes, YAML "
 "front matter section, debian/changelog, and debian/control)"
 msgstr ""
+"text: 简单的文本文档 (包括 markdown、fortunes、YAML 主要内容部分、Debian/"
+"Changelog 和 Debian/Control 的选项)"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:65
 msgid "yaml: YAML documents"
-msgstr ""
+msgstr "yaml: YAML 文档"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:66
 msgid "rubydoc: RubyDoc (RD) documents"
-msgstr ""
+msgstr "rubydoc: RubyDoc (RD) 文档"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:67
 msgid "halibut: Simon Tatham's documentation production system"
-msgstr ""
+msgstr "halibut: 西蒙·塔瑟姆 (Simon Tatham's) 的文件生产系统"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:68
 msgid "ini: INI format"
-msgstr ""
+msgstr "ini: INI 格式"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:69
 msgid "kernelhelp: Help messages of each kernel compilation option"
-msgstr ""
+msgstr "kernelhelp: 每个内核编译选项的帮助消息"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:73
-#, fuzzy
-#| msgid "2021-02-02 - po4a 0.63 released"
 msgid "2022-01-02 - po4a 0.66 released"
-msgstr "2021-02-02 - po4a 0.63 发布"
+msgstr "2022-01-02 - po4a 0.66 发布"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:74
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "New option to select Yaml elements to translate; More robust Asciidoc table "
 "handling (+bugfixes and translation updates -- <a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.66\">more details</a>)."
 msgstr ""
-"错误修复和翻译更新 (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-"v0.60\">更多细节</a>)。"
+"选择要翻译的 Yaml 元素的新选项；更健壮的 Asciidoc表处理(+错误修复和翻译更新 "
+"-- <a href=\"https://github.com/mquinson/po4a/releases/tag/v0.66\""
+">更多细节</a>)。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:76
-#, fuzzy
-#| msgid "2021-02-02 - po4a 0.63 released"
 msgid "2021-11-14 - po4a 0.65 released"
-msgstr "2021-02-02 - po4a 0.63 发布"
+msgstr "2021-11-14 - po4a 0.65 发布"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:77
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "Allow to group several translations per POT file in split mode (+bugfix and "
 "translation updates -- <a href=\"https://github.com/mquinson/po4a/releases/"
 "tag/v0.65\">more details</a>)."
 msgstr ""
-"错误修复和翻译更新 (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-"v0.60\">更多细节</a>)。"
+"允许在拆分模式下对每个 POT 文件的多个翻译进行分组(+错误修复和翻译更新 -- <a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.65\">更多细节</a>)。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:79
-#, fuzzy
-#| msgid "2021-02-02 - po4a 0.63 released"
 msgid "2021-09-12 - po4a 0.64 released"
-msgstr "2021-02-02 - po4a 0.63 发布"
+msgstr "2021-09-12 - po4a 0.64 发布"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:80
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.60\">more details</a>)."
 msgid ""
 "Bugfix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.64\">more details</a>)."
 msgstr ""
 "错误修复和翻译更新 (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-"v0.60\">更多细节</a>)。"
+"v0.64\">更多细节</a>)。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:82
