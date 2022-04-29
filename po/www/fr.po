@@ -6,15 +6,15 @@
 # David Prévot <david@tilapin.org>, 2010-2012.
 # Martin Quinson <martin.quinson@ens-rennes.fr>, 2020, 2021.
 # Jean-Baptiste <jean-baptiste@holcroft.fr>, 2020.
-# jmichault <jmt.2000@free.fr>, 2020, 2021.
+# jmichault <jmt.2000@free.fr>, 2020, 2021, 2022.
 # K. Herbert <herbert.ka@mailo.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2022-01-04 08:23+0100\n"
-"PO-Revision-Date: 2021-11-14 10:35+0000\n"
-"Last-Translator: Martin Quinson <martin.quinson@ens-rennes.fr>\n"
+"PO-Revision-Date: 2022-04-29 14:08+0000\n"
+"Last-Translator: jmichault <jmt.2000@free.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "fr/>\n"
 "Language: fr\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.9.1-dev\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -208,27 +208,20 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:73
-#, fuzzy
-#| msgid "2021-02-02 - po4a 0.63 released"
 msgid "2022-01-02 - po4a 0.66 released"
-msgstr "2 février 2021 — po4a 0.63 est sorti"
+msgstr "2 janvier 2021 — po4a 0.63 est sorti"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:74
-#, fuzzy
-#| msgid ""
-#| "Allow to group several translations per POT file in split mode (+bugfix "
-#| "and translation updates -- <a href=\"https://github.com/mquinson/po4a/"
-#| "releases/tag/v0.65\">more details</a>)."
 msgid ""
 "New option to select Yaml elements to translate; More robust Asciidoc table "
 "handling (+bugfixes and translation updates -- <a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.66\">more details</a>)."
 msgstr ""
-"Possibilité de grouper des fichiers dans le même POT file, en mode "
-"'split' (+ corrections de bugs et mises à jour des traductions -- <a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.65\">plus d’informations</"
-"a> -- en anglais)."
+"Nouvelle option pour choisir les éléments Yaml à traduire ; gestion de table "
+"Asciidoc plus robuste (+ corrections de bugs et mises à jour des traductions "
+"-- <a href=\"https://github.com/mquinson/po4a/releases/tag/v0.66\">plus "
+"d’informations</a> -- en anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:76
