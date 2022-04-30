@@ -1,20 +1,21 @@
 # KURASAWA Nozomu <nabetaro@debian.or.jp>, 2010.
 # Masahiro Nakamura <marlsa_32.wwmd@icloud.com>, 2020.
+# gemmaro <gemmaro.dev@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2022-01-04 08:23+0100\n"
-"PO-Revision-Date: 2020-12-12 13:52+0100\n"
-"Last-Translator: Masahiro Nakamura <marlsa_32.wwmd@icloud.com>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/po4a/po4a-"
-"website/ja/>\n"
+"PO-Revision-Date: 2022-04-30 17:11+0000\n"
+"Last-Translator: gemmaro <gemmaro.dev@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/po4a/"
+"po4a-website/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.1-dev\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -64,6 +65,9 @@ msgid ""
 "both up to date with regard to the original one, and as translated as "
 "possible."
 msgstr ""
+"翻訳が部分的にしか完了していない場合は、原文（英語）が代わりに使用されます。"
+"これにより、翻訳されたドキュメントは常に原文に対して常に最新の状態になり、可"
+"能な限り翻訳されていることが保証されます。"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:35
@@ -72,6 +76,9 @@ msgid ""
 "specifies all settings, and a list of documents to translate. po4a will "
 "update them automatically when something happens."
 msgstr ""
+"全ての設定項目と翻訳対象の文書一覧を指定する1つの設定ファイルにより、翻訳のあ"
+"らゆる保守作業を自動化します。po4aは変化があったときには自動的に翻訳文書等を"
+"更新します。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:41
@@ -86,74 +93,74 @@ msgstr "po4a は現在、以下のフォーマットをサポートしていま�
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:44
 msgid "asciidoc: AsciiDoc format"
-msgstr ""
+msgstr "asciidoc: AsciiDoc形式"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:45
 msgid "man: Good old manual page format"
-msgstr ""
+msgstr "man: 古式ゆかしきマニュアルページ形式"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:46
 msgid "pod: Perl Online Documentation (POD) format"
-msgstr ""
+msgstr "pod: Perl オンライン文書 (POD) 形式"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:47
 msgid "xml: generic XML documents"
-msgstr ""
+msgstr "xml: 一般的なXML文書"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:49
 msgid "docbook: DocBook XML"
-msgstr ""
+msgstr "docbook: DocBookのXML"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:50
 msgid "xhtml: XHTML documents"
-msgstr ""
+msgstr "xhtml: XHTML文書"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:51
 msgid "dia: uncompressed Dia diagrams"
-msgstr ""
+msgstr "dia: 非圧縮Dia図式形式"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:52
 msgid "guide: Gentoo Linux's XML documentation format"
-msgstr ""
+msgstr "guide: Gentoo LinuxのXML文書形式"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:53
 msgid "wml: WML documents"
-msgstr ""
+msgstr "wml: WML文書"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:56
 msgid ""
 "sgml: the standard generalized markup language (SGML) is for either "
 "DebianDoc or DocBook DTD"
-msgstr ""
+msgstr "sgml: DebianDocないしDocBook DTD用の標準一般化マークアップ言語 (SGML)"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:57
 msgid "latex: LaTeX format"
-msgstr ""
+msgstr "latex: LaTeX形式"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:59
 msgid "tex: generic TeX documents"
-msgstr ""
+msgstr "tex: 一般的なTeX文書"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:60
 msgid "texinfo: The info page format"
-msgstr ""
+msgstr "texinfo: infoページ形式"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:61
 msgid "bibtex: bibtex format"
-msgstr ""
+msgstr "bibtex: bibtex形式"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:64
@@ -161,114 +168,95 @@ msgid ""
 "text: simple text documents (including options for markdown, fortunes, YAML "
 "front matter section, debian/changelog, and debian/control)"
 msgstr ""
+"text: 単純なテキスト文書（オプションとしてmarkdown、fortunes、YAML冒頭節、"
+"debian/changelogとdebian/controlを含みます）"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:65
 msgid "yaml: YAML documents"
-msgstr ""
+msgstr "yaml: YAML文書"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:66
 msgid "rubydoc: RubyDoc (RD) documents"
-msgstr ""
+msgstr "rubydoc: RubyDoc (RD) 文書"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:67
 msgid "halibut: Simon Tatham's documentation production system"
-msgstr ""
+msgstr "halibut: Simon Tathamによる文書制作システム"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:68
 msgid "ini: INI format"
-msgstr ""
+msgstr "ini: INI 形式"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:69
 msgid "kernelhelp: Help messages of each kernel compilation option"
-msgstr ""
+msgstr "kernelhelp: 各カーネルコンパイルオプションのヘルプメッセージ"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:73
-#, fuzzy
-#| msgid "2020-12-07 - po4a 0.62 released"
 msgid "2022-01-02 - po4a 0.66 released"
-msgstr "2020-12-07 - po4a 0.62 リリース"
+msgstr "2020-01-02 - po4a 0.66 リリース"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:74
-#, fuzzy
-#| msgid ""
-#| "You can find the sources of the latest release on <a href=\"http://alioth."
-#| "debian.org/frs/?group_id=30267\">Alioth</a>."
 msgid ""
 "New option to select Yaml elements to translate; More robust Asciidoc table "
 "handling (+bugfixes and translation updates -- <a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.66\">more details</a>)."
 msgstr ""
-"最新リリースのソースコードは、<a href=\"http://alioth.debian.org/frs/?"
-"group_id=30267\">Alioth</a> にあります。"
+"翻訳するYAMLの要素を選択する新しいオプションや、より堅牢なAsciiDocの表制御（"
+"加えてバグ修正と翻訳の更新があります。詳しくは<a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.66\">\">こちら</a>をどうぞ）。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:76
-#, fuzzy
-#| msgid "2020-12-07 - po4a 0.62 released"
 msgid "2021-11-14 - po4a 0.65 released"
-msgstr "2020-12-07 - po4a 0.62 リリース"
+msgstr "2021-11-14 - po4a 0.65 リリース"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:77
-#, fuzzy
-#| msgid ""
-#| "You can find the sources of the latest release on <a href=\"http://alioth."
-#| "debian.org/frs/?group_id=30267\">Alioth</a>."
 msgid ""
 "Allow to group several translations per POT file in split mode (+bugfix and "
 "translation updates -- <a href=\"https://github.com/mquinson/po4a/releases/"
 "tag/v0.65\">more details</a>)."
 msgstr ""
-"最新リリースのソースコードは、<a href=\"http://alioth.debian.org/frs/?"
-"group_id=30267\">Alioth</a> にあります。"
+"分割モードで各POTファイルにつき複数の翻訳をまとめることができるようになりまし"
+"た（加えてバグ修正と翻訳の更新があります。詳しくは<a href=\"https://github."
+"com/mquinson/po4a/releases/tag/v0.65\">こちら</a>）。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:79
-#, fuzzy
-#| msgid "2020-12-07 - po4a 0.62 released"
 msgid "2021-09-12 - po4a 0.64 released"
-msgstr "2020-12-07 - po4a 0.62 リリース"
+msgstr "2021-09-12 - po4a 0.64 リリース"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:80
-#, fuzzy
-#| msgid ""
-#| "You can find the sources of the latest release on <a href=\"http://alioth."
-#| "debian.org/frs/?group_id=30267\">Alioth</a>."
 msgid ""
 "Bugfix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.64\">more details</a>)."
 msgstr ""
-"最新リリースのソースコードは、<a href=\"http://alioth.debian.org/frs/?"
-"group_id=30267\">Alioth</a> にあります。"
+"バグ修正と翻訳の更新（詳細は<a href=\"https://github.com/mquinson/po4a/"
+"releases/tag/v0.64\">こちら</a>）。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:82
-#, fuzzy
-#| msgid "2020-12-07 - po4a 0.62 released"
 msgid "2021-02-02 - po4a 0.63 released"
-msgstr "2020-12-07 - po4a 0.62 リリース"
+msgstr "2021-02-02 - po4a 0.63 リリース"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:83
-#, fuzzy
-#| msgid ""
-#| "You can find the sources of the latest release on <a href=\"http://alioth."
-#| "debian.org/frs/?group_id=30267\">Alioth</a>."
 msgid ""
 "Fix a regression in 0.62 where the translation of po4a binaries were not "
 "installed. Plus other bugfixes and translation updates (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.63\">more details</a>)."
 msgstr ""
-"最新リリースのソースコードは、<a href=\"http://alioth.debian.org/frs/?"
-"group_id=30267\">Alioth</a> にあります。"
+"0.62で発生していたpo4aバイナリの翻訳がインストールされないリグレッションを修"
+"正。加えて他にもバグ修正や翻訳の更新があります（詳しくは<a href=\"https"
+"://github.com/mquinson/po4a/releases/tag/v0.63\">こちら</a>）。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:85
@@ -277,17 +265,14 @@ msgstr "2020-12-07 - po4a 0.62 リリース"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:86
-#, fuzzy
-#| msgid ""
-#| "You can find the sources of the latest release on <a href=\"http://alioth."
-#| "debian.org/frs/?group_id=30267\">Alioth</a>."
 msgid ""
 "Unwrap asciidoc to avoid reformating issues and other bugfixes, plus "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.62\">more details</a>)."
 msgstr ""
-"最新リリースのソースコードは、<a href=\"http://alioth.debian.org/frs/?"
-"group_id=30267\">Alioth</a> にあります。"
+"再整形問題を回避するためのasciidocの切り出し、その他のバグ修正、加えて翻訳の"
+"更新があります（詳しくは<a href=\"https://github.com/mquinson/po4a/releases/"
+"tag/v0.62\">こちら</a>）。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:88
@@ -296,17 +281,14 @@ msgstr "2020-08-05 - po4a 0.61 リリース"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:89
-#, fuzzy
-#| msgid ""
-#| "You can find the sources of the latest release on <a href=\"http://alioth."
-#| "debian.org/frs/?group_id=30267\">Alioth</a>."
 msgid ""
 "More bugfix (again to not break Debian packages depending on po4a), and "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.61\">more details</a>)."
 msgstr ""
-"最新リリースのソースコードは、<a href=\"http://alioth.debian.org/frs/?"
-"group_id=30267\">Alioth</a> にあります。"
+"さらなるバグ修正（po4aに依存するDebianパッケージを壊さないようにするもの）と"
+"翻訳の更新です（詳しくは<a href=\"https://github.com/mquinson/po4a/releases/"
+"tag/v0.61\">こちら</a>）。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:91
@@ -315,16 +297,12 @@ msgstr "2020-07-15 - po4a 0.60 リリース"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:92
-#, fuzzy
-#| msgid ""
-#| "You can find the sources of the latest release on <a href=\"http://alioth."
-#| "debian.org/frs/?group_id=30267\">Alioth</a>."
 msgid ""
 "Bugfix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.60\">more details</a>)."
 msgstr ""
-"最新リリースのソースコードは、<a href=\"http://alioth.debian.org/frs/?"
-"group_id=30267\">Alioth</a> にあります。"
+"バグ修正と翻訳の更新（詳しくは<a href=\"https://github.com/mquinson/po4a/"
+"releases/tag/v0.60\">こちら</a>）。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:94
@@ -333,17 +311,14 @@ msgstr "2020-05-20 - po4a 0.59 リリース"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:95
-#, fuzzy
-#| msgid ""
-#| "You can find the sources of the latest release on <a href=\"http://alioth."
-#| "debian.org/frs/?group_id=30267\">Alioth</a>."
 msgid ""
 "Bugfix release to not break the build of several Debian packages (at "
 "least).  <a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.59\">More details</a>."
 msgstr ""
-"最新リリースのソースコードは、<a href=\"http://alioth.debian.org/frs/?"
-"group_id=30267\">Alioth</a> にあります。"
+"（少なくとも）いくつかのDebianパッケージのビルドを壊さないようにするためのバ"
+"グ修正リリースです。詳しくは<a href=\"https://github.com/mquinson/po4a/"
+"releases/tag/v0.59\">こちら</a>。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:98
@@ -353,30 +328,26 @@ msgstr "2020-05-04 - po4a 0.58 リリース"
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:100
 msgid "Rewrite all tests to make them more robust and less permissive."
-msgstr ""
+msgstr "全てのテストを書き直して、より堅牢でゆるくないようにしました。"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:101
 msgid "Fix many issues reported against the parsers."
-msgstr ""
+msgstr "パーサに対して報告された多くの問題を修正しました。"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:102
 msgid "Rewrite the documentation for sake of clarity and brevity."
-msgstr ""
+msgstr "明確さと簡潔さのために文書を書き直しました。"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:103
-#, fuzzy
-#| msgid ""
-#| "You can find the sources of the latest release on <a href=\"http://alioth."
-#| "debian.org/frs/?group_id=30267\">Alioth</a>."
 msgid ""
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">more "
 "details</a>)."
 msgstr ""
-"最新リリースのソースコードは、<a href=\"http://alioth.debian.org/frs/?"
-"group_id=30267\">Alioth</a> にあります。"
+"（詳しくは<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\""
+">こちら</a>）。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:105
@@ -385,16 +356,12 @@ msgstr "2019-10-25 - po4a 0.57 リリース"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:106
-#, fuzzy
-#| msgid ""
-#| "You can find the sources of the latest release on <a href=\"http://alioth."
-#| "debian.org/frs/?group_id=30267\">Alioth</a>."
 msgid ""
 "Translation update and one bugfix in AsciiDoc.  (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
 msgstr ""
-"最新リリースのソースコードは、<a href=\"http://alioth.debian.org/frs/?"
-"group_id=30267\">Alioth</a> にあります。"
+"翻訳の更新とAsciiDocでのバグ修正1つ。（詳しくは<a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.57\">こちら</a>）。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:109
@@ -403,16 +370,12 @@ msgstr "2019-06-06 - po4a 0.56 リリース"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:110
-#, fuzzy
-#| msgid ""
-#| "You can find the sources of the latest release on <a href=\"http://alioth."
-#| "debian.org/frs/?group_id=30267\">Alioth</a>."
 msgid ""
 "New features and bugfixes, mostly to the AsciiDoc parser (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
 msgstr ""
-"最新リリースのソースコードは、<a href=\"http://alioth.debian.org/frs/?"
-"group_id=30267\">Alioth</a> にあります。"
+"新機能とバグ修正です。ほとんどはAsciiDocパーサについてです。（詳しくは<a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">こちら</a>）。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:113
@@ -421,17 +384,13 @@ msgstr "2018-12-09 - po4a 0.55 リリース"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:114
-#, fuzzy
-#| msgid ""
-#| "You can find the sources of the latest release on <a href=\"http://alioth."
-#| "debian.org/frs/?group_id=30267\">Alioth</a>."
 msgid ""
 "New features and bugfixes to both the individual parsers and common parts "
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
 "details</a>)."
 msgstr ""
-"最新リリースのソースコードは、<a href=\"http://alioth.debian.org/frs/?"
-"group_id=30267\">Alioth</a> にあります。"
+"個々のパーサと共通部分に対する、新機能とバグ修正です（詳しくは<a href=\"https"
+"://github.com/mquinson/po4a/releases/tag/v0.55\">こちら</a>）。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:117
@@ -440,16 +399,12 @@ msgstr "2018-06-30 - po4a 0.54 リリース"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:118
-#, fuzzy
-#| msgid ""
-#| "You can find the sources of the latest release on <a href=\"http://alioth."
-#| "debian.org/frs/?group_id=30267\">Alioth</a>."
 msgid ""
 "We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
 msgstr ""
-"最新リリースのソースコードは、<a href=\"http://alioth.debian.org/frs/?"
-"group_id=30267\">Alioth</a> にあります。"
+"沢山のバグを修正して、不具合を取り除きました（詳しくは<a href=\"https"
+"://github.com/mquinson/po4a/releases/tag/v0.54\">こちら</a>）。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:121
@@ -458,17 +413,14 @@ msgstr "2018-05-25 - po4a 0.53 リリース"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:122
-#, fuzzy
-#| msgid ""
-#| "You can find the sources of the latest release on <a href=\"http://alioth."
-#| "debian.org/frs/?group_id=30267\">Alioth</a>."
 msgid ""
 "The most visible change is a new YAML module, and the fact that Alioth was "
 "turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.53\">more details</a>)."
 msgstr ""
-"最新リリースのソースコードは、<a href=\"http://alioth.debian.org/frs/?"
-"group_id=30267\">Alioth</a> にあります。"
+"一番わかりやすい変更は、新しいYAMLモジュールと、Aliothが無効になったことです"
+"（詳しくは<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.53\""
+">こちら</a>）。"
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
@@ -487,17 +439,14 @@ msgstr "po4a の man ページの HTML 版があります。"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:20
-#, fuzzy
-#| msgid ""
-#| "The <a href=\"man/man7/po4a.7.php\">po4a.7</a> manpage provides an "
-#| "introduction to po4a."
 msgid ""
 "The <a href=\"man/man7/po4a.7.php\">po4a.7</a> manpage provides an "
 "introduction to po4a, while <a href=\"man/man1/po4a.1.php\">po4a(1)</a> "
 "presents the main po4a program."
 msgstr ""
-"po4a の概要は、<a href=\"man/man7/po4a.7.php\">po4a.7</a> の man ページにあり"
-"ます。"
+"<a href=\"man/man7/po4a.7.php\">po4a."
+"7</a>マニュアルページにはpo4aの導入があります。また、<a href=\"man/man1/po4a."
+"1.php\">po4a(1)</a>にはメインのpo4aプログラムについて書かれています。"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:24
@@ -515,22 +464,16 @@ msgstr "ヘルプ"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:30
-#, fuzzy
-#| msgid ""
-#| "We can help you to set up a translation framework for your project's "
-#| "documentation or to adapt po4a to your needs.  Do not hesitate to contact "
-#| "us on our <a href=\"mailto:devel@lists.po4a.org\">mailing list</a> or on "
-#| "IRC (#po4a on oftc)."
 msgid ""
 "We can help you to set up a translation framework for your project's "
 "documentation or to adapt po4a to your needs.  Do not hesitate to contact us "
 "on our <a href=\"mailto:devel@lists.po4a.org\">mailing list</a> or on IRC "
 "(#po4a on OFTC)."
 msgstr ""
-"私たちは、あなたのプロジェクトへの翻訳フレームワークのセットアップや、あなた"
-"のニーズに合わせて po4a を適用するお手伝いができます。<a href=\"mailto:"
-"devel@lists.po4a.org\">メーリングリスト</a>や IRC (oftc の #po4a) で、遠慮な"
-"くお問い合わせください。"
+"私たちは、あなたのプロジェクトへの翻訳フレームワークのセットアップや、"
+"あなたのニーズに合わせて po4a を適用するお手伝いができます。<a href=\"mailto"
+":devel@lists.po4a.org\">メーリングリスト</a>や IRC (OFTC の #po4a) "
+"で、遠慮なくお問い合わせください。"
 
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
@@ -617,10 +560,8 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:22
-#, fuzzy
-#| msgid "on IRC (#po4a on oftc)."
 msgid "on IRC (#po4a on OFTC)."
-msgstr "IRC (oftc の #po4a) で。"
+msgstr "IRC (OFTC の #po4a) で。"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:23
@@ -637,18 +578,13 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:27
-#, fuzzy
-#| msgid ""
-#| "If you can improve the code yourself, Pull Requests against the <a href="
-#| "\"https://github.com/mquinson/po4a\">GitHub repository</a> are more than "
-#| "welcomed."
 msgid ""
 "If you can improve the code yourself, pull requests against the <a href="
 "\"https://github.com/mquinson/po4a\">GitHub repository</a> are more than "
 "welcomed."
 msgstr ""
 "あなた自身でコードを改善できたなら、<a href=\"https://github.com/mquinson/"
-"po4a\">GitHubリポジトリ</a>へのプルリクエストはより歓迎されます。"
+"po4a\">GitHubリポジトリ</a>へのプルリクエストは大歓迎です。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:32
@@ -657,19 +593,14 @@ msgstr "翻訳中"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:33
-#, fuzzy
-#| msgid ""
-#| "The easiest to help translating po4a is to go through <a href=\"https://"
-#| "hosted.weblate.org/projects/po4a/\">weblate</a> but you can also provide "
-#| "pull requests on the source git directly if you prefer."
 msgid ""
 "The easiest to help translating po4a is to go through <a href=\"https://"
 "hosted.weblate.org/projects/po4a/\">Weblate</a> but you can also provide "
 "pull requests on the source git directly if you prefer."
 msgstr ""
 "po4aの翻訳を助ける一番簡単な方法は<a href=\"https://hosted.weblate.org/"
-"projects/po4a/\">weblate</a>に行くことですが、お好みでgitリポジトリに直接プル"
-"リクエストを送ることもできます。"
+"projects/po4a/\">Weblate</a>で作業することですが、お好みでgitリポジトリに直接"
+"プルリクエストを送ることもできます。"
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:40
