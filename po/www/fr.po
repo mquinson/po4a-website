@@ -102,7 +102,7 @@ msgstr "po4a gère actuellement les formats suivants :"
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:44
 msgid "asciidoc: AsciiDoc format"
-msgstr "ascuudoc : le format AsciiDoc"
+msgstr "asciidoc : le format AsciiDoc"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:45
