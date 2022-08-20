@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.62-alpha\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2022-01-04 08:23+0100\n"
-"PO-Revision-Date: 2021-12-11 16:20+0100\n"
+"PO-Revision-Date: 2022-08-20 11:17+0200\n"
 "Last-Translator: phlostically <phlostically@mailinator.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/po4a/po4a-"
 "website/eo/>\n"
@@ -203,26 +203,16 @@ msgstr "kernelhelp: la helpmesaĝoj de ĉiu kerna (Linukso) kompilopcio"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:73
-#, fuzzy
-#| msgid "2021-02-02 - po4a 0.63 released"
 msgid "2022-01-02 - po4a 0.66 released"
-msgstr "2021-02-02 - po4a 0.63 eldonita"
+msgstr "2022-01-02 - po4a 0.66 eldonita"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:74
-#, fuzzy
-#| msgid ""
-#| "Allow to group several translations per POT file in split mode (+bugfix "
-#| "and translation updates -- <a href=\"https://github.com/mquinson/po4a/"
-#| "releases/tag/v0.65\">more details</a>)."
 msgid ""
 "New option to select Yaml elements to translate; More robust Asciidoc table "
 "handling (+bugfixes and translation updates -- <a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.66\">more details</a>)."
-msgstr ""
-"Permesu grupigi plurajn tradukojn per POT-dosiero en dividita reĝimo "
-"(+korektoj kaj tradukaj ĝisdatigoj -- <a href=\"https://github.com/mquinson/"
-"po4a/releases/tag/v0.65\">pliaj detaloj</a>)."
+msgstr "Nova opcio por elekti Yaml-elementojn por traduki; Pli fortika Asciidoc-tabeltraktado (+riparoj kaj tradukaj ĝisdatigoj -- <a href=\"https://github.com/mquinson/po4a/releases/tag/v0.66\">pliaj detaloj</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:76
