@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.62-alpha\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2022-01-04 08:23+0100\n"
-"PO-Revision-Date: 2022-07-31 20:17+0000\n"
+"PO-Revision-Date: 2022-08-24 21:18+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/pt/>\n"
@@ -444,7 +444,7 @@ msgstr "Documentação"
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:19
 msgid "Here is an HTML version of the po4a's manpages."
-msgstr "Aqui estão uma versão HTML das páginas man do po4a."
+msgstr "Aqui está uma versão HTML das páginas de manual do po4a."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:20
@@ -487,7 +487,7 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
 msgid "po4a - Download"
-msgstr "po4a - Descarregas"
+msgstr "po4a - Transferir"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:18
@@ -680,7 +680,7 @@ msgstr "&nbsp;&nbsp;&lt;"
 #. type: Content of: <div><a>
 #: src/header.php.en:10
 msgid "Download"
-msgstr "Descarrega"
+msgstr "Transferir"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:11
