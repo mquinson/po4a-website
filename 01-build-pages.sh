@@ -231,8 +231,11 @@ get_language() {
 		zh_CHS)
 			echo -n "简体中文"
 			;;
+		zh_Hant)
+			echo -n "简体中文"
+			;;
 		*)
-			echo "Language '$1' not supported" >&2
+			echo "Language '$1' not supported. Change 01-build-pages.sh" >&2
 			exit 1
 			;;
 	esac
