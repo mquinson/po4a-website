@@ -70,6 +70,10 @@
 			</ul>
 		</div>
 		<div class="item"><!-- Keep it YEAR-MONTH-DAY -->
+		        <h2>2022-07-14 - po4a 0.67 released</h2>
+			<p>Many bug fixes and improvement in AsciiDoc, Man, Mardown, xHTML and in core modules 
+ 			  (<a href="https://github.com/mquinson/po4a/releases/tag/v0.67">more details</a>).
+			</p>
 			<h2>2022-01-02 - po4a 0.66 released</h2>
 			<p>New option to select Yaml elements to translate; More robust Asciidoc table handling (+bugfixes and translation updates -- <a href="https://github.com/mquinson/po4a/releases/tag/v0.66">more details</a>).
 			</p>
