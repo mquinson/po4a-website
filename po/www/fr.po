@@ -4,7 +4,7 @@
 #
 # Nicolas François <nicolas.francois@centraliens.net>, 2010.
 # David Prévot <david@tilapin.org>, 2010-2012.
-# Martin Quinson <martin.quinson@ens-rennes.fr>, 2020, 2021.
+# Martin Quinson <martin.quinson@ens-rennes.fr>, 2020, 2021, 2022.
 # Jean-Baptiste <jean-baptiste@holcroft.fr>, 2020.
 # jmichault <jmt.2000@free.fr>, 2020, 2021, 2022.
 # K. Herbert <herbert.ka@mailo.com>, 2021.
@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: po4a\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2022-09-04 17:02+0200\n"
-"PO-Revision-Date: 2022-04-29 14:08+0000\n"
-"Last-Translator: jmichault <jmt.2000@free.fr>\n"
+"PO-Revision-Date: 2022-09-04 15:15+0000\n"
+"Last-Translator: Martin Quinson <martin.quinson@ens-rennes.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "fr/>\n"
 "Language: fr\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.12.1\n"
+"X-Generator: Weblate 4.14.1-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -220,6 +220,12 @@ msgid ""
 "bugs in Markdown and Man modules.  (<a href=\"https://github.com/mquinson/"
 "po4a/releases/tag/v0.68\">more details</a>)."
 msgstr ""
+"Le processus de gettextization est grandement amélioré par cette version, et "
+"plusieurs chapitres de la documentation ont été réécrits. De plus, les "
+"scripts po4a-translate et po4a-updatepo sont maintenant obsolètes. Veuillez "
+"utiliser po4a à la place. Enfin, cette version corrige plusieurs bugs dans "
+"les modules Markdown et Man (<a href=\"https://github.com/mquinson/po4a/"
+"releases/tag/v0.68\">plus de  détails</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:79
