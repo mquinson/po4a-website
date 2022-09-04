@@ -13,8 +13,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.10.1\n"
 
 #. type: Content of: <html><head><title>
@@ -250,8 +250,8 @@ msgid ""
 "mquinson/po4a/releases/tag/v0.66\">more details</a>)."
 msgstr ""
 "Новий параметр для вибору елементів Yaml для перекладу; стійкіша до помилок "
-"обробка таблиць Asciidoc (+виправлення вад і оновлення перекладів — <a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.66\">докладніше</a>)."
+"обробка таблиць Asciidoc (+виправлення вад і оновлення перекладів — <a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.66\">докладніше</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:86
@@ -313,8 +313,8 @@ msgid ""
 "v0.62\">more details</a>)."
 msgstr ""
 "Реалізовано згортання текстів asciidoc з метою уникнути помилок "
-"переформатування, інші виправлення вад і оновлення перекладів (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.62\">докладніше</a>)."
+"переформатування, інші виправлення вад і оновлення перекладів (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.62\">докладніше</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:98
@@ -329,8 +329,8 @@ msgid ""
 "v0.61\">more details</a>)."
 msgstr ""
 "Додаткові виправлення вад (знову ж таки, з метою збереження працездатності "
-"із пакунками Debian, які залежать від po4a) і оновлення перекладів (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.61\">докладніше</a>)."
+"із пакунками Debian, які залежать від po4a) і оновлення перекладів (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.61\">докладніше</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:101
@@ -403,8 +403,8 @@ msgid ""
 "Translation update and one bugfix in AsciiDoc.  (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
 msgstr ""
-"Оновлення перекладів та виправлення однієї вади в AsciiDoc.  (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.57\">докладніше</a>)."
+"Оновлення перекладів та виправлення однієї вади в AsciiDoc.  (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.57\">докладніше</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:119
@@ -417,8 +417,8 @@ msgid ""
 "New features and bugfixes, mostly to the AsciiDoc parser (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
 msgstr ""
-"Нові можливості і виправлення вад, здебільшого у обробнику AsciiDoc (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">докладніше</a>)."
+"Нові можливості і виправлення вад, здебільшого у обробнику AsciiDoc (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.56\">докладніше</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:123
@@ -488,8 +488,8 @@ msgid ""
 "presents the main po4a program."
 msgstr ""
 "Вступні зауваження щодо роботи з po4a наведено на сторінці підручника з <a "
-"href=\"man/man7/po4a.7.php\">po4a.7</a>, а <a href=\"man/man1/po4a.1."
-"php\">po4a(1)</a> стосується основної програми po4a."
+"href=\"man/man7/po4a.7.php\">po4a.7</a>, а <a href=\"man/man1/po4a.1.php"
+"\">po4a(1)</a> стосується основної програми po4a."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:24
@@ -515,8 +515,8 @@ msgid ""
 msgstr ""
 "Ми можемо допомогти вам налаштувати комплекс перекладу для документації до "
 "вашого проєкту або адаптувати po4a до ваших потреб. Не вагайтеся і "
-"спілкуйтеся із нами за допомогою нашого <a href=\"mailto:devel@lists.po4a."
-"org\">списку листування</a> або каналу IRC (#po4a на OFTC)."
+"спілкуйтеся із нами за допомогою нашого <a href=\"mailto:devel@lists.po4a.org"
+"\">списку листування</a> або каналу IRC (#po4a на OFTC)."
 
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
@@ -612,22 +612,22 @@ msgstr "за допомогою IRC (#po4a на OFTC)."
 #: src/getinvolved.php.en:23
 msgid ""
 "Bug reports, patches, feature requests or any feedback are welcome on the "
-"mailing list, in the <a href=\"https://github.com/mquinson/po4a/"
-"issues\">GitHub tracker</a> or in the <a href=\"http://bugs.debian.org/cgi-"
-"bin/pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>."
+"mailing list, in the <a href=\"https://github.com/mquinson/po4a/issues"
+"\">GitHub tracker</a> or in the <a href=\"http://bugs.debian.org/cgi-bin/"
+"pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>."
 msgstr ""
 "Ми будемо раді звітам щодо вад, латкам, запитам щодо реалізації нових "
-"можливостей та будь-яким відгукам у нашому списку листування, у <a "
-"href=\"https://github.com/mquinson/po4a/issues\">системі стеження за вадами "
+"можливостей та будь-яким відгукам у нашому списку листування, у <a href="
+"\"https://github.com/mquinson/po4a/issues\">системі стеження за вадами "
 "GitHub</a> або у <a href=\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?"
 "pkg=po4a;dist=unstable\">системі стеження за вадами у Debian</a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:27
 msgid ""
-"If you can improve the code yourself, pull requests against the <a "
-"href=\"https://github.com/mquinson/po4a\">GitHub repository</a> are more "
-"than welcomed."
+"If you can improve the code yourself, pull requests against the <a href="
+"\"https://github.com/mquinson/po4a\">GitHub repository</a> are more than "
+"welcomed."
 msgstr ""
 "Якщо ви можете поліпшити код власноруч, ми будемо дуже раді вашим запитами "
 "щодо злиття у нашому <a href=\"https://github.com/mquinson/po4a\">сховищі "
@@ -645,10 +645,9 @@ msgid ""
 "hosted.weblate.org/projects/po4a/\">Weblate</a> but you can also provide "
 "pull requests on the source git directly if you prefer."
 msgstr ""
-"Найпростішим способом допомогти із перекладом po4a є використання <a "
-"href=\"https://hosted.weblate.org/projects/po4a/\">Weblate</a>, але ви "
-"можете, якщо хочете, надсилати і запити щодо злиття із початковим сховищем "
-"git."
+"Найпростішим способом допомогти із перекладом po4a є використання <a href="
+"\"https://hosted.weblate.org/projects/po4a/\">Weblate</a>, але ви можете, "
+"якщо хочете, надсилати і запити щодо злиття із початковим сховищем git."
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:40
@@ -757,11 +756,11 @@ msgstr "Взяти участь"
 #~ "<?php include \"footer_index.php\"; ?> <?php include \"footer.php\"; ?>"
 
 #~ msgid ""
-#~ "<?php include \"footer_documentation.php\"; ?> <?php include \"footer."
-#~ "php\"; ?>"
+#~ "<?php include \"footer_documentation.php\"; ?> <?php include \"footer.php"
+#~ "\"; ?>"
 #~ msgstr ""
-#~ "<?php include \"footer_documentation.php\"; ?> <?php include \"footer."
-#~ "php\"; ?>"
+#~ "<?php include \"footer_documentation.php\"; ?> <?php include \"footer.php"
+#~ "\"; ?>"
 
 #~ msgid ""
 #~ "<?php include \"footer_download.php\"; ?> <?php include \"footer.php\"; ?>"
@@ -769,11 +768,11 @@ msgstr "Взяти участь"
 #~ "<?php include \"footer_download.php\"; ?> <?php include \"footer.php\"; ?>"
 
 #~ msgid ""
-#~ "<?php include \"footer_getinvolved.php\"; ?> <?php include \"footer."
-#~ "php\"; ?>"
+#~ "<?php include \"footer_getinvolved.php\"; ?> <?php include \"footer.php"
+#~ "\"; ?>"
 #~ msgstr ""
-#~ "<?php include \"footer_getinvolved.php\"; ?> <?php include \"footer."
-#~ "php\"; ?>"
+#~ "<?php include \"footer_getinvolved.php\"; ?> <?php include \"footer.php"
+#~ "\"; ?>"
 
 #~ msgid "<?php if (!isset($topdir)) $topdir = \"./\"; ?>"
 #~ msgstr "<?php if (!isset($topdir)) $topdir = \"./\"; ?>"
@@ -791,5 +790,5 @@ msgstr "Взяти участь"
 #~ "on our <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">mailing "
 #~ "list</a>,"
 #~ msgstr ""
-#~ "за допомогою нашого <a href=\"mailto:po4a-devel@lists.alioth.debian."
-#~ "org\">списку листування</a>,"
+#~ "за допомогою нашого <a href=\"mailto:po4a-devel@lists.alioth.debian.org"
+#~ "\">списку листування</a>,"
