@@ -5,17 +5,17 @@ msgstr ""
 "Project-Id-Version: Ukrainian (po4a)\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2022-09-04 17:02+0200\n"
-"PO-Revision-Date: 2022-01-06 20:52+0000\n"
+"PO-Revision-Date: 2022-09-04 21:39+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/po4a/po4a-"
-"website/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/po4a/"
+"po4a-website/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.14.1-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -201,10 +201,8 @@ msgstr "kernelhelp: довідкові повідомлення для усіх 
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:73
-#, fuzzy
-#| msgid "2022-01-02 - po4a 0.66 released"
 msgid "2022-09-04 - po4a 0.68 released"
-msgstr "2 січня 2022 року — випущено po4a 0.66"
+msgstr "4 вересня 2022 року — випущено po4a 0.68"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:74
@@ -215,27 +213,27 @@ msgid ""
 "bugs in Markdown and Man modules.  (<a href=\"https://github.com/mquinson/"
 "po4a/releases/tag/v0.68\">more details</a>)."
 msgstr ""
+"Значно удосконалено процедуру перетворення на формат gettext і переписано "
+"декілька глав документації. Також визнано застарілими po4a-translate і po4a-"
+"updatepo — замість них слід використовувати po4a. Нарешті, у цьому випуску "
+"виправлено декілька вад у модулях Markdown і Man.  (<a href=\"https://github."
+"com/mquinson/po4a/releases/tag/v0.68\">Докладно</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:79
-#, fuzzy
-#| msgid "2020-07-15 - po4a 0.60 released"
 msgid "2022-07-14 - po4a 0.67 released"
-msgstr "15 липня 2020 року — випущено po4a 0.60"
+msgstr "14 липня 2022 року — випущено po4a 0.67"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:80
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.64\">more details</a>)."
 msgid ""
 "Many bug fixes and improvement in AsciiDoc, Man, Mardown, xHTML and in core "
 "modules (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.67\">more details</a>)."
 msgstr ""
-"Виправлення вад і оновлення перекладів (<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.64\">докладніше</a>)."
+"Виправлено багато вад і удосконалено модулі AsciiDoc, Man, Mardown, xHTML та "
+"основний модуль (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0."
+"67\">докладніше</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:83
