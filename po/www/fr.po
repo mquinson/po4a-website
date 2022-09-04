@@ -208,10 +208,8 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:73
-#, fuzzy
-#| msgid "2022-01-02 - po4a 0.66 released"
 msgid "2022-09-04 - po4a 0.68 released"
-msgstr "2 janvier 2021 — po4a 0.63 est sorti"
+msgstr "4 septembre 2022 — po4a 0.68 est sorti"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:74
@@ -225,24 +223,18 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:79
-#, fuzzy
-#| msgid "2020-07-15 - po4a 0.60 released"
 msgid "2022-07-14 - po4a 0.67 released"
-msgstr "15 juillet 2020 — po4a 0.60 est sorti"
+msgstr "14 juillet 2022 — po4a 0.67 est sorti"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:80
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.64\">more details</a>)."
 msgid ""
 "Many bug fixes and improvement in AsciiDoc, Man, Mardown, xHTML and in core "
 "modules (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.67\">more details</a>)."
 msgstr ""
-"Corrections de bugs et mises à jour des traductions (<a href=\"https://"
-"github.com/mquinson/po4a/releases/tag/v0.64\">plus d’informations</a> -- en "
+"Nombreuses corrections de bugs et améliorations dans AsciiDoc, Man, Mardown, xHTML et dans les modules du coeur (<a href=\"https://"
+"github.com/mquinson/po4a/releases/tag/v0.67\">plus d’informations</a> -- en "
 "anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
@@ -768,11 +760,6 @@ msgstr "Participer"
 #~ msgid "KernelHelp"
 #~ msgstr "KernelHelp"
 
-#, fuzzy
-#~ msgid ""
-#~ "<?php include \"footer_index.php\"; ?> <?php include \"footer.php\"; ?>"
-#~ msgstr ""
-#~ "<?php include \"footer_index.php\"; ?> <?php include \"footer.php\"; ?>"
 
 #~ msgid ""
 #~ "<?php include \"footer_documentation.php\"; ?> <?php include \"footer."
