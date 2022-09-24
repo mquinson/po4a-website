@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2022-09-04 17:02+0200\n"
-"PO-Revision-Date: 2022-09-23 04:20+0000\n"
+"PO-Revision-Date: 2022-09-24 05:17+0000\n"
 "Last-Translator: gemmaro <gemmaro.dev@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/ja/>\n"
@@ -223,17 +223,14 @@ msgstr "2022-07-14 - po4a 0.67 リリース"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:80
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.64\">more details</a>)."
 msgid ""
 "Many bug fixes and improvement in AsciiDoc, Man, Mardown, xHTML and in core "
 "modules (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.67\">more details</a>)."
 msgstr ""
-"バグ修正と翻訳の更新（詳細は<a href=\"https://github.com/mquinson/po4a/"
-"releases/tag/v0.64\">こちら</a>）。"
+"AsciiDoc、Man、Markdown、XHTML、およびコアモジュールにおける多くのバグ修正と"
+"改善（<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.67\""
+">詳細</a>）。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:83
