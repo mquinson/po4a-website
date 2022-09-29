@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.55\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2022-09-04 17:02+0200\n"
-"PO-Revision-Date: 2022-01-06 20:53+0000\n"
+"PO-Revision-Date: 2022-09-29 19:15+0000\n"
 "Last-Translator: Frans Spiesschaert <frans.spiesschaert@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "nl/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -205,10 +205,8 @@ msgstr "kernelhelp: hulpberichten bij elk van de kernelcompilatieopties"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:73
-#, fuzzy
-#| msgid "2022-01-02 - po4a 0.66 released"
 msgid "2022-09-04 - po4a 0.68 released"
-msgstr "02-01-2022 - po4a 0.66 uitgebracht"
+msgstr "04-09-2022 - po4a 0.68 uitgebracht"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:74
@@ -219,27 +217,28 @@ msgid ""
 "bugs in Markdown and Man modules.  (<a href=\"https://github.com/mquinson/"
 "po4a/releases/tag/v0.68\">more details</a>)."
 msgstr ""
+"Aanzienlijke verbetering van het gettextisatie-proces en verschillende "
+"hoofdstukken van de documentatie herschreven. Ook zijn po4a-translate en "
+"po4a-updatepo nu verouderd: u moet in plaats daarvan po4a gebruiken. Ten "
+"slotte worden in deze versie enkele bugs in de modules Markdown en Man "
+"opgelost. (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.68\""
+">meer informatie</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:79
-#, fuzzy
-#| msgid "2020-07-15 - po4a 0.60 released"
 msgid "2022-07-14 - po4a 0.67 released"
-msgstr "15-07-2020 - po4a 0.60 uitgebracht"
+msgstr "14-07-2022 - po4a 0.67 uitgebracht"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:80
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.64\">more details</a>)."
 msgid ""
 "Many bug fixes and improvement in AsciiDoc, Man, Mardown, xHTML and in core "
 "modules (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.67\">more details</a>)."
 msgstr ""
-"Foutcorrectie en bijgewerkte vertalingen (<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.64\">meer informatie</a>)."
+"Veel foutcorrecties en verbeteringen aan de modules AsciiDoc, Man, Mardown, "
+"xHTML en aan kernmodules (<a href=\"https://github.com/mquinson/po4a/"
+"releases/tag/v0.67\">meer informatie</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:83
