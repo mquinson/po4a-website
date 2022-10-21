@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.62-alpha\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2022-09-04 17:02+0200\n"
-"PO-Revision-Date: 2022-10-20 12:06+0000\n"
+"PO-Revision-Date: 2022-10-21 23:07+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/pt/>\n"
@@ -205,7 +205,7 @@ msgstr "kernelhelp: mensagens de ajuda de cada opção de compilação do kernel
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:73
 msgid "2022-09-04 - po4a 0.68 released"
-msgstr "2022-09-04 - po4a 0.68 lançado"
+msgstr "2022-09-04 - Lançamento do po4a 0.68"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:74
@@ -225,7 +225,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:79
 msgid "2022-07-14 - po4a 0.67 released"
-msgstr "2022-07-14 - po4a 0.67 lançado"
+msgstr "2022-07-14 - Lançamento do po4a 0.67"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:80
@@ -241,7 +241,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:83
 msgid "2022-01-02 - po4a 0.66 released"
-msgstr "2022-01-02 - po4a 0.66 lançado"
+msgstr "2022-01-02 - Lançamento do po4a 0.66"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:84
@@ -257,7 +257,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:86
 msgid "2021-11-14 - po4a 0.65 released"
-msgstr "2021-11-14 - po4a 0.65 lançado"
+msgstr "2021-11-14 - Lançamento do po4a 0.65"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:87
@@ -273,7 +273,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:89
 msgid "2021-09-12 - po4a 0.64 released"
-msgstr "2021-09-12 - po4a 0.64 lançado"
+msgstr "2021-09-12 - Lançamento do po4a 0.64"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:90
@@ -287,7 +287,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:92
 msgid "2021-02-02 - po4a 0.63 released"
-msgstr "2021-02-02 - po4a 0.63 lançado"
+msgstr "2021-02-02 - Lançamento do po4a 0.63"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:93
@@ -303,7 +303,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:95
 msgid "2020-12-07 - po4a 0.62 released"
-msgstr "07-12-2020 - po4a 0.62 lançado"
+msgstr "07-12-2020 - Lançamento do po4a 0.62"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:96
@@ -319,7 +319,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:98
 msgid "2020-08-05 - po4a 0.61 released"
-msgstr "05-08-2020 - po4a 0.61 lançado"
+msgstr "05-08-2020 - Lançamento do po4a 0.61"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:99
@@ -335,7 +335,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:101
 msgid "2020-07-15 - po4a 0.60 released"
-msgstr "15-07-2020 - po4a 0.60 lançado"
+msgstr "15-07-2020 - Lançamento do po4a 0.60"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:102
@@ -349,7 +349,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:104
 msgid "2020-05-20 - po4a 0.59 released"
-msgstr "2020-05-20 - po4a 0.59 lançado"
+msgstr "2020-05-20 - Lançamento do po4a 0.59"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:105
