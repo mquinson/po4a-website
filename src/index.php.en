@@ -70,6 +70,12 @@
 			</ul>
 		</div>
 		<div class="item"><!-- Keep it YEAR-MONTH-DAY -->
+		        <h2>2023-01-01 - po4a 0.69 released</h2>
+			<p>Greatly improve the handeling of placeholders in XML, and internal cleanups around Yaml
+			  by merging the two parsers that we had.
+			   Also, this release fixes small bugs in Markdown and Man modules.
+			  (<a href="https://github.com/mquinson/po4a/releases/tag/v0.69">more details</a>).
+			</p>
 		        <h2>2022-09-04 - po4a 0.68 released</h2>
 			<p>Greatly improve the gettextization process, and rewrite several documentation chapters.
 			   Also, po4a-translate and po4a-updatepo are now deprecated: you should use po4a instead.
