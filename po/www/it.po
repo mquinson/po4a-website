@@ -1,13 +1,13 @@
 # Translation of po4a webpage to Italian
 # This file is distributed under the same license as the po4a web page.
-# Copyright (C) Marco Ciampa <ciampix@posteo.net>, 2016-2022.
+# Copyright (C) Marco Ciampa <ciampix@posteo.net>, 2016-2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.48\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2022-09-04 17:02+0200\n"
-"PO-Revision-Date: 2022-01-07 10:09+0100\n"
+"PO-Revision-Date: 2023-01-25 11:06+0100\n"
 "Last-Translator: Marco Ciampa <ciampix@libero.it>\n"
 "Language-Team: Italian <it@li.org>\n"
 "Language: it\n"
@@ -202,10 +202,8 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:73
-#, fuzzy
-#| msgid "2022-01-02 - po4a 0.66 released"
 msgid "2022-09-04 - po4a 0.68 released"
-msgstr "2022-01-02 - rilasciato po4a 0.66"
+msgstr "2022-09-04 - rilasciato po4a 0.68"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:74
@@ -215,28 +213,20 @@ msgid ""
 "deprecated: you should use po4a instead.  Finally, this release fixes some "
 "bugs in Markdown and Man modules.  (<a href=\"https://github.com/mquinson/"
 "po4a/releases/tag/v0.68\">more details</a>)."
-msgstr ""
+msgstr "Migliorato notevolmente il processo di gettext-izzazione e riscritti diversi capitoli della documentazione. Inoltre, po4a-translate e po4a-updatepo sono ora deprecati: meglio usare po4a. Infine, questa versione corregge alcuni difetti nei moduli Markdown e Man. (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.68\">maggiori dettagli</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:79
-#, fuzzy
-#| msgid "2020-07-15 - po4a 0.60 released"
 msgid "2022-07-14 - po4a 0.67 released"
-msgstr "2020-07-15 - rilasciato po4a 0.60"
+msgstr "2022-07-14 - rilasciato po4a 0.67"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:80
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.64\">more details</a>)."
 msgid ""
 "Many bug fixes and improvement in AsciiDoc, Man, Mardown, xHTML and in core "
 "modules (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.67\">more details</a>)."
-msgstr ""
-"Correzioni e aggiornamento traduzioni (<a href=\"https://github.com/mquinson/"
-"po4a/releases/tag/v0.64\">ulteriori dettagli</a>)."
+msgstr "Molte correzioni e miglioramenti in AsciiDoc, Man, Mardown, xHTML e nei moduli comuni, (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.67\">ulteriori dettagli</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:83
