@@ -1,12 +1,12 @@
 # KURASAWA Nozomu <nabetaro@debian.or.jp>, 2010.
 # Masahiro Nakamura <marlsa_32.wwmd@icloud.com>, 2020.
-# gemmaro <gemmaro.dev@gmail.com>, 2022.
+# gemmaro <gemmaro.dev@gmail.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2022-09-04 17:02+0200\n"
-"PO-Revision-Date: 2022-09-24 05:17+0000\n"
+"PO-Revision-Date: 2023-04-23 16:47+0000\n"
 "Last-Translator: gemmaro <gemmaro.dev@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/ja/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -244,9 +244,9 @@ msgid ""
 "handling (+bugfixes and translation updates -- <a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.66\">more details</a>)."
 msgstr ""
-"翻訳するYAMLの要素を選択する新しいオプションや、より堅牢なAsciiDocの表制御"
-"（加えてバグ修正と翻訳の更新があります。詳しくは<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.66\">\">こちら</a>をどうぞ）。"
+"翻訳するYamlの要素を選択する新しいオプションや、より堅牢なAsciiDocの表制御（"
+"加えてバグ修正と翻訳の更新があります。詳しくは<a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.66\">こちら</a>をどうぞ）。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:86
