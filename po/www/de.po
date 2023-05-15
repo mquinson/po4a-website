@@ -1,13 +1,13 @@
 # Translation of po4a webpage to German
 # This file is distributed under the same license as the po4a web page.
-# Copyright (C) Helge Kreutzmann <debian@helgefjell.de>, 2011-2013,2017,2018,2020-2022
+# Copyright (C) Helge Kreutzmann <debian@helgefjell.de>, 2011-2013,2017,2018,2020-2023
 # Milo Ivir <mail@milotype.de>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: po4a 0.68\n"
+"Project-Id-Version: po4a 0.69\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2023-01-01 02:12+0100\n"
-"PO-Revision-Date: 2022-09-05 18:29+0200\n"
+"PO-Revision-Date: 2023-05-15 19:28+0200\n"
 "Last-Translator: Helge Kreutzmann <debian@helgefjell.de>\n"
 "Language-Team: German <debian-l10n-german@lists.debian.org>\n"
 "Language: de\n"
@@ -28,10 +28,6 @@ msgstr "Verwalten der Übersetzungen Ihrer Dokumentation mit Leichtigkeit"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:19
-#, fuzzy
-#| msgid ""
-#| "po4a extracts the translatable material from the original document, and "
-#| "places it into a PO file that is well adapted to the translation work."
 msgid ""
 "The po4a (PO for anything) eases documentation translations and their "
 "maintenance. It extracts the translatable material from the original "
@@ -40,43 +36,36 @@ msgid ""
 "the translation into the structure of the original document to generate a "
 "translated document."
 msgstr ""
-"Po4a extrahiert das übersetzbare Material aus dem ursprünglichen Dokument "
-"und legt es in eine PO-Datei, die gut der Übersetzungsarbeit angepasst ist."
+"Das Po4a (PO für alles) erleichtert die Übersetzung von Dokumentation und dessen Wartung. "
+"Es extrahiert das übersetzbare Material aus dem ursprünglichen Dokument "
+"und legt es in eine PO-Datei, die dem Übersetzungsprozess angepasst ist. "
+"Sobald diese PO-Datei vom Übersetzer aktualisiert wird, fügt Po4a diese "
+"Übersetzung erneut in die Struktur des ursprünglichen Dokuments ein, um ein "
+"übersetztes Dokument zu erzeugen."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:26
-#, fuzzy
-#| msgid ""
-#| "If the translation is only partially completed, the original (English) "
-#| "text is used instead. This ensures that your translated documentation is "
-#| "always both up to date with regard to the original one, and as translated "
-#| "as possible."
 msgid ""
 "If the translation is only partial, the original (English) text is used "
 "instead for the missing parts. This ensures that your translated "
 "documentation is always both up to date with regard to the original one, and "
 "as translated as possible."
 msgstr ""
-"Falls die Übersetzung nur teilweise abgeschlossen ist, wird stattdessen der "
-"ursprüngliche (englische) Text verwandt. Dies stellt sicher, dass ihr "
+"Falls die Übersetzung unvollständig ist, wird stattdessen der "
+"ursprüngliche (englische) Text für die fehlenden Teile verwandt. Dies stellt sicher, dass Ihr "
 "übersetztes Dokument immer im Hinblick auf das Original aktuell und soweit "
 "wie möglich übersetzt ist."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:30
-#, fuzzy
-#| msgid ""
-#| "Automate all the translation maintenance with one configuration file that "
-#| "specifies all settings, and a list of documents to translate. po4a will "
-#| "update them automatically when something happens."
 msgid ""
 "po4a automatizes all the translation maintenance with one configuration file "
 "containing the settings and a list of documents to translate. po4a will "
 "update them automatically when something happens."
 msgstr ""
-"Automatisiert sämtliche Übersetzungsverwaltung mit einer "
+"Po4a automatisiert sämtliche Übersetzungsverwaltung mit einer "
 "Konfigurationsdatei, die alle Einstellungen und eine Liste der zu "
-"übersetzenden Dokumente festlegt. Po4a wird diese dann automatisch "
+"übersetzenden Dokumente enthält. Po4a wird diese dann automatisch "
 "aktualisieren, wenn etwas passiert."
 
 #. type: Content of: <html><body><div><div><h2>
@@ -200,32 +189,22 @@ msgstr "kernelhelp: Hilfenachrichten jeder Kernel-Compilierungsoption"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:68
-#, fuzzy
-#| msgid "2022-01-02 - po4a 0.66 released"
 msgid "2023-01-01 - po4a 0.69 released"
-msgstr "2022-02-02 – po4a 0.66 veröffentlicht"
+msgstr "2023-01-01 - po4a 0.69 veröffentlicht"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:69
-#, fuzzy
-#| msgid ""
-#| "Greatly improve the gettextization process, and rewrite several "
-#| "documentation chapters.  Also, po4a-translate and po4a-updatepo are now "
-#| "deprecated: you should use po4a instead.  Finally, this release fixes "
-#| "some bugs in Markdown and Man modules.  (<a href=\"https://github.com/"
-#| "mquinson/po4a/releases/tag/v0.68\">more details</a>)."
 msgid ""
 "Greatly improve the handeling of placeholders in XML, and internal cleanups "
 "around Yaml by merging the two parsers that we had.  Also, this release "
 "fixes small bugs in Markdown and Man modules.  (<a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.69\">more details</a>)."
 msgstr ""
-"Deutliche Verbesserungen des Gettextisierungsprozesses und mehrere "
-"Dokumentationskapitel wurden neu geschrieben. po4a-translate und po4a-"
-"updatepo gelten jetzt als veraltet: Sie sollten po4a stattdessen verwenden. "
-"Schließlich behebt diese Veröffentlichung einige Fehler in den Markdown- und "
-"Man-Modulen. (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-"v0.68\">weitere Details</a>)."
+"Deutliche Verbesserungen beim Umgang mit Platzhaltern in XML und interne "
+"Bereinigungen rund um Yaml, durch Zusammenführung von den bisher vorhandenen "
+"zwei Auswertern. Diese Veröffentlichung behebt auch zwei kleine Fehler in "
+"den Modulen Markdown und Man (<a href=\"https://github.com/mquinson/po4a/"
+"releases/tag/v0.69\">weitere Details</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:74
