@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.48\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2023-01-01 02:12+0100\n"
-"PO-Revision-Date: 2023-01-25 11:06+0100\n"
+"PO-Revision-Date: 2023-05-15 12:29+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@libero.it>\n"
 "Language-Team: Italian <it@li.org>\n"
 "Language: it\n"
@@ -35,43 +35,24 @@ msgid ""
 "process.  Once this PO file is updated by the translator, po4a re-injects "
 "the translation into the structure of the original document to generate a "
 "translated document."
-msgstr ""
+msgstr "Il po4a (PO per qualsiasi cosa) facilita la traduzione della documentazione e sua manutenzione. Estrae il materiale traducibile dal documento originale e lo inserisce in un file PO adattato al processo di traduzione. Una volta che questo file PO viene aggiornato dal traduttore, po4a reintroduce la traduzione nella struttura del documento originale per generare un documento tradotto."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:26
-#, fuzzy
-#| msgid ""
-#| "If the translation is only partially completed, the original (English) "
-#| "text is used instead. This ensures that your translated documentation is "
-#| "always both up to date with regard to the original one, and as translated "
-#| "as possible."
 msgid ""
 "If the translation is only partial, the original (English) text is used "
 "instead for the missing parts. This ensures that your translated "
 "documentation is always both up to date with regard to the original one, and "
 "as translated as possible."
-msgstr ""
-"Se la traduzione è solo parzialmente completata, viene usato il testo "
-"originale (in inglese). Questo assicura che la traduzione della "
-"documentazione sia sempre aggiornata rispetto all'originale e tradotta per "
-"quanto possibile."
+msgstr "Se la traduzione è solo parzialmente completata, viene usato il testo originale (in inglese). Questo assicura che la traduzione della documentazione sia sempre aggiornata rispetto all'originale e tradotta per quanto possibile."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:30
-#, fuzzy
-#| msgid ""
-#| "Automate all the translation maintenance with one configuration file that "
-#| "specifies all settings, and a list of documents to translate. po4a will "
-#| "update them automatically when something happens."
 msgid ""
 "po4a automatizes all the translation maintenance with one configuration file "
 "containing the settings and a list of documents to translate. po4a will "
 "update them automatically when something happens."
-msgstr ""
-"Automatizza completamente la manutenzione della traduzione tramite un "
-"singolo file di configurazione, specificando tutte le impostazioni e "
-"l'elenco dei documenti da tradurre. po4a li aggiornerà automaticamente "
-"quando succede qualcosa."
+msgstr "po4a automatizza completamente la manutenzione della traduzione tramite un singolo file di configurazione che contiene tutte le impostazioni e l'elenco dei documenti da tradurre. po4a li aggiornerà automaticamente quando succede qualcosa."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:36
@@ -194,31 +175,17 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:68
-#, fuzzy
-#| msgid "2022-01-02 - po4a 0.66 released"
 msgid "2023-01-01 - po4a 0.69 released"
-msgstr "2022-01-02 - rilasciato po4a 0.66"
+msgstr "2023-01-01 - rilasciato po4a 0.69"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:69
-#, fuzzy
-#| msgid ""
-#| "Greatly improve the gettextization process, and rewrite several "
-#| "documentation chapters.  Also, po4a-translate and po4a-updatepo are now "
-#| "deprecated: you should use po4a instead.  Finally, this release fixes "
-#| "some bugs in Markdown and Man modules.  (<a href=\"https://github.com/"
-#| "mquinson/po4a/releases/tag/v0.68\">more details</a>)."
 msgid ""
 "Greatly improve the handeling of placeholders in XML, and internal cleanups "
 "around Yaml by merging the two parsers that we had.  Also, this release "
 "fixes small bugs in Markdown and Man modules.  (<a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.69\">more details</a>)."
-msgstr ""
-"Migliorato notevolmente il processo di gettext-izzazione e riscritti diversi "
-"capitoli della documentazione. Inoltre, po4a-translate e po4a-updatepo sono "
-"ora deprecati: meglio usare po4a. Infine, questa versione corregge alcuni "
-"difetti nei moduli Markdown e Man. (<a href=\"https://github.com/mquinson/"
-"po4a/releases/tag/v0.68\">maggiori dettagli</a>)."
+msgstr "Migliorata notevolmente la gestione dei segnaposto in XML e la pulizia interna di Yaml unendo i due parser che esistenti. Inoltre, questa versione corregge piccoli difetti nei moduli Markdown e Man (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.69\">maggiori dettagli</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:74
@@ -745,28 +712,3 @@ msgstr "Scarica"
 #: src/header.php.en:11
 msgid "Get Involved"
 msgstr "Contribuire"
-
-#~ msgid ""
-#~ "The po4a (PO for anything) project goal is to ease translations (and more "
-#~ "interestingly, the maintenance of translations) using gettext tools on "
-#~ "areas where they were not expected like documentation."
-#~ msgstr ""
-#~ "L'obiettivo del progetto po4a (PO per tutto) è di facilitare le "
-#~ "traduzioni (e cosa più interessante, la manutenzione delle traduzioni) "
-#~ "usando gli strumenti associati a gettext in aree inaspettate come la "
-#~ "documentazione."
-
-#~ msgid ""
-#~ "po4a extracts the translatable material from the original document, and "
-#~ "places it into a PO file that is well adapted to the translation work."
-#~ msgstr ""
-#~ "po4a estrae il materiale da tradurre dal documento originale e lo mette "
-#~ "in un file PO, un formato adatto per favorire il lavoro di traduzione."
-
-#~ msgid ""
-#~ "Once the translation is completed in the PO file, po4a re-injects the "
-#~ "translation into the structure of the document to generate a translated "
-#~ "document."
-#~ msgstr ""
-#~ "Una volta tradotto file PO, po4a reinserisce la traduzione nella "
-#~ "struttura del documento ottenendo il documento tradotto."
