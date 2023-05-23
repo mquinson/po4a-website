@@ -324,8 +324,8 @@ msgid ""
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.62\">more details</a>)."
 msgstr ""
-"開啟 asciidoc 以避免重新格式化問題和其他錯誤修復，以及翻譯更新 (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.62\">更多細節</a>)。"
+"開啟 asciidoc 以避免重新格式化問題和其他錯誤修復，以及翻譯更新 (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.62\">更多細節</a>)。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:99
@@ -469,9 +469,8 @@ msgid ""
 "turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.53\">more details</a>)."
 msgstr ""
-"最明顯的變化是一個新的 YAML 模組，以及 Alioth 被關閉的事實 (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.53\">more details</"
-"a>)。"
+"最明顯的變化是一個新的 YAML 模組，以及 Alioth 被關閉的事實 (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.53\">more details</a>)。"
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
@@ -613,24 +612,24 @@ msgstr "在 IRC 上 (在 OFTC 的 #po4a 頻道)。"
 #: src/getinvolved.php.en:23
 msgid ""
 "Bug reports, patches, feature requests or any feedback are welcome on the "
-"mailing list, in the <a href=\"https://github.com/mquinson/po4a/"
-"issues\">GitHub tracker</a> or in the <a href=\"http://bugs.debian.org/cgi-"
-"bin/pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>."
+"mailing list, in the <a href=\"https://github.com/mquinson/po4a/issues"
+"\">GitHub tracker</a> or in the <a href=\"http://bugs.debian.org/cgi-bin/"
+"pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>."
 msgstr ""
-"bug 報告，補丁，特性請求或者其他任何回饋都非常歡迎在郵件列表提出，在 <a "
-"href=\"https://github.com/mquinson/po4a/issues\"> GitHub tracker</a> 或者 <a "
-"href=\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;"
-"dist=unstable\">Debian BTS</a>。"
+"bug 報告，補丁，特性請求或者其他任何回饋都非常歡迎在郵件列表提出，在 <a href="
+"\"https://github.com/mquinson/po4a/issues\"> GitHub tracker</a> 或者 <a href="
+"\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable"
+"\">Debian BTS</a>。"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:27
 msgid ""
-"If you can improve the code yourself, pull requests against the <a "
-"href=\"https://github.com/mquinson/po4a\">GitHub repository</a> are more "
-"than welcomed."
+"If you can improve the code yourself, pull requests against the <a href="
+"\"https://github.com/mquinson/po4a\">GitHub repository</a> are more than "
+"welcomed."
 msgstr ""
-"如果你自己可以改善程式碼，非常歡迎你到 GitHub 倉庫上合併請求<a "
-"href=\"https://github.com/mquinson/po4a\"></a>。"
+"如果你自己可以改善程式碼，非常歡迎你到 GitHub 倉庫上合併請求<a href="
+"\"https://github.com/mquinson/po4a\"></a>。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:32

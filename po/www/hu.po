@@ -221,9 +221,9 @@ msgid ""
 "mquinson/po4a/releases/tag/v0.69\">more details</a>)."
 msgstr ""
 "Egy regresszió javítása a 0.62-ben, ahol a po4a binárisok fordítása nem lett "
-"telepítve. Ezenkívül egyéb hibajavítások és fordításfrissítések (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.63\">további "
-"részletek</a>)."
+"telepítve. Ezenkívül egyéb hibajavítások és fordításfrissítések (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.63\">további részletek</"
+"a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:74
@@ -332,9 +332,9 @@ msgid ""
 "github.com/mquinson/po4a/releases/tag/v0.63\">more details</a>)."
 msgstr ""
 "Egy regresszió javítása a 0.62-ben, ahol a po4a binárisok fordítása nem lett "
-"telepítve. Ezenkívül egyéb hibajavítások és fordításfrissítések (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.63\">további "
-"részletek</a>)."
+"telepítve. Ezenkívül egyéb hibajavítások és fordításfrissítések (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.63\">további részletek</"
+"a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:96
@@ -440,9 +440,9 @@ msgid ""
 "Translation update and one bugfix in AsciiDoc.  (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
 msgstr ""
-"Fordításfrissítés és egy hibajavítás az AsciiDoc feldolgozóban (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.57\">további "
-"részletek</a>)."
+"Fordításfrissítés és egy hibajavítás az AsciiDoc feldolgozóban (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.57\">további részletek</"
+"a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:120
@@ -455,9 +455,9 @@ msgid ""
 "New features and bugfixes, mostly to the AsciiDoc parser (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
 msgstr ""
-"Új funkciók és hibajavítások, főleg az AsciiDoc feldolgozóban (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">további "
-"részletek</a>)."
+"Új funkciók és hibajavítások, főleg az AsciiDoc feldolgozóban (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.56\">további részletek</"
+"a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:124
@@ -556,8 +556,8 @@ msgid ""
 msgstr ""
 "Segíthetünk Önnek a fordítási keretrendszer létrehozásában a saját "
 "projektjének dokumentációjához, illetve a po4a alkalmazásában a saját "
-"igényeinek megfelelően. Ne habozzon kapcsolatba lépni velünk a <a "
-"href=\"mailto:devel@lists.po4a.org\">levelezőlistán</a> vagy IRC-n (#po4a "
+"igényeinek megfelelően. Ne habozzon kapcsolatba lépni velünk a <a href="
+"\"mailto:devel@lists.po4a.org\">levelezőlistán</a> vagy IRC-n (#po4a "
 "csatorna az OFTC-n)."
 
 #. type: Content of: <html><head><title>
@@ -606,8 +606,8 @@ msgid ""
 "The latest sources are available from our <a href=\"https://github.com/"
 "mquinson/po4a\">Git repository</a>."
 msgstr ""
-"A legújabb források elérhetők a <a href=\"https://github.com/mquinson/"
-"po4a\">Git tárolónkból</a>."
+"A legújabb források elérhetők a <a href=\"https://github.com/mquinson/po4a"
+"\">Git tárolónkból</a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:34
@@ -654,9 +654,9 @@ msgstr "IRC-n (#po4a csatorna OFTC-n)."
 #: src/getinvolved.php.en:23
 msgid ""
 "Bug reports, patches, feature requests or any feedback are welcome on the "
-"mailing list, in the <a href=\"https://github.com/mquinson/po4a/"
-"issues\">GitHub tracker</a> or in the <a href=\"http://bugs.debian.org/cgi-"
-"bin/pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>."
+"mailing list, in the <a href=\"https://github.com/mquinson/po4a/issues"
+"\">GitHub tracker</a> or in the <a href=\"http://bugs.debian.org/cgi-bin/"
+"pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>."
 msgstr ""
 "Hibajelentéseket, javításokat, funkciókéréseket vagy visszajelzéseket "
 "örömmel fogaduk a levelezőlistán, a <a href=\"https://github.com/mquinson/"
@@ -666,9 +666,9 @@ msgstr ""
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:27
 msgid ""
-"If you can improve the code yourself, pull requests against the <a "
-"href=\"https://github.com/mquinson/po4a\">GitHub repository</a> are more "
-"than welcomed."
+"If you can improve the code yourself, pull requests against the <a href="
+"\"https://github.com/mquinson/po4a\">GitHub repository</a> are more than "
+"welcomed."
 msgstr ""
 "Saját maga is javíthatja a kódot, a <a href=\"https://github.com/mquinson/"
 "po4a\">GitHub tárolóba</a> történő beolvasztási kérések küldését nagyra "

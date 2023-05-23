@@ -35,7 +35,13 @@ msgid ""
 "process.  Once this PO file is updated by the translator, po4a re-injects "
 "the translation into the structure of the original document to generate a "
 "translated document."
-msgstr "Il po4a (PO per qualsiasi cosa) facilita la traduzione della documentazione e sua manutenzione. Estrae il materiale traducibile dal documento originale e lo inserisce in un file PO adattato al processo di traduzione. Una volta che questo file PO viene aggiornato dal traduttore, po4a reintroduce la traduzione nella struttura del documento originale per generare un documento tradotto."
+msgstr ""
+"Il po4a (PO per qualsiasi cosa) facilita la traduzione della documentazione "
+"e sua manutenzione. Estrae il materiale traducibile dal documento originale "
+"e lo inserisce in un file PO adattato al processo di traduzione. Una volta "
+"che questo file PO viene aggiornato dal traduttore, po4a reintroduce la "
+"traduzione nella struttura del documento originale per generare un documento "
+"tradotto."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:26
@@ -44,7 +50,11 @@ msgid ""
 "instead for the missing parts. This ensures that your translated "
 "documentation is always both up to date with regard to the original one, and "
 "as translated as possible."
-msgstr "Se la traduzione è solo parzialmente completata, viene usato il testo originale (in inglese). Questo assicura che la traduzione della documentazione sia sempre aggiornata rispetto all'originale e tradotta per quanto possibile."
+msgstr ""
+"Se la traduzione è solo parzialmente completata, viene usato il testo "
+"originale (in inglese). Questo assicura che la traduzione della "
+"documentazione sia sempre aggiornata rispetto all'originale e tradotta per "
+"quanto possibile."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:30
@@ -52,7 +62,11 @@ msgid ""
 "po4a automatizes all the translation maintenance with one configuration file "
 "containing the settings and a list of documents to translate. po4a will "
 "update them automatically when something happens."
-msgstr "po4a automatizza completamente la manutenzione della traduzione tramite un singolo file di configurazione che contiene tutte le impostazioni e l'elenco dei documenti da tradurre. po4a li aggiornerà automaticamente quando succede qualcosa."
+msgstr ""
+"po4a automatizza completamente la manutenzione della traduzione tramite un "
+"singolo file di configurazione che contiene tutte le impostazioni e l'elenco "
+"dei documenti da tradurre. po4a li aggiornerà automaticamente quando succede "
+"qualcosa."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:36
@@ -185,7 +199,11 @@ msgid ""
 "around Yaml by merging the two parsers that we had.  Also, this release "
 "fixes small bugs in Markdown and Man modules.  (<a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.69\">more details</a>)."
-msgstr "Migliorata notevolmente la gestione dei segnaposto in XML e la pulizia interna di Yaml unendo i due parser che esistenti. Inoltre, questa versione corregge piccoli difetti nei moduli Markdown e Man (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.69\">maggiori dettagli</a>)."
+msgstr ""
+"Migliorata notevolmente la gestione dei segnaposto in XML e la pulizia "
+"interna di Yaml unendo i due parser che esistenti. Inoltre, questa versione "
+"corregge piccoli difetti nei moduli Markdown e Man (<a href=\"https://github."
+"com/mquinson/po4a/releases/tag/v0.69\">maggiori dettagli</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:74
@@ -375,9 +393,9 @@ msgid ""
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">more "
 "details</a>)."
 msgstr ""
-"Corretti una montagna di difetti e rimosse alcune imperfezioni (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">ulteriori "
-"dettagli</a>)."
+"Corretti una montagna di difetti e rimosse alcune imperfezioni (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.58\">ulteriori dettagli</"
+"a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:116
@@ -436,9 +454,9 @@ msgid ""
 "We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
 msgstr ""
-"Corretti una montagna di difetti e rimosse alcune imperfezioni (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.54\">ulteriori "
-"dettagli</a>)."
+"Corretti una montagna di difetti e rimosse alcune imperfezioni (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.54\">ulteriori dettagli</"
+"a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:132
@@ -603,9 +621,9 @@ msgstr "su IRC (#po4a su OFTC)."
 #: src/getinvolved.php.en:23
 msgid ""
 "Bug reports, patches, feature requests or any feedback are welcome on the "
-"mailing list, in the <a href=\"https://github.com/mquinson/po4a/"
-"issues\">GitHub tracker</a> or in the <a href=\"http://bugs.debian.org/cgi-"
-"bin/pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>."
+"mailing list, in the <a href=\"https://github.com/mquinson/po4a/issues"
+"\">GitHub tracker</a> or in the <a href=\"http://bugs.debian.org/cgi-bin/"
+"pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>."
 msgstr ""
 "Rapporti su difetti, patch, richieste di funzionalità o qualsiasi feedback "
 "sono benvenuti sulla mailing list, nel <a href=\"https://github.com/mquinson/"
@@ -615,12 +633,12 @@ msgstr ""
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:27
 msgid ""
-"If you can improve the code yourself, pull requests against the <a "
-"href=\"https://github.com/mquinson/po4a\">GitHub repository</a> are more "
-"than welcomed."
+"If you can improve the code yourself, pull requests against the <a href="
+"\"https://github.com/mquinson/po4a\">GitHub repository</a> are more than "
+"welcomed."
 msgstr ""
-"Potete migliorare il codice voi stessi, richieste di pull sul <a "
-"href=\"https://github.com/mquinson/po4a\">repository GitHub</a> sono più che "
+"Potete migliorare il codice voi stessi, richieste di pull sul <a href="
+"\"https://github.com/mquinson/po4a\">repository GitHub</a> sono più che "
 "benvenute."
 
 #. type: Content of: <html><body><div><div><h2>
