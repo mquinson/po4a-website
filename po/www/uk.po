@@ -1,21 +1,21 @@
-# Yuri Chornoivan <yurchor@ukr.net>, 2018, 2020, 2021, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2018, 2020, 2021, 2022, 2023.
 # Tymofij Lytvynenko <till.svit@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: Ukrainian (po4a)\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2023-01-01 02:12+0100\n"
-"PO-Revision-Date: 2022-09-04 21:39+0000\n"
+"PO-Revision-Date: 2023-05-24 15:47+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/po4a/po4a-"
-"website/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/po4a/"
+"po4a-website/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14.1-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -29,10 +29,6 @@ msgstr "Виконуйте супровід перекладів вашої до
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:19
-#, fuzzy
-#| msgid ""
-#| "po4a extracts the translatable material from the original document, and "
-#| "places it into a PO file that is well adapted to the translation work."
 msgid ""
 "The po4a (PO for anything) eases documentation translations and their "
 "maintenance. It extracts the translatable material from the original "
@@ -41,17 +37,15 @@ msgid ""
 "the translation into the structure of the original document to generate a "
 "translated document."
 msgstr ""
-"po4a видобуває матеріали для перекладу з початкового документа і записує їх "
-"до файла PO, який добре пристосовано для перекладачів."
+"po4a («PO for anything» або «PO для усього) спрощує переклад і супровід "
+"перекладу документації. Система видобуває придатний до перекладу матеріал з "
+"початкового документа і зберігає його до файла PO, який адаптовано до "
+"процедури перекладу. Після оновлення даних цього файла PO перекладачем, po4a "
+"повторно вставляє переклад до структури початкового документа з метою "
+"створення перекладеного документа."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:26
-#, fuzzy
-#| msgid ""
-#| "If the translation is only partially completed, the original (English) "
-#| "text is used instead. This ensures that your translated documentation is "
-#| "always both up to date with regard to the original one, and as translated "
-#| "as possible."
 msgid ""
 "If the translation is only partial, the original (English) text is used "
 "instead for the missing parts. This ensures that your translated "
@@ -64,11 +58,6 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:30
-#, fuzzy
-#| msgid ""
-#| "Automate all the translation maintenance with one configuration file that "
-#| "specifies all settings, and a list of documents to translate. po4a will "
-#| "update them automatically when something happens."
 msgid ""
 "po4a automatizes all the translation maintenance with one configuration file "
 "containing the settings and a list of documents to translate. po4a will "
@@ -199,31 +188,21 @@ msgstr "kernelhelp: довідкові повідомлення для усіх 
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:68
-#, fuzzy
-#| msgid "2022-01-02 - po4a 0.66 released"
 msgid "2023-01-01 - po4a 0.69 released"
-msgstr "2 січня 2022 року — випущено po4a 0.66"
+msgstr "1 січня 2023 року — випущено po4a 0.69"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:69
-#, fuzzy
-#| msgid ""
-#| "Greatly improve the gettextization process, and rewrite several "
-#| "documentation chapters.  Also, po4a-translate and po4a-updatepo are now "
-#| "deprecated: you should use po4a instead.  Finally, this release fixes "
-#| "some bugs in Markdown and Man modules.  (<a href=\"https://github.com/"
-#| "mquinson/po4a/releases/tag/v0.68\">more details</a>)."
 msgid ""
 "Greatly improve the handeling of placeholders in XML, and internal cleanups "
 "around Yaml by merging the two parsers that we had.  Also, this release "
 "fixes small bugs in Markdown and Man modules.  (<a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.69\">more details</a>)."
 msgstr ""
-"Значно удосконалено процедуру перетворення на формат gettext і переписано "
-"декілька глав документації. Також визнано застарілими po4a-translate і po4a-"
-"updatepo — замість них слід використовувати po4a. Нарешті, у цьому випуску "
-"виправлено декілька вад у модулях Markdown і Man.  (<a href=\"https://github."
-"com/mquinson/po4a/releases/tag/v0.68\">Докладно</a>)."
+"Значно удосконалено обробку замінників у XML та виконано чищення коду "
+"обробки YAML шляхом злиття двох наявних у нас обробників. Також у цьому "
+"випуску виправлено незначні вади у модулях Markdown і Man.  (<a href=\"https"
+"://github.com/mquinson/po4a/releases/tag/v0.69\">Докладно</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:74
