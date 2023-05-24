@@ -6,10 +6,10 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2023-01-01 02:12+0100\n"
-"PO-Revision-Date: 2023-04-23 16:47+0000\n"
+"PO-Revision-Date: 2023-05-24 15:47+0000\n"
 "Last-Translator: gemmaro <gemmaro.dev@gmail.com>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/po4a/po4a-"
-"website/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/po4a/"
+"po4a-website/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,10 +29,6 @@ msgstr "ドキュメントの翻訳を楽に保守しよう"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:19
-#, fuzzy
-#| msgid ""
-#| "po4a extracts the translatable material from the original document, and "
-#| "places it into a PO file that is well adapted to the translation work."
 msgid ""
 "The po4a (PO for anything) eases documentation translations and their "
 "maintenance. It extracts the translatable material from the original "
@@ -41,26 +37,22 @@ msgid ""
 "the translation into the structure of the original document to generate a "
 "translated document."
 msgstr ""
-"po4aは、元のドキュメントから翻訳できる素材を抽出し、翻訳作業に適したPOファイ"
-"ルを作成します。"
+"po4a (PO for anything) は文書の翻訳と維持管理を楽にします。元の文書から翻訳で"
+"きるデータを抽出し、翻訳の工程に組み込まれているPOファイルへと配置されます。"
+"このPOファイルが翻訳者によって更新されると、po4aは翻訳を元の文書の構造に再注"
+"入して翻訳された文書を生成します。"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:26
-#, fuzzy
-#| msgid ""
-#| "If the translation is only partially completed, the original (English) "
-#| "text is used instead. This ensures that your translated documentation is "
-#| "always both up to date with regard to the original one, and as translated "
-#| "as possible."
 msgid ""
 "If the translation is only partial, the original (English) text is used "
 "instead for the missing parts. This ensures that your translated "
 "documentation is always both up to date with regard to the original one, and "
 "as translated as possible."
 msgstr ""
-"翻訳が部分的にしか完了していない場合は、原文（英語）が代わりに使用されます。"
-"これにより、翻訳されたドキュメントは常に原文に対して常に最新の状態になり、可"
-"能な限り翻訳されていることが保証されます。"
+"翻訳がまだやりかけになっている場合は、欠けている部分には原文（英語）が代わり"
+"に使用されます。これにより、翻訳された文書は常に原文に対して常に最新の状態に"
+"なり、可能な限り翻訳されていることが保証されます。"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:30
