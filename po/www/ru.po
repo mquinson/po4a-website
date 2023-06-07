@@ -4,22 +4,23 @@
 # Andrei Stepanov <adem4ik@gmail.com>, 2020.
 # Golubev Alexander <fatzer2@gmail.com>, 2020, 2021.
 # Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2021.
+# Виталий Наумов <hbvit7zoom@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.36.6\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2023-01-01 02:12+0100\n"
-"PO-Revision-Date: 2021-11-16 20:52+0000\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/po4a/po4a-"
-"website/ru/>\n"
+"PO-Revision-Date: 2023-06-07 22:52+0000\n"
+"Last-Translator: Виталий Наумов <hbvit7zoom@gmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/po4a/"
+"po4a-website/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9.1-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.18-dev\n"
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -53,36 +54,26 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:26
-#, fuzzy
-#| msgid ""
-#| "If the translation is only partially completed, the original (English) "
-#| "text is used instead. This ensures that your translated documentation is "
-#| "always both up to date with regard to the original one, and as translated "
-#| "as possible."
 msgid ""
 "If the translation is only partial, the original (English) text is used "
 "instead for the missing parts. This ensures that your translated "
 "documentation is always both up to date with regard to the original one, and "
 "as translated as possible."
 msgstr ""
-"Если перевод завершён только частично, используется оригинальный "
-"(английский) текст. Таким образом, ваша переведённая документация всегда "
-"обновляется вместе с оригинальной документацией и полна насколько возможно."
+"Если перевод завершён только частично, вместо недостающей части используется "
+"оригинальный (английский) текст. Таким образом, ваша переведённая "
+"документация всегда обновляется вместе с оригинальной документацией и "
+"переведена насколько это возможно."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:30
-#, fuzzy
-#| msgid ""
-#| "Automate all the translation maintenance with one configuration file that "
-#| "specifies all settings, and a list of documents to translate. po4a will "
-#| "update them automatically when something happens."
 msgid ""
 "po4a automatizes all the translation maintenance with one configuration file "
 "containing the settings and a list of documents to translate. po4a will "
 "update them automatically when something happens."
 msgstr ""
-"Автоматизируйте поддержку перевода с помощью одного конфигурационного файла, "
-"содержащего все настройки и список документов для перевода. po4a "
+"po4a автоматизирует поддержку перевода с помощью одного конфигурационного "
+"файла, содержащего все настройки и список документов для перевода. po4a "
 "автоматически обновит их, когда что-то случится."
 
 #. type: Content of: <html><body><div><div><h2>
@@ -205,35 +196,26 @@ msgstr "kernelhelp: справочные сообщения для параме�
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:68
-#, fuzzy
-#| msgid "2021-02-02 - po4a 0.63 released"
 msgid "2023-01-01 - po4a 0.69 released"
-msgstr "2021-02-02 — выпуск po4a 0.63"
+msgstr "2023-01-01 — выпуск po4a 0.69"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:69
-#, fuzzy
-#| msgid ""
-#| "Fix a regression in 0.62 where the translation of po4a binaries were not "
-#| "installed. Plus other bugfixes and translation updates (<a href=\"https://"
-#| "github.com/mquinson/po4a/releases/tag/v0.63\">more details</a>)."
 msgid ""
 "Greatly improve the handeling of placeholders in XML, and internal cleanups "
 "around Yaml by merging the two parsers that we had.  Also, this release "
 "fixes small bugs in Markdown and Man modules.  (<a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.69\">more details</a>)."
 msgstr ""
-"Исправлена регрессия в 0.62 из-за которой бинарные файлы переводов po4a не "
-"устанавливались. Плюс другие исправления ошибок и обновления переводов (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.63\">подробности</"
-"a>)."
+"Значительно улучшили обработку шаблонов в XML и внутреннюю очистку в Yaml, "
+"объединив два имеющихся синтаксических анализатора. Кроме того, в этом "
+"выпуске исправлены небольшие ошибки в модулях Markdown и Man (<a href=\"https"
+"://github.com/mquinson/po4a/releases/tag/v0.69\">подробности</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:74
-#, fuzzy
-#| msgid "2021-02-02 - po4a 0.63 released"
 msgid "2022-09-04 - po4a 0.68 released"
-msgstr "2021-02-02 — выпуск po4a 0.63"
+msgstr "2022-09-04 — выпуск po4a 0.68"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:75
@@ -244,50 +226,44 @@ msgid ""
 "bugs in Markdown and Man modules.  (<a href=\"https://github.com/mquinson/"
 "po4a/releases/tag/v0.68\">more details</a>)."
 msgstr ""
+"Значительно улучшили процесс использовния gettext и переписали несколько "
+"глав документации.  Кроме того, использование po4a-translate и po4a-updatepo "
+"сейчас считается устаревшим: вместо них следует использоват po4a.  И, "
+"наконец, в этом релизе испралено несколько ошибок в модулях Markdown и Man.  "
+"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.68\""
+">подробности</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:80
-#, fuzzy
-#| msgid "2020-07-15 - po4a 0.60 released"
 msgid "2022-07-14 - po4a 0.67 released"
-msgstr "2020-07-15 — выпуск po4a 0.60"
+msgstr "2022-07-14 — выпуск po4a 0.67"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:81
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.64\">more details</a>)."
 msgid ""
 "Many bug fixes and improvement in AsciiDoc, Man, Mardown, xHTML and in core "
 "modules (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.67\">more details</a>)."
 msgstr ""
-"Исправления ошибок и обновление переводов (<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.64\">подробности</a>)."
+"Исправления ошибок и улучшения в модулях AsciiDoc, Man, Mardown, xHTML  и "
+"основных модулях (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0."
+"67\">подробности</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:84
-#, fuzzy
-#| msgid "2021-02-02 - po4a 0.63 released"
 msgid "2022-01-02 - po4a 0.66 released"
-msgstr "2021-02-02 — выпуск po4a 0.63"
+msgstr "2022-01-02 — выпуск po4a 0.66"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:85
-#, fuzzy
-#| msgid ""
-#| "Allow to group several translations per POT file in split mode (+bugfix "
-#| "and translation updates -- <a href=\"https://github.com/mquinson/po4a/"
-#| "releases/tag/v0.65\">more details</a>)."
 msgid ""
 "New option to select Yaml elements to translate; More robust Asciidoc table "
 "handling (+bugfixes and translation updates -- <a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.66\">more details</a>)."
 msgstr ""
-"Возможность группировать несколько переводов в один POT-файл в раздельном "
-"режиме (+ исправления ошибок и обновление переводов — <a href=\"https://"
-"github.com/mquinson/po4a/releases/tag/v0.65\">подробности</a>)."
+"Новый параметр для выбора элементов Yaml для перевода; Более надежная "
+"обработка таблиц Asciidoc <a href=\"https://github.com/mquinson/po4a/"
+"releases/tag/v0.66\">подробности</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:87
