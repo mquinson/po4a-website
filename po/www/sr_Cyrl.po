@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the po4a package.
-# eevan78 <ivan.pesic@gmail.com>, 2020, 2021, 2022.
+# eevan78 <ivan.pesic@gmail.com>, 2020, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.56\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2023-01-01 02:12+0100\n"
-"PO-Revision-Date: 2022-09-06 05:17+0000\n"
+"PO-Revision-Date: 2023-06-13 08:53+0000\n"
 "Last-Translator: eevan78 <ivan.pesic@gmail.com>\n"
 "Language-Team: Serbian (cyrillic) <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/sr_Cyrl/>\n"
@@ -15,9 +15,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14.1-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -31,10 +31,6 @@ msgstr "Једноставно одржавајте преводе ваше до
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:19
-#, fuzzy
-#| msgid ""
-#| "po4a extracts the translatable material from the original document, and "
-#| "places it into a PO file that is well adapted to the translation work."
 msgid ""
 "The po4a (PO for anything) eases documentation translations and their "
 "maintenance. It extracts the translatable material from the original "
@@ -43,43 +39,36 @@ msgid ""
 "the translation into the structure of the original document to generate a "
 "translated document."
 msgstr ""
-"po4a из оригиналног документа издваја материјал за превођење, и смешта га у "
-"PO фајл који је добро прилагођен изради превода."
+"Програм po4a (PO for anything) олакшава превођење документације и одржавање "
+"превода. Он из оригиналног документа издваја материјал за превођење, и "
+"смешта га у PO фајл који је добро прилагођен изради превода. Онда када "
+"преводилац ажурира овај PO, po4a поново умеће превод у структуру оригиналног "
+"документа и тако генерише преведени документ."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:26
-#, fuzzy
-#| msgid ""
-#| "If the translation is only partially completed, the original (English) "
-#| "text is used instead. This ensures that your translated documentation is "
-#| "always both up to date with regard to the original one, and as translated "
-#| "as possible."
 msgid ""
 "If the translation is only partial, the original (English) text is used "
 "instead for the missing parts. This ensures that your translated "
 "documentation is always both up to date with regard to the original one, and "
 "as translated as possible."
 msgstr ""
-"У случају да је превод завршен само делимично, уместо превода ће да се "
-"употреби оригинални (обично енглески) текст. На овај начин је обезбеђено да "
-"је ваша преведена документација уједно и ажурна у односу на оригиналну, и да "
-"је преведена у што је могуће већој мери."
+"У случају да је превод завршен само делимично, уместо недостајућег текста ће "
+"да се употреби оригинални (обично енглески) текст. На овај начин је "
+"обезбеђено да је ваша преведена документација уједно и ажурна у односу на "
+"оригиналну, и да је преведена у што је могуће већој мери."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:30
-#, fuzzy
-#| msgid ""
-#| "Automate all the translation maintenance with one configuration file that "
-#| "specifies all settings, and a list of documents to translate. po4a will "
-#| "update them automatically when something happens."
 msgid ""
 "po4a automatizes all the translation maintenance with one configuration file "
 "containing the settings and a list of documents to translate. po4a will "
 "update them automatically when something happens."
 msgstr ""
-"Аутоматизујте превод само једним конфигурационим фајлом који наводи сва "
-"подешавања и листу докумената који треба да се преведу. Програм po4a ће "
-"аутоматски да их ажурира када се нешто промени."
+"Програм po4a аутоматизује комплетно одржавање превода само једним "
+"конфигурационим фајлом у којем се налазе сва подешавања и листа докумената "
+"који треба да се преведу. po4a ће аутоматски да их ажурира онда када се "
+"нешто промени."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:36
@@ -201,31 +190,21 @@ msgstr "kernelhelp: Поруке помоћи за сваку од опција 
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:68
-#, fuzzy
-#| msgid "2022-01-02 - po4a 0.66 released"
 msgid "2023-01-01 - po4a 0.69 released"
-msgstr "2022-01-02 - објављен је po4a 0.66"
+msgstr "2023-01-01 - објављен је po4a 0.69"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:69
-#, fuzzy
-#| msgid ""
-#| "Greatly improve the gettextization process, and rewrite several "
-#| "documentation chapters.  Also, po4a-translate and po4a-updatepo are now "
-#| "deprecated: you should use po4a instead.  Finally, this release fixes "
-#| "some bugs in Markdown and Man modules.  (<a href=\"https://github.com/"
-#| "mquinson/po4a/releases/tag/v0.68\">more details</a>)."
 msgid ""
 "Greatly improve the handeling of placeholders in XML, and internal cleanups "
 "around Yaml by merging the two parsers that we had.  Also, this release "
 "fixes small bugs in Markdown and Man modules.  (<a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.69\">more details</a>)."
 msgstr ""
-"Значајно унапређен процес gettextизације и уређено неколико поглавља "
-"документације. Такође, сада су po4a-translate и po4a-updatepo застарели: "
-"уместо њих би требало да користите po4a. Коначно, ово издање исправља "
-"неколико багова у Markdown и Man модулима. (<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.68\">више детаља</a>)."
+"Значајно унапређена обрада чувара места у XML, интерна чишћења око Yaml "
+"спајањем два парсера која смо имали. Такође, ово издање исправља мале багове "
+"у Markdown и Man модулима. (<a href=\"https://github.com/mquinson/po4a/"
+"releases/tag/v0.69\">више детаља</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:74
