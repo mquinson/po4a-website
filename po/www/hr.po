@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.56\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2023-01-01 02:12+0100\n"
-"PO-Revision-Date: 2023-07-30 23:06+0000\n"
+"PO-Revision-Date: 2023-08-12 17:49+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/hr/>\n"
@@ -67,19 +67,14 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:30
-#, fuzzy
-#| msgid ""
-#| "Automate all the translation maintenance with one configuration file that "
-#| "specifies all settings, and a list of documents to translate. po4a will "
-#| "update them automatically when something happens."
 msgid ""
 "po4a automatizes all the translation maintenance with one configuration file "
 "containing the settings and a list of documents to translate. po4a will "
 "update them automatically when something happens."
 msgstr ""
-"Automatiziraj održavanje prijevoda s konfiguracijskom datotekom za "
-"određivanje svih postavki i popisom dokumenata za prevođenje. po4a će ih "
-"automatski aktualizirati kad se nešto promijeni."
+"po4a utomatizira održavanje svih prijevoda s konfiguracijskom datotekom koja "
+"sadržava postavke i popis dokumenata za prevođenje. po4a će ih automatski "
+"aktualizirati kad se nešto promijeni."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:36
