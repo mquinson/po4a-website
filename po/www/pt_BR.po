@@ -4,13 +4,13 @@
 # Translator: Rafael Ferreira <rafael.f.f1@gmail.com>, 2013, 2014.
 # Rafael Fontenelle <rafaelff@gnome.org>, 2020, 2021, 2022.
 # Martin Quinson <martin.quinson@ens-rennes.fr>, 2020.
-# Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2022.
+# Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.45\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2023-01-01 02:12+0100\n"
-"PO-Revision-Date: 2022-12-08 15:22+0000\n"
+"PO-Revision-Date: 2023-10-20 04:21+0000\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/pt_BR/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 5.1\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -50,37 +50,26 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:26
-#, fuzzy
-#| msgid ""
-#| "If the translation is only partially completed, the original (English) "
-#| "text is used instead. This ensures that your translated documentation is "
-#| "always both up to date with regard to the original one, and as translated "
-#| "as possible."
 msgid ""
 "If the translation is only partial, the original (English) text is used "
 "instead for the missing parts. This ensures that your translated "
 "documentation is always both up to date with regard to the original one, and "
 "as translated as possible."
 msgstr ""
-"Se a tradução estiver apenas parcialmente concluída, o texto original "
-"(inglês) é usado. Isto garante que sua documentação traduzida esteja sempre "
-"atualizada com relação ao original e a mais traduzida possível."
+"Se a tradução estiver apenas parcial, o texto original (inglês) é usado para "
+"as partes faltantes. Isto garante que sua documentação traduzida esteja "
+"sempre atualizada com relação ao original e a mais traduzida possível."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:30
-#, fuzzy
-#| msgid ""
-#| "Automate all the translation maintenance with one configuration file that "
-#| "specifies all settings, and a list of documents to translate. po4a will "
-#| "update them automatically when something happens."
 msgid ""
 "po4a automatizes all the translation maintenance with one configuration file "
 "containing the settings and a list of documents to translate. po4a will "
 "update them automatically when something happens."
 msgstr ""
-"Automatize toda a manutenção de tradução com um arquivo de configuração que "
-"especifica todas as configurações e uma lista de documentos para traduzir. "
-"po4a vai atualizá-los automaticamente quando algo acontecer."
+"O po4a automatiza toda a manutenção de tradução com um arquivo de "
+"configuração que contém as configurações e uma lista de documentos para "
+"traduzir. po4a vai atualizá-los automaticamente quando algo acontecer."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:36
@@ -202,10 +191,8 @@ msgstr "kernelhelp: Mensagens de ajuda de cada opção de compilação de kernel
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:68
-#, fuzzy
-#| msgid "2022-01-02 - po4a 0.66 released"
 msgid "2023-01-01 - po4a 0.69 released"
-msgstr "02-01-2022 - Lançamento do po4a 0.66"
+msgstr "01-01-2023 - Lançamento do po4a 0.69"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:69
