@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: po4a\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2023-01-01 02:12+0100\n"
-"PO-Revision-Date: 2024-01-15 04:06+0000\n"
+"PO-Revision-Date: 2024-01-17 04:06+0000\n"
 "Last-Translator: brandelune <jean.christophe.helary@traduction-libre.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "fr/>\n"
@@ -46,9 +46,9 @@ msgid ""
 "translated document."
 msgstr ""
 "po4a (PO for anything = PO pour tout) facilite la traduction de documents et "
-"son entretien. po4a extrait le contenu à traduire du document original et le "
-"place dans un fichier au format PO adapté au travail de traduction. Une fois "
-"ce fichier PO traduit, po4a injecte la traduction dans la structure du "
+"sa maintenance. po4a extrait le contenu à traduire du document original et "
+"le place dans un fichier au format PO adapté au travail de traduction. Une "
+"fois ce fichier PO traduit, po4a injecte la traduction dans la structure du "
 "document original pour générer le document traduit."
 
 #. type: Content of: <html><body><div><div><p>
@@ -71,10 +71,10 @@ msgid ""
 "containing the settings and a list of documents to translate. po4a will "
 "update them automatically when something happens."
 msgstr ""
-"po4a automatise tout l’entretien des traductions à l'aide d'un fichier de "
-"configuration qui contient les paramètres ainsi que la liste des documents à "
-"traduire. po4a mettra automatiquement ces derniers à jour en cas de "
-"modification."
+"po4a automatise toute la maintenance des traductions à l'aide d'un fichier "
+"de configuration qui contient les paramètres ainsi que la liste des "
+"documents à traduire. po4a mettra automatiquement ces derniers à jour en cas "
+"de modification."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:36
@@ -209,8 +209,9 @@ msgstr ""
 "Amélioration considérable de la prise en charge des substituants en XML "
 "ainsi que nettoyage interne autour de Yaml en fusionnant les deux parseurs "
 "qui étaient utilisés. Cette version corrige de petites bogues dans les "
-"modules Markdown et Man. Pour plus de détails, voir (<a href=\"https://github"
-".com/mquinson/po4a/releases/tag/v0.69\">ce document</a>)."
+"modules Markdown et Man. Pour en savoir plus, consultez le <a href=\"https"
+"://github.com/mquinson/po4a/releases/tag/v0.69\">rapport de version</a> (en "
+"anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:74
@@ -226,12 +227,13 @@ msgid ""
 "bugs in Markdown and Man modules.  (<a href=\"https://github.com/mquinson/"
 "po4a/releases/tag/v0.68\">more details</a>)."
 msgstr ""
-"Le processus de gettextization est grandement amélioré par cette version, et "
+"Le processus de gettextisation est grandement amélioré par cette version, et "
 "plusieurs chapitres de la documentation ont été réécrits. De plus, les "
-"scripts po4a-translate et po4a-updatepo sont maintenant obsolètes. Veuillez "
-"utiliser po4a à la place. Enfin, cette version corrige plusieurs bugs dans "
-"les modules Markdown et Man (<a href=\"https://github.com/mquinson/po4a/"
-"releases/tag/v0.68\">plus de  détails</a>)."
+"scripts po4a-translate et po4a-updatepo sont maintenant obsolètes. Il est "
+"préférable d’utiliser po4a à la place. Enfin, cette version corrige "
+"plusieurs bogues dans les modules Markdown et Man. Pour en savoir plus, "
+"consultez le <a href=\"https://github.com/mquinson/po4a/releases/tag/v0.68\""
+">rapport de version</a> (en anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:80
@@ -245,9 +247,10 @@ msgid ""
 "modules (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.67\">more details</a>)."
 msgstr ""
-"Nombreuses corrections de bugs et améliorations dans AsciiDoc, Man, Mardown, "
-"xHTML et dans les modules du coeur (<a href=\"https://github.com/mquinson/"
-"po4a/releases/tag/v0.67\">plus d’informations</a> -- en anglais)."
+"Nombreuses corrections de bogues et améliorations dans AsciiDoc, Man, "
+"Mardown, xHTML et dans les modules du coeur. Pour en savoir plus, consultez "
+"le <a href=\"https://github.com/mquinson/po4a/releases/tag/v0.67\">rapport "
+"de version</a> (en anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:84
@@ -261,10 +264,10 @@ msgid ""
 "handling (+bugfixes and translation updates -- <a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.66\">more details</a>)."
 msgstr ""
-"Nouvelle option pour choisir les éléments Yaml à traduire ; gestion de table "
-"Asciidoc plus robuste (+ corrections de bugs et mises à jour des traductions "
-"-- <a href=\"https://github.com/mquinson/po4a/releases/tag/v0.66\">plus "
-"d’informations</a> -- en anglais)."
+"Nouvelle option pour choisir les éléments Yaml à traduire ; gestion de table "
+"Asciidoc plus robuste, corrections de bogues et mises à jour des "
+"traductions. Pour en savoir plus, consultez le <a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.66\">rapport de version</a> (en anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:87
@@ -278,10 +281,10 @@ msgid ""
 "translation updates -- <a href=\"https://github.com/mquinson/po4a/releases/"
 "tag/v0.65\">more details</a>)."
 msgstr ""
-"Possibilité de grouper des fichiers dans le même POT file, en mode "
-"'split' (+ corrections de bugs et mises à jour des traductions -- <a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.65\">plus d’informations</"
-"a> -- en anglais)."
+"Possibilité de grouper des fichiers dans le même POT file, en mode 'split', "
+"corrections de bogues et mises à jour des traductions. Pour en savoir plus, "
+"consultez le <a href=\"https://github.com/mquinson/po4a/releases/tag/v0.65\""
+">rapport de version</a> (en anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:90
@@ -294,9 +297,9 @@ msgid ""
 "Bugfix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.64\">more details</a>)."
 msgstr ""
-"Corrections de bugs et mises à jour des traductions (<a href=\"https://"
-"github.com/mquinson/po4a/releases/tag/v0.64\">plus d’informations</a> -- en "
-"anglais)."
+"Corrections de bogues et mises à jour des traductions. Pour en savoir plus, "
+"consultez le <a href=\"https://github.com/mquinson/po4a/releases/tag/v0.64\""
+">rapport de version</a> (en anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:93
@@ -311,9 +314,9 @@ msgid ""
 "github.com/mquinson/po4a/releases/tag/v0.63\">more details</a>)."
 msgstr ""
 "Correction d'une régression en 0.62 où la traduction des binaires po4a "
-"n'était pas installée. Plus d'autres corrections de bogues et mises à jour "
-"de traduction (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-"v0.63\"> pour plus de détails </a>). -- en anglais)."
+"n'était pas installée. Pour en savoir plus, consultez le <a href=\"https"
+"://github.com/mquinson/po4a/releases/tag/v0.63\">rapport de version</a> (en "
+"anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:96
@@ -327,10 +330,9 @@ msgid ""
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.62\">more details</a>)."
 msgstr ""
-"«Unwrap» asciidoc pour éviter les problèmes de reformatage et autres "
-"corrections de bogues, ainsi que les mises à jour de traduction (<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.62\"> pour plus de "
-"détails </a>). -- en anglais)."
+"«Unwrap» asciidoc pour éviter les problèmes de reformatage. Pour en savoir "
+"plus, consultez le <a href=\"https://github.com/mquinson/po4a/releases/tag/v0"
+".62\">rapport de version</a> (en anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:99
@@ -344,10 +346,9 @@ msgid ""
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.61\">more details</a>)."
 msgstr ""
-"Plus de correction de bogues (encore une fois pour ne pas casser les paquets "
-"Debian dépendant de po4a), et des mises à jour de traduction (<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.61\"> pour plus de "
-"détails </a>). -- en anglais)."
+"Correction de bogues, encore pour ne pas casser les paquets Debian qui "
+"dépendent de po4a. Pour en savoir plus, consultez le <a href=\"https://github"
+".com/mquinson/po4a/releases/tag/v0.61\">rapport de version</a> (en anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:102
@@ -360,9 +361,9 @@ msgid ""
 "Bugfix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.60\">more details</a>)."
 msgstr ""
-"Corrections de bugs et mises à jour des traductions (<a href=\"https://"
-"github.com/mquinson/po4a/releases/tag/v0.60\">plus d’informations</a> -- en "
-"anglais)."
+"Corrections de bogues et mises à jour des traductions. Pour en savoir plus, "
+"consultez le <a href=\"https://github.com/mquinson/po4a/releases/tag/v0.60\""
+">rapport de version</a> (en anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:105
@@ -376,9 +377,10 @@ msgid ""
 "least).  <a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.59\">More details</a>."
 msgstr ""
-"Corrections de bugs pour ne pas casser la construction de plusieurs paquets "
-"Debian (entre autres). <a href=\"https://github.com/mquinson/po4a/releases/"
-"tag/v0.59\">Plus d’informations</a> -- en anglais."
+"Corrections de bogues pour ne pas casser la construction de plusieurs "
+"paquets Debian (entre autres). Pour en savoir plus, consultez le <a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.59\">rapport de version</"
+"a> (en anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:109
@@ -408,8 +410,8 @@ msgid ""
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">more "
 "details</a>)."
 msgstr ""
-"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">plus "
-"d’informations</a> -- en anglais)."
+"Pour en savoir plus, consultez le <a href=\"https://github.com/mquinson/po4a/"
+"releases/tag/v0.58\">rapport de version</a> (en anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:116
@@ -422,8 +424,9 @@ msgid ""
 "Translation update and one bugfix in AsciiDoc.  (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
 msgstr ""
-"Mise à jour des traductions et correction de bug dans AsciiDoc (<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.56\">plus de détails</a>)."
+"Mise à jour des traductions et correction de bogues dans AsciiDoc. Pour en "
+"savoir plus, consultez le <a href=\"https://github.com/mquinson/po4a/"
+"releases/tag/v0.56\">rapport de version</a> (en anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:120
@@ -436,9 +439,9 @@ msgid ""
 "New features and bugfixes, mostly to the AsciiDoc parser (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
 msgstr ""
-"Nouvelles fonctionnalités et corrections de bogues, surtout dans l'analyser "
-"AsciiDoc (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-"v0.56\">plus de détails</a>)."
+"Nouvelles fonctionnalités et corrections de bogues, surtout dans l'analyseur "
+"AsciiDoc. Pour en savoir plus, consultez le <a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.56\">rapport de version</a> (en anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:124
@@ -453,8 +456,9 @@ msgid ""
 "details</a>)."
 msgstr ""
 "Nouvelles fonctionnalités et corrections de bogues pour les analyseurs "
-"individuels et les parties communes (<a href=\"https://github.com/mquinson/"
-"po4a/releases/tag/v0.55\">plus de détails</a>)."
+"individuels et les parties communes. Pour en savoir plus, consultez le <a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">rapport de "
+"version</a> (en anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:128
@@ -467,9 +471,9 @@ msgid ""
 "We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
 msgstr ""
-"Nous avons corrigé une tonne de bugs et autres problèmes (<a href=\"https://"
-"github.com/mquinson/po4a/releases/tag/v0.54\">plus d’informations</a> -- en "
-"anglais)."
+"Nous avons corrigé une tonne de bogues et autres problèmes. Pour en savoir "
+"plus, consultez le <a href=\"https://github.com/mquinson/po4a/releases/tag/v0"
+".54\">rapport de version</a> (en anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:132
@@ -484,8 +488,9 @@ msgid ""
 "v0.53\">more details</a>)."
 msgstr ""
 "Les changements les plus visibles sont un nouveau module pour YAML, et le "
-"fait que le serveur Alioth n'existe plus (<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.53\">plus d’informations</a> -- en anglais)."
+"fait que le serveur Alioth n'existe plus. Pour en savoir plus, consultez le "
+"<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.53\">rapport de "
+"version</a> (en anglais)."
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
@@ -519,7 +524,7 @@ msgid ""
 "For more details, the <a href=\"man/\">index</a> provides the documentation "
 "of the various commands and modules."
 msgstr ""
-"Pour plus de détails, consultez l’<a href=\"man/\">index</a> qui fournit la "
+"Pour en savoir plus, consultez l’<a href=\"man/\">index</a> qui fournit la "
 "documentation des commandes et modules de po4a."
 
 #. type: Content of: <html><body><div><div><h2>
