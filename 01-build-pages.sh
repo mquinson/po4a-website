@@ -225,10 +225,10 @@ get_language() {
 		uk)
 			echo -n "український"
 			;;
-		zh_CN)
+		zh_Hans)
 			echo -n "简体中文"
 			;;
-		zh_CHS)
+		zh_CN)
 			echo -n "简体中文"
 			;;
 		zh_Hant)
