@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: po4a\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2023-01-01 02:12+0100\n"
-"PO-Revision-Date: 2024-01-17 04:06+0000\n"
+"PO-Revision-Date: 2024-01-29 23:29+0000\n"
 "Last-Translator: brandelune <jean.christophe.helary@traduction-libre.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "fr/>\n"
@@ -109,7 +109,7 @@ msgstr "xml : documents XML génériques"
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:44
 msgid "docbook: DocBook XML"
-msgstr "docbook : variante DocBook du XML"
+msgstr "docbook : variante XML de DocBook"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:45
@@ -136,7 +136,9 @@ msgstr "wml : WML documents"
 msgid ""
 "sgml: the standard generalized markup language (SGML) is for either "
 "DebianDoc or DocBook DTD"
-msgstr "sgml : variantes du SGML pour les DTD DebianDoc et DocBook"
+msgstr ""
+"sgml : variantes SGML (standard generalized markup language) pour les DTD "
+"DebianDoc et DocBook"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:52
@@ -191,7 +193,7 @@ msgstr "ini : format INI"
 #: src/index.php.en:64
 msgid "kernelhelp: Help messages of each kernel compilation option"
 msgstr ""
-"kernelhel : messages d'aide associés à chaque option de compilation du noyau"
+"kernelhelp : messages d'aide associés à chaque option de compilation du noyau"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:68
