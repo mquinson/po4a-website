@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.55\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2023-01-01 02:12+0100\n"
+"POT-Creation-Date: 2024-01-29 01:28+0100\n"
 "PO-Revision-Date: 2021-10-28 23:07+0000\n"
 "Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/po4a/po4a-"
@@ -204,11 +204,30 @@ msgstr "kernelhelp: az egyes kernelfordítási kapcsolók súgóüzenetei"
 #: src/index.php.en:68
 #, fuzzy
 #| msgid "2021-02-02 - po4a 0.63 released"
-msgid "2023-01-01 - po4a 0.69 released"
+msgid "2024-01-29 - po4a 0.70 released"
 msgstr "2021-02-02 – megjelent a po4a 0.63"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:69
+msgid ""
+"Major internal overhaul to use PerlIO instead of messing up manually with "
+"encodings.  Also, this release fixes many bugs in AsciiDoc, Tex, Markdown, "
+"Yaml, TexInfo and in the common parts.  Finally, this version contains "
+"several documentation improvements, in particular in <a href=\"https://po4a."
+"org/man/man7/po4a.7.php\">po4a(7)</a>, which now better introduces the "
+"internals to potential contributors.  (<a href=\"https://github.com/mquinson/"
+"po4a/releases/tag/v0.70\">more details</a>)."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:75
+#, fuzzy
+#| msgid "2021-02-02 - po4a 0.63 released"
+msgid "2023-01-01 - po4a 0.69 released"
+msgstr "2021-02-02 – megjelent a po4a 0.63"
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:76
 #, fuzzy
 #| msgid ""
 #| "Fix a regression in 0.62 where the translation of po4a binaries were not "
@@ -221,19 +240,19 @@ msgid ""
 "mquinson/po4a/releases/tag/v0.69\">more details</a>)."
 msgstr ""
 "Egy regresszió javítása a 0.62-ben, ahol a po4a binárisok fordítása nem lett "
-"telepítve. Ezenkívül egyéb hibajavítások és fordításfrissítések (<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.63\">további részletek</"
-"a>)."
+"telepítve. Ezenkívül egyéb hibajavítások és fordításfrissítések (<a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.63\">további "
+"részletek</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:74
+#: src/index.php.en:81
 #, fuzzy
 #| msgid "2021-02-02 - po4a 0.63 released"
 msgid "2022-09-04 - po4a 0.68 released"
 msgstr "2021-02-02 – megjelent a po4a 0.63"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:75
+#: src/index.php.en:82
 msgid ""
 "Greatly improve the gettextization process, and rewrite several "
 "documentation chapters.  Also, po4a-translate and po4a-updatepo are now "
@@ -243,14 +262,14 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:80
+#: src/index.php.en:87
 #, fuzzy
 #| msgid "2020-07-15 - po4a 0.60 released"
 msgid "2022-07-14 - po4a 0.67 released"
 msgstr "2020-07-15 – megjelent a po4a 0.60"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:81
+#: src/index.php.en:88
 #, fuzzy
 #| msgid ""
 #| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
@@ -264,14 +283,14 @@ msgstr ""
 "po4a/releases/tag/v0.64\">további részletek</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:84
+#: src/index.php.en:91
 #, fuzzy
 #| msgid "2021-02-02 - po4a 0.63 released"
 msgid "2022-01-02 - po4a 0.66 released"
 msgstr "2021-02-02 – megjelent a po4a 0.63"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:85
+#: src/index.php.en:92
 #, fuzzy
 #| msgid ""
 #| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
@@ -285,14 +304,14 @@ msgstr ""
 "po4a/releases/tag/v0.64\">további részletek</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:87
+#: src/index.php.en:94
 #, fuzzy
 #| msgid "2021-09-12 - po4a 0.64 released"
 msgid "2021-11-14 - po4a 0.65 released"
 msgstr "2021-09-12 – megjelent a po4a 0.64"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:88
+#: src/index.php.en:95
 #, fuzzy
 #| msgid ""
 #| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
@@ -306,12 +325,12 @@ msgstr ""
 "po4a/releases/tag/v0.64\">további részletek</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:90
+#: src/index.php.en:97
 msgid "2021-09-12 - po4a 0.64 released"
 msgstr "2021-09-12 – megjelent a po4a 0.64"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:91
+#: src/index.php.en:98
 msgid ""
 "Bugfix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.64\">more details</a>)."
@@ -320,29 +339,29 @@ msgstr ""
 "po4a/releases/tag/v0.64\">további részletek</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:93
+#: src/index.php.en:100
 msgid "2021-02-02 - po4a 0.63 released"
 msgstr "2021-02-02 – megjelent a po4a 0.63"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:94
+#: src/index.php.en:101
 msgid ""
 "Fix a regression in 0.62 where the translation of po4a binaries were not "
 "installed. Plus other bugfixes and translation updates (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.63\">more details</a>)."
 msgstr ""
 "Egy regresszió javítása a 0.62-ben, ahol a po4a binárisok fordítása nem lett "
-"telepítve. Ezenkívül egyéb hibajavítások és fordításfrissítések (<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.63\">további részletek</"
-"a>)."
+"telepítve. Ezenkívül egyéb hibajavítások és fordításfrissítések (<a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.63\">további "
+"részletek</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:96
+#: src/index.php.en:103
 msgid "2020-12-07 - po4a 0.62 released"
 msgstr "2020-12-07 – megjelent a po4a 0.62"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:97
+#: src/index.php.en:104
 msgid ""
 "Unwrap asciidoc to avoid reformating issues and other bugfixes, plus "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
@@ -354,12 +373,12 @@ msgstr ""
 "részletek</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:99
+#: src/index.php.en:106
 msgid "2020-08-05 - po4a 0.61 released"
 msgstr "2020-08-05 – megjelent a po4a 0.61"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:100
+#: src/index.php.en:107
 msgid ""
 "More bugfix (again to not break Debian packages depending on po4a), and "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
@@ -370,12 +389,12 @@ msgstr ""
 "tag/v0.61\">további részletek</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:102
+#: src/index.php.en:109
 msgid "2020-07-15 - po4a 0.60 released"
 msgstr "2020-07-15 – megjelent a po4a 0.60"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:103
+#: src/index.php.en:110
 msgid ""
 "Bugfix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.60\">more details</a>)."
@@ -384,12 +403,12 @@ msgstr ""
 "po4a/releases/tag/v0.60\">további részletek</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:105
+#: src/index.php.en:112
 msgid "2020-05-20 - po4a 0.59 released"
 msgstr "2020-05-20 – megjelent a po4a 0.59"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:106
+#: src/index.php.en:113
 msgid ""
 "Bugfix release to not break the build of several Debian packages (at "
 "least).  <a href=\"https://github.com/mquinson/po4a/releases/tag/"
@@ -400,28 +419,28 @@ msgstr ""
 "v0.59\">További részletek</a>."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:109
+#: src/index.php.en:116
 msgid "2020-05-04 - po4a 0.58 released"
 msgstr "2020-05-04 – megjelent a po4a 0.58"
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:111
+#: src/index.php.en:118
 msgid "Rewrite all tests to make them more robust and less permissive."
 msgstr ""
 "Az összes teszt újraírása, hogy robusztusabbak és kevésbé elnézőek legyenek."
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:112
+#: src/index.php.en:119
 msgid "Fix many issues reported against the parsers."
 msgstr "A feldolgozókkal kapcsolatban jelentett több hiba javítása."
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:113
+#: src/index.php.en:120
 msgid "Rewrite the documentation for sake of clarity and brevity."
 msgstr "A dokumentáció újraírása az egyértelműség és a tömörség érdekében."
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:114
+#: src/index.php.en:121
 msgid ""
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">more "
 "details</a>)."
@@ -430,42 +449,42 @@ msgstr ""
 "részletek</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:116
+#: src/index.php.en:123
 msgid "2019-10-25 - po4a 0.57 released"
 msgstr "2019-10-25 – megjelent a po4a 0.57"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:117
+#: src/index.php.en:124
 msgid ""
 "Translation update and one bugfix in AsciiDoc.  (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
 msgstr ""
-"Fordításfrissítés és egy hibajavítás az AsciiDoc feldolgozóban (<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.57\">további részletek</"
-"a>)."
+"Fordításfrissítés és egy hibajavítás az AsciiDoc feldolgozóban (<a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.57\">további "
+"részletek</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:120
+#: src/index.php.en:127
 msgid "2019-06-06 - po4a 0.56 released"
 msgstr "2019-06-06 – megjelent a po4a 0.56"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:121
+#: src/index.php.en:128
 msgid ""
 "New features and bugfixes, mostly to the AsciiDoc parser (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
 msgstr ""
-"Új funkciók és hibajavítások, főleg az AsciiDoc feldolgozóban (<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.56\">további részletek</"
-"a>)."
+"Új funkciók és hibajavítások, főleg az AsciiDoc feldolgozóban (<a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">további "
+"részletek</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:124
+#: src/index.php.en:131
 msgid "2018-12-09 - po4a 0.55 released"
 msgstr "2018-12-09 – megjelent a po4a 0.55"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:125
+#: src/index.php.en:132
 msgid ""
 "New features and bugfixes to both the individual parsers and common parts "
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
@@ -476,12 +495,12 @@ msgstr ""
 "v0.55\">további részletek</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:128
+#: src/index.php.en:135
 msgid "2018-06-30 - po4a 0.54 released"
 msgstr "2018-06-30 – megjelent a po4a 0.54"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:129
+#: src/index.php.en:136
 msgid ""
 "We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
@@ -491,12 +510,12 @@ msgstr ""
 "v0.54\">további részletek</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:132
+#: src/index.php.en:139
 msgid "2018-05-25 - po4a 0.53 released"
 msgstr "2018-05-25 – megjelent a po4a 0.53"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:133
+#: src/index.php.en:140
 msgid ""
 "The most visible change is a new YAML module, and the fact that Alioth was "
 "turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
@@ -511,8 +530,8 @@ msgstr ""
 msgid "po4a - Documentation"
 msgstr "po4a – Dokumentáció"
 
-#. type: Content of: <div><a>
-#: src/documentation.php.en:18 src/header.php.en:9
+#. type: Content of: <html><body><div><div><h2>
+#: src/documentation.php.en:18
 msgid "Documentation"
 msgstr "Dokumentáció"
 
@@ -556,8 +575,8 @@ msgid ""
 msgstr ""
 "Segíthetünk Önnek a fordítási keretrendszer létrehozásában a saját "
 "projektjének dokumentációjához, illetve a po4a alkalmazásában a saját "
-"igényeinek megfelelően. Ne habozzon kapcsolatba lépni velünk a <a href="
-"\"mailto:devel@lists.po4a.org\">levelezőlistán</a> vagy IRC-n (#po4a "
+"igényeinek megfelelően. Ne habozzon kapcsolatba lépni velünk a <a "
+"href=\"mailto:devel@lists.po4a.org\">levelezőlistán</a> vagy IRC-n (#po4a "
 "csatorna az OFTC-n)."
 
 #. type: Content of: <html><head><title>
@@ -606,8 +625,8 @@ msgid ""
 "The latest sources are available from our <a href=\"https://github.com/"
 "mquinson/po4a\">Git repository</a>."
 msgstr ""
-"A legújabb források elérhetők a <a href=\"https://github.com/mquinson/po4a"
-"\">Git tárolónkból</a>."
+"A legújabb források elérhetők a <a href=\"https://github.com/mquinson/"
+"po4a\">Git tárolónkból</a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:34
@@ -654,9 +673,9 @@ msgstr "IRC-n (#po4a csatorna OFTC-n)."
 #: src/getinvolved.php.en:23
 msgid ""
 "Bug reports, patches, feature requests or any feedback are welcome on the "
-"mailing list, in the <a href=\"https://github.com/mquinson/po4a/issues"
-"\">GitHub tracker</a> or in the <a href=\"http://bugs.debian.org/cgi-bin/"
-"pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>."
+"mailing list, in the <a href=\"https://github.com/mquinson/po4a/"
+"issues\">GitHub tracker</a> or in the <a href=\"http://bugs.debian.org/cgi-"
+"bin/pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a>."
 msgstr ""
 "Hibajelentéseket, javításokat, funkciókéréseket vagy visszajelzéseket "
 "örömmel fogaduk a levelezőlistán, a <a href=\"https://github.com/mquinson/"
@@ -666,9 +685,9 @@ msgstr ""
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:27
 msgid ""
-"If you can improve the code yourself, pull requests against the <a href="
-"\"https://github.com/mquinson/po4a\">GitHub repository</a> are more than "
-"welcomed."
+"If you can improve the code yourself, pull requests against the <a "
+"href=\"https://github.com/mquinson/po4a\">GitHub repository</a> are more "
+"than welcomed."
 msgstr ""
 "Saját maga is javíthatja a kódot, a <a href=\"https://github.com/mquinson/"
 "po4a\">GitHub tárolóba</a> történő beolvasztási kérések küldését nagyra "
@@ -702,9 +721,9 @@ msgstr "Futtatókörnyezet fordításai"
 msgid "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
 msgstr "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
 
-#. type: Content of: <html><body><div><div><div>
+#. type: Content of: <div>
 #: src/getinvolved.php.en:44 src/getinvolved.php.en:51
-#: src/getinvolved.php.en:56
+#: src/getinvolved.php.en:56 src/header.php.en:11
 msgid "</a>"
 msgstr "</a>"
 
@@ -747,8 +766,8 @@ msgstr "</sup>"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:8
-msgid "Welcome"
-msgstr "Üdvözöljük"
+msgid "<a href=\"<?= $topdir ?>.\" title=\"Welcome\" >Welcome"
+msgstr ""
 
 #. type: Content of: <div><a><span>
 #: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10
@@ -757,14 +776,33 @@ msgid "&nbsp;&nbsp;&lt;"
 msgstr "&nbsp;&nbsp;&lt;"
 
 #. type: Content of: <div><a>
-#: src/header.php.en:10
-msgid "Download"
-msgstr "Letöltés"
+#: src/header.php.en:8
+msgid ""
+"</a> <a href=\"<?= $topdir ?>documentation.php\" "
+"title=\"Documentation\">Documentation"
+msgstr ""
 
 #. type: Content of: <div><a>
-#: src/header.php.en:11
-msgid "Get Involved"
-msgstr "Vegyen részt benne"
+#: src/header.php.en:9
+msgid ""
+"</a> <a href=\"<?= $topdir ?>download.php\" title=\"Download\" >Download"
+msgstr ""
+
+#. type: Content of: <div><a>
+#: src/header.php.en:10
+msgid ""
+"</a> <a href=\"<?= $topdir ?>getinvolved.php\" title=\"Get Involved\" >Get "
+"Involved"
+msgstr ""
+
+#~ msgid "Welcome"
+#~ msgstr "Üdvözöljük"
+
+#~ msgid "Download"
+#~ msgstr "Letöltés"
+
+#~ msgid "Get Involved"
+#~ msgstr "Vegyen részt benne"
 
 #, fuzzy
 #~| msgid ""
