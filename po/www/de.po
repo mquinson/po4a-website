@@ -1,13 +1,13 @@
 # Translation of po4a webpage to German
 # This file is distributed under the same license as the po4a web page.
-# Copyright (C) Helge Kreutzmann <debian@helgefjell.de>, 2011-2013,2017,2018,2020-2023
+# Copyright (C) Helge Kreutzmann <debian@helgefjell.de>, 2011-2013,2017,2018,2020-2024
 # Milo Ivir <mail@milotype.de>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.69\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2024-01-29 01:28+0100\n"
-"PO-Revision-Date: 2023-05-15 19:28+0200\n"
+"PO-Revision-Date: 2024-02-01 20:56+0100\n"
 "Last-Translator: Helge Kreutzmann <debian@helgefjell.de>\n"
 "Language-Team: German <debian-l10n-german@lists.debian.org>\n"
 "Language: de\n"
@@ -189,11 +189,10 @@ msgstr "kernelhelp: Hilfenachrichten jeder Kernel-Compilierungsoption"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:68
-#, fuzzy
-#| msgid "2022-01-02 - po4a 0.66 released"
 msgid "2024-01-29 - po4a 0.70 released"
-msgstr "2022-02-02 – po4a 0.66 veröffentlicht"
+msgstr "2024-01-29 – po4a 0.70 veröffentlicht"
 
+# FIXME No fullstop after contributors ?
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:69
 msgid ""
@@ -205,6 +204,14 @@ msgid ""
 "internals to potential contributors.  (<a href=\"https://github.com/mquinson/"
 "po4a/releases/tag/v0.70\">more details</a>)."
 msgstr ""
+"Große interne Überarbeitung, um PerlIO zu verwenden, anstatt manuell mit "
+"Kodierungen herumzuwirbeln. Diese Veröffentlichung korrigiert auch viele "
+"Fehler mit AsciiDoc, Tex, Markdown, Yaml, TexInfo und den allgemeinen "
+"Teilen. Schließlich enthält diese Version eine Reihe von "
+"Dokumentationsverbesserungen, insbesondere in <a href=\"https://po4a.org/man/"
+"man7/po4a.7.php\">po4a(7)</a>, das jetzt besser die Interna für mögliche "
+"Beitragende erläutert (<a href=\"https://github.com/mquinson/po4a/releases/"
+"tag/v0.70\">weitere Details</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:75
@@ -740,7 +747,7 @@ msgstr "</sup>"
 #. type: Content of: <div><a>
 #: src/header.php.en:8
 msgid "<a href=\"<?= $topdir ?>.\" title=\"Welcome\" >Welcome"
-msgstr ""
+msgstr "<a href=\"<?= $topdir ?>.\" title=\"Welcome\" >Willkommen"
 
 #. type: Content of: <div><a><span>
 #: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10
@@ -754,12 +761,15 @@ msgid ""
 "</a> <a href=\"<?= $topdir ?>documentation.php\" "
 "title=\"Documentation\">Documentation"
 msgstr ""
+"</a> <a href=\"<?= $topdir ?>documentation.php\" "
+"title=\"Documentation\">Dokumentation"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:9
 msgid ""
 "</a> <a href=\"<?= $topdir ?>download.php\" title=\"Download\" >Download"
 msgstr ""
+"</a> <a href=\"<?= $topdir ?>download.php\" title=\"Download\" >Download"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:10
@@ -767,6 +777,8 @@ msgid ""
 "</a> <a href=\"<?= $topdir ?>getinvolved.php\" title=\"Get Involved\" >Get "
 "Involved"
 msgstr ""
+"</a> <a href=\"<?= $topdir ?>getinvolved.php\" title=\"Get Involved\" "
+">Mitarbeiten"
 
 #~ msgid "Welcome"
 #~ msgstr "Willkommen"
