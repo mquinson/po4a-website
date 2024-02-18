@@ -2,7 +2,7 @@
 # Copyright (C) 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the po4a package.
 # Translator: Rafael Ferreira <rafael.f.f1@gmail.com>, 2013, 2014.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2020, 2021, 2022.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2020, 2021, 2022, 2024.
 # Martin Quinson <martin.quinson@ens-rennes.fr>, 2020.
 # Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2022, 2023.
 msgid ""
@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: po4a 0.45\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2024-01-29 01:28+0100\n"
-"PO-Revision-Date: 2023-10-20 04:21+0000\n"
-"Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
+"PO-Revision-Date: 2024-02-18 03:02+0000\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.1\n"
+"X-Generator: Weblate 5.4\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -33,10 +33,6 @@ msgstr "Mantenha as traduções de sua documentação com facilidade"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:19
-#, fuzzy
-#| msgid ""
-#| "po4a extracts the translatable material from the original document, and "
-#| "places it into a PO file that is well adapted to the translation work."
 msgid ""
 "The po4a (PO for anything) eases documentation translations and their "
 "maintenance. It extracts the translatable material from the original "
@@ -45,8 +41,11 @@ msgid ""
 "the translation into the structure of the original document to generate a "
 "translated document."
 msgstr ""
-"O po4a extrai material traduzível da documentação original e o coloca em um "
-"arquivo PO que é bem adaptado para o trabalho de tradução."
+"O po4a (PO para qualquer coisa) facilita a tradução de documentação e sua "
+"manutenção. Extrai o material traduzível do documento original e o coloca em "
+"um arquivo PO adaptado ao processo de tradução. Uma vez que este arquivo PO "
+"é atualizado pelo tradutor, po4a reinjeta a tradução na estrutura do "
+"documento original para gerar um documento traduzido."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:26
@@ -191,10 +190,8 @@ msgstr "kernelhelp: Mensagens de ajuda de cada opção de compilação de kernel
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:68
-#, fuzzy
-#| msgid "2022-01-02 - po4a 0.66 released"
 msgid "2024-01-29 - po4a 0.70 released"
-msgstr "02-01-2022 - Lançamento do po4a 0.66"
+msgstr "29-01-2024 - Lançamento do po4a 0.70"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:69
@@ -207,6 +204,13 @@ msgid ""
 "internals to potential contributors.  (<a href=\"https://github.com/mquinson/"
 "po4a/releases/tag/v0.70\">more details</a>)."
 msgstr ""
+"Grande revisão interna para usar PerlIO em vez de bagunçar manualmente as "
+"codificações. Além disso, esta versão corrige muitos bugs em AsciiDoc, Tex, "
+"Markdown, Yaml, TexInfo e nas partes comuns. Finalmente, esta versão contém "
+"diversas melhorias na documentação, em particular em <a href=\"https://po4a."
+"org/man/man7/po4a.7.php\">po4a(7)</a>, que agora apresenta melhor os "
+"detalhes internos para potenciais colaboradores. (<a href=\"https://github."
+"com/mquinson/po4a/releases/tag/v0.70\">mais detalhes</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:75
@@ -215,24 +219,17 @@ msgstr "01-01-2023 - Lançamento do po4a 0.69"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:76
-#, fuzzy
-#| msgid ""
-#| "Greatly improve the gettextization process, and rewrite several "
-#| "documentation chapters.  Also, po4a-translate and po4a-updatepo are now "
-#| "deprecated: you should use po4a instead.  Finally, this release fixes "
-#| "some bugs in Markdown and Man modules.  (<a href=\"https://github.com/"
-#| "mquinson/po4a/releases/tag/v0.68\">more details</a>)."
 msgid ""
 "Greatly improve the handeling of placeholders in XML, and internal cleanups "
 "around Yaml by merging the two parsers that we had.  Also, this release "
 "fixes small bugs in Markdown and Man modules.  (<a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.69\">more details</a>)."
 msgstr ""
-"Uma grande melhoria no processo do gettext e reescrita de vários capítulos "
-"da documentação. O po4a-translate e po4a-updatepo são obsoletos agora: você "
-"deve usar po4a. Por fim, esta versão corrige alguns erros nos módulos de "
-"Markdown e Man.  (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-"v0.68\">mais detalhes</a>)."
+"Uma grande melhoria no tratamento de espaços reservados em XML e nas "
+"limpezas internas em torno do Yaml, mesclando os dois analisadores que "
+"tínhamos. Além disso, esta versão corrige pequenos bugs nos módulos Markdown "
+"e Man. (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.69\">mais "
+"detalhes</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:81
@@ -742,7 +739,7 @@ msgstr "</sup>"
 #. type: Content of: <div><a>
 #: src/header.php.en:8
 msgid "<a href=\"<?= $topdir ?>.\" title=\"Welcome\" >Welcome"
-msgstr ""
+msgstr "<a href=\"<?= $topdir ?>.\" title=\"Boas-vindas\" >Seja bem-vindo(a)"
 
 #. type: Content of: <div><a><span>
 #: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10
@@ -756,12 +753,15 @@ msgid ""
 "</a> <a href=\"<?= $topdir ?>documentation.php\" "
 "title=\"Documentation\">Documentation"
 msgstr ""
+"</a> <a href=\"<?= $topdir ?>documentation.php\" title=\"Documentação\""
+">Documentação"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:9
 msgid ""
 "</a> <a href=\"<?= $topdir ?>download.php\" title=\"Download\" >Download"
 msgstr ""
+"</a> <a href=\"<?= $topdir ?>download.php\" title=\"Download\" >Download"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:10
@@ -769,6 +769,7 @@ msgid ""
 "</a> <a href=\"<?= $topdir ?>getinvolved.php\" title=\"Get Involved\" >Get "
 "Involved"
 msgstr ""
+"</a> <a href=\"<?= $topdir ?>getinvolved.php\" title=\"Participe\" >Participe"
 
 #~ msgid "Welcome"
 #~ msgstr "Bem-vindo"
