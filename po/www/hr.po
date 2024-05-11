@@ -1,23 +1,23 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the po4a package.
-# Milo Ivir <mail@milotype.de>, 2020, 2021, 2022, 2023.
+# Milo Ivir <mail@milotype.de>, 2020, 2021, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.56\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2024-01-29 01:28+0100\n"
-"PO-Revision-Date: 2023-08-12 17:49+0000\n"
+"PO-Revision-Date: 2024-05-11 05:52+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
-"Language-Team: Croatian <https://hosted.weblate.org/projects/po4a/po4a-"
-"website/hr/>\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/po4a/"
+"po4a-website/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.5.4\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -31,10 +31,6 @@ msgstr "Održavaj prijevode svoje dokumentacije s lakoćom"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:19
-#, fuzzy
-#| msgid ""
-#| "po4a extracts the translatable material from the original document, and "
-#| "places it into a PO file that is well adapted to the translation work."
 msgid ""
 "The po4a (PO for anything) eases documentation translations and their "
 "maintenance. It extracts the translatable material from the original "
@@ -43,24 +39,21 @@ msgid ""
 "the translation into the structure of the original document to generate a "
 "translated document."
 msgstr ""
-"po4a izdvaja prevodiv materijal iz izvornog dokumenta i sprema ga u PO "
-"datoteku, prilagođen za prevođenje."
+"Po4a (PO za sve) olakšava prevođenje dokumentacije i održavanje prijevoda. "
+"Izdvaja prevodiv materijal iz izvornog dokumenta i sprema ga u PO datoteku "
+"koja je prilagođena procesu prevođenja. Nakon što ovu PO datoteku "
+"prevoditelj aktualizira, po4a ponovno ubacuje prijevod u strukturu izvornog "
+"dokumenta kako bi generirao prevedeni dokument."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:26
-#, fuzzy
-#| msgid ""
-#| "If the translation is only partially completed, the original (English) "
-#| "text is used instead. This ensures that your translated documentation is "
-#| "always both up to date with regard to the original one, and as translated "
-#| "as possible."
 msgid ""
 "If the translation is only partial, the original (English) text is used "
 "instead for the missing parts. This ensures that your translated "
 "documentation is always both up to date with regard to the original one, and "
 "as translated as possible."
 msgstr ""
-"Ako je prijevod samo djelomično završen, za neprevedene izraze koristi se "
+"Ako je prijevod samo djelomično preveden, za neprevedene dijelove se koristi "
 "izvorni (engleski) tekst. Time se osigurava, da je prevedena dokumentacija "
 "uvijek aktualna s obzirom na izvornu dokumentaciju i da je što više "
 "prevedena."
@@ -197,10 +190,8 @@ msgstr "kernelhelp: Poruke pomoći svake opcije kompilacije kernela"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:68
-#, fuzzy
-#| msgid "2022-01-02 - po4a 0.66 released"
 msgid "2024-01-29 - po4a 0.70 released"
-msgstr "2022-01-02 – objavljen po4a 0.66"
+msgstr "2024-01-29 – objavljen po4a 0.70"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:69
@@ -221,24 +212,16 @@ msgstr "2023-01-01 – objavljen po4a 0.69"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:76
-#, fuzzy
-#| msgid ""
-#| "Greatly improve the gettextization process, and rewrite several "
-#| "documentation chapters.  Also, po4a-translate and po4a-updatepo are now "
-#| "deprecated: you should use po4a instead.  Finally, this release fixes "
-#| "some bugs in Markdown and Man modules.  (<a href=\"https://github.com/"
-#| "mquinson/po4a/releases/tag/v0.68\">more details</a>)."
 msgid ""
 "Greatly improve the handeling of placeholders in XML, and internal cleanups "
 "around Yaml by merging the two parsers that we had.  Also, this release "
 "fixes small bugs in Markdown and Man modules.  (<a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.69\">more details</a>)."
 msgstr ""
-"Značajno poboljšan gettextization proces i prerađivanje nekih poglavlja "
-"dokumentacije. Također, po4a-translate i po4a-updatepo su sada zastarjeli: "
-"koristi po4a umjesto njih. Ovo izdanje ispravlja neke greške u modulima "
-"Markdown i Man. (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-"v0.68\">više detalja</a>)."
+"Značajno poboljšano rukovanje rezerviranim mjestima u XML-u i interna "
+"čišćenja oko Yamla spajanjem dvaju parsera koja smo imali. Također, ovo "
+"izdanje ispravlja male greške u modulima Markdown i Man. (<a href=\"https"
+"://github.com/mquinson/po4a/releases/tag/v0.69\">više detalja</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:81
@@ -743,7 +726,7 @@ msgstr "</sup>"
 #. type: Content of: <div><a>
 #: src/header.php.en:8
 msgid "<a href=\"<?= $topdir ?>.\" title=\"Welcome\" >Welcome"
-msgstr ""
+msgstr "<a href=\"<?= $topdir ?>.\" title=\"Dobrodošlica\" >Dobrodošlica"
 
 #. type: Content of: <div><a><span>
 #: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10
@@ -757,12 +740,16 @@ msgid ""
 "</a> <a href=\"<?= $topdir ?>documentation.php\" "
 "title=\"Documentation\">Documentation"
 msgstr ""
+"</a> <a href=\"<?= $topdir ?>documentation.php\" title=\"Dokumentacija\""
+">Dokumentacija"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:9
 msgid ""
 "</a> <a href=\"<?= $topdir ?>download.php\" title=\"Download\" >Download"
 msgstr ""
+"</a> <a href=\"<?= $topdir ?>download.php\" title=\"Preuzimanje\" "
+">Preuzimanje"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:10
@@ -770,6 +757,7 @@ msgid ""
 "</a> <a href=\"<?= $topdir ?>getinvolved.php\" title=\"Get Involved\" >Get "
 "Involved"
 msgstr ""
+"</a> <a href=\"<?= $topdir ?>getinvolved.php\" title=\"Suradnja\" >Suradnja"
 
 #~ msgid "Welcome"
 #~ msgstr "Početna"
