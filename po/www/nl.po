@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the po4a package.
-# Frans Spiesschaert <frans.spiesschaert@gmail.com>, 2020, 2021, 2022, 2023.
+# Frans Spiesschaert <frans.spiesschaert@gmail.com>, 2020, 2021, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.55\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2024-01-29 01:28+0100\n"
-"PO-Revision-Date: 2023-06-03 21:51+0000\n"
+"PO-Revision-Date: 2024-05-11 05:52+0000\n"
 "Last-Translator: Frans Spiesschaert <frans.spiesschaert@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "nl/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.5.4\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -189,10 +189,8 @@ msgstr "kernelhelp: hulpberichten bij elk van de kernelcompilatieopties"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:68
-#, fuzzy
-#| msgid "2022-01-02 - po4a 0.66 released"
 msgid "2024-01-29 - po4a 0.70 released"
-msgstr "02-01-2022 - po4a 0.66 uitgebracht"
+msgstr "29-01-2024 - po4a 0.70 uitgebracht"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:69
@@ -205,6 +203,14 @@ msgid ""
 "internals to potential contributors.  (<a href=\"https://github.com/mquinson/"
 "po4a/releases/tag/v0.70\">more details</a>)."
 msgstr ""
+"Grote interne revisie om PerlIO te gebruiken in plaats van handmatig met "
+"coderingen te knoeien. Deze versie lost ook veel bugs op in AsciiDoc, Tex, "
+"Markdown, Yaml, TexInfo en in de algemene onderdelen. Tot slot bevat deze "
+"versie verschillende verbeteringen aan de documentatie, in het bijzonder in "
+"<a href=\"https://po4a.org/man/man7/po4a.7.php\">po4a(7)</a>, dat nu voor "
+"mogelijke mede-ontwikkelaars een betere introductie biedt in de interne "
+"mechanismen. (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.70\""
+">meer informatie</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:75
@@ -738,7 +744,7 @@ msgstr "</sup>"
 #. type: Content of: <div><a>
 #: src/header.php.en:8
 msgid "<a href=\"<?= $topdir ?>.\" title=\"Welcome\" >Welcome"
-msgstr ""
+msgstr "<a href=\"<?= $topdir ?>.\" title=\"Welkom\" >Welkom"
 
 #. type: Content of: <div><a><span>
 #: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10
@@ -752,12 +758,15 @@ msgid ""
 "</a> <a href=\"<?= $topdir ?>documentation.php\" "
 "title=\"Documentation\">Documentation"
 msgstr ""
+"</a> <a href=\"<?= $topdir ?>documentation.php\" title=\"Documentatie\""
+">Documentatie"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:9
 msgid ""
 "</a> <a href=\"<?= $topdir ?>download.php\" title=\"Download\" >Download"
 msgstr ""
+"</a> <a href=\"<?= $topdir ?>download.php\" title=\"Downloaden\" >Downloaden"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:10
@@ -765,6 +774,7 @@ msgid ""
 "</a> <a href=\"<?= $topdir ?>getinvolved.php\" title=\"Get Involved\" >Get "
 "Involved"
 msgstr ""
+"</a> <a href=\"<?= $topdir ?>getinvolved.php\" title=\"Meehelpen\" >Meehelpen"
 
 #~ msgid "Welcome"
 #~ msgstr "Welkom"
