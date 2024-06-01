@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the po4a package.
-# eevan78 <ivan.pesic@gmail.com>, 2020, 2021, 2022, 2023.
+# eevan78 <ivan.pesic@gmail.com>, 2020, 2021, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.56\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2024-01-29 01:28+0100\n"
-"PO-Revision-Date: 2023-06-13 08:53+0000\n"
+"PO-Revision-Date: 2024-06-01 08:48+0000\n"
 "Last-Translator: eevan78 <ivan.pesic@gmail.com>\n"
 "Language-Team: Serbian (cyrillic) <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/sr_Cyrl/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.6-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -190,10 +190,8 @@ msgstr "kernelhelp: Поруке помоћи за сваку од опција 
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:68
-#, fuzzy
-#| msgid "2022-01-02 - po4a 0.66 released"
 msgid "2024-01-29 - po4a 0.70 released"
-msgstr "2022-01-02 - објављен је po4a 0.66"
+msgstr "2024-01-29 - објављен је po4a 0.70"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:69
@@ -206,6 +204,13 @@ msgid ""
 "internals to potential contributors.  (<a href=\"https://github.com/mquinson/"
 "po4a/releases/tag/v0.70\">more details</a>)."
 msgstr ""
+"Велика интерна прерада како би се уместо ручног петљања са кодирањима "
+"користио PerlIO.  Такође, ово издање исправља многе багове у AsciiDoc, Tex, "
+"Markdown, Yaml, TexInfo и у општим деловима.  Коначно, ова верзија садржи "
+"неколико побољшања документације, тачније <a href=\"https://po4a.org/man/"
+"man7/po4a.7.php\">po4a(7)</a>, где се сада потенцијалним даваоцима доприноса "
+"боље представља начин интерног фунцкионисања.  (<a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.70\">више детаља</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:75
@@ -729,7 +734,7 @@ msgstr "</sup>"
 #. type: Content of: <div><a>
 #: src/header.php.en:8
 msgid "<a href=\"<?= $topdir ?>.\" title=\"Welcome\" >Welcome"
-msgstr ""
+msgstr "<a href=\"<?= $topdir ?>.\" title=\"Welcome\" >Добродошли"
 
 #. type: Content of: <div><a><span>
 #: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10
@@ -743,12 +748,15 @@ msgid ""
 "</a> <a href=\"<?= $topdir ?>documentation.php\" "
 "title=\"Documentation\">Documentation"
 msgstr ""
+"</a> <a href=\"<?= $topdir ?>documentation.php\" title=\"Documentation\""
+">Документација"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:9
 msgid ""
 "</a> <a href=\"<?= $topdir ?>download.php\" title=\"Download\" >Download"
 msgstr ""
+"</a> <a href=\"<?= $topdir ?>download.php\" title=\"Download\" >Преузимање"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:10
@@ -756,6 +764,8 @@ msgid ""
 "</a> <a href=\"<?= $topdir ?>getinvolved.php\" title=\"Get Involved\" >Get "
 "Involved"
 msgstr ""
+"</a> <a href=\"<?= $topdir ?>getinvolved.php\" title=\"Get Involved\" "
+">Умешајте се"
 
 #~ msgid "Welcome"
 #~ msgstr "Добродошли"
