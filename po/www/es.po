@@ -29,11 +29,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.43-1\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2024-01-29 01:28+0100\n"
+"POT-Creation-Date: 2024-06-17 22:26+0200\n"
 "PO-Revision-Date: 2024-02-11 21:02+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/po4a/"
-"po4a-website/es/>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/po4a/po4a-"
+"website/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -213,11 +213,34 @@ msgstr "kernelhelp: mensajes de ayuda de cada opción de compilación del núcle
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:68
+#, fuzzy
+#| msgid "2012-10-17 - po4a 0.43 released"
+msgid "2024-06-17 - po4a 0.73 released"
+msgstr "17-10-2012 - publicado po4a 0.43"
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:69
+#, fuzzy
+#| msgid ""
+#| "New features and bugfixes to both the individual parsers and common parts "
+#| "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
+#| "details</a>)."
+msgid ""
+"Improve some error messages to help debugging encoding issues now that po4a "
+"is much more picky about it (since v0.70). (<a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.73\">more details</a>)."
+msgstr ""
+"Nuevas características y corrección de varios fallos en analizadores "
+"sintácticos individuales y partes comunes (<a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.55\">más detalles</a>)."
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:72
 msgid "2024-01-29 - po4a 0.70 released"
 msgstr "29/01/2024 - po4a 0.70 publicado"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:69
+#: src/index.php.en:73
 msgid ""
 "Major internal overhaul to use PerlIO instead of messing up manually with "
 "encodings.  Also, this release fixes many bugs in AsciiDoc, Tex, Markdown, "
@@ -233,16 +256,16 @@ msgstr ""
 "Por último, esta versión contiene varias mejoras en la documentación, en "
 "particular en <a href=\"https://po4a.org/man/man7/po4a.7.php\">po4a(7)</a>, "
 "que ahora presenta mejor las funciones internas a los posibles "
-"colaboradores. (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0."
-"70\">más detalles</a>)."
+"colaboradores. (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.70\">más detalles</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:75
+#: src/index.php.en:79
 msgid "2023-01-01 - po4a 0.69 released"
 msgstr "01/01/2023 - po4a 0.69 publicado"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:76
+#: src/index.php.en:80
 msgid ""
 "Greatly improve the handeling of placeholders in XML, and internal cleanups "
 "around Yaml by merging the two parsers that we had.  Also, this release "
@@ -256,12 +279,12 @@ msgstr ""
 "detalles</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:81
+#: src/index.php.en:85
 msgid "2022-09-04 - po4a 0.68 released"
 msgstr "04/09/2022 - po4a 0.68 publicado"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:82
+#: src/index.php.en:86
 msgid ""
 "Greatly improve the gettextization process, and rewrite several "
 "documentation chapters.  Also, po4a-translate and po4a-updatepo are now "
@@ -276,12 +299,12 @@ msgstr ""
 "github.com/mquinson/po4a/releases/tag/v0.68\">más detalles</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:87
+#: src/index.php.en:91
 msgid "2022-07-14 - po4a 0.67 released"
 msgstr "14/07/2022 - po4a 0.67 publicado"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:88
+#: src/index.php.en:92
 msgid ""
 "Many bug fixes and improvement in AsciiDoc, Man, Mardown, xHTML and in core "
 "modules (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
@@ -292,12 +315,12 @@ msgstr ""
 "v0.67\">másdetalles</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:91
+#: src/index.php.en:95
 msgid "2022-01-02 - po4a 0.66 released"
 msgstr "02/01/2022 - po4a 0.66 publicado"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:92
+#: src/index.php.en:96
 msgid ""
 "New option to select Yaml elements to translate; More robust Asciidoc table "
 "handling (+bugfixes and translation updates -- <a href=\"https://github.com/"
@@ -309,12 +332,12 @@ msgstr ""
 "detalles</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:94
+#: src/index.php.en:98
 msgid "2021-11-14 - po4a 0.65 released"
 msgstr "14/11/2021 - po4a 0.65 publicado"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:95
+#: src/index.php.en:99
 msgid ""
 "Allow to group several translations per POT file in split mode (+bugfix and "
 "translation updates -- <a href=\"https://github.com/mquinson/po4a/releases/"
@@ -325,12 +348,12 @@ msgstr ""
 "mquinson/po4a/releases/tag/v0.65\">consulte los detalles</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:97
+#: src/index.php.en:101
 msgid "2021-09-12 - po4a 0.64 released"
 msgstr "12/09/2021 - po4a 0.64 publicado"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:98
+#: src/index.php.en:102
 msgid ""
 "Bugfix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.64\">more details</a>)."
@@ -339,12 +362,12 @@ msgstr ""
 "github.com/mquinson/po4a/releases/tag/v0.64\">consulte los detalles</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:100
+#: src/index.php.en:104
 msgid "2021-02-02 - po4a 0.63 released"
 msgstr "02/02/2021 - po4a 0.63 publicado"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:101
+#: src/index.php.en:105
 msgid ""
 "Fix a regression in 0.62 where the translation of po4a binaries were not "
 "installed. Plus other bugfixes and translation updates (<a href=\"https://"
@@ -356,12 +379,12 @@ msgstr ""
 "releases/tag/v0.63\">consulte los detalles</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:103
+#: src/index.php.en:107
 msgid "2020-12-07 - po4a 0.62 released"
 msgstr "07/12/2020 - po4a 0.62 publicado"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:104
+#: src/index.php.en:108
 msgid ""
 "Unwrap asciidoc to avoid reformating issues and other bugfixes, plus "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
@@ -373,12 +396,12 @@ msgstr ""
 "detalles</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:106
+#: src/index.php.en:110
 msgid "2020-08-05 - po4a 0.61 released"
 msgstr "05/08/2020 - po4a 0.61 publicado"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:107
+#: src/index.php.en:111
 msgid ""
 "More bugfix (again to not break Debian packages depending on po4a), and "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
@@ -389,12 +412,12 @@ msgstr ""
 "com/mquinson/po4a/releases/tag/v0.61\">consulte los detalles</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:109
+#: src/index.php.en:113
 msgid "2020-07-15 - po4a 0.60 released"
 msgstr "15/07/2020 - po4a 0.60 publicado"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:110
+#: src/index.php.en:114
 msgid ""
 "Bugfix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.60\">more details</a>)."
@@ -404,12 +427,12 @@ msgstr ""
 "detalles</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:112
+#: src/index.php.en:116
 msgid "2020-05-20 - po4a 0.59 released"
 msgstr "20/05/2020 - po4a 0.59 publicado"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:113
+#: src/index.php.en:117
 msgid ""
 "Bugfix release to not break the build of several Debian packages (at "
 "least).  <a href=\"https://github.com/mquinson/po4a/releases/tag/"
@@ -420,28 +443,28 @@ msgstr ""
 "detalles</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:116
+#: src/index.php.en:120
 msgid "2020-05-04 - po4a 0.58 released"
 msgstr "04/05/2020 - po4a 0.58 publicado"
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:118
+#: src/index.php.en:122
 msgid "Rewrite all tests to make them more robust and less permissive."
 msgstr ""
 "Reescribe todas las pruebas par hacerlas más robustas y menos permisivas."
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:119
+#: src/index.php.en:123
 msgid "Fix many issues reported against the parsers."
 msgstr "Soluciona muchos problemas reportados en los reconocedores."
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:120
+#: src/index.php.en:124
 msgid "Rewrite the documentation for sake of clarity and brevity."
 msgstr "Se vuelve a escribir la documentación en aras de claridad y brevedad."
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:121
+#: src/index.php.en:125
 msgid ""
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">more "
 "details</a>)."
@@ -450,12 +473,12 @@ msgstr ""
 "detalles</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:123
+#: src/index.php.en:127
 msgid "2019-10-25 - po4a 0.57 released"
 msgstr "25/10/2019 - po4a 0.57 publicado"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:124
+#: src/index.php.en:128
 msgid ""
 "Translation update and one bugfix in AsciiDoc.  (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
@@ -465,12 +488,12 @@ msgstr ""
 "a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:127
+#: src/index.php.en:131
 msgid "2019-06-06 - po4a 0.56 released"
 msgstr "06/06/2019 - po4a 0.56 publicado"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:128
+#: src/index.php.en:132
 msgid ""
 "New features and bugfixes, mostly to the AsciiDoc parser (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
@@ -479,12 +502,12 @@ msgstr ""
 "github.com/mquinson/po4a/releases/tag/v0.56\">más detalles</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:131
+#: src/index.php.en:135
 msgid "2018-12-09 - po4a 0.55 released"
 msgstr "09/12/2018 - publicado po4a 0.55"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:132
+#: src/index.php.en:136
 msgid ""
 "New features and bugfixes to both the individual parsers and common parts "
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
@@ -495,12 +518,12 @@ msgstr ""
 "mquinson/po4a/releases/tag/v0.55\">más detalles</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:135
+#: src/index.php.en:139
 msgid "2018-06-30 - po4a 0.54 released"
 msgstr "30/06/2018 - po4a 0.54 publicado"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:136
+#: src/index.php.en:140
 msgid ""
 "We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
@@ -509,12 +532,12 @@ msgstr ""
 "mquinson/po4a/releases/tag/v0.54\">más detalles</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:139
+#: src/index.php.en:143
 msgid "2018-05-25 - po4a 0.53 released"
 msgstr "25/05/2018 - po4a 0.53 publicado"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:140
+#: src/index.php.en:144
 msgid ""
 "The most visible change is a new YAML module, and the fact that Alioth was "
 "turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
@@ -778,8 +801,8 @@ msgid ""
 "</a> <a href=\"<?= $topdir ?>documentation.php\" "
 "title=\"Documentation\">Documentation"
 msgstr ""
-"</a> <a href=\"<?= $topdir ?>documentación.php\" title=\"Documentación\""
-">Documentación"
+"</a> <a href=\"<?= $topdir ?>documentación.php\" "
+"title=\"Documentación\">Documentación"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:9
@@ -866,11 +889,6 @@ msgstr ""
 #~ msgstr ""
 #~ "a través de nuestra <a href=\"mailto:po4a-devel@lists.alioth.debian."
 #~ "org\">lista de correo</a>,"
-
-#, fuzzy
-#~| msgid "2012-10-17 - po4a 0.43 released"
-#~ msgid "2016-06-17 - po4a 0.48 released"
-#~ msgstr "17-10-2012 - publicado po4a 0.43"
 
 #~ msgid "Project links"
 #~ msgstr "Enlaces al proyecto"

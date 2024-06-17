@@ -201,7 +201,7 @@ get_language() {
 		nb)
 			echo -n "Bokmål"
 			;;
-	        nb_NO)
+	    nb_NO)
 			echo -n "norsk bokmål"
 			;;
 		nl)
@@ -220,6 +220,9 @@ get_language() {
 			echo -n "Русский"
 			;;
 		sr_Cyrl)
+			echo -n "српски језик"
+			;;
+		sr)
 			echo -n "српски језик"
 			;;
 		uk)

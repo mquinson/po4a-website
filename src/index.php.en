@@ -65,6 +65,10 @@
 			</ul>
 		</div>
 		<div class="item"><!-- Keep it YEAR-MONTH-DAY -->
+		        <h2>2024-06-17 - po4a 0.73 released</h2>
+			<p>Improve some error messages to help debugging encoding issues now that po4a is much more picky about it
+                         (since v0.70). (<a href="https://github.com/mquinson/po4a/releases/tag/v0.73">more details</a>).
+			</p>
 		        <h2>2024-01-29 - po4a 0.70 released</h2>
 			<p>Major internal overhaul to use PerlIO instead of messing up manually with encodings.
 			  Also, this release fixes many bugs in AsciiDoc, Tex, Markdown, Yaml, TexInfo and in the common parts.
