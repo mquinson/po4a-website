@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.69\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2024-06-17 22:26+0200\n"
-"PO-Revision-Date: 2024-02-01 20:56+0100\n"
+"PO-Revision-Date: 2024-06-18 11:30+0200\n"
 "Last-Translator: Helge Kreutzmann <debian@helgefjell.de>\n"
 "Language-Team: German <debian-l10n-german@lists.debian.org>\n"
 "Language: de\n"
@@ -189,26 +189,20 @@ msgstr "kernelhelp: Hilfenachrichten jeder Kernel-Compilierungsoption"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:68
-#, fuzzy
-#| msgid "2016-06-17 - po4a 0.48 released"
 msgid "2024-06-17 - po4a 0.73 released"
-msgstr "2016-06-17 - Po4a 0.48 veröffentlicht"
+msgstr "2024-06-17 - Po4a 0.73 veröffentlicht"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:69
-#, fuzzy
-#| msgid ""
-#| "New features and bugfixes to both the individual parsers and common parts "
-#| "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
-#| "details</a>)."
 msgid ""
 "Improve some error messages to help debugging encoding issues now that po4a "
 "is much more picky about it (since v0.70). (<a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.73\">more details</a>)."
 msgstr ""
-"Neue Funktionalitäten und Fehlerkorrekturen sowohl für die einzelnen Parser "
-"als auch für die gemeinsamen Teile (<a href=\"https://github.com/mquinson/"
-"po4a/releases/tag/v0.55\">mehr Details</a>)."
+"Verbesserungen von Fehlermeldungen, um bei der Suche nach "
+"Kodierungsproblemen zu helfen, da Po4a (seit v0.70) deutlich pendantischer "
+"ist. (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.73\">mehr "
+"Details</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:72
