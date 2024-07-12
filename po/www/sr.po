@@ -7,17 +7,17 @@ msgstr ""
 "Project-Id-Version: po4a 0.70\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2024-06-17 22:26+0200\n"
-"PO-Revision-Date: 2024-06-08 08:09+0000\n"
+"PO-Revision-Date: 2024-07-12 18:09+0000\n"
 "Last-Translator: eevan78 <ivan.pesic@gmail.com>\n"
-"Language-Team: Serbian <https://hosted.weblate.org/projects/po4a/po4a-"
-"website/sr/>\n"
+"Language-Team: Serbian <https://hosted.weblate.org/projects/po4a/"
+"po4a-website/sr/>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.6-dev\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -190,25 +190,19 @@ msgstr "kernelhelp: Поруке помоћи за сваку од опција 
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:68
-#, fuzzy
-#| msgid "2024-01-29 - po4a 0.70 released"
 msgid "2024-06-17 - po4a 0.73 released"
-msgstr "2024-01-29 - објављен је po4a 0.70"
+msgstr "2024-06-17 - објављен је po4a 0.73"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:69
-#, fuzzy
-#| msgid ""
-#| "New features and bugfixes to both the individual parsers and common parts "
-#| "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
-#| "details</a>)."
 msgid ""
 "Improve some error messages to help debugging encoding issues now that po4a "
 "is much more picky about it (since v0.70). (<a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.73\">more details</a>)."
 msgstr ""
-"Нове могућности и исправке багова како за индивидуалне парсере, тако и за "
-"заједничке делове програма (<a href=\"https://github.com/mquinson/po4a/"
+"Побољшане су неке поруке о грешки чиме се помаже проналажење проблема са "
+"кодирањем, јер је сада po4a много осетљивији на грешке у вези са кодирањем ("
+"почевши од верзије 0.70). (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.55\">више детаља</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
