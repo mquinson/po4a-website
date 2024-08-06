@@ -251,7 +251,8 @@ gen_language_footer() {
 	page=${page#html/}
 	out=html/$(dirname $page)/footer_$(basename $page)
 #	echo "Generating language footer for $page in $out"
-	echo "<div id=\"languages\">" > $out
+	echo "<!-- begin footer_$(basename $page) -->" > $out
+	echo "<div id=\"languages\">" >> $out
 	for langcode in $(ls src/$page.* html/$page.* 2>/dev/null |grep -v ~)
 	do
 		echo $langcode
@@ -262,6 +263,7 @@ gen_language_footer() {
 	done
 	echo '(how to set the <a href="https://www.debian.org/intro/cn">default document language</a>)' >> $out
 	echo "</div>" >> $out
+	echo "<!-- end footer_$(basename $page) -->" >> $out
 #	echo "done"
 }
 
