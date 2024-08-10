@@ -1,15 +1,19 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule "(.+)\.nb-no$"      "$1.nb_NO"   [passthrough,last]
+RewriteRule "(.+)\.sr-cyrl-rs$" "$1.sr_Cyrl" [passthrough,last]
+RewriteRule "(.+)\.zh-hans$"    "$1.zh_CN"   [passthrough,last]
+RewriteRule "(.+)\.zh-hant$"    "$1.zh_Hant" [passthrough,last]
+
 # Activate content negotiation
-Options Multiviews
+Options +Multiviews
+
 # Fix MIME types
-AddType application/x-httpd-php de
-AddType application/x-httpd-php en
-AddType application/x-httpd-php es
-AddType application/x-httpd-php fr
-AddType application/x-httpd-php ja
-AddType application/x-httpd-php pl
-AddType application/x-httpd-php pt
-AddType application/x-httpd-php pt_BR
-AddType application/x-httpd-php ru
-AddType application/x-httpd-php zh_CN
-AddLanguage pt-br .pt_BR
-AddLanguage zh-cn .zh_CN
+AddHandler php-script .php
+AddLanguage nb-NO      .nb_NO
+AddLanguage pt-BR      .pt_BR
+AddLanguage sr-Cyrl-RS .sr_Cyrl
+AddLanguage zh-Hans    .zh_CN
+AddLanguage zh-Hant    .zh_Hant
+
+LanguagePriority en
