@@ -23,6 +23,10 @@ inspect the result in `html/`
 
 Just type `02-upload.sh` after rebuilding it.
 
+### Developing
+
+You can setup a local development environment with `docker compose up`.
+Then open <http://localhost:8000> in a web browser.
 
 ### TODO
 
