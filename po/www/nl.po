@@ -2,13 +2,14 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the po4a package.
 # Frans Spiesschaert <frans.spiesschaert@gmail.com>, 2020, 2021, 2022, 2023, 2024.
+# Henk De Groot <weblate@hdegroot.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.55\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2024-06-17 22:26+0200\n"
-"PO-Revision-Date: 2024-05-11 05:52+0000\n"
-"Last-Translator: Frans Spiesschaert <frans.spiesschaert@gmail.com>\n"
+"PO-Revision-Date: 2024-08-10 07:09+0000\n"
+"Last-Translator: Henk De Groot <weblate@hdegroot.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "nl/>\n"
 "Language: nl\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.4\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -189,26 +190,20 @@ msgstr "kernelhelp: hulpberichten bij elk van de kernelcompilatieopties"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:68
-#, fuzzy
-#| msgid "2024-01-29 - po4a 0.70 released"
 msgid "2024-06-17 - po4a 0.73 released"
-msgstr "29-01-2024 - po4a 0.70 uitgebracht"
+msgstr "17-06-2024 - po4a 0.73 uitgebracht"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:69
-#, fuzzy
-#| msgid ""
-#| "New features and bugfixes to both the individual parsers and common parts "
-#| "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
-#| "details</a>)."
 msgid ""
 "Improve some error messages to help debugging encoding issues now that po4a "
 "is much more picky about it (since v0.70). (<a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.73\">more details</a>)."
 msgstr ""
-"Nieuwe functionaliteit en reparaties van bugs, zowel in de individuele "
-"ontleders als in de gemeenschappelijke delen (<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.55\">meer details</a>)."
+"Er zijn enkele foutmeldingen verbeterd om het debuggen van "
+"coderingsproblemen te vergemakkelijken, nu po4a hier veel kieskeuriger over "
+"is (sinds v0.70). (meer details). (<a href=\"https://github.com/mquinson/"
+"po4a/releases/tag/v0.73\">meer informatie</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:72
