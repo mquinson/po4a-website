@@ -36,6 +36,10 @@ You can run tests against local and production environments by typing
 target the production environment, set the environment variable
 `SITE_ENV` to `production`.
 
+When working with GNU Guix, you can start a development shell with
+`guix shell`.  Moreover if Direnv is used, it can be also be enabled
+automatically by allowing it to run.
+
 ### TODO
 
 The website uses php to allow switching to other languages, and to
