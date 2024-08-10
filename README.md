@@ -17,7 +17,8 @@ The source files are located in `src/`.
 ### Building
 
 To rebuild the website, just type `01-build-pages.sh` and you can
-inspect the result in `html/`
+inspect the result in `html/`.  If the environment variable `UPDATE`
+is set to `no`, updates from remote repositories can be skipped.
 
 ### Uploading
 

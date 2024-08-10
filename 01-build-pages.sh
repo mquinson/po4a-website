@@ -5,11 +5,13 @@
 set -e # we want to fail on any error instead of risking uploading broken stuff
 #set -x
 
-echo
-echo "XXX Get the latest translations from git"
+if [ "$UPDATE" != no ]; then
+    echo
+    echo "XXX Get the latest translations from git"
 
-git pull # git@github.com:mquinson/po4a-website.git
-git pull salsa master # git@salsa.debian.org:mquinson/po4a-website.git
+    git pull # git@github.com:mquinson/po4a-website.git
+    git pull salsa master # git@salsa.debian.org:mquinson/po4a-website.git
+fi
 
 curdir=$(pwd)
 
