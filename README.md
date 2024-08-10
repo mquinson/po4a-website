@@ -28,6 +28,11 @@ Just type `02-upload.sh` after rebuilding it.
 You can setup a local development environment with `docker compose up`.
 Then open <http://localhost:8000> in a web browser.
 
+You can run tests against local and production environments by typing
+`03-tests.sh`.  By default, the local environment is targeted.  To
+target the production environment, set the environment variable
+`SITE_ENV` to `production`.
+
 ### TODO
 
 The website uses php to allow switching to other languages, and to
