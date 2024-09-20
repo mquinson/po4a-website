@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.48\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2024-06-17 22:26+0200\n"
-"PO-Revision-Date: 2023-05-15 12:29+0200\n"
+"PO-Revision-Date: 2024-09-20 08:07+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@libero.it>\n"
 "Language-Team: Italian <it@li.org>\n"
 "Language: it\n"
@@ -189,33 +189,21 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:68
-#, fuzzy
-#| msgid "2022-01-02 - po4a 0.66 released"
 msgid "2024-06-17 - po4a 0.73 released"
-msgstr "2022-01-02 - rilasciato po4a 0.66"
+msgstr "2024-06-17 - rilasciato po4a 0.73"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:69
-#, fuzzy
-#| msgid ""
-#| "New features and bugfixes to both the individual parsers and common parts "
-#| "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
-#| "details</a>)."
 msgid ""
 "Improve some error messages to help debugging encoding issues now that po4a "
 "is much more picky about it (since v0.70). (<a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.73\">more details</a>)."
-msgstr ""
-"Nuove caratteristiche e correzione difetti sia nei singoli analizzatori che "
-"nelle parti comuni (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-"v0.55\">ulteriori dettagli</a>)."
+msgstr "Migliorati alcuni messaggi di errore per facilitare la correzione dei problemi di codifica ora che po4a è molto più esigente al riguardo (dalla v0.70). (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.73\">in dettaglio</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:72
-#, fuzzy
-#| msgid "2022-01-02 - po4a 0.66 released"
 msgid "2024-01-29 - po4a 0.70 released"
-msgstr "2022-01-02 - rilasciato po4a 0.66"
+msgstr "2024-01-29 - rilasciato po4a 0.70"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:73
@@ -227,7 +215,7 @@ msgid ""
 "org/man/man7/po4a.7.php\">po4a(7)</a>, which now better introduces the "
 "internals to potential contributors.  (<a href=\"https://github.com/mquinson/"
 "po4a/releases/tag/v0.70\">more details</a>)."
-msgstr ""
+msgstr "Importante revisione interna per usare PerlIO invece di pasticciare manualmente con le codifiche. Inoltre, questa versione corregge molti problemi in AsciiDoc, Tex, Markdown, Yaml, TexInfo e nelle parti comuni. Infine, questa versione contiene diversi miglioramenti della documentazione, in particolare in <a href=\"https://po4a.org/man/man7/po4a.7.php\">po4a(7)</a>, che ora presenta meglio le parti interne ai potenziali collaboratori. (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.70\">dettagli aggiuntivi</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:79
@@ -755,7 +743,7 @@ msgstr "</sup>"
 #. type: Content of: <div><a>
 #: src/header.php.en:8
 msgid "<a href=\"<?= $topdir ?>.\" title=\"Welcome\" >Welcome"
-msgstr ""
+msgstr "<a href=\"<?= $topdir ?>.\" title=\"Benvenuti\" >Benvenuti"
 
 #. type: Content of: <div><a><span>
 #: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10
@@ -768,26 +756,17 @@ msgstr "&nbsp;&nbsp;&lt;"
 msgid ""
 "</a> <a href=\"<?= $topdir ?>documentation.php\" "
 "title=\"Documentation\">Documentation"
-msgstr ""
+msgstr "</a> <a href=\"<?= $topdir ?>documentation.php\" title=\"Documentazione\">Documentazione"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:9
 msgid ""
 "</a> <a href=\"<?= $topdir ?>download.php\" title=\"Download\" >Download"
-msgstr ""
+msgstr "</a> <a href=\"<?= $topdir ?>download.php\" title=\"Scarica\" >Scarica"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:10
 msgid ""
 "</a> <a href=\"<?= $topdir ?>getinvolved.php\" title=\"Get Involved\" >Get "
 "Involved"
-msgstr ""
-
-#~ msgid "Welcome"
-#~ msgstr "Benvenuti"
-
-#~ msgid "Download"
-#~ msgstr "Scarica"
-
-#~ msgid "Get Involved"
-#~ msgstr "Contribuire"
+msgstr "</a> <a href=\"<?= $topdir ?>getinvolved.php\" title=\"Partecipa\" >Partecipa"
