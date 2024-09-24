@@ -30,7 +30,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.43-1\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2024-06-17 22:26+0200\n"
-"PO-Revision-Date: 2024-09-23 20:26+0000\n"
+"PO-Revision-Date: 2024-09-24 21:16+0000\n"
 "Last-Translator: Francisco Serrador <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/es/>\n"
@@ -214,7 +214,7 @@ msgstr "kernelhelp: mensajes de ayuda de cada opción de compilación del núcle
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:68
 msgid "2024-06-17 - po4a 0.73 released"
-msgstr "17/06/2024: se lanzó po4a 0.73"
+msgstr "17/06/2024: po4a 0.73 publicado"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:69
@@ -231,7 +231,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:72
 msgid "2024-01-29 - po4a 0.70 released"
-msgstr "29/01/2024: se lanzó po4a 0.70"
+msgstr "29/01/2024: po4a 0.70 publicado"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:73
@@ -286,11 +286,11 @@ msgid ""
 "bugs in Markdown and Man modules.  (<a href=\"https://github.com/mquinson/"
 "po4a/releases/tag/v0.68\">more details</a>)."
 msgstr ""
-"Mejora notable del proceso de gettextización, y reescritura de varios "
+"Mejora notable del proceso de 'gettextización', y re-escritura de varios "
 "capítulos de la documentación. Además, po4a-translate y po4a-updatepo quedan "
 "ahora obsoletos: se debe usar po4a en su lugar. Finalmente, esta versión "
-"corrige algunos fallos en los módulos Markdown y Man.  (<a href=\"https://"
-"github.com/mquinson/po4a/releases/tag/v0.68\">más detalles</a>)."
+"corrige algunos fallos en los módulos Markdown y Man.  (<a href=\"https"
+"://github.com/mquinson/po4a/releases/tag/v0.68\">más detalles</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:91
@@ -306,7 +306,7 @@ msgid ""
 msgstr ""
 "Corrección de muchos fallos y mejora de AsciiDoc, Man, Mardown, xHTML y en "
 "módulos del núcleo (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-"v0.67\">másdetalles</a>)."
+"v0.67\">más detalles</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:95
@@ -450,7 +450,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:123
 msgid "Fix many issues reported against the parsers."
-msgstr "Soluciona muchos problemas reportados en los reconocedores."
+msgstr "Soluciona muchos asuntos reportados en los intérpretes."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:124
@@ -507,7 +507,7 @@ msgid ""
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
 "details</a>)."
 msgstr ""
-"Nuevas características y corrección de varios fallos en analizadores "
+"Nuevas características y corrección de varios fallos en intérpretes "
 "sintácticos individuales y partes comunes (<a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.55\">más detalles</a>)."
 
@@ -522,8 +522,8 @@ msgid ""
 "We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
 msgstr ""
-"Se han corregido varios fallos y problemas (<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.54\">más detalles</a>)."
+"Se han corregido varios fallos, y solucionó muchos defectos en (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.54\">más detalles</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:143
