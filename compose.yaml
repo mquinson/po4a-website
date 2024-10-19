@@ -1,0 +1,9 @@
+services:
+  site:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    volumes:
+      - ./docker/mime.conf:/etc/apache2/mods-available/mime.conf
+    ports:
+      - 8000:80

@@ -17,12 +17,28 @@ The source files are located in `src/`.
 ### Building
 
 To rebuild the website, just type `01-build-pages.sh` and you can
-inspect the result in `html/`
+inspect the result in `html/`.  If the environment variable `UPDATE`
+is set to `no`, updates from remote repositories can be skipped.
+
+Be sure to set the appropriate version in the `VERSION` file.
 
 ### Uploading
 
 Just type `02-upload.sh` after rebuilding it.
 
+### Developing
+
+You can setup a local development environment with `docker compose up`.
+Then open <http://localhost:8000> in a web browser.
+
+You can run tests against local and production environments by typing
+`03-tests.sh`.  By default, the local environment is targeted.  To
+target the production environment, set the environment variable
+`SITE_ENV` to `production`.
+
+When working with GNU Guix, you can start a development shell with
+`guix shell`.  Moreover if Direnv is used, it can be also be enabled
+automatically by allowing it to run.
 
 ### TODO
 
