@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.73\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2024-06-17 22:26+0200\n"
-"PO-Revision-Date: 2024-08-20 10:09+0000\n"
+"PO-Revision-Date: 2024-11-17 03:00+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/ro/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.7\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -82,12 +82,12 @@ msgstr "«po4a» acceptă în prezent următoarele formate:"
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:39
 msgid "asciidoc: AsciiDoc format"
-msgstr "asciidoc: formatul AsciiDoc."
+msgstr "asciidoc: formatul AsciiDoc"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:40
 msgid "man: Good old manual page format"
-msgstr "man: bătrânul format al paginii de manual."
+msgstr "man: bătrânul format al paginii de manual"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:41
@@ -102,27 +102,27 @@ msgstr "xml: documente XML generice"
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:44
 msgid "docbook: DocBook XML"
-msgstr "docbook: XML DocBook."
+msgstr "docbook: XML DocBook"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:45
 msgid "xhtml: XHTML documents"
-msgstr "xhtml: documente XHTML."
+msgstr "xhtml: documente XHTML"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:46
 msgid "dia: uncompressed Dia diagrams"
-msgstr "dia: diagrame Dia necomprimate."
+msgstr "dia: diagrame Dia necomprimate"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:47
 msgid "guide: Gentoo Linux's XML documentation format"
-msgstr "guide: formatul de documentație XML al Gentoo Linux."
+msgstr "guide: formatul de documentație XML al Gentoo Linux"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:48
 msgid "wml: WML documents"
-msgstr "wml: documente WML."
+msgstr "wml: documente WML"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:51
@@ -136,7 +136,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:52
 msgid "latex: LaTeX format"
-msgstr "latex: formatul LaTeX."
+msgstr "latex: formatul LaTeX"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:54
@@ -146,7 +146,7 @@ msgstr "tex: documente TeX generice"
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:55
 msgid "texinfo: The info page format"
-msgstr "texinfo: formatul paginii de informații (info)."
+msgstr "texinfo: formatul paginii de informații (info)"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:56
@@ -165,7 +165,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:60
 msgid "yaml: YAML documents"
-msgstr "yaml: documente YAML."
+msgstr "yaml: documente YAML"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:61
@@ -180,13 +180,13 @@ msgstr "halibut: sistemul de producție a documentației lui Simon Tatham"
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:63
 msgid "ini: INI format"
-msgstr "ini: formatul INI."
+msgstr "ini: formatul INI"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:64
 msgid "kernelhelp: Help messages of each kernel compilation option"
 msgstr ""
-"kernelhelp: mesajele de ajutor ale fiecărei opțiuni de compilare a nucleului."
+"kernelhelp: mesajele de ajutor ale fiecărei opțiuni de compilare a nucleului"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:68
@@ -203,7 +203,7 @@ msgid ""
 msgstr ""
 "Îmbunătățește unele mesaje de eroare pentru a ajuta la depanarea problemelor "
 "de codificare acum că po4a este mult mai pretențios în această privință (de "
-"la v0.70) -- (<a href=„https://github.com/mquinson/po4a/releases/tag/v0.73”"
+"la v0.70) -- (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.73\""
 ">mai multe detalii</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
@@ -288,8 +288,8 @@ msgid ""
 "details</a>)."
 msgstr ""
 "Multe remedieri de erori și îmbunătățiri în AsciiDoc, Man, Mardown, xHTML și "
-"în modulele de bază -- (<a href=„https://github.com/mquinson/po4a/releases/"
-"tag/v0.67”>mai multe detalii</a>)."
+"în modulele de bază -- (<a href=\"https://github.com/mquinson/po4a/releases/"
+"tag/v0.67\">mai multe detalii</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:95
@@ -306,7 +306,7 @@ msgid ""
 msgstr ""
 "Opțiune nouă de a selecta elementele Yaml pentru a le traduce; gestionarea "
 "mai robustă a tabelelor Asciidoc (+ remedieri de erori și actualizări ale "
-"traducerii -- <a href=„https://github.com/mquinson/po4a/releases/tag/v0.66”"
+"traducerii -- <a href=\"https://github.com/mquinson/po4a/releases/tag/v0.66\""
 ">mai multe detalii</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
@@ -323,8 +323,8 @@ msgid ""
 "details</a>)."
 msgstr ""
 "Permite gruparea mai multor traduceri per fișier POT în modul divizat (+ "
-"remediere de erori și actualizări de traduceri -- <a href=„https://github."
-"com/mquinson/po4a/releases/tag/v0.65”>mai multe detalii</a>)."
+"remediere de erori și actualizări de traduceri -- <a href=\"https://github."
+"com/mquinson/po4a/releases/tag/v0.65\">mai multe detalii</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:101
@@ -338,8 +338,8 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.64\">more "
 "details</a>)."
 msgstr ""
-"Remedieri de erori și actualizări de traducere -- (<a href=„https://github."
-"com/mquinson/po4a/releases/tag/v0.64”>mai multe detalii</a>)."
+"Remedieri de erori și actualizări de traducere -- (<a href=\"https://github."
+"com/mquinson/po4a/releases/tag/v0.64\">mai multe detalii</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:104
@@ -356,7 +356,7 @@ msgid ""
 msgstr ""
 "Rezolvă o regresie în 0.62 unde traducerea binarelor po4a nu a fost "
 "instalată. Plus alte remedieri de erori și actualizări de traducere -- (<a "
-"href=„https://github.com/mquinson/po4a/releases/tag/v0.63”>mai multe "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.63\">mai multe "
 "detalii</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
@@ -373,8 +373,8 @@ msgid ""
 "details</a>)."
 msgstr ""
 "Desfășurarea asciidoc pentru a evita problemele de reformare și alte "
-"corecturi de erori, plus actualizări de traducere -- (<a href=„https://github"
-".com/mquinson/po4a/releases/tag/v0.62”>mai multe detalii</a>)."
+"corecturi de erori, plus actualizări de traducere -- (<a href=\"https"
+"://github.com/mquinson/po4a/releases/tag/v0.62\">mai multe detalii</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:110
@@ -390,8 +390,8 @@ msgid ""
 "details</a>)."
 msgstr ""
 "Mai multe remedieri de erori (din nou pentru a nu rupe pachetele Debian care "
-"depind de po4a) și actualizări de traducere -- (<a href=„https://github.com/"
-"mquinson/po4a/releases/tag/v0.61”>mai multe detalii</a>)."
+"depind de po4a) și actualizări de traducere -- (<a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.61\">mai multe detalii</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:113
@@ -405,8 +405,8 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.60\">more "
 "details</a>)."
 msgstr ""
-"Remedieri de erori și actualizări de traducere -- (<a href=„https://github."
-"com/mquinson/po4a/releases/tag/v0.60”>mai multe detalii</a>)."
+"Remedieri de erori și actualizări de traducere -- (<a href=\"https://github."
+"com/mquinson/po4a/releases/tag/v0.60\">mai multe detalii</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:116
@@ -423,7 +423,7 @@ msgid ""
 msgstr ""
 "Versiune de remediere a erorilor pentru a nu rupe construcția mai multor "
 "pachete Debian (cel puțin) -- (<a href=\"https://github.com/mquinson/po4a/"
-"releases/tag/v0.59\">mai multe detalii</a>)"
+"releases/tag/v0.59\">mai multe detalii</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:120
@@ -453,7 +453,7 @@ msgid ""
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">more "
 "details</a>)."
 msgstr ""
-"(<a href=„https://github.com/mquinson/po4a/releases/tag/v0.58”>mai multe "
+"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">mai multe "
 "detalii</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
@@ -468,8 +468,8 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.57\">more "
 "details</a>)."
 msgstr ""
-"Actualizarea traducerii și corectarea unei erori în AsciiDoc -- (<a "
-"href=„https://github.com/mquinson/po4a/releases/tag/v0.57”>mai multe "
+"Actualizarea traducerii și corectarea unei erori în AsciiDoc -- (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.57\">mai multe "
 "detalii</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
@@ -485,7 +485,7 @@ msgid ""
 "details</a>)."
 msgstr ""
 "Funcții noi și remedieri de erori, în principal la analizatorul AsciiDoc -- ("
-"<a href=„https://github.com/mquinson/po4a/releases/tag/v0.56”>mai multe "
+"<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">mai multe "
 "detalii</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
@@ -501,8 +501,8 @@ msgid ""
 "details</a>)."
 msgstr ""
 "Caracteristici noi și remedieri de erori pentru analizatoarele individuale "
-"și părțile comune -- (<a href=„https://github.com/mquinson/po4a/releases/tag/"
-"v0.55”>mai multe detalii</a>)."
+"și părțile comune -- (<a href=\"https://github.com/mquinson/po4a/releases/"
+"tag/v0.55\">mai multe detalii</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:139
@@ -516,9 +516,8 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.54\">more "
 "details</a>)."
 msgstr ""
-"Am reparat tone de erori și am eliminat multe probleme -- (<a "
-"href=„https://github.com/mquinson/po4a/releases/tag/v0.54”>mai multe "
-"detalii</a>)."
+"Am reparat tone de erori și am eliminat multe probleme -- (<a href=\"https"
+"://github.com/mquinson/po4a/releases/tag/v0.54\">mai multe detalii</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:143
@@ -534,8 +533,8 @@ msgid ""
 "details</a>)."
 msgstr ""
 "Cea mai vizibilă schimbare este un nou modul YAML și faptul că Alioth a fost "
-"dezactivat -- (<a href=„https://github.com/mquinson/po4a/releases/tag/v0.53”"
-">mai multe detalii</a>)."
+"dezactivat -- (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0."
+"53\">mai multe detalii</a>)."
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
@@ -559,8 +558,8 @@ msgid ""
 "introduction to po4a, while <a href=\"man/man1/po4a.1.php\">po4a(1)</a> "
 "presents the main po4a program."
 msgstr ""
-"Pagina de manual <a href=„man/man7/po4a.7.php”>po4a.7</a> oferă o "
-"introducere în po4a, în timp ce <a href=„man/man1/po4a.1.php”>po4a(1)</a> "
+"Pagina de manual <a href=\"man/man7/po4a.7.php\">po4a.7</a> oferă o "
+"introducere în po4a, în timp ce <a href=\"man/man1/po4a.1.php\">po4a(1)</a> "
 "prezintă programul principal po4a."
 
 #. type: Content of: <html><body><div><div><p>
@@ -569,7 +568,7 @@ msgid ""
 "For more details, the <a href=\"man/\">index</a> provides the documentation "
 "of the various commands and modules."
 msgstr ""
-"Pentru mai multe detalii, <a href=„man/”>index</a> oferă documentația "
+"Pentru mai multe detalii, <a href=\"man/\">index</a> oferă documentația "
 "diferitelor comenzi și module."
 
 #. type: Content of: <html><body><div><div><h2>
@@ -587,7 +586,7 @@ msgid ""
 msgstr ""
 "Vă putem ajuta să creați un cadru de traducere pentru documentația "
 "proiectului dumneavoastră sau să adaptați po4a la nevoile dumneavoastră. Nu "
-"ezitați să ne contactați pe <a href=„mailto:devel@lists.po4a.org”>lista "
+"ezitați să ne contactați pe <a href=\"mailto:devel@lists.po4a.org\">lista "
 "noastră de discuții</a> sau pe IRC (#po4a pe OFTC)."
 
 #. type: Content of: <html><head><title>
@@ -606,8 +605,8 @@ msgid ""
 "You can find the sources of the latest release on <a "
 "href=\"https://github.com/mquinson/po4a/releases\">GitHub</a>."
 msgstr ""
-"Puteți găsi sursele celei mai recente versiuni la <a href=„https://github."
-"com/mquinson/po4a/releases”>GitHub</a>."
+"Puteți găsi sursele celei mai recente versiuni la <a href=\"https://github."
+"com/mquinson/po4a/releases\">GitHub</a>."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:23
@@ -636,8 +635,8 @@ msgid ""
 "The latest sources are available from our <a "
 "href=\"https://github.com/mquinson/po4a\">Git repository</a>."
 msgstr ""
-"Cele mai recente surse sunt disponibile din depozitul nostru <a "
-"href=„https://github.com/mquinson/po4a”>Git</a>."
+"Cele mai recente surse sunt disponibile din depozitul nostru <a href=\"https"
+"://github.com/mquinson/po4a\">Git</a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:34
@@ -692,9 +691,9 @@ msgid ""
 "BTS</a>."
 msgstr ""
 "Rapoartele de erori, corecțiile, cererile de caracteristici sau orice opinie "
-"sunt binevenite pe lista de discuții, în <a href=„https://github.com/"
-"mquinson/po4a/issues”>GitHub tracker</a> sau în <a href=„http://bugs.debian."
-"org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable”>Debian BTS</a> (sistemul "
+"sunt binevenite pe lista de discuții, în <a href=\"https://github.com/"
+"mquinson/po4a/issues\">GitHub tracker</a> sau în <a href=\"http://bugs.debian"
+".org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a> (sistemul "
 "de urmărire a erorilor)."
 
 #. type: Content of: <html><body><div><div><p>
@@ -705,8 +704,8 @@ msgid ""
 "than welcomed."
 msgstr ""
 "Dacă puteți îmbunătăți codul singur, solicitările de îmbinare „pull requests”"
-" asupra depozitul <a href=„https://github.com/mquinson/po4a”>GitHub</a> sunt "
-"mai mult decât binevenite."
+" asupra depozitul <a href=\"https://github.com/mquinson/po4a\">GitHub</a> "
+"sunt mai mult decât binevenite."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:32
@@ -721,9 +720,9 @@ msgid ""
 "also provide pull requests on the source git directly if you prefer."
 msgstr ""
 "Cel mai simplu mod de a ajuta la traducerea po4a este să treceți prin <a "
-"href=„https://hosted.weblate.org/projects/po4a/”>Weblate</a>, dar puteți, de "
-"asemenea, să furnizați cereri de îmbinare „pull requests” direct la git-ul "
-"sursă dacă preferați."
+"href=\"https://hosted.weblate.org/projects/po4a/\">Weblate</a>, dar puteți, "
+"de asemenea, să furnizați cereri de îmbinare „pull requests” direct la git-"
+"ul sursă dacă preferați."
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:40
