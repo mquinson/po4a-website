@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.73\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2024-06-17 22:26+0200\n"
-"PO-Revision-Date: 2024-11-17 03:00+0000\n"
+"PO-Revision-Date: 2024-11-20 18:38+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/ro/>\n"
@@ -39,11 +39,12 @@ msgid ""
 "the translation into the structure of the original document to generate a "
 "translated document."
 msgstr ""
-"Po4a (PO for anything) facilitează traducerea și întreținerea documentației. "
-"Acesta extrage materialul traductibil din documentul original și îl plasează "
-"într-un fișier PO care este adaptat procesului de traducere. Odată ce acest "
-"fișier PO este actualizat de traducător, po4a reintroduce traducerea în "
-"structura documentului original pentru a genera un document tradus."
+"Po4a (PO for anything = PO pentru orice lucru) facilitează traducerea și "
+"întreținerea documentației. Acesta extrage materialul traductibil din "
+"documentul original și îl plasează într-un fișier PO care este adaptat "
+"procesului de traducere. Odată ce acest fișier PO este actualizat de "
+"traducător, po4a reintroduce traducerea în structura documentului original "
+"pentru a genera un document tradus."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:26
@@ -191,7 +192,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:68
 msgid "2024-06-17 - po4a 0.73 released"
-msgstr "2024-06-17 - a fost publicat po4a 0.73"
+msgstr "17.06.2024 - a fost publicat po4a 0.73"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:69
@@ -209,7 +210,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:72
 msgid "2024-01-29 - po4a 0.70 released"
-msgstr "2024-01-29 - a fost publicat po4a 0.70"
+msgstr "29.01.2024 - a fost publicat po4a 0.70"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:73
@@ -224,10 +225,10 @@ msgid ""
 "details</a>)."
 msgstr ""
 "Revizuire internă majoră pentru a utiliza PerlIO în loc să vă încurcați "
-"manual cu codificările.  De asemenea, această versiune corectează multe "
-"erori în AsciiDoc, Tex, Markdown, Yaml, TexInfo și în părțile comune. În "
-"sfârșit, această versiune conține mai multe îmbunătățiri ale documentației, "
-"în special în <a href=\"https://po4a.org/man/man7/po4a.7.php\">po4a(7)</a>, "
+"manual cu codificările. De asemenea, această versiune corectează multe erori "
+"în AsciiDoc, Tex, Markdown, Yaml, TexInfo și în părțile comune. În sfârșit, "
+"această versiune conține mai multe îmbunătățiri ale documentației, în "
+"special în <a href=\"https://po4a.org/man/man7/po4a.7.php\">po4a(7)</a>, "
 "care acum prezintă mai bine elementele interne potențialilor contribuitori --"
 " (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.70\">mai multe "
 "detalii</a>)."
@@ -235,7 +236,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:79
 msgid "2023-01-01 - po4a 0.69 released"
-msgstr "2023-01-01 - a fost publicat po4a 0.69"
+msgstr "01.01.2023 - a fost publicat po4a 0.69"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:80
@@ -255,7 +256,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:85
 msgid "2022-09-04 - po4a 0.68 released"
-msgstr "2022-09-04 - a fost publicat po4a 0.68"
+msgstr "04.09.2022 - a fost publicat po4a 0.68"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:86
@@ -267,17 +268,17 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.68\">more "
 "details</a>)."
 msgstr ""
-"Am îmbunătățit foarte mult procesul de gettextizare și am rescris mai multe "
-"capitole din documentație. De asemenea, «po4a-translate» și «po4a-updatepo» "
-"sunt acum depreciate: ar trebui să utilizați în schimb «po4a». În cele din "
-"urmă, această versiune corectează unele erori în modulele Markdown și Man -- "
-"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.68\">mai multe "
-"detalii</a>)."
+"Am îmbunătățit foarte mult procesul de „gettextizare” și am rescris mai "
+"multe capitole din documentație. De asemenea, «po4a-translate» și «po4a-"
+"updatepo» sunt acum depreciate: ar trebui să utilizați în schimb «po4a». În "
+"cele din urmă, această versiune corectează unele erori în modulele Markdown "
+"și Man -- (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.68\""
+">mai multe detalii</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:91
 msgid "2022-07-14 - po4a 0.67 released"
-msgstr "2022-07-14 - a fost publicat po4a 0.67"
+msgstr "14.07.2022 - a fost publicat po4a 0.67"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:92
@@ -294,7 +295,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:95
 msgid "2022-01-02 - po4a 0.66 released"
-msgstr "2022-01-02 - a fost publicat po4a 0.66"
+msgstr "02.01.2022 - a fost publicat po4a 0.66"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:96
@@ -312,7 +313,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:98
 msgid "2021-11-14 - po4a 0.65 released"
-msgstr "2021-11-14 - a fost publicat po4a 0.65"
+msgstr "14.11.2021 - a fost publicat po4a 0.65"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:99
@@ -329,7 +330,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:101
 msgid "2021-09-12 - po4a 0.64 released"
-msgstr "2021-09-12 - a fost publicat po4a 0.64"
+msgstr "12.09.2021 - a fost publicat po4a 0.64"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:102
@@ -344,7 +345,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:104
 msgid "2021-02-02 - po4a 0.63 released"
-msgstr "2021-02-02 - a fost publicat po4a 0.63"
+msgstr "02.02.2021 - a fost publicat po4a 0.63"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:105
@@ -362,7 +363,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:107
 msgid "2020-12-07 - po4a 0.62 released"
-msgstr "2020-12-07 - a fost publicat po4a 0.62"
+msgstr "07.12.2020 - a fost publicat po4a 0.62"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:108
@@ -372,14 +373,14 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.62\">more "
 "details</a>)."
 msgstr ""
-"Desfășurarea asciidoc pentru a evita problemele de reformare și alte "
-"corecturi de erori, plus actualizări de traducere -- (<a href=\"https"
+"Se înlătură încadrarea asciidoc pentru a evita problemele de reformatare și "
+"alte corecturi de erori, plus actualizări de traducere -- (<a href=\"https"
 "://github.com/mquinson/po4a/releases/tag/v0.62\">mai multe detalii</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:110
 msgid "2020-08-05 - po4a 0.61 released"
-msgstr "2020-08-05 - a fost publicat po4a 0.61"
+msgstr "05.08.2020 - a fost publicat po4a 0.61"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:111
@@ -396,7 +397,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:113
 msgid "2020-07-15 - po4a 0.60 released"
-msgstr "2020-07-15 - a fost publicat po4a 0.60"
+msgstr "15.07.2020 - a fost publicat po4a 0.60"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:114
@@ -411,7 +412,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:116
 msgid "2020-05-20 - po4a 0.59 released"
-msgstr "2020-05-20 - a fost publicat po4a 0.59"
+msgstr "20.05.2020 - a fost publicat po4a 0.59"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:117
@@ -422,13 +423,13 @@ msgid ""
 "details</a>."
 msgstr ""
 "Versiune de remediere a erorilor pentru a nu rupe construcția mai multor "
-"pachete Debian (cel puțin) -- (<a href=\"https://github.com/mquinson/po4a/"
+"pachete Debian (între altele) -- (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.59\">mai multe detalii</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:120
 msgid "2020-05-04 - po4a 0.58 released"
-msgstr "2020-05-04 - a fost publicat po4a 0.58"
+msgstr "04.05.2020 - a fost publicat po4a 0.58"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:122
@@ -440,7 +441,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:123
 msgid "Fix many issues reported against the parsers."
-msgstr "Rezolvarea mai multor probleme raportate cu privire la analizatorii."
+msgstr "Rezolvarea mai multor probleme raportate cu privire la analizatori."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:124
@@ -459,7 +460,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:127
 msgid "2019-10-25 - po4a 0.57 released"
-msgstr "2019-10-25 - a fost publicat po4a 0.57"
+msgstr "25.10.2019 - a fost publicat po4a 0.57"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:128
@@ -475,7 +476,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:131
 msgid "2019-06-06 - po4a 0.56 released"
-msgstr "2019-06-06 - a fost publicat po4a 0.56"
+msgstr "06.06.2019 - a fost publicat po4a 0.56"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:132
@@ -484,14 +485,14 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">more "
 "details</a>)."
 msgstr ""
-"Funcții noi și remedieri de erori, în principal la analizatorul AsciiDoc -- ("
+"Funcții noi și remedieri de erori, în principal în analizatorul AsciiDoc -- ("
 "<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">mai multe "
 "detalii</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:135
 msgid "2018-12-09 - po4a 0.55 released"
-msgstr "2018-12-09 - a fost publicat po4a 0.55"
+msgstr "09.12.2018 - a fost publicat po4a 0.55"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:136
@@ -500,14 +501,14 @@ msgid ""
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
 "details</a>)."
 msgstr ""
-"Caracteristici noi și remedieri de erori pentru analizatoarele individuale "
-"și părțile comune -- (<a href=\"https://github.com/mquinson/po4a/releases/"
-"tag/v0.55\">mai multe detalii</a>)."
+"Caracteristici noi și remedieri de erori pentru analizatorii individuali și "
+"părțile comune -- (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0"
+".55\">mai multe detalii</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:139
 msgid "2018-06-30 - po4a 0.54 released"
-msgstr "2018-06-30 - a fost publicat po4a 0.54"
+msgstr "30.06.2018 - a fost publicat po4a 0.54"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:140
@@ -516,13 +517,13 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.54\">more "
 "details</a>)."
 msgstr ""
-"Am reparat tone de erori și am eliminat multe probleme -- (<a href=\"https"
+"Am remediat tone de erori și am eliminat multe probleme -- (<a href=\"https"
 "://github.com/mquinson/po4a/releases/tag/v0.54\">mai multe detalii</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:143
 msgid "2018-05-25 - po4a 0.53 released"
-msgstr "2018-05-25 - a fost publicat po4a 0.53"
+msgstr "25.05.2018 - a fost publicat po4a 0.53"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:144
@@ -568,8 +569,8 @@ msgid ""
 "For more details, the <a href=\"man/\">index</a> provides the documentation "
 "of the various commands and modules."
 msgstr ""
-"Pentru mai multe detalii, <a href=\"man/\">index</a> oferă documentația "
-"diferitelor comenzi și module."
+"Pentru mai multe detalii, următoarea <a href=\"man/\">Tablă de materii</a> "
+"oferă documentația diferitelor comenzi și module."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/documentation.php.en:29
@@ -587,7 +588,7 @@ msgstr ""
 "Vă putem ajuta să creați un cadru de traducere pentru documentația "
 "proiectului dumneavoastră sau să adaptați po4a la nevoile dumneavoastră. Nu "
 "ezitați să ne contactați pe <a href=\"mailto:devel@lists.po4a.org\">lista "
-"noastră de discuții</a> sau pe IRC (#po4a pe OFTC)."
+"noastră de discuții</a> sau pe IRC (#po4a în OFTC)."
 
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
@@ -605,7 +606,7 @@ msgid ""
 "You can find the sources of the latest release on <a "
 "href=\"https://github.com/mquinson/po4a/releases\">GitHub</a>."
 msgstr ""
-"Puteți găsi sursele celei mai recente versiuni la <a href=\"https://github."
+"Puteți găsi sursele celei mai recente versiuni în <a href=\"https://github."
 "com/mquinson/po4a/releases\">GitHub</a>."
 
 #. type: Content of: <html><body><div><div><h2>
@@ -621,8 +622,8 @@ msgid ""
 "and probably others)."
 msgstr ""
 "«po4a» este un modul Perl. Acesta este disponibil ca pachet binar în multe "
-"distribuții OpenSource (Debian, Ubuntu, FreeBSD, Gentoo, Fedora, Mandriva și "
-"probabil altele)."
+"distribuții de cod-deschis „OpenSource” (Debian, Ubuntu, FreeBSD, Gentoo, "
+"Fedora, Mandriva și probabil altele)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:30
@@ -635,7 +636,7 @@ msgid ""
 "The latest sources are available from our <a "
 "href=\"https://github.com/mquinson/po4a\">Git repository</a>."
 msgstr ""
-"Cele mai recente surse sunt disponibile din depozitul nostru <a href=\"https"
+"Cele mai recente surse sunt disponibile în depozitul nostru <a href=\"https"
 "://github.com/mquinson/po4a\">Git</a>."
 
 #. type: Content of: <html><body><div><div><p>
@@ -692,9 +693,9 @@ msgid ""
 msgstr ""
 "Rapoartele de erori, corecțiile, cererile de caracteristici sau orice opinie "
 "sunt binevenite pe lista de discuții, în <a href=\"https://github.com/"
-"mquinson/po4a/issues\">GitHub tracker</a> sau în <a href=\"http://bugs.debian"
-".org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable\">Debian BTS</a> (sistemul "
-"de urmărire a erorilor)."
+"mquinson/po4a/issues\">sistemul de urmărire al GitHub</a> sau în <a href="
+"\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable\""
+">Debian BTS</a> (sistemul de urmărire a erorilor Debian)."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:27
@@ -704,7 +705,7 @@ msgid ""
 "than welcomed."
 msgstr ""
 "Dacă puteți îmbunătăți codul singur, solicitările de îmbinare „pull requests”"
-" asupra depozitul <a href=\"https://github.com/mquinson/po4a\">GitHub</a> "
+" asupra depozitului <a href=\"https://github.com/mquinson/po4a\">GitHub</a> "
 "sunt mai mult decât binevenite."
 
 #. type: Content of: <html><body><div><div><h2>
@@ -719,7 +720,7 @@ msgid ""
 "href=\"https://hosted.weblate.org/projects/po4a/\">Weblate</a> but you can "
 "also provide pull requests on the source git directly if you prefer."
 msgstr ""
-"Cel mai simplu mod de a ajuta la traducerea po4a este să treceți prin <a "
+"Cel mai simplu mod de a ajuta la traducerea po4a este prin intermediul <a "
 "href=\"https://hosted.weblate.org/projects/po4a/\">Weblate</a>, dar puteți, "
 "de asemenea, să furnizați cereri de îmbinare „pull requests” direct la git-"
 "ul sursă dacă preferați."
@@ -744,12 +745,12 @@ msgstr "</a>"
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:47
 msgid "Documentation Translations"
-msgstr "Traduceri de documentație"
+msgstr "Traducerile documentației"
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:52
 msgid "Website Translations"
-msgstr "Traduceri ale site-ului web"
+msgstr "Traducerile site-ului web"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:60
@@ -759,7 +760,7 @@ msgstr "DE FĂCUT"
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:61
 msgid "We are looking for people interested in testing/porting on Windows"
-msgstr "Căutăm persoane interesate de testarea/adaptarea po4a pe Windows"
+msgstr "Căutăm persoane interesate de testarea/adaptarea po4a pentru Windows"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:63
@@ -779,7 +780,7 @@ msgstr "</sup>"
 #. type: Content of: <div><a>
 #: src/header.php.en:8
 msgid "<a href=\"<?= $topdir ?>.\" title=\"Welcome\" >Welcome"
-msgstr "<a href=\"<?= $topdir ?>.\" title=\"Welcome\" >Bine ați venit"
+msgstr "<a href=\"<?= $topdir ?>.\" title=\"Bine ați venit\" >Bine ați venit"
 
 #. type: Content of: <div><a><span>
 #: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10
@@ -793,14 +794,14 @@ msgid ""
 "</a> <a href=\"<?= $topdir ?>documentation.php\" "
 "title=\"Documentation\">Documentation"
 msgstr ""
-"</a> <a href=\"<?= $topdir ?>documentation.php\" title=\"Documentation\""
+"</a> <a href=\"<?= $topdir ?>documentation.php\" title=\"Documentație\""
 ">Documentație"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:9
 msgid "</a> <a href=\"<?= $topdir ?>download.php\" title=\"Download\" >Download"
 msgstr ""
-"</a> <a href=\"<?= $topdir ?>download.php\" title=\"Download\" >Descărcare"
+"</a> <a href=\"<?= $topdir ?>download.php\" title=\"Descărcare\" >Descărcare"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:10
@@ -808,5 +809,5 @@ msgid ""
 "</a> <a href=\"<?= $topdir ?>getinvolved.php\" title=\"Get Involved\" >Get "
 "Involved"
 msgstr ""
-"</a> <a href=\"<?= $topdir ?>getinvolved.php\" title=\"Get Involved\" "
+"</a> <a href=\"<?= $topdir ?>getinvolved.php\" title=\"Implicați-vă\" "
 ">Implicați-vă"
