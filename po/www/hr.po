@@ -1,23 +1,23 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the po4a package.
-# Milo Ivir <mail@milotype.de>, 2020, 2021, 2022, 2023, 2024.
+# Milo Ivir <mail@milotype.de>, 2020, 2021, 2022, 2023, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.56\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2024-06-17 22:26+0200\n"
-"PO-Revision-Date: 2024-05-11 05:52+0000\n"
+"PO-Revision-Date: 2025-01-06 16:37+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
-"Language-Team: Croatian <https://hosted.weblate.org/projects/po4a/po4a-"
-"website/hr/>\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/po4a/"
+"po4a-website/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.5.4\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -190,26 +190,19 @@ msgstr "kernelhelp: Poruke pomoći svake opcije kompilacije kernela"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:68
-#, fuzzy
-#| msgid "2024-01-29 - po4a 0.70 released"
 msgid "2024-06-17 - po4a 0.73 released"
-msgstr "2024-01-29 – objavljen po4a 0.70"
+msgstr "2024-06-17 – objavljen po4a 0.73"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:69
-#, fuzzy
-#| msgid ""
-#| "New features and bugfixes to both the individual parsers and common parts "
-#| "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
-#| "details</a>)."
 msgid ""
 "Improve some error messages to help debugging encoding issues now that po4a "
 "is much more picky about it (since v0.70). (<a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.73\">more details</a>)."
 msgstr ""
-"Nove funkcije i ispravljanje grešaka parsera i zajedničkih dijelova (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">daljnje "
-"informacije</a>)."
+"Poboljšane su neke poruke o greškama koje pomažu u pronalaženju problema s "
+"kodiranjem, jer je po4a sada mnogo izbirljiviji u vezi s tim (od v0.70). (<a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.73\">detalji</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:72
@@ -243,8 +236,8 @@ msgid ""
 msgstr ""
 "Značajno poboljšano rukovanje rezerviranim mjestima u XML-u i interna "
 "čišćenja oko Yamla spajanjem dvaju parsera koja smo imali. Također, ovo "
-"izdanje ispravlja male greške u modulima Markdown i Man. (<a href=\"https://"
-"github.com/mquinson/po4a/releases/tag/v0.69\">više detalja</a>)."
+"izdanje ispravlja male greške u modulima Markdown i Man. (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.69\">detalji</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:85
@@ -263,8 +256,8 @@ msgstr ""
 "Značajno poboljšan gettextization proces i prerađivanje nekih poglavlja "
 "dokumentacije. Također, po4a-translate i po4a-updatepo su sada zastarjeli: "
 "koristi po4a umjesto njih. Ovo izdanje ispravlja neke greške u modulima "
-"Markdown i Man. (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-"v0.68\">više detalja</a>)."
+"Markdown i Man. (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.68\">detalji</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:91
@@ -279,8 +272,8 @@ msgid ""
 "v0.67\">more details</a>)."
 msgstr ""
 "Mnogi ispravci grešaka i poboljšanja u AsciiDoc, Man, Mardown, xHTML i u "
-"osnovnim modulima (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-"v0.67\">daljnje informacije</a> )."
+"osnovnim modulima (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.67\">detalji</a> )."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:95
@@ -295,9 +288,8 @@ msgid ""
 "mquinson/po4a/releases/tag/v0.66\">more details</a>)."
 msgstr ""
 "Nova opcija za biranje Yaml elemenata za prevođenje; Robusnije rukovanje "
-"Asciidoc tablicom (+ ispravljanje grešaka i aktualiziranje prijevoda -- <a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.65\">više datalja</"
-"a>)."
+"Asciidoc tablicom (+ ispravljanje grešaka i aktualiziranje prijevoda – <a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.65\">detalji</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:98
@@ -312,8 +304,8 @@ msgid ""
 "tag/v0.65\">more details</a>)."
 msgstr ""
 "Dopusti grupiranje nekoliko prijevoda za POT datoteku u podijeljenom prikazu "
-"(+ ispravljanje grešaka i aktualiziranje prijevoda -- <a href=\"https://"
-"github.com/mquinson/po4a/releases/tag/v0.65\">više datalja</a>)."
+"(+ ispravljanje grešaka i aktualiziranje prijevoda – <a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.65\">detalji</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:101
@@ -326,8 +318,8 @@ msgid ""
 "Bugfix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.64\">more details</a>)."
 msgstr ""
-"Ispravljanje grešaka i aktualiziranje prijevoda (<a href=\"https://github."
-"com/mquinson/po4a/releases/tag/v0.64\">daljnje informacije</a>)."
+"Ispravljanje grešaka i aktualiziranje prijevoda (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.64\">detalji</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:104
@@ -342,9 +334,8 @@ msgid ""
 "github.com/mquinson/po4a/releases/tag/v0.63\">more details</a>)."
 msgstr ""
 "Ispravljanje verzije 0.62 gdje prijevod binarnih po4a-datoteka nije "
-"instaliran. Ispravljanje grešaka i aktualiziranje prijevoda (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.63\">daljnje "
-"informacije</a>)."
+"instaliran. Ispravljanje grešaka i aktualiziranje prijevoda (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.63\">detalji</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:107
@@ -360,8 +351,8 @@ msgid ""
 msgstr ""
 "Uklanjanje prelamanja redaka asciidoca za izbjegavanje problema s "
 "preformatiranjem i drugi ispravci programskih grešaka te aktualiziranje "
-"prijevoda (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-"v0.60\">daljnje informacije</a>)."
+"prijevoda (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.60\""
+">detalji</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:110
@@ -376,8 +367,8 @@ msgid ""
 "v0.61\">more details</a>)."
 msgstr ""
 "Ispravljanje grešaka (greške Debian paketa koji ovise o po4a) i "
-"aktualiziranje prijevoda (<a href=\"https://github.com/mquinson/po4a/"
-"releases/tag/v0.60\">daljnje informacije</a>)."
+"aktualiziranje prijevoda (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.60\">detalji</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:113
@@ -390,8 +381,8 @@ msgid ""
 "Bugfix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.60\">more details</a>)."
 msgstr ""
-"Ispravljanje grešaka i aktualiziranje prijevoda (<a href=\"https://github."
-"com/mquinson/po4a/releases/tag/v0.60\">daljnje informacije</a>)."
+"Ispravljanje grešaka i aktualiziranje prijevoda (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.60\">detalji</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:116
@@ -405,9 +396,8 @@ msgid ""
 "least).  <a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.59\">More details</a>."
 msgstr ""
-"Ispravljanje greške koja je ometala izgradnju raznih Debian paketa (barem) "
-"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.59\">daljnje "
-"informacije</a>)."
+"Ispravljanje greške koja je ometala izgradnju raznih Debian paketa (barem) ("
+"<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.59\">detalji</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:120
@@ -436,8 +426,8 @@ msgid ""
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">more "
 "details</a>)."
 msgstr ""
-"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">daljnje "
-"informacije</a>)."
+"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\""
+">detalji</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:127
@@ -450,9 +440,8 @@ msgid ""
 "Translation update and one bugfix in AsciiDoc.  (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
 msgstr ""
-"Aktualiziranje prijevoda i ispravljanje jedne greške u AsciiDoc.  (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.57\">daljnje "
-"informacije</a>)."
+"Aktualiziranje prijevoda i ispravljanje jedne greške u AsciiDoc. (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.57\">detalji</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:131
@@ -466,8 +455,7 @@ msgid ""
 "github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
 msgstr ""
 "Nove funkcije i ispravljanje grešaka, uglavnom zbog AsciiDoc parsera (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">daljnje "
-"informacije</a>)."
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">detalji</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:135
@@ -481,9 +469,8 @@ msgid ""
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
 "details</a>)."
 msgstr ""
-"Nove funkcije i ispravljanje grešaka parsera i zajedničkih dijelova (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">daljnje "
-"informacije</a>)."
+"Nove funkcije i ispravljanje grešaka parsera i zajedničkih dijelova (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.55\">detalji</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:139
@@ -496,8 +483,8 @@ msgid ""
 "We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
 "com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
 msgstr ""
-"Ispravili smo velik broj grešaka i uklonili mnoge smetnje (<a href=\"https://"
-"github.com/mquinson/po4a/releases/tag/v0.54\">daljnje informacije</a>)."
+"Ispravili smo velik broj grešaka i uklonili mnoge smetnje (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.54\">detalji</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:143
@@ -511,9 +498,8 @@ msgid ""
 "turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.53\">more details</a>)."
 msgstr ""
-"Najočitija promjena je novi YAML modul i činjenica da je Alioth isključen "
-"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.53\">daljnje "
-"informacije</a>)."
+"Najočitija promjena je novi YAML modul i činjenica da je Alioth isključen ("
+"<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.53\">detalji</a>)."
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
@@ -546,7 +532,9 @@ msgstr ""
 msgid ""
 "For more details, the <a href=\"man/\">index</a> provides the documentation "
 "of the various commands and modules."
-msgstr "Pregledaj <a href=\"man/\">dokumentaciju</a> naredbi i modula."
+msgstr ""
+"Za detalje, <a href=\"man/\">indeks</a> pruža dokumentaciju raznih naredbi i "
+"modula."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/documentation.php.en:29
