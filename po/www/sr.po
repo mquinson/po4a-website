@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the po4a package.
-# eevan78 <ivan.pesic@gmail.com>, 2024.
+# eevan78 <ivan.pesic@gmail.com>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.70\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2024-06-17 22:26+0200\n"
-"PO-Revision-Date: 2024-07-12 18:09+0000\n"
+"PO-Revision-Date: 2025-02-13 11:02+0000\n"
 "Last-Translator: eevan78 <ivan.pesic@gmail.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/sr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -191,7 +191,7 @@ msgstr "kernelhelp: Поруке помоћи за сваку од опција 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:68
 msgid "2024-06-17 - po4a 0.73 released"
-msgstr "2024-06-17 - објављен је po4a 0.73"
+msgstr "17-06-2024 - објављен је po4a 0.73"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:69
@@ -202,13 +202,13 @@ msgid ""
 msgstr ""
 "Побољшане су неке поруке о грешки чиме се помаже проналажење проблема са "
 "кодирањем, јер је сада po4a много осетљивији на грешке у вези са кодирањем ("
-"почевши од верзије 0.70). (<a href=\"https://github.com/mquinson/po4a/"
-"releases/tag/v0.55\">више детаља</a>)."
+"почевши од верзије 0.70). (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.73\">више детаља</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:72
 msgid "2024-01-29 - po4a 0.70 released"
-msgstr "2024-01-29 - објављен је po4a 0.70"
+msgstr "29-01-2024 - објављен је po4a 0.70"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:73
@@ -222,17 +222,18 @@ msgid ""
 "po4a/releases/tag/v0.70\">more details</a>)."
 msgstr ""
 "Велика интерна прерада како би се уместо ручног петљања са кодирањима "
-"користио PerlIO.  Такође, ово издање исправља многе багове у AsciiDoc, Tex, "
-"Markdown, Yaml, TexInfo и у општим деловима.  Коначно, ова верзија садржи "
-"неколико побољшања документације, тачније <a href=\"https://po4a.org/man/"
-"man7/po4a.7.php\">po4a(7)</a>, где се сада потенцијалним даваоцима доприноса "
-"боље представља начин интерног фунцкионисања.  (<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.70\">више детаља</a>)."
+"користио PerlIO. Такође, ово издање исправља многе багове у AsciiDoc, Tex, "
+"Markdown, Yaml, TexInfo и у општим деловима. Коначно, ова верзија садржи "
+"неколико побољшања документације, тачније <a href="
+"\"https://po4a.org/man/man7/po4a.7.php\">po4a(7)</a>, где се сада "
+"потенцијалним даваоцима доприноса боље представља начин интерног "
+"фунцкионисања. (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.70\">више детаља</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:79
 msgid "2023-01-01 - po4a 0.69 released"
-msgstr "2023-01-01 - објављен је po4a 0.69"
+msgstr "01-01-2023 - објављен је po4a 0.69"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:80
@@ -250,7 +251,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:85
 msgid "2022-09-04 - po4a 0.68 released"
-msgstr "2022-09-04 - објављен је po4a 0.68"
+msgstr "04-09-2022 - објављен је po4a 0.68"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:86
@@ -270,7 +271,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:91
 msgid "2022-07-14 - po4a 0.67 released"
-msgstr "2022-07-14 - објављен је po4a 0.67"
+msgstr "14-07-2022 - објављен је po4a 0.67"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:92
@@ -286,7 +287,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:95
 msgid "2022-01-02 - po4a 0.66 released"
-msgstr "2022-01-02 - објављен је po4a 0.66"
+msgstr "02-01-2022 - објављен је po4a 0.66"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:96
@@ -303,7 +304,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:98
 msgid "2021-11-14 - po4a 0.65 released"
-msgstr "2021-11-14 - објављен је po4a 0.65"
+msgstr "14-11-2021 - објављен је po4a 0.65"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:99
@@ -333,7 +334,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:104
 msgid "2021-02-02 - po4a 0.63 released"
-msgstr "2021-02-03 - објављен је po4a 0.63"
+msgstr "03-02-2021 - објављен је po4a 0.63"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:105
@@ -350,7 +351,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:107
 msgid "2020-12-07 - po4a 0.62 released"
-msgstr "2020-12-07 - објављен је po4a 0.62"
+msgstr "07-02-2020 - објављен је po4a 0.62"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:108
@@ -367,7 +368,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:110
 msgid "2020-08-05 - po4a 0.61 released"
-msgstr "2020-08-05 - објављен је po4a 0.61"
+msgstr "05-08-2020 - објављен је po4a 0.61"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:111
@@ -383,7 +384,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:113
 msgid "2020-07-15 - po4a 0.60 released"
-msgstr "2020-07-15 - објављен је po4a 0.60"
+msgstr "15-07-2020 - објављен је po4a 0.60"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:114
@@ -397,7 +398,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:116
 msgid "2020-05-20 - po4a 0.59 released"
-msgstr "2020-05-20 - објављен је po4a 0.59"
+msgstr "20-05-2020 - објављен је po4a 0.59"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:117
@@ -413,7 +414,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:120
 msgid "2020-05-04 - po4a 0.58 released"
-msgstr "2020-05-04 - објављен је po4a 0.58"
+msgstr "04-05-2020 - објављен је po4a 0.58"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:122
@@ -442,7 +443,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:127
 msgid "2019-10-25 - po4a 0.57 released"
-msgstr "2019-10-25 - објављен је po4a 0.57"
+msgstr "25-10-2019 - објављен је po4a 0.57"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:128
@@ -456,7 +457,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:131
 msgid "2019-06-06 - po4a 0.56 released"
-msgstr "2019-06-06 - објављен је po4a 0.56"
+msgstr "06-06-2019 - објављен је po4a 0.56"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:132
@@ -471,7 +472,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:135
 msgid "2018-12-09 - po4a 0.55 released"
-msgstr "2018-12-09 - објављен је po4a 0.55"
+msgstr "09-12-2018 - објављен је po4a 0.55"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:136
@@ -487,7 +488,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:139
 msgid "2018-06-30 - po4a 0.54 released"
-msgstr "2018-06-30 - објављен је po4a 0.54"
+msgstr "30-06-2018 - објављен је po4a 0.54"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:140
@@ -501,7 +502,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:143
 msgid "2018-05-25 - po4a 0.53 released"
-msgstr "2018-05-25 - објављен је po4a 0.53"
+msgstr "25-05-2018 - објављен је po4a 0.53"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:144
