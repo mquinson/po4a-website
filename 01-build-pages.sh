@@ -240,7 +240,7 @@ get_language() {
 			;;
 		*)
 			echo "Language '$1' not supported. Change 01-build-pages.sh" >&2
-			exit 1
+			# DO NOT EXIT or the rest of the build will fail
 			;;
 	esac
 }
