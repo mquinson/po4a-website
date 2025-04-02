@@ -9,7 +9,7 @@ echo
 echo "XXX Get the latest translations from git"
 
 git pull # git@github.com:mquinson/po4a-website.git
-git pull salsa master # git@salsa.debian.org:mquinson/po4a-website.git
+git pull --rebase salsa master # git@salsa.debian.org:mquinson/po4a-website.git
 
 curdir=$(pwd)
 
