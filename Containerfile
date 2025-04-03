@@ -1,4 +1,4 @@
-FROM ghcr.io/mquinson/po4a:publish_image
+FROM ghcr.io/mquinson/po4a:master
 
 ENV LANG C.UTF-8
 ENV LANGUAGE en
