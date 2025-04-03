@@ -42,13 +42,18 @@ jobs:
       with:
         images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
 
+    - uses: 8BitJonny/gh-get-current-pr@3.0.0
+      id: PR
+      with:
+        sha: ${{ github.event.pull_request.head.sha }}
+
     - name: Build and push Docker image
       id: push
       uses: docker/build-push-action@v6
       with:
         context: .
         file: Containerfile
-        push: true
+        push: ${{ github.event_name != 'pull_request' }}
         tags: ${{ steps.meta.outputs.tags }}
         labels: ${{ steps.meta.outputs.labels }}
 
@@ -58,3 +63,5 @@ jobs:
         subject-name: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
         subject-digest: ${{ steps.push.outputs.digest }}
         push-to-registry: true
+      if: github.event_name != 'pull_request'
+

@@ -5,6 +5,7 @@ ENV LANGUAGE en
 ENV LC_ALL C.UTF-8
 ENV DEBIAN_FRONTEND noninteractive
 ENV COLUMNS 120
+ENV CI=1
 
 RUN set -eux; apt-get update; apt-get install -y --no-install-recommends git rsync
 
