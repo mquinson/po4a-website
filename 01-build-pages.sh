@@ -9,7 +9,7 @@ echo
 echo "XXX Get the latest translations from git"
 
 git pull # git@github.com:mquinson/po4a-website.git
-git pull salsa master # git@salsa.debian.org:mquinson/po4a-website.git
+#git pull --rebase salsa master # git@salsa.debian.org:mquinson/po4a-website.git
 
 curdir=$(pwd)
 
@@ -240,7 +240,7 @@ get_language() {
 			;;
 		*)
 			echo "Language '$1' not supported. Change 01-build-pages.sh" >&2
-			exit 1
+			# DO NOT EXIT or the rest of the build will fail
 			;;
 	esac
 }
