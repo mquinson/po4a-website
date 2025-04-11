@@ -217,6 +217,9 @@ get_language() {
 		pt_BR)
 			echo -n "Português (Brasil)"
 			;;
+        ro)
+            echo -n "Limba română"
+            ;;
 		ru)
 			echo -n "Русский"
 			;;
@@ -226,6 +229,9 @@ get_language() {
 		sr)
 			echo -n "српски језик"
 			;;
+        ta)
+            echo -n "தமிழ்"
+            ;;
 		uk)
 			echo -n "український"
 			;;
