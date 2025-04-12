@@ -8,13 +8,12 @@ ENV COLUMNS 120
 ENV CI=1
 
 # libxml2-utils provides xmlcatalogs
-RUN set -eux; apt-get update; apt-get install -y --no-install-recommends git rsync libxml2-utils
+RUN set -eux; apt-get update; apt-get install -y --no-install-recommends git rsync libxml2-utils man2html
 
 # po4a image has compiled sources available in /srv/po4a
 
 COPY . /srv/website-src
 WORKDIR /srv/website-src
-RUN git remote add salsa https://salsa.debian.org/mquinson/po4a-website.git
 
 RUN sh 01-build-pages.sh
 # add common assets

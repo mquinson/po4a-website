@@ -46,7 +46,7 @@ webver=$(cat VERSION)
 if [ "x$libver" != "x$webver" -a -z "${CI}" ] ; then
 	echo "XXX Not regenerating the documentation because the webversion ($webver) is not the libversion ($libver)"
 else
-	echo "XXX Regenerating the documentation because the webversion ($webver) is the libversion ($libver), or because we are on CI (${CI})"
+	echo "XXX Regenerating the documentation because the webversion ($webver) is the libversion ($libver), or because we are on CI (\$CI=${CI})"
 	cd $srcdir
 	LANGS=
 	for lang in po/pod/*.po
@@ -86,11 +86,13 @@ do
 done
 
 
-if [ "x$libver" = "x$webver" ] ; then
+if [ "x$libver" != "x$webver" -a -z "${CI}" ] ; then
+	echo "XXX NOT generating the HTML of manpages"
+else 
 for lang in en $LANGS ; do
 	header=header.php.$lang
 	[ -e html/$header ] || header=header.php.en
-	echo Generate the $lang index
+	echo "XXX Generate the $lang index"
 
 	cat << EOT > html/man/index.php.$lang
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
@@ -105,7 +107,12 @@ for lang in en $LANGS ; do
  </head>
  <body>
 EOT
-	cat src/header.php.$lang >> html/man/index.php.$lang
+	if [ -e html/header.php.$lang ] ; then
+		sed -e 's/TOPDIR/../' html/header.php.$lang >> html/man/index.php.$lang
+	else
+		echo "html/header.php.$lang does not exist, use the english one"
+		sed -e 's/TOPDIR/../' src/header.php.en >> html/man/index.php.$lang
+	fi
         cat << EOT >> html/man/index.php.$lang
   <div id="content">
   <h1>Table of Contents</h1>
@@ -166,7 +173,7 @@ done
 rm -rf html/en
 fi
 
-echo Extract the version
+echo XXX Extract the version
 echo $webver > html/version.php
 
 get_language() {

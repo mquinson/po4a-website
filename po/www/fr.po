@@ -958,66 +958,44 @@ msgstr "Le support du format XLIFF serait le bienvenu."
 
 #. type: Content of: <div><a>
 #: src/header.php.en:7
-#, fuzzy
-#| msgid "<a href=\"<?= $topdir ?>.\" title=\"Welcome\" >Welcome"
 msgid "<a href=\"TOPDIR/.\" title=\"Welcome\" >Welcome"
-msgstr "<a href=\"<?= $topdir ?>.\" title=\"Bienvenue\" >Bienvenue"
+msgstr "<a href=\"TOPDIR/.\" title=\"Bienvenue\" >Bienvenue"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:7
-#, fuzzy
-#| msgid ""
-#| "</a> <a href=\"<?= $topdir ?>documentation.php\" "
-#| "title=\"Documentation\">Documentation"
 msgid ""
 "</a> <a href=\"TOPDIR/documentation.php\" "
 "title=\"Documentation\">Documentation"
 msgstr ""
-"</a> <a href=\"<?= $topdir ?>documentation.php\" "
+"</a> <a href=\"TOPDIR/documentation.php\" "
 "title=\"Documentation\">Documentation"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:8
-#, fuzzy
-#| msgid ""
-#| "</a> <a href=\"<?= $topdir ?>download.php\" title=\"Download\" >Download"
 msgid "</a> <a href=\"TOPDIR/download.php\" title=\"Download\" >Download"
 msgstr ""
-"</a> <a href=\"<?= $topdir ?>download.php\" title=\"Téléchargement\" "
+"</a> <a href=\"TOPDIR/download.php\" title=\"Téléchargement\" "
 ">Téléchargement"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:9
-#, fuzzy
-#| msgid ""
-#| "</a> <a href=\"<?= $topdir ?>getinvolved.php\" title=\"Get Involved\" "
-#| ">Get Involved"
 msgid ""
 "</a> <a href=\"TOPDIR/getinvolved.php\" title=\"Get Involved\" >Get Involved"
 msgstr ""
-"</a> <a href=\"<?= $topdir ?>getinvolved.php\" title=\"Contribuer\" "
+"</a> <a href=\"TOPDIR/getinvolved.php\" title=\"Contribuer\" "
 ">Contribuer"
 
 #~ msgid "Welcome"
 #~ msgstr "Bienvenue"
 
-#, fuzzy
-#~| msgid "&nbsp;&nbsp;&lt;"
-#~ msgid "Welcome<span>&nbsp;&nbsp;&lt;</span>"
-#~ msgstr "&nbsp;&nbsp;&lt;"
 
 #~ msgid "Download"
 #~ msgstr "Téléchargement"
 
-#, fuzzy
-#~| msgid "&nbsp;&nbsp;&lt;"
-#~ msgid "Download<span>&nbsp;&nbsp;&lt;</span>"
-#~ msgstr "&nbsp;&nbsp;&lt;"
 
 #~ msgid "Get Involved"
 #~ msgstr "Participer"
 
-#, fuzzy
 #~| msgid ""
 #~| "Many bug fixes and improvement in AsciiDoc, Man, Mardown, xHTML and in "
 #~| "core modules (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
