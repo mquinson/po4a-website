@@ -43,8 +43,10 @@ percent_lang() {
 libver=$(grep '^$VERSION =' $srcdir/lib/Locale/Po4a/TransTractor.pm | \
            sed -e 's/^.*"\([^"]*\)".*/\1/')
 webver=$(cat VERSION)
-if [ "x$libver" = "x$webver" ] ; then
-	echo "XXX Regenerating the documentation because the code is at the same version than the website ($libver)"
+if [ "x$libver" != "x$webver" -a -z "${CI}" ] ; then
+	echo "XXX Not regenerating the documentation because the webversion ($webver) is not the libversion ($libver)"
+else
+	echo "XXX Regenerating the documentation because the webversion ($webver) is the libversion ($libver), or because we are on CI (${CI})"
 	cd $srcdir
 	LANGS=
 	for lang in po/pod/*.po
@@ -68,8 +70,6 @@ if [ "x$libver" = "x$webver" ] ; then
 	mkdir html/man/man3
 	mkdir html/man/man5
 	mkdir html/man/man7
-else
-	echo "XXX Not regenerating the documentation because the webversion ($webver) is not the libversion ($libver)"
 fi
 
 echo
