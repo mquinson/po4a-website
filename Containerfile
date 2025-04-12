@@ -7,7 +7,8 @@ ENV DEBIAN_FRONTEND noninteractive
 ENV COLUMNS 120
 ENV CI=1
 
-RUN set -eux; apt-get update; apt-get install -y --no-install-recommends git rsync
+# libxml2-utils provides xmlcatalogs
+RUN set -eux; apt-get update; apt-get install -y --no-install-recommends git rsync libxml2-utils
 
 # po4a image has compiled sources available in /srv/po4a
 
