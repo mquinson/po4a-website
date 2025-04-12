@@ -11,7 +11,19 @@
 	<title>po4a - Get involved!</title>
 </head>
 <body>
-	<?php include "header.php.en"; ?>
+<!-- begin header.php -->
+	<div class="bg"><div class="header">
+		<h1>po4a<sup>v<?php include "version.php"; ?></sup></h1>
+	</div></div>
+
+	<div id="nav">
+		<a href="../"                 title="Welcome"      >Welcome<span>&nbsp;&nbsp;&lt;</span></a>
+		<a href="../documentation.php" title="Documentation">Documentation<span>&nbsp;&nbsp;&lt;</span></a>
+		<a href="../download.php"      title="Download"     >Download<span>&nbsp;&nbsp;&lt;</span></a>
+		<a href="../getinvolved.php"   title="Get Involved" >Get Involved<span>&nbsp;&nbsp;&lt;</span></a>
+	</div>
+<!-- end header.php -->
+
 
 	<div id="content">
 		<div class="item">

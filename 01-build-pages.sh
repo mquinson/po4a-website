@@ -104,7 +104,9 @@ for lang in en $LANGS ; do
   <title>Table of Contents</title>
  </head>
  <body>
-  <?php \$topdir = "../"; include "../$header"; ?>
+EOT
+	cat src/header.php.$lang >> html/man/index.php.$lang
+        cat << EOT >> html/man/index.php.$lang
   <div id="content">
   <h1>Table of Contents</h1>
    <table>
