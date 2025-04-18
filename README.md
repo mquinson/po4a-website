@@ -16,12 +16,13 @@ The source files are located in `src/`.
 
 ### Building
 
-To rebuild the website, just type `01-build-pages.sh` and you can
-inspect the result in `html/`
+The website is rebuilt with the `01-build-pages.sh` script. Once it's
+run, you can inspect the result in `html/`
 
 ### Uploading
 
-Just type `02-upload.sh` after rebuilding it.
+There is a webhook on github, to trigger a rebuild (using the same
+script) on OpenShift on push events.
 
 
 ### TODO
