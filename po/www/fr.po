@@ -310,8 +310,8 @@ msgid ""
 "Major internal overhaul to use PerlIO instead of messing up manually with "
 "encodings.  Also, this release fixes many bugs in AsciiDoc, Tex, Markdown, "
 "Yaml, TexInfo and in the common parts.  Finally, this version contains "
-"several documentation improvements, in particular in <a href=\"https://"
-"po4a.org/man/man7/po4a.7.php\">po4a(7)</a>, which now better introduces the "
+"several documentation improvements, in particular in <a href=\"https://po4a."
+"org/man/man7/po4a.7.php\">po4a(7)</a>, which now better introduces the "
 "internals to potential contributors.  (<a href=\"https://github.com/mquinson/"
 "po4a/releases/tag/v0.70\">more details</a>)."
 msgstr ""
@@ -319,12 +319,11 @@ msgstr ""
 "manipulations directes des encodages. Cette version corrige également des "
 "bogues dans AsciiDoc, TeX, Markdown, Yaml, TexInfo ainsi que dans les "
 "parties communes. Et pour finir, elle contient également des améliorations "
-"importantes de la documentation, en particulier dans <a href=\"https://"
-"po4a.org/man/man7/po4a.7.php.fr\">po4a(7)</a> qui offre maintenant une "
-"meilleure introduction aux mécanismes internes pour faciliter les "
-"contributions externes. Pour en savoir plus, consultez le <a href=\"https://"
-"github.com/mquinson/po4a/releases/tag/v0.70\">rapport de version</a> (en "
-"anglais)."
+"importantes de la documentation, en particulier dans <a href=\"https://po4a."
+"org/man/man7/po4a.7.php.fr\">po4a(7)</a> qui offre maintenant une meilleure "
+"introduction aux mécanismes internes pour faciliter les contributions "
+"externes. Pour en savoir plus, consultez le <a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.70\">rapport de version</a> (en anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:91
@@ -594,8 +593,8 @@ msgstr "25 octobre 2019 — po4a 0.57 est sorti"
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:140
 msgid ""
-"Translation update and one bugfix in AsciiDoc.  (<a href=\"https://"
-"github.com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
+"Translation update and one bugfix in AsciiDoc.  (<a href=\"https://github."
+"com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
 msgstr ""
 "Mise à jour des traductions et correction de bogues dans AsciiDoc. Pour en "
 "savoir plus, consultez le <a href=\"https://github.com/mquinson/po4a/"
@@ -645,8 +644,8 @@ msgstr "30 juin 2018 — po4a 0.54 est sorti"
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:152
 msgid ""
-"We fixed tons of bugs, and removed many glitches (<a href=\"https://"
-"github.com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
+"We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
+"com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
 msgstr ""
 "Nous avons corrigé une tonne de bogues et autres problèmes. Pour en savoir "
 "plus, consultez le <a href=\"https://github.com/mquinson/po4a/releases/tag/"
@@ -801,11 +800,11 @@ msgstr "Sources"
 #| "The latest sources are available from our <a href=\"https://github.com/"
 #| "mquinson/po4a\">Git repository</a>."
 msgid ""
-"You can find the sources of the latest release on <a href=\"https://"
-"github.com/mquinson/po4a/releases\">GitHub</a>."
+"You can find the sources of the latest release on <a href=\"https://github."
+"com/mquinson/po4a/releases\">GitHub</a>."
 msgstr ""
-"Les dernières sources sont disponibles sur notre <a href=\"https://"
-"github.com/mquinson/po4a\">dépôt git</a>."
+"Les dernières sources sont disponibles sur notre <a href=\"https://github."
+"com/mquinson/po4a\">dépôt git</a>."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:35
@@ -834,8 +833,8 @@ msgid ""
 "The latest sources are available from our <a href=\"https://github.com/"
 "mquinson/po4a\">Git repository</a>."
 msgstr ""
-"Les dernières sources sont disponibles sur notre <a href=\"https://"
-"github.com/mquinson/po4a\">dépôt git</a>."
+"Les dernières sources sont disponibles sur notre <a href=\"https://github."
+"com/mquinson/po4a\">dépôt git</a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:46
@@ -870,8 +869,8 @@ msgid ""
 "\">mailing list</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>,"
 msgstr ""
 "sur la <a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/"
-"\">liste de diffusion</a> -- <a "
-"href=\"mailto:devel@po4a.org\">devel@po4a.org</a>,"
+"\">liste de diffusion</a> -- <a href=\"mailto:devel@po4a.org\">devel@po4a."
+"org</a>,"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:34
@@ -889,8 +888,8 @@ msgstr ""
 "Rapport de bogues, correctifs, demandes de fonctionnalités ou toute forme de "
 "retour sont bienvenus sur la liste de diffusion, sur le <a href=\"https://"
 "github.com/mquinson/po4a/issues\">système de suivi de GitHub</a> ou le <a "
-"href=\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?"
-"pkg=po4a;dist=unstable\">système de suivi des bogues Debian</a>."
+"href=\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;"
+"dist=unstable\">système de suivi des bogues Debian</a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:39
@@ -974,24 +973,20 @@ msgstr ""
 #: src/header.php.en:8
 msgid "</a> <a href=\"TOPDIR/download.php\" title=\"Download\" >Download"
 msgstr ""
-"</a> <a href=\"TOPDIR/download.php\" title=\"Téléchargement\" "
-">Téléchargement"
+"</a> <a href=\"TOPDIR/download.php\" title=\"Téléchargement\" >Téléchargement"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:9
 msgid ""
 "</a> <a href=\"TOPDIR/getinvolved.php\" title=\"Get Involved\" >Get Involved"
 msgstr ""
-"</a> <a href=\"TOPDIR/getinvolved.php\" title=\"Contribuer\" "
-">Contribuer"
+"</a> <a href=\"TOPDIR/getinvolved.php\" title=\"Contribuer\" >Contribuer"
 
 #~ msgid "Welcome"
 #~ msgstr "Bienvenue"
 
-
 #~ msgid "Download"
 #~ msgstr "Téléchargement"
-
 
 #~ msgid "Get Involved"
 #~ msgstr "Participer"
@@ -1161,11 +1156,11 @@ msgstr ""
 #~ msgstr "KernelHelp"
 
 #~ msgid ""
-#~ "<?php include \"footer_documentation.php\"; ?> <?php include "
-#~ "\"footer.php\"; ?>"
+#~ "<?php include \"footer_documentation.php\"; ?> <?php include \"footer."
+#~ "php\"; ?>"
 #~ msgstr ""
-#~ "<?php include \"footer_documentation.php\"; ?> <?php include "
-#~ "\"footer.php\"; ?>"
+#~ "<?php include \"footer_documentation.php\"; ?> <?php include \"footer."
+#~ "php\"; ?>"
 
 #~ msgid "2017-03-28 - po4a 0.52 released"
 #~ msgstr "28/03/2017 — po4a 0.52 est sorti"
