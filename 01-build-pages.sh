@@ -161,7 +161,7 @@ EOT
 		                       -e 's/\.html"/\.php"/g' \
 		                       -e 's,/man3pm/,/man3/,g' \
 		                       -e 's,<HEAD>,<HEAD><link rel="stylesheet" title="Default Style" type="text/css" href="../../default.css"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type">,' \
-		                       -e 's,<BODY>,<BODY><?php $topdir = "../../"; include "../../'$header'"; ?><div id="content">,' \
+		                       -e 's,<BODY>,<BODY><?php $topdir = "../../"; include "../../'$header.$lang'"; ?><div id="content">,' \
 		                       -e 's,</BODY>,</div><?php include "'$footer'"; ?><?php include "../../footer.php"; ?></BODY>,' > $out
 	done
 
