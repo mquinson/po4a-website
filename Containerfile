@@ -22,3 +22,9 @@ RUN cp -a src/. html/
 # move result to be published
 # to the OSCI's openshift-apps/php_website role location
 RUN mv html /srv/website
+
+# force Content-Type for localized file extensions
+#
+# Using FileMatch+SetHandler, even with MultiviewsMatch Any did not work with content negociation
+WORKDIR /srv/website
+RUN for f in index.php.*; do echo "AddType application/x-httpd-php ${f##*.}">>.htaccess; done
