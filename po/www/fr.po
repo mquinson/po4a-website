@@ -263,7 +263,7 @@ msgstr ""
 "Amélioration des messages d'erreur pour aider au débogage des problèmes "
 "d'encodage, car po4a est bien plus susceptible à ce sujet depuis v0.70. Pour "
 "en savoir plus, consultez le <a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.63\">rapport de version</"
+"\"https://github.com/mquinson/po4a/releases/tag/v0.73\">rapport de version</"
 "a> (en anglais)."
 
 #. type: Content of: <html><body><div><div><h2>
