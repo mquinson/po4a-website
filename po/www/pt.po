@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.62-alpha\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2025-04-12 21:25+0200\n"
-"PO-Revision-Date: 2025-06-15 07:01+0000\n"
+"PO-Revision-Date: 2025-06-27 05:01+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/pt/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -259,20 +259,14 @@ msgstr "2024-06-17 - po4a 0.73 lançado"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:81
-#, fuzzy
-#| msgid ""
-#| "Improve some error messages to help debugging encoding issues now that "
-#| "po4a is much more picky about it (since v0.70). (<a href=\"https://github."
-#| "com/mquinson/po4a/releases/tag/v0.73\">more details</a>)."
 msgid ""
 "Improve some error messages to help debugging encoding issues now that po4a "
 "is much more picky about it (since v0.70). (<a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.73\">more details</a>)."
 msgstr ""
-"Melhore algumas mensagens de erro para depurar problemas de codificação "
-"agora que po4a é muito mais picante sobre ele (desde v0.70). (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.73\">mais detalhes</"
-"a>)."
+"Melhora algumas mensagens de erro para depurar problemas de codificação "
+"agora que o po4a é muito mais picante sobre isso (desde v0.70). (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.73\">mais detalhes</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:84
@@ -281,16 +275,6 @@ msgstr "29-01-2024 - Lançamento do po4a 0.70"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:85
-#, fuzzy
-#| msgid ""
-#| "Major internal overhaul to use PerlIO instead of messing up manually with "
-#| "encodings.  Also, this release fixes many bugs in AsciiDoc, Tex, "
-#| "Markdown, Yaml, TexInfo and in the common parts.  Finally, this version "
-#| "contains several documentation improvements, in particular in <a "
-#| "href=\"https://po4a.org/man/man7/po4a.7.php\">po4a(7)</a>, which now "
-#| "better introduces the internals to potential contributors.  (<a "
-#| "href=\"https://github.com/mquinson/po4a/releases/tag/v0.70\">more "
-#| "details</a>)."
 msgid ""
 "Major internal overhaul to use PerlIO instead of messing up manually with "
 "encodings.  Also, this release fixes many bugs in AsciiDoc, Tex, Markdown, "
@@ -303,10 +287,10 @@ msgstr ""
 "Grande revisão interna para usar PerlIO em vez de estragar as codificações "
 "manualmente . Além disso, esta versão corrige muitos bugs em AsciiDoc, Tex, "
 "Markdown, Yaml, TexInfo e nas partes comuns. Finalmente, esta versão contém "
-"diversas melhorias na documentação, em particular em <a href=\"https://po4a."
-"org/man/man7/po4a.7.php\">po4a(7)</a>, que agora apresenta melhor os "
-"pormenores internos para potenciais colaboradores. (<a href=\"https://github."
-"com/mquinson/po4a/releases/tag/v0.70\">mais pormenores</a>)."
+"diversas melhorias na documentação, em particular em <a href="
+"\"https://po4a.org/man/man7/po4a.7.php\">po4a(7)</a>, que agora apresenta "
+"melhor os pormenores internos para potenciais colaboradores. (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.70\">mais pormenores</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:91
@@ -315,12 +299,6 @@ msgstr "01-01-2023 - Lançamento do po4a 0.69"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:92
-#, fuzzy
-#| msgid ""
-#| "Greatly improve the handeling of placeholders in XML, and internal "
-#| "cleanups around Yaml by merging the two parsers that we had.  Also, this "
-#| "release fixes small bugs in Markdown and Man modules.  (<a href=\"https://"
-#| "github.com/mquinson/po4a/releases/tag/v0.69\">more details</a>)."
 msgid ""
 "Greatly improve the handeling of placeholders in XML, and internal cleanups "
 "around Yaml by merging the two parsers that we had.  Also, this release "
@@ -328,7 +306,7 @@ msgid ""
 "mquinson/po4a/releases/tag/v0.69\">more details</a>)."
 msgstr ""
 "Uma grande melhoria no tratamento de espaços reservados em XML e nas "
-"limpezas internas em torno do Yaml, mesclando os dois analisadores que "
+"limpezas internas em torno do Yaml, unindo os dois analisadores que "
 "tínhamos. Além disso, esta versão corrige pequenos bugs nos módulos Markdown "
 "e Man. (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.69\">mais "
 "pormenores</a>)."
@@ -340,13 +318,6 @@ msgstr "2022-09-04 - Lançamento do po4a 0.68"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:98
-#, fuzzy
-#| msgid ""
-#| "Greatly improve the gettextization process, and rewrite several "
-#| "documentation chapters.  Also, po4a-translate and po4a-updatepo are now "
-#| "deprecated: you should use po4a instead.  Finally, this release fixes "
-#| "some bugs in Markdown and Man modules.  (<a href=\"https://github.com/"
-#| "mquinson/po4a/releases/tag/v0.68\">more details</a>)."
 msgid ""
 "Greatly improve the gettextization process, and rewrite several "
 "documentation chapters.  Also, po4a-translate and po4a-updatepo are now "
@@ -357,8 +328,8 @@ msgstr ""
 "Melhora muito o processo de gettextização, e reescreve vários capítulos de "
 "documentação.  Também, o po4a-translate e o po4a-updatepo são agora "
 "obsoletos: em vez disso, deve utilizar o po4a.  Finalmente, este lançamento "
-"corrige alguns erros nos módulos Markdown e Man.  (<a href=\"https://github."
-"com/mquinson/po4a/releases/tag/v0.68\">mais detalhes</a>)."
+"corrige alguns erros nos módulos Markdown e Man.  (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.68\">mais detalhes</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:103
@@ -367,17 +338,14 @@ msgstr "2022-07-14 - Lançamento do po4a 0.67"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:104
-#, fuzzy
-#| msgid ""
-#| "Bugfix and translation updates (<a href=\"https://github.com/mquinson/"
-#| "po4a/releases/tag/v0.64\">more details</a>)."
 msgid ""
 "Many bug fixes and improvement in AsciiDoc, Man, Mardown, xHTML and in core "
 "modules (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.67\">more details</a>)."
 msgstr ""
-"Correção de erros e atualizações de tradução (<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.64\">mais detalhes</a>)."
+"Muitas correções de bugs e melhoramentos em AsciiDoc, Man, Mardown, xHTML e "
+"em módulos do núcleo (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.67\">mais detalhes</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:107
