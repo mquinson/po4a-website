@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.45\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2025-04-12 21:25+0200\n"
-"PO-Revision-Date: 2025-04-21 06:15+0000\n"
+"PO-Revision-Date: 2025-07-02 01:01+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/po4a/"
 "po4a-website/pt_BR/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.11.1-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -528,19 +528,14 @@ msgstr "12-09-2018 - Lançamento do po4a 0.55"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:148
-#, fuzzy
-#| msgid ""
-#| "New features and bugfixes, mostly to the AsciiDoc parser (<a "
-#| "href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">more "
-#| "details</a>)."
 msgid ""
 "New features and bugfixes to both the individual parsers and common parts "
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
 "details</a>)."
 msgstr ""
-"Novos recursos e correções de erros, principalmente ao analisador Asciidoc "
-"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">mais "
-"detalhes</a>)."
+"Novos recursos e correções de errors nos analisadores individuais e nas "
+"partes comuns (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.55\">mais detalhes</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:151
@@ -563,19 +558,14 @@ msgstr "25-05-2018 - Lançamento do po4a 0.53"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:156
-#, fuzzy
-#| msgid ""
-#| "New features and bugfixes, mostly to the AsciiDoc parser (<a "
-#| "href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">more "
-#| "details</a>)."
 msgid ""
 "The most visible change is a new YAML module, and the fact that Alioth was "
 "turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.53\">more details</a>)."
 msgstr ""
-"Novos recursos e correções de erros, principalmente ao analisador Asciidoc "
-"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">mais "
-"detalhes</a>)."
+"A mudança mais visível é um novo módulo YAML e o fato de o Alioth ter sido "
+"desativado (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.53\""
+">mais detalhes</a>)."
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
@@ -584,42 +574,26 @@ msgstr "po4a - Documentação"
 
 #. type: Content of: <html><body><div><a>
 #: src/documentation.php.en:20
-#, fuzzy
-#| msgid "<a href=\"<?= $topdir ?>.\" title=\"Welcome\" >Welcome"
 msgid "<a href=\"../.\" title=\"Welcome\" >Welcome"
-msgstr "<a href=\"<?= $topdir ?>.\" title=\"Boas-vindas\" >Seja bem-vindo(a)"
+msgstr "<a href=\"../.\" title=\"Boas-vindas\" >Seja bem-vindo(a)"
 
 #. type: Content of: <html><body><div><a>
 #: src/documentation.php.en:20 src/download.php.en:20 src/getinvolved.php.en:20
-#, fuzzy
-#| msgid ""
-#| "</a> <a href=\"<?= $topdir ?>documentation.php\" "
-#| "title=\"Documentation\">Documentation"
 msgid ""
 "</a> <a href=\"../documentation.php\" title=\"Documentation\">Documentation"
 msgstr ""
-"</a> <a href=\"<?= $topdir ?>documentation.php\" "
-"title=\"Documentação\">Documentação"
+"</a> <a href=\"../documentation.php\" title=\"Documentação\">Documentação"
 
 #. type: Content of: <html><body><div><a>
 #: src/documentation.php.en:21 src/download.php.en:21 src/getinvolved.php.en:21
-#, fuzzy
-#| msgid ""
-#| "</a> <a href=\"<?= $topdir ?>download.php\" title=\"Download\" >Download"
 msgid "</a> <a href=\"../download.php\" title=\"Download\" >Download"
-msgstr ""
-"</a> <a href=\"<?= $topdir ?>download.php\" title=\"Download\" >Download"
+msgstr "</a> <a href=\"../download.php\" title=\"Download\" >Download"
 
 #. type: Content of: <html><body><div><a>
 #: src/documentation.php.en:22 src/download.php.en:22 src/getinvolved.php.en:22
-#, fuzzy
-#| msgid ""
-#| "</a> <a href=\"<?= $topdir ?>getinvolved.php\" title=\"Get Involved\" "
-#| ">Get Involved"
 msgid ""
 "</a> <a href=\"../getinvolved.php\" title=\"Get Involved\" >Get Involved"
-msgstr ""
-"</a> <a href=\"<?= $topdir ?>getinvolved.php\" title=\"Participe\" >Participe"
+msgstr "</a> <a href=\"../getinvolved.php\" title=\"Participe\" >Participe"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/documentation.php.en:29
@@ -644,10 +618,6 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:35
-#, fuzzy
-#| msgid ""
-#| "For more details, the <a href=\"man/\">index</a> provides the "
-#| "documentation of the various commands and modules."
 msgid ""
 "For more details, the <a href=\"man/\">index</a> provides the documentation "
 "of the various commands and modules."
@@ -662,22 +632,16 @@ msgstr "Ajuda"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:41
-#, fuzzy
-#| msgid ""
-#| "We can help you to set up a translation framework for your project's "
-#| "documentation or to adapt po4a to your needs.  Do not hesitate to contact "
-#| "us on our <a href=\"mailto:devel@lists.po4a.org\">mailing list</a> or on "
-#| "IRC (#po4a on OFTC)."
 msgid ""
 "We can help you to set up a translation framework for your project's "
 "documentation or to adapt po4a to your needs.  Do not hesitate to contact us "
 "on our <a href=\"mailto:devel@lists.po4a.org\">mailing list</a> or on IRC "
 "(#po4a on OFTC)."
 msgstr ""
-"Nós podemos ajudá-lo a montar uma infraestrutura de tradução para a "
+"Nós podemos te ajudar a montar uma infraestrutura de tradução para a "
 "documentação do seu projeto ou adaptar o po4a às suas necessidades. Não "
-"hesite em nos contactar em nossa <a href=\"mailto:devel@lists.po4a."
-"org\">lista de discussão</a> ou no IRC (#po4a no OFTC)."
+"hesite em nos contatar em nossa <a href=\"mailto:devel@lists.po4a.org\""
+">lista de discussão</a> ou no IRC (#po4a no OFTC)."
 
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
@@ -686,10 +650,8 @@ msgstr "po4a - Download"
 
 #. type: Content of: <html><body><div><a>
 #: src/download.php.en:20 src/getinvolved.php.en:20
-#, fuzzy
-#| msgid "<a href=\"<?= $topdir ?>.\" title=\"Welcome\" >Welcome"
 msgid "<a href=\"../\" title=\"Welcome\" >Welcome"
-msgstr "<a href=\"<?= $topdir ?>.\" title=\"Boas-vindas\" >Seja bem-vindo(a)"
+msgstr "<a href=\"../\" title=\"Boas-vindas\" >Seja bem-vindo(a)"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:30
@@ -698,16 +660,12 @@ msgstr "Fontes"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:31
-#, fuzzy
-#| msgid ""
-#| "The latest sources are available from our <a href=\"https://github.com/"
-#| "mquinson/po4a\">Git repository</a>."
 msgid ""
 "You can find the sources of the latest release on <a href=\"https://github."
 "com/mquinson/po4a/releases\">GitHub</a>."
 msgstr ""
-"Os códigos fontes mais recentes estão disponíveis em nosso <a href=\"https://"
-"github.com/mquinson/po4a\">repositório Git</a>."
+"Você pode encontrar o código-fonte dos lançamentos mais recentes no <a href="
+"\"https://github.com/mquinson/po4a/releases\">GitHub</a>."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:35
@@ -860,43 +818,27 @@ msgstr "Suporte para XLIFF seria muito bem-vindo."
 
 #. type: Content of: <div><a>
 #: src/header.php.en:7
-#, fuzzy
-#| msgid "<a href=\"<?= $topdir ?>.\" title=\"Welcome\" >Welcome"
 msgid "<a href=\"TOPDIR/.\" title=\"Welcome\" >Welcome"
-msgstr "<a href=\"<?= $topdir ?>.\" title=\"Boas-vindas\" >Seja bem-vindo(a)"
+msgstr "<a href=\"TOPDIR/.\" title=\"Boas-vindas\" >Seja bem-vindo(a)"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:7
-#, fuzzy
-#| msgid ""
-#| "</a> <a href=\"<?= $topdir ?>documentation.php\" "
-#| "title=\"Documentation\">Documentation"
 msgid ""
 "</a> <a href=\"TOPDIR/documentation.php\" "
 "title=\"Documentation\">Documentation"
 msgstr ""
-"</a> <a href=\"<?= $topdir ?>documentation.php\" "
-"title=\"Documentação\">Documentação"
+"</a> <a href=\"TOPDIR/documentation.php\" title=\"Documentação\">Documentação"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:8
-#, fuzzy
-#| msgid ""
-#| "</a> <a href=\"<?= $topdir ?>download.php\" title=\"Download\" >Download"
 msgid "</a> <a href=\"TOPDIR/download.php\" title=\"Download\" >Download"
-msgstr ""
-"</a> <a href=\"<?= $topdir ?>download.php\" title=\"Download\" >Download"
+msgstr "</a> <a href=\"TOPDIR/download.php\" title=\"Download\" >Download"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:9
-#, fuzzy
-#| msgid ""
-#| "</a> <a href=\"<?= $topdir ?>getinvolved.php\" title=\"Get Involved\" "
-#| ">Get Involved"
 msgid ""
 "</a> <a href=\"TOPDIR/getinvolved.php\" title=\"Get Involved\" >Get Involved"
-msgstr ""
-"</a> <a href=\"<?= $topdir ?>getinvolved.php\" title=\"Participe\" >Participe"
+msgstr "</a> <a href=\"TOPDIR/getinvolved.php\" title=\"Participe\" >Participe"
 
 #~ msgid "Welcome"
 #~ msgstr "Bem-vindo"
