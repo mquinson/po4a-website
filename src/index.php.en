@@ -77,6 +77,12 @@
 			</ul>
 		</div>
 		<div class="item"><!-- Keep it YEAR-MONTH-DAY -->
+		        <h2>2025-07-12 - po4a 0.74 released</h2>
+			<p>New modules: org, vim-help and SimplePod (deprecating the old Pod module);
+                           Improve the support for AsciiDoc, Markdown, Tex and Texinfo;
+			   Modernize a bit our usage of Perl
+                           (<a href="https://github.com/mquinson/po4a/releases/tag/v0.74">more details</a>).
+			</p>
 		        <h2>2024-06-17 - po4a 0.73 released</h2>
 			<p>Improve some error messages to help debugging encoding issues now that po4a is much more picky about it
                          (since v0.70). (<a href="https://github.com/mquinson/po4a/releases/tag/v0.73">more details</a>).
