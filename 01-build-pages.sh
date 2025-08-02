@@ -53,7 +53,6 @@ else
 	mkdir html/man
 	mkdir html/man/man1
 	mkdir html/man/man3
-	mkdir html/man/man5
 	mkdir html/man/man7
 fi
 
