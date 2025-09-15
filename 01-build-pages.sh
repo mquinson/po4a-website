@@ -287,7 +287,7 @@ do
 	gen_language_footer "$page"
 done
 
-if [ "x$libver" = "x$webver" ] ; then
+if [ "$libver" = "$webver" ] ; then
 	find html -name "*.en" | 
 	while read page
 	do
