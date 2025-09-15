@@ -25,7 +25,7 @@ then
 	exit 1
 fi
 
-libver=$(grep '^$VERSION =' $srcdir/lib/Locale/Po4a/TransTractor.pm | \
+libver=$(grep "^\$VERSION =" $srcdir/lib/Locale/Po4a/TransTractor.pm | \
            sed -e 's/^.*"\([^"]*\)".*/\1/')
 webver=$(cat VERSION)
 if [ "x$libver" != "x$webver" ] && [ -z "${CI}" ] ; then
@@ -146,8 +146,8 @@ EOT
 		                       -e 's/\.html"/\.php"/g' \
 		                       -e 's,/man3pm/,/man3/,g' \
 		                       -e 's,<HEAD>,<HEAD><link rel="stylesheet" title="Default Style" type="text/css" href="../../default.css"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type">,' \
-		                       -e 's,<BODY>,<BODY><?php $topdir = "../../"; include "../../'$header.$lang'"; ?><div id="content">,' \
-		                       -e 's,</BODY>,</div><?php include "'$footer'"; ?><?php include "../../footer.php"; ?></BODY>,' > $out
+                               -e "s,<BODY>,<BODY><?php \$topdir = \"../../\"; include \"../../$header.$lang\"; ?><div id=\"content\">," \
+                               -e "s,</BODY>,</div><?php include \"$footer\"; ?><?php include \"../../footer.php\"; ?></BODY>," > "$out"
 	done
 
 	if [ "$lang" != "en" ]
