@@ -28,7 +28,7 @@ fi
 libver=$(grep '^$VERSION =' $srcdir/lib/Locale/Po4a/TransTractor.pm | \
            sed -e 's/^.*"\([^"]*\)".*/\1/')
 webver=$(cat VERSION)
-if [ "x$libver" != "x$webver" -a -z "${CI}" ] ; then
+if [ "x$libver" != "x$webver" ] && [ -z "${CI}" ] ; then
 	echo "XXX Not regenerating the documentation because the webversion ($webver) is not the libversion ($libver)"
 else
 	echo "XXX Regenerating the documentation because the webversion ($webver) is the libversion ($libver), or because we are on CI (\$CI=${CI})"
@@ -71,7 +71,7 @@ do
 done
 
 
-if [ "x$libver" != "x$webver" -a -z "${CI}" ] ; then
+if [ "x$libver" != "x$webver" ] && [ -z "${CI}" ] ; then
 	echo "XXX NOT generating the HTML of manpages"
 else 
 for lang in en $LANGS ; do
