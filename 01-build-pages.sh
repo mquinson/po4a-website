@@ -166,82 +166,82 @@ get_language() {
 # https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 	case $1 in
 		ca)
-			echo -n "català"
+			printf "%s" "català"
 			;;
 		de)
-			echo -n "Deutsch"
+			printf "%s" "Deutsch"
 			;;
 		en)
-			echo -n "English"
+			printf "%s" "English"
 			;;
 		eo)
-			echo -n "Esperanto"
+			printf "%s" "Esperanto"
 			;;
 		es)
-			echo -n "español"
+			printf "%s" "español"
 			;;
 		fr)
-			echo -n "français"
+			printf "%s" "français"
 			;;
 		hu)
-			echo -n "Magyar"
+			printf "%s" "Magyar"
 			;;
 		hr)
-			echo -n "hrvatski"
+			printf "%s" "hrvatski"
 			;;
 		it)
-			echo -n "Italiano"
+			printf "%s" "Italiano"
 			;;
 		ja)
-			echo -n "日本語"
+			printf "%s" "日本語"
 			;;
 		nb)
-			echo -n "Bokmål"
+			printf "%s" "Bokmål"
 			;;
 	    nb_NO)
-			echo -n "norsk bokmål"
+			printf "%s" "norsk bokmål"
 			;;
 		nl)
-			echo -n "Nederlands"
+			printf "%s" "Nederlands"
 			;;
 		pl)
-			echo -n "polski"
+			printf "%s" "polski"
 			;;
 		pt)
-			echo -n "Português"
+			printf "%s" "Português"
 			;;
 		pt_BR)
-			echo -n "Português (Brasil)"
+			printf "%s" "Português (Brasil)"
 			;;
         ro)
-            echo -n "Limba română"
+            printf "%s" "Limba română"
             ;;
 		ru)
-			echo -n "Русский"
+			printf "%s" "Русский"
 			;;
 		sr_Cyrl)
-			echo -n "српски језик"
+			printf "%s" "српски језик"
 			;;
 		sr)
-			echo -n "српски језик"
+			printf "%s" "српски језик"
 			;;
 		sv)
-			echo -n "Svenska"
+			printf "%s" "Svenska"
 			;;
         ta)
-            echo -n "தமிழ்"
+            printf "%s" "தமிழ்"
             ;;
 		uk)
-			echo -n "український"
+			printf "%s" "український"
 			;;
 		zh_Hans)
-			echo -n "简体中文"
+			printf "%s" "简体中文"
 			;;
 		zh_CN)
-			echo -n "简体中文"
+			printf "%s" "简体中文"
 			;;
 		zh_Hant)
-			echo -n "简体中文"
+			printf "%s" "简体中文"
 			;;
 		*)
 			echo "Language '$1' not supported. Change 01-build-pages.sh" >&2
