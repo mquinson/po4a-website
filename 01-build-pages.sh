@@ -25,21 +25,6 @@ then
 	exit 1
 fi
 
-percent_lang() {
-	STATS=`msgfmt -o /dev/null --statistics $srcdir/po/pod/$1.po 2>&1`
-	YES=`echo $STATS | sed -n -e 's/^\([[:digit:]]*\).*$/\1/p'`
-	NO=`echo $STATS | sed -n -e 's/^\([[:digit:]]\+\)[^[:digit:]]\+\([[:digit:]]\+\).*$/\2/p'`
-	if [ ! $NO ]; then
-		NO=0
-	fi
-	O3=`echo $STATS | sed -n -e 's/^\([[:digit:]]\+\)[^[:digit:]]\+\([[:digit:]]\+\)[^[:digit:]]\+\([[:digit:]]\+\).*$/\3/p'`
-	if [ $O3 ]; then
-		NO=$(($NO + $O3))
-	fi
-	TOTAL=$(($YES+$NO))
-	echo $((($YES*100)/$TOTAL))
-}
-
 libver=$(grep '^$VERSION =' $srcdir/lib/Locale/Po4a/TransTractor.pm | \
            sed -e 's/^.*"\([^"]*\)".*/\1/')
 webver=$(cat VERSION)
