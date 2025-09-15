@@ -36,18 +36,18 @@ else
 	LANGS=
 	for lang in po/pod/*.po
 	do
-		LANGS=$LANGS" "$(echo $lang | sed -e 's,^po/pod/,,' -e 's,\.po$,,')
+		LANGS=$LANGS" "$(echo "$lang" | sed -e 's,^po/pod/,,' -e 's,\.po$,,')
 	done
 
 	perl Build.PL
 	PO4AFLAGS='-k 0' ./Build
-	cd $curdir
+	cd "$curdir"
 
 	rm -rf html/
 	find src -name \*~ -exec rm {} \;
 	cp -a $srcdir/blib/man html
 	find html -name \*.gz -exec gunzip {} \;
-	for f in $(find html/man1 html/*/man1 -name \*.1p); do mv $f ${f%p}; done
+	for f in $(find html/man1 html/*/man1 -name \*.1p); do mv "$f" "${f%p}"; done
 	mkdir -p html/en/
 	mv html/man* html/en/
 	mkdir html/man
@@ -59,14 +59,14 @@ fi
 
 echo
 echo "XXX Generate the web pages translations with po4a"
-PERLLIB=$srcdir/lib $srcdir/po4a --previous -v --msgid-bugs-address devel@lists.po4a.org --package-name po4a --package-version $libver po/html.cfg
+PERLLIB=$srcdir/lib $srcdir/po4a --previous -v --msgid-bugs-address devel@lists.po4a.org --package-name po4a --package-version "$libver" po/html.cfg
 
 for lang in po/www/*.po
 do
-	lang=$(basename ${lang%.po})
-	for f in html/*.$lang
+	lang=$(basename "${lang%.po}")
+	for f in html/*."$lang"
 	do
-		sed -i -e "s/\.en\"; ?>/\.$lang\"; ?>/" $f
+		sed -i -e "s/\.en\"; ?>/\.$lang\"; ?>/" "$f"
 	done
 done
 
@@ -76,10 +76,10 @@ if [ "x$libver" != "x$webver" -a -z "${CI}" ] ; then
 else 
 for lang in en $LANGS ; do
 	header=header.php.$lang
-	[ -e html/$header ] || header=header.php.en
+	[ -e "html/$header" ] || header=header.php.en
 	echo "XXX Generate the $lang index"
 
-	cat << EOT > html/man/index.php.$lang
+	cat << EOT > "html/man/index.php.$lang"
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
  <head>
@@ -92,13 +92,13 @@ for lang in en $LANGS ; do
  </head>
  <body>
 EOT
-	if [ -e html/header.php.$lang ] ; then
-		sed -e 's/TOPDIR/../' html/header.php.$lang >> html/man/index.php.$lang
+	if [ -e "html/header.php.$lang" ] ; then
+		sed -e 's/TOPDIR/../' "html/header.php.$lang" >> "html/man/index.php.$lang"
 	else
 		echo "html/header.php.$lang does not exist, use the english one"
-		sed -e 's/TOPDIR/../' src/header.php.en >> html/man/index.php.$lang
+		sed -e 's/TOPDIR/../' src/header.php.en >> "html/man/index.php.$lang"
 	fi
-        cat << EOT >> html/man/index.php.$lang
+        cat << EOT >> "html/man/index.php.$lang"
   <div id="content">
   <h1>Table of Contents</h1>
    <table>
@@ -106,7 +106,7 @@ EOT
 	for man in html/en/man*/*
 	do
 		man=${man#html/en/}
-		if test -e html/$lang/$man
+		if test -e "html/$lang/$man"
 		then
 			page=html/$lang/$man
 		else
@@ -115,16 +115,16 @@ EOT
 		title=$(lexgrog "$page" |
 		        sed -ne 's/.*: \".* - //;s/"$//;p')
 		ref=$man.php
-		man=$(basename $man)
-		man=$(echo $man | sed -e 's/^\(.*\)\.\([0-9]\(pm\)\?\)$/\1(\2)/')
-		cat << EOT >> html/man/index.php.$lang
+		man=$(basename "$man")
+		man=$(echo "$man" | sed -e 's/^\(.*\)\.\([0-9]\(pm\)\?\)$/\1(\2)/')
+		cat << EOT >> "html/man/index.php.$lang"
     <tr>
      <td><a href="$ref">$man</a></td>
      <td>$title</td>
     </tr>
 EOT
 	done
-	cat << EOT >> html/man/index.php.$lang
+	cat << EOT >> "html/man/index.php.$lang"
    </table>
   </div>
   <?php include "footer_index.php"; ?>
@@ -134,13 +134,13 @@ EOT
 EOT
 
 	echo "XXX Generate the $lang HTML pages"
-	for man in html/$lang/man*/*
+	for man in html/"$lang"/man*/*
 	do
 		#test -e $man || continue
-		out=html/man/${man#html/$lang/}.php.$lang
-		footer=footer_$(basename $out)
-		footer=${footer%.$lang}
-		man2html -r $man | sed -e '/Content-type: text.html/d' \
+		out=html/man/${man#"html/$lang/"}.php.$lang
+		footer=footer_$(basename "$out")
+		footer=${footer%".$lang"}
+		man2html -r "$man" | sed -e '/Content-type: text.html/d' \
 		                       -e '/HREF="\/man\/man2html/d' \
 		                       -e '/cgi-bin.man.man2html/d' \
 		                       -e 's/\.html"/\.php"/g' \
@@ -152,14 +152,14 @@ EOT
 
 	if [ "$lang" != "en" ]
 	then
-		rm -rf html/$lang
+		rm -rf "html/$lang"
 	fi
 done
 rm -rf html/en
 fi
 
 echo XXX Extract the version
-echo $webver > html/version.php
+echo "$webver" > html/version.php
 
 get_language() {
 # FIXME: use gettext
@@ -255,21 +255,21 @@ gen_language_footer() {
 	page=${page%.en}
 	page=${page#src/}
 	page=${page#html/}
-	out=html/$(dirname $page)/footer_$(basename $page)
+	out=html/$(dirname "$page")/footer_$(basename "$page")
 #	echo "Generating language footer for $page in $out"
-	echo "<!-- begin footer_$(basename $page) -->" > $out
-	echo "<div id=\"languages\">" >> $out
-	for langcode in $(ls src/$page.* html/$page.* 2>/dev/null |grep -v ~)
+	echo "<!-- begin footer_$(basename "$page") -->" > "$out"
+	echo "<div id=\"languages\">" >> "$out"
+	for langcode in $(ls src/"$page".* html/"$page".* 2>/dev/null |grep -v ~)
 	do
-		echo $langcode
-		langcode=${langcode#src/$page.}
-		langcode=${langcode#html/$page.}
-		language=$(get_language $langcode)
-		echo "<a href=\"$(basename $page | sed -e 's/:/%3A/g').$langcode\">$language</a>" >> $out
+		echo "$langcode"
+		langcode=${langcode#"src/$page."}
+		langcode=${langcode#"html/$page."}
+		language=$(get_language "$langcode")
+		echo "<a href=\"$(basename "$page" | sed -e 's/:/%3A/g').$langcode\">$language</a>" >> "$out"
 	done
-	echo '(how to set the <a href="https://www.debian.org/intro/cn">default document language</a>)' >> $out
-	echo "</div>" >> $out
-	echo "<!-- end footer_$(basename $page) -->" >> $out
+	echo '(how to set the <a href="https://www.debian.org/intro/cn">default document language</a>)' >> "$out"
+	echo "</div>" >> "$out"
+	echo "<!-- end footer_$(basename "$page") -->" >> "$out"
 #	echo "done"
 }
 
