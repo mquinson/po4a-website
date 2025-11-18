@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the po4a package.
 # Frans Spiesschaert <frans.spiesschaert@gmail.com>, 2020, 2021, 2022, 2023, 2024, 2025.
 # Henk De Groot <weblate@hdegroot.com>, 2024.
+# mehdi Amiri <rezaamiri225577@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.55\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2025-04-12 21:25+0200\n"
-"PO-Revision-Date: 2025-05-15 12:58+0000\n"
-"Last-Translator: Frans Spiesschaert <frans.spiesschaert@gmail.com>\n"
+"PO-Revision-Date: 2025-11-18 15:51+0000\n"
+"Last-Translator: mehdi Amiri <rezaamiri225577@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "nl/>\n"
 "Language: nl\n"
@@ -17,12 +18,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
+#, fuzzy
 msgid "po4a - Welcome"
-msgstr "po4a - Welkom"
+msgstr "po4a - Welcome"
 
 #. type: Content of: <div><div><h1><sup>
 #: src/index.php.en:16 src/documentation.php.en:16 src/download.php.en:16
