@@ -240,6 +240,9 @@ get_language() {
 		sr)
 			echo -n "српски језик"
 			;;
+		sv)
+			echo -n "Svenska"
+			;;
         ta)
             echo -n "தமிழ்"
             ;;
