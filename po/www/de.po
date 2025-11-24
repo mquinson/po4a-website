@@ -4,10 +4,10 @@
 # Milo Ivir <mail@milotype.de>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: po4a 0.73\n"
+"Project-Id-Version: po4a 0.74\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2025-11-24 10:55+0100\n"
-"PO-Revision-Date: 2025-04-27 09:19+0200\n"
+"PO-Revision-Date: 2025-11-24 11:45+0100\n"
 "Last-Translator: Helge Kreutzmann <debian@helgefjell.de>\n"
 "Language-Team: German <debian-l10n-german@lists.debian.org>\n"
 "Language: de\n"
@@ -241,27 +241,22 @@ msgstr "kernelhelp: Hilfenachrichten jeder Kernel-Compilierungsoption"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:80
-#, fuzzy
-#| msgid "2021-09-12 - po4a 0.64 released"
 msgid "2025-07-12 - po4a 0.74 released"
-msgstr "2021-09-12 – po4a 0.64 veröffentlicht"
+msgstr "2025-07-12 – po4a 0.74 veröffentlicht"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:81
-#, fuzzy
-#| msgid ""
-#| "Many bug fixes and improvement in AsciiDoc, Man, Mardown, xHTML and in "
-#| "core modules (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-#| "v0.67\">more details</a>)."
 msgid ""
 "New modules: org, vim-help and SimplePod (deprecating the old Pod module); "
 "Improve the support for AsciiDoc, Markdown, Tex and Texinfo; Modernize a bit "
 "our usage of Perl (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.74\">more details</a>)."
 msgstr ""
-"Viele Fehlerkorrekturen und Verbesserungen in AsciiDoc, Man, Mardown, xHTML "
-"und in Kernmodulen (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-"v0.67\">weitere Details</a>)."
+"Neue Module: org, vim-help und SimplePod (das alte Pod-Modul ist jetzt "
+"veraltet); Verbesserte Unterstützung für AsciiDoc, Markdown, Tex und "
+"Texinfo; Die Verwendung von Perl wurde etwas modernisiert (<a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.74\">weitere "
+"Details</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:86
