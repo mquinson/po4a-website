@@ -7,36 +7,38 @@ msgstr ""
 "Project-Id-Version: po4a 0.74-alpha\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2025-04-12 21:25+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-11-24 08:51+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/po4a/"
+"po4a-website/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
 msgid "po4a - Welcome"
-msgstr ""
+msgstr "po4a - Välkommen"
 
 #. type: Content of: <div><div><h1><sup>
 #: src/index.php.en:16 src/documentation.php.en:16 src/download.php.en:16
 #: src/getinvolved.php.en:16 src/header.php.en:3
 msgid "po4a<sup>v"
-msgstr ""
+msgstr "po4a<sup>v"
 
 #. type: Content of: <div><div><h1>
 #: src/index.php.en:16 src/documentation.php.en:16 src/download.php.en:16
 #: src/getinvolved.php.en:16 src/header.php.en:3
 msgid "</sup>"
-msgstr ""
+msgstr "</sup>"
 
 #. type: Content of: <html><body><div><a>
 #: src/index.php.en:20
 msgid "<a href=\"./.\" title=\"Welcome\" >Welcome"
-msgstr ""
+msgstr "<a href=\"./.\" title=\"Welcome\" >Välkommen"
 
 #. type: Content of: <div><a><span>
 #: src/index.php.en:20 src/index.php.en:21 src/index.php.en:22
@@ -47,34 +49,35 @@ msgstr ""
 #: src/getinvolved.php.en:22 src/getinvolved.php.en:23 src/header.php.en:7
 #: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10
 msgid "&nbsp;&nbsp;&lt;"
-msgstr ""
+msgstr "&nbsp;&nbsp;&lt;"
 
 #. type: Content of: <html><body><div><a>
 #: src/index.php.en:20
 msgid "</a> <a href=\"./documentation.php\" title=\"Documentation\">Documentation"
 msgstr ""
+"</a> <a href=\"./documentation.php\" title=\"Documentation\">Dokumentation"
 
 #. type: Content of: <html><body><div><a>
 #: src/index.php.en:21
 msgid "</a> <a href=\"./download.php\" title=\"Download\" >Download"
-msgstr ""
+msgstr "</a> <a href=\"./download.php\" title=\"Download\" >Ladda ner"
 
 #. type: Content of: <html><body><div><a>
 #: src/index.php.en:22
 msgid "</a> <a href=\"./getinvolved.php\" title=\"Get Involved\" >Get Involved"
-msgstr ""
+msgstr "</a> <a href=\"./getinvolved.php\" title=\"Get Involved\" >Engagera dig"
 
 #. type: Content of: <div>
 #: src/index.php.en:23 src/documentation.php.en:23 src/download.php.en:23
 #: src/getinvolved.php.en:23 src/getinvolved.php.en:56
 #: src/getinvolved.php.en:63 src/getinvolved.php.en:68 src/header.php.en:10
 msgid "</a>"
-msgstr ""
+msgstr "</a>"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:30
 msgid "Maintain the translations of your documentation with ease"
-msgstr ""
+msgstr "Underhåll översättningarna av din dokumentation med lätthet"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:31
@@ -86,6 +89,11 @@ msgid ""
 "the translation into the structure of the original document to generate a "
 "translated document."
 msgstr ""
+"Po4a (PO för allt) underlättar översättning och underhåll av dokumentation. "
+"Det extraherar översättningsbart material från originaldokumentet och "
+"placerar det i en PO-fil som är anpassad för översättningsprocessen. När "
+"översättaren har uppdaterat PO-filen återinför po4a översättningen i "
+"originaldokumentets struktur för att generera ett översatt dokument."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:38
@@ -95,6 +103,10 @@ msgid ""
 "documentation is always both up to date with regard to the original one, and "
 "as translated as possible."
 msgstr ""
+"Om översättningen endast är partiell används istället den ursprungliga "
+"(engelska) texten för de saknade delarna. Detta säkerställer att din "
+"översatta dokumentation alltid är både uppdaterad i förhållande till "
+"originalet och så översatt som möjligt."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:42
@@ -103,61 +115,64 @@ msgid ""
 "containing the settings and a list of documents to translate. po4a will "
 "update them automatically when something happens."
 msgstr ""
+"po4a automatiserar all översättningsunderhåll med en konfigurationsfil som "
+"innehåller inställningarna och en lista över dokument som ska översättas. "
+"po4a uppdaterar dem automatiskt när något händer."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:48
 msgid "Supported formats"
-msgstr ""
+msgstr "Formater som stöds"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:49
 msgid "po4a currently supports the following formats:"
-msgstr ""
+msgstr "po4a stöder för närvarande följande format:"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:51
 msgid "asciidoc: AsciiDoc format"
-msgstr ""
+msgstr "asciidoc: AsciiDoc-format"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:52
 msgid "man: Good old manual page format"
-msgstr ""
+msgstr "man: Det gamla goda manualformatet"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:53
 msgid "pod: Perl Online Documentation (POD) format"
-msgstr ""
+msgstr "pod: Perl Online Documentation (POD)-format"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:54
 msgid "xml: generic XML documents"
-msgstr ""
+msgstr "xml: generiska XML-dokument"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:56
 msgid "docbook: DocBook XML"
-msgstr ""
+msgstr "docbook: DocBook XML"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:57
 msgid "xhtml: XHTML documents"
-msgstr ""
+msgstr "xhtml: XHTML-dokument"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:58
 msgid "dia: uncompressed Dia diagrams"
-msgstr ""
+msgstr "dia: okomprimerade Dia-diagram"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:59
 msgid "guide: Gentoo Linux's XML documentation format"
-msgstr ""
+msgstr "guide: Gentoo Linux XML-dokumentationsformat"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:60
 msgid "wml: WML documents"
-msgstr ""
+msgstr "wml: WML-dokument"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:63
@@ -165,26 +180,28 @@ msgid ""
 "sgml: the standard generalized markup language (SGML) is for either "
 "DebianDoc or DocBook DTD"
 msgstr ""
+"sgml: standardiserat generaliserat markeringsspråk (SGML) är för antingen "
+"DebianDoc eller DocBook DTD"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:64
 msgid "latex: LaTeX format"
-msgstr ""
+msgstr "latex: LaTeX-format"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:66
 msgid "tex: generic TeX documents"
-msgstr ""
+msgstr "tex: generiska TeX-dokument"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:67
 msgid "texinfo: The info page format"
-msgstr ""
+msgstr "texinfo: Info-sidans format"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:68
 msgid "bibtex: bibtex format"
-msgstr ""
+msgstr "bibtex: bibtex-format"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:71
@@ -192,36 +209,38 @@ msgid ""
 "text: simple text documents (including options for markdown, fortunes, YAML "
 "front matter section, debian/changelog, and debian/control)"
 msgstr ""
+"text: enkla textdokument (inklusive flaggor för markdown, fortunes, YAML "
+"front matter-sektion, debian/changelog och debian/control)"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:72
 msgid "yaml: YAML documents"
-msgstr ""
+msgstr "yaml: YAML-dokument"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:73
 msgid "rubydoc: RubyDoc (RD) documents"
-msgstr ""
+msgstr "rubydoc: RubyDoc (RD) dokumenterar"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:74
 msgid "halibut: Simon Tatham's documentation production system"
-msgstr ""
+msgstr "halibut: Simon Tathams dokumentationsproduktionssystem"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:75
 msgid "ini: INI format"
-msgstr ""
+msgstr "ini: INI-format"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:76
 msgid "kernelhelp: Help messages of each kernel compilation option"
-msgstr ""
+msgstr "kernelhelp: Hjälpmeddelanden för varje kärnkompileringsflagga"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:80
 msgid "2024-06-17 - po4a 0.73 released"
-msgstr ""
+msgstr "2024-06-17 – po4a 0.73 släppt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:81
@@ -231,11 +250,15 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.73\">more "
 "details</a>)."
 msgstr ""
+"Förbättrade vissa felmeddelanden för att underlätta felsökning av "
+"kodningsproblem nu när po4a är mycket mer noggrann med detta (sedan v0.70). ("
+"<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.73\">mer "
+"information</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:84
 msgid "2024-01-29 - po4a 0.70 released"
-msgstr ""
+msgstr "2024-01-29 – po4a 0.70 släppt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:85
@@ -249,11 +272,19 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.70\">more "
 "details</a>)."
 msgstr ""
+"Stor intern omarbetning för att använda PerlIO istället för att manuellt "
+"behöva hantera kodningar.  Denna version åtgärdar också många buggar i "
+"AsciiDoc, Tex, Markdown, Yaml, TexInfo och i de gemensamma delarna.  "
+"Slutligen innehåller denna version flera förbättringar av dokumentationen, "
+"särskilt i <a href=\"https://po4a.org/man/man7/po4a.7.php\">po4a(7)</a>, som "
+"nu bättre introducerar de interna funktionerna för potentiella "
+"bidragsgivare.  (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.70\">mer information</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:91
 msgid "2023-01-01 - po4a 0.69 released"
-msgstr ""
+msgstr "2023-01-01 – po4a 0.69 släppt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:92
@@ -264,11 +295,16 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.69\">more "
 "details</a>)."
 msgstr ""
+"Förbättrade hanteringen av platshållare i XML avsevärt och interna "
+"uppstädningar kring Yaml genom att slå samman de två parsrarna som vi hade.  "
+"Denna version åtgärdar också mindre buggar i Markdown- och Man-modulerna.  ("
+"<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.69\">mer "
+"information</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:97
 msgid "2022-09-04 - po4a 0.68 released"
-msgstr ""
+msgstr "2022-09-04 – po4a 0.68 släppt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:98
@@ -280,11 +316,16 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.68\">more "
 "details</a>)."
 msgstr ""
+"Förbättrade gettextiseringsprocessen avsevärt och skriv om flera "
+"dokumentationskapitel.  Dessutom är po4a-translate och po4a-updatepo nu "
+"föråldrade: du bör använda po4a istället.  Slutligen åtgärdar den här "
+"versionen några buggar i Markdown- och Man-modulerna.  (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.68\">mer information</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:103
 msgid "2022-07-14 - po4a 0.67 released"
-msgstr ""
+msgstr "2022-07-14 – po4a 0.67 släppt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:104
@@ -294,11 +335,14 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.67\">more "
 "details</a>)."
 msgstr ""
+"Många buggfixar och förbättringar i AsciiDoc, Man, Mardown, xHTML och i "
+"kärnmoduler (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.67\""
+">mer information</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:107
 msgid "2022-01-02 - po4a 0.66 released"
-msgstr ""
+msgstr "2022-01-02 – po4a 0.66 släppt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:108
@@ -308,11 +352,14 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.66\">more "
 "details</a>)."
 msgstr ""
+"Ny möjlighet att välja Yaml-element som ska översättas; Mer robust hantering "
+"av Asciidoc-tabeller (+bugfixar och översättningsuppdateringar -- <a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.66\">mer information</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:110
 msgid "2021-11-14 - po4a 0.65 released"
-msgstr ""
+msgstr "2021-11-14 – po4a 0.65 släppt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:111
@@ -322,11 +369,14 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.65\">more "
 "details</a>)."
 msgstr ""
+"Tillåt att gruppera flera översättningar per POT-fil i delat läge (+bugfix "
+"och översättningsuppdateringar -- <a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.65\">mer information</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:113
 msgid "2021-09-12 - po4a 0.64 released"
-msgstr ""
+msgstr "2021-09-12 – po4a 0.64 släppt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:114
@@ -335,11 +385,13 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.64\">more "
 "details</a>)."
 msgstr ""
+"Buggfixar och översättningsuppdateringar (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.64\">mer information</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:116
 msgid "2021-02-02 - po4a 0.63 released"
-msgstr ""
+msgstr "2021-02-02 – po4a 0.63 släppt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:117
@@ -349,11 +401,14 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.63\">more "
 "details</a>)."
 msgstr ""
+"Åtgärdade en regression i 0.62 där översättningen av po4a-binärer inte "
+"installerades. Plus andra buggfixar och översättningsuppdateringar (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.63\">mer information</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:119
 msgid "2020-12-07 - po4a 0.62 released"
-msgstr ""
+msgstr "2020-12-07 – po4a 0.62 släppt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:120
@@ -363,11 +418,14 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.62\">more "
 "details</a>)."
 msgstr ""
+"Packa upp asciidoc för att undvika problem med omformatering och andra "
+"buggfixar, samt översättningsuppdateringar (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.62\">mer information</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:122
 msgid "2020-08-05 - po4a 0.61 released"
-msgstr ""
+msgstr "2020-08-05 – po4a 0.61 släppt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:123
@@ -377,11 +435,15 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.61\">more "
 "details</a>)."
 msgstr ""
+"Fler buggfixar "
+"(återigen för att inte förstöra Debian-paket som är beroende av po4a) och "
+"översättningsuppdateringar (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.61\">mer information</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:125
 msgid "2020-07-15 - po4a 0.60 released"
-msgstr ""
+msgstr "2020-07-15 – po4a 0.60 släppt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:126
@@ -390,11 +452,13 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.60\">more "
 "details</a>)."
 msgstr ""
+"Buggfixar och översättningsuppdateringar (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.60\">mer information</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:128
 msgid "2020-05-20 - po4a 0.59 released"
-msgstr ""
+msgstr "2020-05-20 – po4a 0.59 släppt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:129
@@ -404,26 +468,30 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.59\">More "
 "details</a>."
 msgstr ""
+"Bugfix-utgåva för att inte störa byggandet av flera Debian-paket (åtminstone)"
+". <a href=\"https://github.com/mquinson/po4a/releases/tag/v0.59\"> Mer "
+"information</a>."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:132
 msgid "2020-05-04 - po4a 0.58 released"
-msgstr ""
+msgstr "2020-05-04 – po4a 0.58 släppt"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:134
 msgid "Rewrite all tests to make them more robust and less permissive."
 msgstr ""
+"Skriv om alla tester för att göra dem mer robusta och mindre tillåtande."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:135
 msgid "Fix many issues reported against the parsers."
-msgstr ""
+msgstr "Åtgärdade många problem som rapporterats om tolkarna."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:136
 msgid "Rewrite the documentation for sake of clarity and brevity."
-msgstr ""
+msgstr "Skriv om dokumentationen för att göra den tydligare och kortare."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:137
@@ -431,11 +499,13 @@ msgid ""
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">more "
 "details</a>)."
 msgstr ""
+"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">mer "
+"information</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:139
 msgid "2019-10-25 - po4a 0.57 released"
-msgstr ""
+msgstr "2019-10-25 – po4a 0.57 släppt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:140
@@ -444,11 +514,13 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.57\">more "
 "details</a>)."
 msgstr ""
+"Översättningsuppdatering och en buggfix i AsciiDoc.  (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.57\">mer information</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:143
 msgid "2019-06-06 - po4a 0.56 released"
-msgstr ""
+msgstr "2019-06-06 – po4a 0.56 släppt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:144
@@ -457,11 +529,13 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">more "
 "details</a>)."
 msgstr ""
+"Nya funktioner och buggfixar, främst för AsciiDoc-parsern (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.56\">mer information</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:147
 msgid "2018-12-09 - po4a 0.55 released"
-msgstr ""
+msgstr "2018-12-09 – po4a 0.55 släppt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:148
@@ -470,11 +544,14 @@ msgid ""
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
 "details</a>)."
 msgstr ""
+"Nya funktioner och buggfixar för både de enskilda parsrarna och gemensamma "
+"delar (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">mer "
+"information</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:151
 msgid "2018-06-30 - po4a 0.54 released"
-msgstr ""
+msgstr "2018-06-30 – po4a 0.54 släppt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:152
@@ -483,11 +560,13 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.54\">more "
 "details</a>)."
 msgstr ""
+"Vi har fixat massor av buggar och tagit bort många fel (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.54\">mer information</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:155
 msgid "2018-05-25 - po4a 0.53 released"
-msgstr ""
+msgstr "2018-05-25 – po4a 0.53 släppt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:156
@@ -497,41 +576,46 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.53\">more "
 "details</a>)."
 msgstr ""
+"Den mest synliga förändringen är en ny YAML-modul och det faktum att Alioth "
+"har stängts av (<a href="
+"\"https://github.com/mquinson/po4a/releases/tag/v0.53\">mer information</a>)."
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
 msgid "po4a - Documentation"
-msgstr ""
+msgstr "po4a - Dokumentation"
 
 #. type: Content of: <html><body><div><a>
 #: src/documentation.php.en:20
 msgid "<a href=\"../.\" title=\"Welcome\" >Welcome"
-msgstr ""
+msgstr "<a href=\"../.\" title=\"Welcome\" >Välkommen"
 
 #. type: Content of: <html><body><div><a>
 #: src/documentation.php.en:20 src/download.php.en:20 src/getinvolved.php.en:20
 msgid "</a> <a href=\"../documentation.php\" title=\"Documentation\">Documentation"
 msgstr ""
+"</a> <a href=\"../documentation.php\" title=\"Documentation\">Dokumentation"
 
 #. type: Content of: <html><body><div><a>
 #: src/documentation.php.en:21 src/download.php.en:21 src/getinvolved.php.en:21
 msgid "</a> <a href=\"../download.php\" title=\"Download\" >Download"
-msgstr ""
+msgstr "</a> <a href=\"../download.php\" title=\"Download\" >Hämta ner"
 
 #. type: Content of: <html><body><div><a>
 #: src/documentation.php.en:22 src/download.php.en:22 src/getinvolved.php.en:22
 msgid "</a> <a href=\"../getinvolved.php\" title=\"Get Involved\" >Get Involved"
 msgstr ""
+"</a> <a href=\"../getinvolved.php\" title=\"Get Involved\" >Engagera dig"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/documentation.php.en:29
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentation"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:30
 msgid "Here is an HTML version of the po4a's manpages."
-msgstr ""
+msgstr "Här är en HTML-version av po4a:s man-sidor."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:31
@@ -540,6 +624,9 @@ msgid ""
 "introduction to po4a, while <a href=\"man/man1/po4a.1.php\">po4a(1)</a> "
 "presents the main po4a program."
 msgstr ""
+"Man-sidan <a href=\"man/man7/po4a.7.php\">po4a.7</a> innehåller en "
+"introduktion till po4a, medan <a href=\"man/man1/po4a.1.php\">po4a(1)</a> "
+"presenterar huvudprogrammet po4a."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:35
@@ -547,11 +634,13 @@ msgid ""
 "For more details, the <a href=\"man/\">index</a> provides the documentation "
 "of the various commands and modules."
 msgstr ""
+"För mer information finns dokumentation om de olika kommandona och modulerna "
+"i <a href=\"man/\">indexet</a>."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/documentation.php.en:40
 msgid "Help"
-msgstr ""
+msgstr "Hjälp"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:41
@@ -561,21 +650,25 @@ msgid ""
 "on our <a href=\"mailto:devel@lists.po4a.org\">mailing list</a> or on IRC "
 "(#po4a on OFTC)."
 msgstr ""
+"Vi kan hjälpa dig att skapa ett översättningsramverk för ditt projekts "
+"dokumentation eller att anpassa po4a efter dina behov.  Tveka inte att "
+"kontakta oss på vår <a href=\"mailto:devel@lists.po4a.org\">e-postlista</a> "
+"eller på IRC (#po4a på OFTC)."
 
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
 msgid "po4a - Download"
-msgstr ""
+msgstr "po4a - Ladda ner"
 
 #. type: Content of: <html><body><div><a>
 #: src/download.php.en:20 src/getinvolved.php.en:20
 msgid "<a href=\"../\" title=\"Welcome\" >Welcome"
-msgstr ""
+msgstr "<a href=\"../\" title=\"Welcome\" >Välkommen"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:30
 msgid "Sources"
-msgstr ""
+msgstr "Källkod"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:31
@@ -583,11 +676,13 @@ msgid ""
 "You can find the sources of the latest release on <a "
 "href=\"https://github.com/mquinson/po4a/releases\">GitHub</a>."
 msgstr ""
+"Du hittar källkoden till den senaste versionen på <a href="
+"\"https://github.com/mquinson/po4a/releases\">GitHub</a>."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:35
 msgid "Binary"
-msgstr ""
+msgstr "Binär"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:36
@@ -596,11 +691,14 @@ msgid ""
 "OpenSource distributions (Debian, Ubuntu, FreeBSD, Gentoo, Fedora, Mandriva, "
 "and probably others)."
 msgstr ""
+"po4a är en Perl-modul. Den finns tillgänglig som binärpaket i många "
+"OpenSource-distributioner "
+"(Debian, Ubuntu, FreeBSD, Gentoo, Fedora, Mandriva och troligen även andra)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:42
 msgid "Git repository"
-msgstr ""
+msgstr "Git-arkiv"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:43
@@ -608,6 +706,8 @@ msgid ""
 "The latest sources are available from our <a "
 "href=\"https://github.com/mquinson/po4a\">Git repository</a>."
 msgstr ""
+"De senaste källorna finns tillgängliga i vårt <a href="
+"\"https://github.com/mquinson/po4a\">Git-arkiv</a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:46
@@ -616,21 +716,24 @@ msgid ""
 "of sufficient quality to be released yet. In other words, they are still "
 "waiting for your contributions :)"
 msgstr ""
+"Den innehåller också ytterligare moduler som övervägs, men som ännu inte "
+"håller tillräcklig kvalitet för att släppas. Med andra ord väntar de "
+"fortfarande på dina bidrag :)"
 
 #. type: Content of: <html><head><title>
 #: src/getinvolved.php.en:11
 msgid "po4a - Get involved!"
-msgstr ""
+msgstr "po4a – Engagera dig!"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:30
 msgid "Get involved!"
-msgstr ""
+msgstr "Engagera dig!"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:31
 msgid "If you want to participate, you can contact us"
-msgstr ""
+msgstr "Om du vill bidra så kan du kontakta oss"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:33
@@ -639,11 +742,13 @@ msgid ""
 "href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/\">mailing "
 "list</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>,"
 msgstr ""
+"på vår <a href=\"https://lists.po4a.org/archives/list/devel@lists.po4a.org/\""
+">e-postlista</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>,"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:34
 msgid "on IRC (#po4a on OFTC)."
-msgstr ""
+msgstr "på IRC (#po4a på OFTC)."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:35
@@ -655,6 +760,11 @@ msgid ""
 "href=\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable\">Debian "
 "BTS</a>."
 msgstr ""
+"Felrapporter, patchar, önskemål om funktioner eller annan återkoppling är "
+"välkomna på sändlistan, i <a href=\"https://github.com/mquinson/po4a/issues\""
+">GitHub-trackern</a> eller i <a href="
+"\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable\""
+">Debian BTS</a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:39
@@ -663,11 +773,13 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a\">GitHub repository</a> are more "
 "than welcomed."
 msgstr ""
+"Om du själv kan förbättra koden är pull-förfrågningar till <a href="
+"\"https://github.com/mquinson/po4a\">GitHub-arkivet</a> mer än välkomna."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:44
 msgid "Translating"
-msgstr ""
+msgstr "Översättning"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:45
@@ -676,47 +788,51 @@ msgid ""
 "href=\"https://hosted.weblate.org/projects/po4a/\">Weblate</a> but you can "
 "also provide pull requests on the source git directly if you prefer."
 msgstr ""
+"Det enklaste sättet att hjälpa till med översättningen av po4a är att "
+"använda <a href=\"https://hosted.weblate.org/projects/po4a/\">Weblate</a>, "
+"men du kan också skicka pull-förfrågningar direkt till källkoden på Git om "
+"du föredrar det."
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:52
 msgid "Runtime Translations"
-msgstr ""
+msgstr "Översättningar under körning"
 
 #. type: Content of: <html><body><div><div><div><a>
 #: src/getinvolved.php.en:53 src/getinvolved.php.en:60
 #: src/getinvolved.php.en:65
 msgid "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
-msgstr ""
+msgstr "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:59
 msgid "Documentation Translations"
-msgstr ""
+msgstr "Översättning av dokumentation"
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:64
 msgid "Website Translations"
-msgstr ""
+msgstr "Webbplatsöversättningar"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:72
 msgid "TODO"
-msgstr ""
+msgstr "ATT GÖRA"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:73
 msgid "We are looking for people interested in testing/porting on Windows"
-msgstr ""
+msgstr "Vi söker personer som är intresserade av att testa/portera på Windows"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:75
 msgid "Support for XLIFF would be welcome."
-msgstr ""
+msgstr "Stöd för XLIFF skulle vara välkommet."
 
 #. type: Content of: <div><a>
 #: src/header.php.en:7
 msgid "<a href=\"TOPDIR/.\" title=\"Welcome\" >Welcome"
-msgstr ""
+msgstr "<a href=\"TOPDIR/.\" title=\"Welcome\" >Välkommen"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:7
@@ -724,13 +840,16 @@ msgid ""
 "</a> <a href=\"TOPDIR/documentation.php\" "
 "title=\"Documentation\">Documentation"
 msgstr ""
+"</a> <a href=\"TOPDIR/documentation.php\" title=\"Documentation\""
+">Dokumentation"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:8
 msgid "</a> <a href=\"TOPDIR/download.php\" title=\"Download\" >Download"
-msgstr ""
+msgstr "</a> <a href=\"TOPDIR/download.php\" title=\"Download\" >Hämta ner"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:9
 msgid "</a> <a href=\"TOPDIR/getinvolved.php\" title=\"Get Involved\" >Get Involved"
 msgstr ""
+"</a> <a href=\"TOPDIR/getinvolved.php\" title=\"Get Involved\" >Engagera dig"
