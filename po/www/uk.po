@@ -4,11 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ukrainian (po4a)\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2025-04-12 21:25+0200\n"
+"POT-Creation-Date: 2025-11-24 10:55+0100\n"
 "PO-Revision-Date: 2025-04-21 10:12+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/po4a/"
-"po4a-website/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/po4a/po4a-"
+"website/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -65,7 +65,8 @@ msgstr "</a> <a href=\"./download.php\" title=\"Отримання\" >Отрим
 #. type: Content of: <html><body><div><a>
 #: src/index.php.en:22
 msgid "</a> <a href=\"./getinvolved.php\" title=\"Get Involved\" >Get Involved"
-msgstr "</a> <a href=\"./getinvolved.php\" title=\"Взяти участь\" >Взяти участь"
+msgstr ""
+"</a> <a href=\"./getinvolved.php\" title=\"Взяти участь\" >Взяти участь"
 
 #. type: Content of: <div>
 #: src/index.php.en:23 src/documentation.php.en:23 src/download.php.en:23
@@ -240,11 +241,35 @@ msgstr "kernelhelp: довідкові повідомлення для усіх 
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:80
+#, fuzzy
+#| msgid "2021-09-12 - po4a 0.64 released"
+msgid "2025-07-12 - po4a 0.74 released"
+msgstr "12 вересня 2021 року — випущено po4a 0.64"
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:81
+#, fuzzy
+#| msgid ""
+#| "Many bug fixes and improvement in AsciiDoc, Man, Mardown, xHTML and in "
+#| "core modules (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+#| "v0.67\">more details</a>)."
+msgid ""
+"New modules: org, vim-help and SimplePod (deprecating the old Pod module); "
+"Improve the support for AsciiDoc, Markdown, Tex and Texinfo; Modernize a bit "
+"our usage of Perl (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.74\">more details</a>)."
+msgstr ""
+"Багато виправлень вад і удосконалень у модулях AsciiDoc, Man, Mardown, xHTML "
+"та базових модулях (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.67\">докладніше</a>)."
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:86
 msgid "2024-06-17 - po4a 0.73 released"
 msgstr "17 червня 2024 року — випущено po4a 0.73"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:81
+#: src/index.php.en:87
 msgid ""
 "Improve some error messages to help debugging encoding issues now that po4a "
 "is much more picky about it (since v0.70). (<a href=\"https://github.com/"
@@ -252,40 +277,40 @@ msgid ""
 msgstr ""
 "Удосконалено повідомлення про помилки з метою допомогти у вирішенні проблем "
 "з кодуванням, оскільки нова версія po4a прискіпливіше обробляє дані (з "
-"версії 0.70). (<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.73\">докладніше</a>)."
+"версії 0.70). (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.73\">докладніше</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:84
+#: src/index.php.en:90
 msgid "2024-01-29 - po4a 0.70 released"
 msgstr "29 січня 2024 року — випущено po4a 0.70"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:85
+#: src/index.php.en:91
 msgid ""
 "Major internal overhaul to use PerlIO instead of messing up manually with "
 "encodings.  Also, this release fixes many bugs in AsciiDoc, Tex, Markdown, "
 "Yaml, TexInfo and in the common parts.  Finally, this version contains "
-"several documentation improvements, in particular in <a href=\"https://po4a."
-"org/man/man7/po4a.7.php\">po4a(7)</a>, which now better introduces the "
+"several documentation improvements, in particular in <a href=\"https://"
+"po4a.org/man/man7/po4a.7.php\">po4a(7)</a>, which now better introduces the "
 "internals to potential contributors.  (<a href=\"https://github.com/mquinson/"
 "po4a/releases/tag/v0.70\">more details</a>)."
 msgstr ""
 "Загальне внутрішнє оновлення з метою використання PerlIO замість ненадійної "
 "роботи з кодуваннями вручну. Також у цьому випуску виправлено багато вад в "
 "AsciiDoc, Tex, Markdown, Yaml, TexInfo та загальних частинах. Нарешті, у цій "
-"версії впроваджено декілька удосконалень документації, зокрема у <a href="
-"\"https://po4a.org/man/man7/po4a.7.php\">po4a(7)</a>, де поліпшено вхідні "
-"позиції у коді для потенційних учасників розробки. (<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.70\">Докладніше</a>)."
+"версії впроваджено декілька удосконалень документації, зокрема у <a "
+"href=\"https://po4a.org/man/man7/po4a.7.php\">po4a(7)</a>, де поліпшено "
+"вхідні позиції у коді для потенційних учасників розробки. (<a href=\"https://"
+"github.com/mquinson/po4a/releases/tag/v0.70\">Докладніше</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:91
+#: src/index.php.en:97
 msgid "2023-01-01 - po4a 0.69 released"
 msgstr "1 січня 2023 року — випущено po4a 0.69"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:92
+#: src/index.php.en:98
 msgid ""
 "Greatly improve the handeling of placeholders in XML, and internal cleanups "
 "around Yaml by merging the two parsers that we had.  Also, this release "
@@ -294,16 +319,16 @@ msgid ""
 msgstr ""
 "Значно удосконалено обробку замінників у XML та виконано чищення коду "
 "обробки YAML шляхом злиття двох наявних у нас обробників. Також у цьому "
-"випуску виправлено незначні вади у модулях Markdown і Man.  (<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.69\">Докладно</a>)."
+"випуску виправлено незначні вади у модулях Markdown і Man.  (<a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.69\">Докладно</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:97
+#: src/index.php.en:103
 msgid "2022-09-04 - po4a 0.68 released"
 msgstr "4 вересня 2022 року — випущено po4a 0.68"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:98
+#: src/index.php.en:104
 msgid ""
 "Greatly improve the gettextization process, and rewrite several "
 "documentation chapters.  Also, po4a-translate and po4a-updatepo are now "
@@ -314,64 +339,64 @@ msgstr ""
 "Значно удосконалено процедуру перетворення на формат gettext і переписано "
 "декілька глав документації. Також визнано застарілими po4a-translate і po4a-"
 "updatepo — замість них слід використовувати po4a. Нарешті, у цьому випуску "
-"виправлено декілька вад у модулях Markdown і Man.  (<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.68\">Докладно</a>)."
+"виправлено декілька вад у модулях Markdown і Man.  (<a href=\"https://"
+"github.com/mquinson/po4a/releases/tag/v0.68\">Докладно</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:103
+#: src/index.php.en:109
 msgid "2022-07-14 - po4a 0.67 released"
 msgstr "14 липня 2022 року — випущено po4a 0.67"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:104
+#: src/index.php.en:110
 msgid ""
 "Many bug fixes and improvement in AsciiDoc, Man, Mardown, xHTML and in core "
 "modules (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.67\">more details</a>)."
 msgstr ""
 "Багато виправлень вад і удосконалень у модулях AsciiDoc, Man, Mardown, xHTML "
-"та базових модулях (<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.67\">докладніше</a>)."
+"та базових модулях (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.67\">докладніше</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:107
+#: src/index.php.en:113
 msgid "2022-01-02 - po4a 0.66 released"
 msgstr "2 січня 2022 року — випущено po4a 0.66"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:108
+#: src/index.php.en:114
 msgid ""
 "New option to select Yaml elements to translate; More robust Asciidoc table "
 "handling (+bugfixes and translation updates -- <a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.66\">more details</a>)."
 msgstr ""
 "Новий параметр для вибору елементів Yaml для перекладу; стійкіша до помилок "
-"обробка таблиць Asciidoc (+виправлення вад і оновлення перекладів — <a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.66\">докладніше</a>)."
+"обробка таблиць Asciidoc (+виправлення вад і оновлення перекладів — <a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.66\">докладніше</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:110
+#: src/index.php.en:116
 msgid "2021-11-14 - po4a 0.65 released"
 msgstr "14 листопада 2021 року — випущено po4a 0.65"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:111
+#: src/index.php.en:117
 msgid ""
 "Allow to group several translations per POT file in split mode (+bugfix and "
 "translation updates -- <a href=\"https://github.com/mquinson/po4a/releases/"
 "tag/v0.65\">more details</a>)."
 msgstr ""
-"Уможливлено групування декількох перекладів за файлом POT у режимі поділу (+"
-"виправлення вади і оновлення перекладів -- <a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.65\">докладніше</a>)."
+"Уможливлено групування декількох перекладів за файлом POT у режимі поділу "
+"(+виправлення вади і оновлення перекладів -- <a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.65\">докладніше</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:113
+#: src/index.php.en:119
 msgid "2021-09-12 - po4a 0.64 released"
 msgstr "12 вересня 2021 року — випущено po4a 0.64"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:114
+#: src/index.php.en:120
 msgid ""
 "Bugfix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.64\">more details</a>)."
@@ -380,12 +405,12 @@ msgstr ""
 "mquinson/po4a/releases/tag/v0.64\">докладніше</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:116
+#: src/index.php.en:122
 msgid "2021-02-02 - po4a 0.63 released"
 msgstr "2 лютого 2021 року — випущено po4a 0.63"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:117
+#: src/index.php.en:123
 msgid ""
 "Fix a regression in 0.62 where the translation of po4a binaries were not "
 "installed. Plus other bugfixes and translation updates (<a href=\"https://"
@@ -393,48 +418,48 @@ msgid ""
 msgstr ""
 "Виправлено регресію версії 0.62, пов'язану із тим, що не встановлювалися "
 "переклади виконуваних файлів po4a. Крім того, виправлення вад і оновлення "
-"перекладів (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.63\""
-">докладніше</a>)."
+"перекладів (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.63\">докладніше</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:119
+#: src/index.php.en:125
 msgid "2020-12-07 - po4a 0.62 released"
 msgstr "7 грудня 2020 року — випущено po4a 0.62"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:120
+#: src/index.php.en:126
 msgid ""
 "Unwrap asciidoc to avoid reformating issues and other bugfixes, plus "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.62\">more details</a>)."
 msgstr ""
 "Усунено перенесення рядків в asciidoc з метою запобігання проблемам із "
-"переформатуванням та інші виправлення вад, оновлення перекладів (<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.62\">докладніше</a>)."
+"переформатуванням та інші виправлення вад, оновлення перекладів (<a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.62\">докладніше</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:122
+#: src/index.php.en:128
 msgid "2020-08-05 - po4a 0.61 released"
 msgstr "5 серпня 2020 року — випущено po4a 0.61"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:123
+#: src/index.php.en:129
 msgid ""
 "More bugfix (again to not break Debian packages depending on po4a), and "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.61\">more details</a>)."
 msgstr ""
 "Додаткові виправлення вад (знову ж таки, щоб не зашкодити пакункам Debian, "
-"що залежать від po4a), оновлення перекладів (<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.61\">докладніше</a>)."
+"що залежать від po4a), оновлення перекладів (<a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.61\">докладніше</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:125
+#: src/index.php.en:131
 msgid "2020-07-15 - po4a 0.60 released"
 msgstr "15 липня 2020 року — випущено po4a 0.60"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:126
+#: src/index.php.en:132
 msgid ""
 "Bugfix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.60\">more details</a>)."
@@ -443,44 +468,44 @@ msgstr ""
 "mquinson/po4a/releases/tag/v0.60\">докладніше</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:128
+#: src/index.php.en:134
 msgid "2020-05-20 - po4a 0.59 released"
 msgstr "20 травня 2020 року — випущено po4a 0.59"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:129
+#: src/index.php.en:135
 msgid ""
 "Bugfix release to not break the build of several Debian packages (at "
 "least).  <a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.59\">More details</a>."
 msgstr ""
 "Випуск з виправленнями вад з метою усування проблем із збиранням деяких "
-"пакунків Debian (принаймні). <a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.59\">Докладніше</a>."
+"пакунків Debian (принаймні). <a href=\"https://github.com/mquinson/po4a/"
+"releases/tag/v0.59\">Докладніше</a>."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:132
+#: src/index.php.en:138
 msgid "2020-05-04 - po4a 0.58 released"
 msgstr "4 травня 2020 року — випущено po4a 0.58"
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:134
+#: src/index.php.en:140
 msgid "Rewrite all tests to make them more robust and less permissive."
 msgstr "Переписано усі тести з метою зробити їх стійкішими та строгішими."
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:135
+#: src/index.php.en:141
 msgid "Fix many issues reported against the parsers."
 msgstr "Виправлено багато вад у засобах обробки."
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:136
+#: src/index.php.en:142
 msgid "Rewrite the documentation for sake of clarity and brevity."
 msgstr ""
 "Переписано документацію з метою забезпечення ясності і стислості викладу."
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:137
+#: src/index.php.en:143
 msgid ""
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">more "
 "details</a>)."
@@ -489,26 +514,26 @@ msgstr ""
 "a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:139
+#: src/index.php.en:145
 msgid "2019-10-25 - po4a 0.57 released"
 msgstr "25 жовтня 2019 року — випущено po4a 0.57"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:140
+#: src/index.php.en:146
 msgid ""
-"Translation update and one bugfix in AsciiDoc.  (<a href=\"https://github."
-"com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
+"Translation update and one bugfix in AsciiDoc.  (<a href=\"https://"
+"github.com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
 msgstr ""
 "Оновлення перекладів та виправлення однієї вади в AsciiDoc.  (<a "
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.57\">докладніше</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:143
+#: src/index.php.en:149
 msgid "2019-06-06 - po4a 0.56 released"
 msgstr "6 червня 2019 року — випущено po4a 0.56"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:144
+#: src/index.php.en:150
 msgid ""
 "New features and bugfixes, mostly to the AsciiDoc parser (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
@@ -517,42 +542,42 @@ msgstr ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">докладніше</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:147
+#: src/index.php.en:153
 msgid "2018-12-09 - po4a 0.55 released"
 msgstr "9 грудня 2018 року — випущено po4a 0.55"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:148
+#: src/index.php.en:154
 msgid ""
 "New features and bugfixes to both the individual parsers and common parts "
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
 "details</a>)."
 msgstr ""
 "Нові можливості і виправлення вад, як у окремих обробниках, такі у загальних "
-"частинах (<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\""
-">докладніше</a>)."
+"частинах (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.55\">докладніше</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:151
+#: src/index.php.en:157
 msgid "2018-06-30 - po4a 0.54 released"
 msgstr "30 червня 2018 року — випущено po4a 0.54"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:152
+#: src/index.php.en:158
 msgid ""
-"We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
-"com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
+"We fixed tons of bugs, and removed many glitches (<a href=\"https://"
+"github.com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
 msgstr ""
 "Нами виправлено багато вад і усунено багато негараздів (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.54\">докладніше</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:155
+#: src/index.php.en:161
 msgid "2018-05-25 - po4a 0.53 released"
 msgstr "25 травня 2018 року — випущено po4a 0.53"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:156
+#: src/index.php.en:162
 msgid ""
 "The most visible change is a new YAML module, and the fact that Alioth was "
 "turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
@@ -608,8 +633,8 @@ msgid ""
 "presents the main po4a program."
 msgstr ""
 "Вступні зауваження щодо роботи з po4a наведено на сторінці підручника з <a "
-"href=\"man/man7/po4a.7.php\">po4a.7</a>, а <a href=\"man/man1/po4a.1."
-"php\">po4a(1)</a> стосується основної програми po4a."
+"href=\"man/man7/po4a.7.php\">po4a.7</a>, а <a href=\"man/man1/"
+"po4a.1.php\">po4a(1)</a> стосується основної програми po4a."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:35
@@ -635,9 +660,9 @@ msgid ""
 msgstr ""
 "Ми можемо допомогти вам налаштувати комплекс перекладу для документації до "
 "вашого проєкту або адаптувати po4a до ваших потреб. Не вагайтеся і "
-"спілкуйтеся із нами за допомогою нашого <a href="
-"\"mailto:devel@lists.po4a.org\">списку листування</a> або каналу IRC (#po4a "
-"на OFTC)."
+"спілкуйтеся із нами за допомогою нашого <a "
+"href=\"mailto:devel@lists.po4a.org\">списку листування</a> або каналу IRC "
+"(#po4a на OFTC)."
 
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
@@ -657,11 +682,11 @@ msgstr "Початковий код"
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:31
 msgid ""
-"You can find the sources of the latest release on <a href=\"https://github."
-"com/mquinson/po4a/releases\">GitHub</a>."
+"You can find the sources of the latest release on <a href=\"https://"
+"github.com/mquinson/po4a/releases\">GitHub</a>."
 msgstr ""
-"Початковий код найсвіжішого випуску можна знайти на <a href="
-"\"https://github.com/mquinson/po4a/releases\">GitHub</a>."
+"Початковий код найсвіжішого випуску можна знайти на <a href=\"https://"
+"github.com/mquinson/po4a/releases\">GitHub</a>."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:35
@@ -726,8 +751,8 @@ msgid ""
 "\">mailing list</a> - <a href=\"mailto:devel@po4a.org\">devel@po4a.org</a>,"
 msgstr ""
 "за допомогою нашого <a href=\"https://lists.po4a.org/archives/list/"
-"devel@lists.po4a.org/\">списку листування</a> — <a href=\"mailto:devel@po4a."
-"org\">devel@po4a.org</a>,"
+"devel@lists.po4a.org/\">списку листування</a> — <a "
+"href=\"mailto:devel@po4a.org\">devel@po4a.org</a>,"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:34
@@ -1026,11 +1051,11 @@ msgstr ""
 #~ "<?php include \"footer_index.php\"; ?> <?php include \"footer.php\"; ?>"
 
 #~ msgid ""
-#~ "<?php include \"footer_documentation.php\"; ?> <?php include \"footer."
-#~ "php\"; ?>"
+#~ "<?php include \"footer_documentation.php\"; ?> <?php include "
+#~ "\"footer.php\"; ?>"
 #~ msgstr ""
-#~ "<?php include \"footer_documentation.php\"; ?> <?php include \"footer."
-#~ "php\"; ?>"
+#~ "<?php include \"footer_documentation.php\"; ?> <?php include "
+#~ "\"footer.php\"; ?>"
 
 #~ msgid ""
 #~ "<?php include \"footer_download.php\"; ?> <?php include \"footer.php\"; ?>"
@@ -1038,11 +1063,11 @@ msgstr ""
 #~ "<?php include \"footer_download.php\"; ?> <?php include \"footer.php\"; ?>"
 
 #~ msgid ""
-#~ "<?php include \"footer_getinvolved.php\"; ?> <?php include \"footer."
-#~ "php\"; ?>"
+#~ "<?php include \"footer_getinvolved.php\"; ?> <?php include "
+#~ "\"footer.php\"; ?>"
 #~ msgstr ""
-#~ "<?php include \"footer_getinvolved.php\"; ?> <?php include \"footer."
-#~ "php\"; ?>"
+#~ "<?php include \"footer_getinvolved.php\"; ?> <?php include "
+#~ "\"footer.php\"; ?>"
 
 #~ msgid "<?php if (!isset($topdir)) $topdir = \"./\"; ?>"
 #~ msgstr "<?php if (!isset($topdir)) $topdir = \"./\"; ?>"
@@ -1060,5 +1085,5 @@ msgstr ""
 #~ "on our <a href=\"mailto:po4a-devel@lists.alioth.debian.org\">mailing "
 #~ "list</a>,"
 #~ msgstr ""
-#~ "за допомогою нашого <a href=\"mailto:po4a-devel@lists.alioth.debian."
-#~ "org\">списку листування</a>,"
+#~ "за допомогою нашого <a href=\"mailto:po4a-"
+#~ "devel@lists.alioth.debian.org\">списку листування</a>,"

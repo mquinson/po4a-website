@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.73\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
-"POT-Creation-Date: 2025-04-12 21:25+0200\n"
+"POT-Creation-Date: 2025-11-24 10:55+0100\n"
 "PO-Revision-Date: 2025-05-04 17:03+0000\n"
 "Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/po4a/po4a-website/"
@@ -60,8 +60,7 @@ msgstr "</a> <a href=\"./documentation.php\" title=\"Documentation\">ஆவண�
 #. type: Content of: <html><body><div><a>
 #: src/index.php.en:21
 msgid "</a> <a href=\"./download.php\" title=\"Download\" >Download"
-msgstr ""
-"</a> <a href = \"./ download.php\" தலைப்பு = \"பதிவிறக்கம்\"> பதிவிறக்கம்"
+msgstr "</a> <a href = \"./ download.php\" தலைப்பு = \"பதிவிறக்கம்\"> பதிவிறக்கம்"
 
 #. type: Content of: <html><body><div><a>
 #: src/index.php.en:22
@@ -240,51 +239,74 @@ msgstr "கர்னெல்எல்ப்: ஒவ்வொரு கர்ன
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:80
+#, fuzzy
+#| msgid "2021-09-12 - po4a 0.64 released"
+msgid "2025-07-12 - po4a 0.74 released"
+msgstr "2021-09-12-PO4A 0.64 வெளியிடப்பட்டது"
+
+#. type: Content of: <html><body><div><div><p>
+#: src/index.php.en:81
+#, fuzzy
+#| msgid ""
+#| "Many bug fixes and improvement in AsciiDoc, Man, Mardown, xHTML and in "
+#| "core modules (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+#| "v0.67\">more details</a>)."
+msgid ""
+"New modules: org, vim-help and SimplePod (deprecating the old Pod module); "
+"Improve the support for AsciiDoc, Markdown, Tex and Texinfo; Modernize a bit "
+"our usage of Perl (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.74\">more details</a>)."
+msgstr ""
+"ASCIIDOC, MAN, Mardown, XHTML மற்றும் கோர் தொகுதிகளில் (<a href = \"https://"
+"github.com/mquinson/po4a/releaseases/tag/v0.67\"> மேலும் விவரங்கள் </a>)."
+
+#. type: Content of: <html><body><div><div><h2>
+#: src/index.php.en:86
 msgid "2024-06-17 - po4a 0.73 released"
 msgstr "2024-06-17-PO4A 0.73 வெளியிடப்பட்டது"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:81
+#: src/index.php.en:87
 msgid ""
 "Improve some error messages to help debugging encoding issues now that po4a "
 "is much more picky about it (since v0.70). (<a href=\"https://github.com/"
 "mquinson/po4a/releases/tag/v0.73\">more details</a>)."
 msgstr ""
 "குறியாக்கம் சிக்கல்களைப் பிழைத்திருத்துவதற்கு சில பிழை செய்திகளை மேம்படுத்தவும், இப்போது "
-"PO4A அதைப் பற்றி மிகவும் ஆர்வமாக உள்ளது (V0.70 முதல்).<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.73\">மேலும் தகவல்கள்</a>)."
+"PO4A அதைப் பற்றி மிகவும் ஆர்வமாக உள்ளது (V0.70 முதல்).<a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.73\">மேலும் தகவல்கள்</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:84
+#: src/index.php.en:90
 msgid "2024-01-29 - po4a 0.70 released"
 msgstr "2024-01-29-PO4A 0.70 வெளியிடப்பட்டது"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:85
+#: src/index.php.en:91
 msgid ""
 "Major internal overhaul to use PerlIO instead of messing up manually with "
 "encodings.  Also, this release fixes many bugs in AsciiDoc, Tex, Markdown, "
 "Yaml, TexInfo and in the common parts.  Finally, this version contains "
-"several documentation improvements, in particular in <a href=\"https://po4a."
-"org/man/man7/po4a.7.php\">po4a(7)</a>, which now better introduces the "
+"several documentation improvements, in particular in <a href=\"https://"
+"po4a.org/man/man7/po4a.7.php\">po4a(7)</a>, which now better introduces the "
 "internals to potential contributors.  (<a href=\"https://github.com/mquinson/"
 "po4a/releases/tag/v0.70\">more details</a>)."
 msgstr ""
-"குறியாக்கங்களுடன் கைமுறையாகக் குழப்பமடைவதற்கு பதிலாகப் பெர்லியோவைப் பயன்படுத்த முக்கிய உள்"
-" மாற்றங்கள். மேலும், இந்த வெளியீடு அச்கிடோக், டெக்ச், மார்க் பேரூர், யேஎம்எல், டெக்சின்ஃபோ "
+"குறியாக்கங்களுடன் கைமுறையாகக் குழப்பமடைவதற்கு பதிலாகப் பெர்லியோவைப் பயன்படுத்த முக்கிய "
+"உள் மாற்றங்கள். மேலும், இந்த வெளியீடு அச்கிடோக், டெக்ச், மார்க் பேரூர், யேஎம்எல், டெக்சின்ஃபோ "
 "மற்றும் பொதுவான பகுதிகளில் பல பிழைகளைச் சரிசெய்கிறது. இறுதியாக, இந்தப் பதிப்பில் பல "
-"ஆவணங்கள் மேம்பாடுகள் உள்ளன, குறிப்பாக <a href = "
-"\"https://po4a.org/man/man7/po4a.7.php\"> PO4A (7) </a> சாத்தியமான "
-"பங்களிப்பாளர்களுக்கு உட்புறங்கள். .(<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.70\">மேலும் தகவல்கள்</a>)."
+"ஆவணங்கள் மேம்பாடுகள் உள்ளன, குறிப்பாக <a href = \"https://po4a.org/man/man7/"
+"po4a.7.php\"> PO4A (7) </a> சாத்தியமான பங்களிப்பாளர்களுக்கு உட்புறங்கள். .(<a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.70\">மேலும் தகவல்கள்</"
+"a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:91
+#: src/index.php.en:97
 msgid "2023-01-01 - po4a 0.69 released"
 msgstr "2023-01-01-PO4A 0.69 வெளியிடப்பட்டது"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:92
+#: src/index.php.en:98
 msgid ""
 "Greatly improve the handeling of placeholders in XML, and internal cleanups "
 "around Yaml by merging the two parsers that we had.  Also, this release "
@@ -294,16 +316,16 @@ msgstr ""
 "எக்ச்எம்எல்லில் பிளேச்ஓல்டர்களின் ஏண்டலிங்கை பெரிதும் மேம்படுத்தவும், எங்களிடம் இருந்த இரண்டு "
 "பாகுபடுத்திகளையும் ஒன்றிணைப்பதன் மூலம் YAML ஐச் சுற்றியுள்ள உள் தூய்மைப்படுத்தல்கள். மேலும், "
 "இந்த வெளியீடு மார்க் பேரூர் மற்றும் மேன் தொகுதிகளில் சிறிய பிழைகளைச் சரிசெய்கிறது. .(<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.69\">மேலும் "
-"தகவல்கள்</a>)."
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.69\">மேலும் தகவல்கள்</"
+"a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:97
+#: src/index.php.en:103
 msgid "2022-09-04 - po4a 0.68 released"
 msgstr "2022-09-04-PO4A 0.68 வெளியிடப்பட்டது"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:98
+#: src/index.php.en:104
 msgid ""
 "Greatly improve the gettextization process, and rewrite several "
 "documentation chapters.  Also, po4a-translate and po4a-updatepo are now "
@@ -311,35 +333,35 @@ msgid ""
 "bugs in Markdown and Man modules.  (<a href=\"https://github.com/mquinson/"
 "po4a/releases/tag/v0.68\">more details</a>)."
 msgstr ""
-"GetTextisional செயல்முறையைப் பெரிதும் மேம்படுத்தி, பல ஆவணப்படுத்தல் அத்தியாயங்களை மீண்டும்"
-" எழுதவும். மேலும், PO4A- மொழிபெயர்ப்பு மற்றும் PO4A-Updatepo ஆகியவை இப்போது "
+"GetTextisional செயல்முறையைப் பெரிதும் மேம்படுத்தி, பல ஆவணப்படுத்தல் அத்தியாயங்களை "
+"மீண்டும் எழுதவும். மேலும், PO4A- மொழிபெயர்ப்பு மற்றும் PO4A-Updatepo ஆகியவை இப்போது "
 "நீக்கப்பட்டன: அதற்குப் பதிலாக நீங்கள் PO4A ஐப் பயன்படுத்த வேண்டும். இறுதியாக, இந்த வெளியீடு "
-"மார்க் பேரூர் மற்றும் மேன் தொகுதிகளில் சில பிழைகளைச் சரிசெய்கிறது. .(<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.68\">மேலும் தகவல்கள்</a>)."
+"மார்க் பேரூர் மற்றும் மேன் தொகுதிகளில் சில பிழைகளைச் சரிசெய்கிறது. .(<a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.68\">மேலும் தகவல்கள்</"
+"a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:103
+#: src/index.php.en:109
 msgid "2022-07-14 - po4a 0.67 released"
 msgstr "2022-07-14-PO4A 0.67 வெளியிடப்பட்டது"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:104
+#: src/index.php.en:110
 msgid ""
 "Many bug fixes and improvement in AsciiDoc, Man, Mardown, xHTML and in core "
 "modules (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.67\">more details</a>)."
 msgstr ""
-"ASCIIDOC, MAN, Mardown, XHTML மற்றும் கோர் தொகுதிகளில் (<a href = "
-"\"https://github.com/mquinson/po4a/releaseases/tag/v0.67\"> மேலும் விவரங்கள் "
-"</a>)."
+"ASCIIDOC, MAN, Mardown, XHTML மற்றும் கோர் தொகுதிகளில் (<a href = \"https://"
+"github.com/mquinson/po4a/releaseases/tag/v0.67\"> மேலும் விவரங்கள் </a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:107
+#: src/index.php.en:113
 msgid "2022-01-02 - po4a 0.66 released"
 msgstr "2022-01-02-PO4A 0.66 வெளியிடப்பட்டது"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:108
+#: src/index.php.en:114
 msgid ""
 "New option to select Yaml elements to translate; More robust Asciidoc table "
 "handling (+bugfixes and translation updates -- <a href=\"https://github.com/"
@@ -350,28 +372,28 @@ msgstr ""
 "\"https://github.com/mquinson/po4a/releases/tag/v0.66\"> மேலும் விவரங்கள் </a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:110
+#: src/index.php.en:116
 msgid "2021-11-14 - po4a 0.65 released"
 msgstr "2021-11-14-PO4A 0.65 வெளியிடப்பட்டது"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:111
+#: src/index.php.en:117
 msgid ""
 "Allow to group several translations per POT file in split mode (+bugfix and "
 "translation updates -- <a href=\"https://github.com/mquinson/po4a/releases/"
 "tag/v0.65\">more details</a>)."
 msgstr ""
 "ஒரு பானை கோப்புக்கு பல மொழிபெயர்ப்புகளை பிளவு பயன்முறையில் தொகுக்க அனுமதிக்கவும் "
-"(+பிழைத்திருத்தம் மற்றும் மொழிபெயர்ப்பு புதுப்பிப்புகள் - <a href = "
-"\"https://github.com/mquinson/po4a/releases/tag/v0.65\"> மேலும் விவரங்கள் </a>)."
+"(+பிழைத்திருத்தம் மற்றும் மொழிபெயர்ப்பு புதுப்பிப்புகள் - <a href = \"https://"
+"github.com/mquinson/po4a/releases/tag/v0.65\"> மேலும் விவரங்கள் </a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:113
+#: src/index.php.en:119
 msgid "2021-09-12 - po4a 0.64 released"
 msgstr "2021-09-12-PO4A 0.64 வெளியிடப்பட்டது"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:114
+#: src/index.php.en:120
 msgid ""
 "Bugfix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.64\">more details</a>)."
@@ -380,12 +402,12 @@ msgstr ""
 "mquinson/po4a/relaess/tag/v0.64\"> மேலும் விவரங்கள் </a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:116
+#: src/index.php.en:122
 msgid "2021-02-02 - po4a 0.63 released"
 msgstr "2021-02-02-PO4A 0.63 வெளியிடப்பட்டது"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:117
+#: src/index.php.en:123
 msgid ""
 "Fix a regression in 0.62 where the translation of po4a binaries were not "
 "installed. Plus other bugfixes and translation updates (<a href=\"https://"
@@ -396,44 +418,44 @@ msgstr ""
 "\"https://github.com/mquinson/po4a/relaess/tag/v0.63\"> மேலும் விவரங்கள் </a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:119
+#: src/index.php.en:125
 msgid "2020-12-07 - po4a 0.62 released"
 msgstr "2020-12-07-PO4A 0.62 வெளியிடப்பட்டது"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:120
+#: src/index.php.en:126
 msgid ""
 "Unwrap asciidoc to avoid reformating issues and other bugfixes, plus "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.62\">more details</a>)."
 msgstr ""
 "சீர்திருத்த சிக்கல்கள் மற்றும் பிற பிழைத்திருத்தங்கள் மற்றும் மொழிபெயர்ப்பு புதுப்பிப்புகள் (<a "
-"href = \"https://github.com/mquinson/po4a/releases/tag/v0.62\"> மேலும் விவரங்கள்"
-" </a>)."
+"href = \"https://github.com/mquinson/po4a/releases/tag/v0.62\"> மேலும் "
+"விவரங்கள் </a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:122
+#: src/index.php.en:128
 msgid "2020-08-05 - po4a 0.61 released"
 msgstr "2020-08-05-PO4A 0.61 வெளியிடப்பட்டது"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:123
+#: src/index.php.en:129
 msgid ""
 "More bugfix (again to not break Debian packages depending on po4a), and "
 "translation updates (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.61\">more details</a>)."
 msgstr ""
-"மேலும் பிழையானது (மீண்டும் PO4A ஐப் பொறுத்து டெபியன் தொகுப்புகளை உடைக்கக்கூடாது), மற்றும்"
-" மொழிபெயர்ப்பு புதுப்பிப்புகள் (<a href = "
-"\"https://github.com/mquinson/po4a/relaess/tag/v0.61\"> மேலும் விவரங்கள் </a>)."
+"மேலும் பிழையானது (மீண்டும் PO4A ஐப் பொறுத்து டெபியன் தொகுப்புகளை உடைக்கக்கூடாது), "
+"மற்றும் மொழிபெயர்ப்பு புதுப்பிப்புகள் (<a href = \"https://github.com/mquinson/po4a/"
+"relaess/tag/v0.61\"> மேலும் விவரங்கள் </a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:125
+#: src/index.php.en:131
 msgid "2020-07-15 - po4a 0.60 released"
 msgstr "2020-07-15-PO4A 0.60 வெளியிடப்பட்டது"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:126
+#: src/index.php.en:132
 msgid ""
 "Bugfix and translation updates (<a href=\"https://github.com/mquinson/po4a/"
 "releases/tag/v0.60\">more details</a>)."
@@ -442,12 +464,12 @@ msgstr ""
 "mquinson/po4a/relaess/tag/v0.60\"> மேலும் விவரங்கள் </a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:128
+#: src/index.php.en:134
 msgid "2020-05-20 - po4a 0.59 released"
 msgstr "2020-05-20-PO4A 0.59 வெளியிடப்பட்டது"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:129
+#: src/index.php.en:135
 msgid ""
 "Bugfix release to not break the build of several Debian packages (at "
 "least).  <a href=\"https://github.com/mquinson/po4a/releases/tag/"
@@ -458,29 +480,29 @@ msgstr ""
 "</a>."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:132
+#: src/index.php.en:138
 msgid "2020-05-04 - po4a 0.58 released"
 msgstr "2020-05-04-PO4A 0.58 வெளியிடப்பட்டது"
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:134
+#: src/index.php.en:140
 msgid "Rewrite all tests to make them more robust and less permissive."
 msgstr ""
 "அனைத்து சோதனைகளையும் மீண்டும் எழுதவும், அவற்றை மிகவும் வலுவானதாகவும் குறைவாகவும் "
 "அனுமதிக்கிறது."
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:135
+#: src/index.php.en:141
 msgid "Fix many issues reported against the parsers."
 msgstr "பாகுபடுத்திகளுக்கு எதிராக அறிக்கையிடப்பட்ட பல சிக்கல்களை சரிசெய்யவும்."
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:136
+#: src/index.php.en:142
 msgid "Rewrite the documentation for sake of clarity and brevity."
 msgstr "தெளிவு மற்றும் சுருக்கத்திற்காக ஆவணங்களை மீண்டும் எழுதவும்."
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: src/index.php.en:137
+#: src/index.php.en:143
 msgid ""
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">more "
 "details</a>)."
@@ -489,26 +511,27 @@ msgstr ""
 "தகவல்கள்</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:139
+#: src/index.php.en:145
 msgid "2019-10-25 - po4a 0.57 released"
 msgstr "2019-10-25-PO4A 0.57 வெளியிடப்பட்டது"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:140
+#: src/index.php.en:146
 msgid ""
-"Translation update and one bugfix in AsciiDoc.  (<a href=\"https://github."
-"com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
+"Translation update and one bugfix in AsciiDoc.  (<a href=\"https://"
+"github.com/mquinson/po4a/releases/tag/v0.57\">more details</a>)."
 msgstr ""
-"மொழிபெயர்ப்பு புதுப்பிப்பு மற்றும் ASCIIDOC இல் ஒரு பிழைத்திருத்தம். . (<a href="
-"\"https://github.com/mquinson/po4a/releases/tag/v0.57\">மேலும் தகவல்கள்</a>)."
+"மொழிபெயர்ப்பு புதுப்பிப்பு மற்றும் ASCIIDOC இல் ஒரு பிழைத்திருத்தம். . (<a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.57\">மேலும் தகவல்கள்</"
+"a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:143
+#: src/index.php.en:149
 msgid "2019-06-06 - po4a 0.56 released"
 msgstr "2019-06-06-PO4A 0.56 வெளியிடப்பட்டது"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:144
+#: src/index.php.en:150
 msgid ""
 "New features and bugfixes, mostly to the AsciiDoc parser (<a href=\"https://"
 "github.com/mquinson/po4a/releases/tag/v0.56\">more details</a>)."
@@ -518,42 +541,42 @@ msgstr ""
 "</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:147
+#: src/index.php.en:153
 msgid "2018-12-09 - po4a 0.55 released"
 msgstr "2018-12-09-PO4A 0.55 வெளியிடப்பட்டது"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:148
+#: src/index.php.en:154
 msgid ""
 "New features and bugfixes to both the individual parsers and common parts "
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.55\">more "
 "details</a>)."
 msgstr ""
 "தனிப்பட்ட பாகுபடுத்திகள் மற்றும் பொதுவான பாகங்கள் இரண்டிற்கும் புதிய நற்பொருத்தங்கள் மற்றும் "
-"பிழைத்திருத்தங்கள் (<a href = "
-"\"https://github.com/mquinson/po4a/relaess/tag/v0.55\"> மேலும் விவரங்கள் </a>)."
+"பிழைத்திருத்தங்கள் (<a href = \"https://github.com/mquinson/po4a/relaess/tag/"
+"v0.55\"> மேலும் விவரங்கள் </a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:151
+#: src/index.php.en:157
 msgid "2018-06-30 - po4a 0.54 released"
 msgstr "2018-06-30-PO4A 0.54 வெளியிடப்பட்டது"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:152
+#: src/index.php.en:158
 msgid ""
-"We fixed tons of bugs, and removed many glitches (<a href=\"https://github."
-"com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
+"We fixed tons of bugs, and removed many glitches (<a href=\"https://"
+"github.com/mquinson/po4a/releases/tag/v0.54\">more details</a>)."
 msgstr ""
 "நாங்கள் டன் பிழைகளை சரிசெய்தோம், மேலும் பல குறைபாடுகளை அகற்றினோம் (<a href = "
 "\"https://github.com/mquinson/po4a/relaess/tag/v0.54\"> மேலும் விவரங்கள் </a>)."
 
 #. type: Content of: <html><body><div><div><h2>
-#: src/index.php.en:155
+#: src/index.php.en:161
 msgid "2018-05-25 - po4a 0.53 released"
 msgstr "2018-05-25-PO4A 0.53 வெளியிடப்பட்டது"
 
 #. type: Content of: <html><body><div><div><p>
-#: src/index.php.en:156
+#: src/index.php.en:162
 msgid ""
 "The most visible change is a new YAML module, and the fact that Alioth was "
 "turned off (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
@@ -577,21 +600,18 @@ msgstr "<a href = \"../.\" தலைப்பு = \"வரவேற்பு\">
 #: src/documentation.php.en:20 src/download.php.en:20 src/getinvolved.php.en:20
 msgid ""
 "</a> <a href=\"../documentation.php\" title=\"Documentation\">Documentation"
-msgstr ""
-"</a> <a href=\"../documentation.php\" title=\"Documentation\">ஆவணமாக்கல்"
+msgstr "</a> <a href=\"../documentation.php\" title=\"Documentation\">ஆவணமாக்கல்"
 
 #. type: Content of: <html><body><div><a>
 #: src/documentation.php.en:21 src/download.php.en:21 src/getinvolved.php.en:21
 msgid "</a> <a href=\"../download.php\" title=\"Download\" >Download"
-msgstr ""
-"</a> <a href = \"../ download.php\" தலைப்பு = \"பதிவிறக்கம்\"> பதிவிறக்கம்"
+msgstr "</a> <a href = \"../ download.php\" தலைப்பு = \"பதிவிறக்கம்\"> பதிவிறக்கம்"
 
 #. type: Content of: <html><body><div><a>
 #: src/documentation.php.en:22 src/download.php.en:22 src/getinvolved.php.en:22
 msgid ""
 "</a> <a href=\"../getinvolved.php\" title=\"Get Involved\" >Get Involved"
-msgstr ""
-"</a> <a href = \"../ getInvolved.php\" தலைப்பு = \"ஈடுபடு\"> ஈடுபடுங்கள்"
+msgstr "</a> <a href = \"../ getInvolved.php\" தலைப்பு = \"ஈடுபடு\"> ஈடுபடுங்கள்"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/documentation.php.en:29
@@ -637,9 +657,9 @@ msgid ""
 "(#po4a on OFTC)."
 msgstr ""
 "உங்கள் திட்டத்தின் ஆவணங்களுக்கான மொழிபெயர்ப்பு கட்டமைப்பை அமைக்க அல்லது உங்கள் தேவைகளுக்கு "
-"PO4A ஐ மாற்றியமைக்க நாங்கள் உங்களுக்கு உதவ முடியும். எங்கள் <a href = "
-"\"mailto: devel@lists.po4a.org\"> அஞ்சல் பட்டியல் </a> அல்லது ஐ.ஆர்.சி (#PO4A ON "
-"OFTC இல்) இல் எங்களை தொடர்பு கொள்ள தயங்க வேண்டாம்."
+"PO4A ஐ மாற்றியமைக்க நாங்கள் உங்களுக்கு உதவ முடியும். எங்கள் <a href = \"mailto: "
+"devel@lists.po4a.org\"> அஞ்சல் பட்டியல் </a> அல்லது ஐ.ஆர்.சி (#PO4A ON OFTC இல்) இல் "
+"எங்களை தொடர்பு கொள்ள தயங்க வேண்டாம்."
 
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
@@ -659,11 +679,11 @@ msgstr "மூலங்கள்"
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:31
 msgid ""
-"You can find the sources of the latest release on <a href=\"https://github."
-"com/mquinson/po4a/releases\">GitHub</a>."
+"You can find the sources of the latest release on <a href=\"https://"
+"github.com/mquinson/po4a/releases\">GitHub</a>."
 msgstr ""
-"அண்மைக் கால வெளியீட்டின் ஆதாரங்களை <a href = "
-"\"https://github.com/mquinson/po4a/relaess\"> அறிவிலிமையம் </a> இல் காணலாம்."
+"அண்மைக் கால வெளியீட்டின் ஆதாரங்களை <a href = \"https://github.com/mquinson/po4a/"
+"relaess\"> அறிவிலிமையம் </a> இல் காணலாம்."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:35
@@ -746,9 +766,8 @@ msgid ""
 msgstr ""
 "பிழை அறிக்கைகள், திட்டுகள், அம்ச கோரிக்கைகள் அல்லது எந்தவொரு பின்னூட்டங்களும் அஞ்சல் "
 "பட்டியலில், <a href=\"https://github.com/mquinson/po4a/issues\"> அறிவிலிமையம் "
-"டிராக்கர் </a> அல்லது<a href="
-"\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=po4a;dist=unstable\">இல் "
-"வரவேற்கப்படுகின்றன டெபியன் பி.டி.எச் </a>."
+"டிராக்கர் </a> அல்லது<a href=\"http://bugs.debian.org/cgi-bin/pkgreport.cgi?"
+"pkg=po4a;dist=unstable\">இல் வரவேற்கப்படுகின்றன டெபியன் பி.டி.எச் </a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:39
@@ -910,8 +929,8 @@ msgstr ""
 #~ "translation updates ("
 #~ msgstr ""
 #~ "மேலும் பிழைத்திருத்தம் (மீண்டும் PO4A ஐப் பொறுத்து டெபியன் தொகுப்புகளை "
-#~ "உடைக்கக்கூடாது), மற்றும் மொழிபெயர்ப்பு புதுப்பிப்புகள் (<a href = \"https://github."
-#~ "com/mquinson/po4a/relaess/tag/v0.61\"> மேலும் விவரங்கள் </a> )."
+#~ "உடைக்கக்கூடாது), மற்றும் மொழிபெயர்ப்பு புதுப்பிப்புகள் (<a href = \"https://"
+#~ "github.com/mquinson/po4a/relaess/tag/v0.61\"> மேலும் விவரங்கள் </a> )."
 
 #, fuzzy
 #~| msgid ""

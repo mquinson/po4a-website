@@ -254,9 +254,8 @@ msgid ""
 msgstr ""
 "Neue Module: org, vim-help und SimplePod (das alte Pod-Modul ist jetzt "
 "veraltet); Verbesserte Unterstützung für AsciiDoc, Markdown, Tex und "
-"Texinfo; Die Verwendung von Perl wurde etwas modernisiert (<a "
-"href=\"https://github.com/mquinson/po4a/releases/tag/v0.74\">weitere "
-"Details</a>)."
+"Texinfo; Die Verwendung von Perl wurde etwas modernisiert (<a href=\"https://"
+"github.com/mquinson/po4a/releases/tag/v0.74\">weitere Details</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:86
