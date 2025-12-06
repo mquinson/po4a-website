@@ -5,15 +5,15 @@
 # Golubev Alexander <fatzer2@gmail.com>, 2020, 2021, 2024.
 # Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2021.
 # Виталий Наумов <hbvit7zoom@gmail.com>, 2023.
-# Alex Karabanov <lksj@yandex.ru>, 2024.
+# Alex Karabanov <lksj@yandex.ru>, 2024, 2025.
 # Yurt Page <yurtpage@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.36.6\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2025-11-24 10:55+0100\n"
-"PO-Revision-Date: 2025-06-06 16:01+0000\n"
-"Last-Translator: Yurt Page <yurtpage@gmail.com>\n"
+"PO-Revision-Date: 2025-12-06 19:00+0000\n"
+"Last-Translator: Alex Karabanov <lksj@yandex.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/po4a/po4a-"
 "website/ru/>\n"
 "Language: ru\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -251,18 +251,11 @@ msgstr "kernelhelp: справочные сообщения для параме�
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:80
-#, fuzzy
-#| msgid "2021-09-12 - po4a 0.64 released"
 msgid "2025-07-12 - po4a 0.74 released"
-msgstr "2021-09-12— выпуск po4a 0.64"
+msgstr "2025-07-12— выпуск po4a 0.74"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:81
-#, fuzzy
-#| msgid ""
-#| "Many bug fixes and improvement in AsciiDoc, Man, Mardown, xHTML and in "
-#| "core modules (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-#| "v0.67\">more details</a>)."
 msgid ""
 "New modules: org, vim-help and SimplePod (deprecating the old Pod module); "
 "Improve the support for AsciiDoc, Markdown, Tex and Texinfo; Modernize a bit "
@@ -270,7 +263,7 @@ msgid ""
 "v0.74\">more details</a>)."
 msgstr ""
 "Исправления ошибок и обновление переводов (<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.67\">подробности</a>)."
+"mquinson/po4a/releases/tag/v0.74\">подробности</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:86
