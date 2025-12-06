@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Ukrainian (po4a)\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2025-11-24 10:55+0100\n"
-"PO-Revision-Date: 2025-04-21 10:12+0000\n"
+"PO-Revision-Date: 2025-12-06 19:00+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/po4a/po4a-"
 "website/uk/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.11.1-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -241,27 +241,21 @@ msgstr "kernelhelp: довідкові повідомлення для усіх 
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:80
-#, fuzzy
-#| msgid "2021-09-12 - po4a 0.64 released"
 msgid "2025-07-12 - po4a 0.74 released"
-msgstr "12 вересня 2021 року — випущено po4a 0.64"
+msgstr "7 грудня 2025 року — випущено po4a 0.74"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:81
-#, fuzzy
-#| msgid ""
-#| "Many bug fixes and improvement in AsciiDoc, Man, Mardown, xHTML and in "
-#| "core modules (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-#| "v0.67\">more details</a>)."
 msgid ""
 "New modules: org, vim-help and SimplePod (deprecating the old Pod module); "
 "Improve the support for AsciiDoc, Markdown, Tex and Texinfo; Modernize a bit "
 "our usage of Perl (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.74\">more details</a>)."
 msgstr ""
-"Багато виправлень вад і удосконалень у модулях AsciiDoc, Man, Mardown, xHTML "
-"та базових модулях (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-"v0.67\">докладніше</a>)."
+"Нові модулі: org, vim-help і SimplePod (який замінює собою застарілий модуль "
+"Pod); удосконалено підтримку AsciiDoc, Markdown, Tex і Texinfo; дещо "
+"модернізовано використання Perl (<a href=\"https://github.com/mquinson/po4a/"
+"releases/tag/v0.74\">докладніше</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:86
