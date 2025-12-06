@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.73\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2025-11-24 10:55+0100\n"
-"PO-Revision-Date: 2025-04-21 10:12+0000\n"
+"PO-Revision-Date: 2025-12-06 19:00+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/po4a/po4a-"
 "website/ro/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.11.1-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -244,27 +244,21 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:80
-#, fuzzy
-#| msgid "2021-09-12 - po4a 0.64 released"
 msgid "2025-07-12 - po4a 0.74 released"
-msgstr "12.09.2021 - a fost publicat po4a 0.64"
+msgstr "12.09.2021 - a fost publicat po4a 0.74"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:81
-#, fuzzy
-#| msgid ""
-#| "Many bug fixes and improvement in AsciiDoc, Man, Mardown, xHTML and in "
-#| "core modules (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-#| "v0.67\">more details</a>)."
 msgid ""
 "New modules: org, vim-help and SimplePod (deprecating the old Pod module); "
 "Improve the support for AsciiDoc, Markdown, Tex and Texinfo; Modernize a bit "
 "our usage of Perl (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.74\">more details</a>)."
 msgstr ""
-"Numeroase remedieri de erori și îmbunătățiri în AsciiDoc, Man, Mardown, "
-"xHTML și în modulele de bază -- (<a href=\"https://github.com/mquinson/po4a/"
-"releases/tag/v0.67\">mai multe detalii</a>)."
+"Module noi: org, vim-help și SimplePod (înlocuind vechiul modul Pod); "
+"Îmbunătățirea suportului pentru AsciiDoc, Markdown, Tex și Texinfo; "
+"Modernizarea ușoară a utilizării Perl -- (<a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.74\">mai multe detalii</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:86
