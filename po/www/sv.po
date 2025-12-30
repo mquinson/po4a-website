@@ -2,13 +2,14 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the po4a package.
 # Daniel Nylander <daniel@danielnylander.se>, 2025.
+# bittin1ddc447d824349b2 <bittin@reimu.nl>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.74-alpha\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2025-11-24 10:55+0100\n"
-"PO-Revision-Date: 2025-12-05 17:00+0000\n"
-"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"PO-Revision-Date: 2025-12-30 04:00+0000\n"
+"Last-Translator: bittin1ddc447d824349b2 <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/po4a/po4a-"
 "website/sv/>\n"
 "Language: sv\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -241,27 +242,21 @@ msgstr "kernelhelp: Hjälpmeddelanden för varje kärnkompileringsflagga"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:80
-#, fuzzy
-#| msgid "2021-09-12 - po4a 0.64 released"
 msgid "2025-07-12 - po4a 0.74 released"
-msgstr "2021-09-12 – po4a 0.64 släppt"
+msgstr "2025-07-12 - po4a 0.74 släppt"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:81
-#, fuzzy
-#| msgid ""
-#| "Many bug fixes and improvement in AsciiDoc, Man, Mardown, xHTML and in "
-#| "core modules (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-#| "v0.67\">more details</a>)."
 msgid ""
 "New modules: org, vim-help and SimplePod (deprecating the old Pod module); "
 "Improve the support for AsciiDoc, Markdown, Tex and Texinfo; Modernize a bit "
 "our usage of Perl (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.74\">more details</a>)."
 msgstr ""
-"Många buggfixar och förbättringar i AsciiDoc, Man, Mardown, xHTML och i "
-"kärnmoduler (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-"v0.67\">mer information</a>)."
+"Nya moduler: org, vim-help och SimplePod (föråldrar den gamla Pod-modulen); "
+"Förbättrar stödet för AsciiDoc, Markdown, Tex och Texinfo; Moderniserar vår "
+"användning av Perl något (<a href=\"https://github.com/mquinson/po4a/"
+"releases/tag/v0.74\">mer detaljer</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:86
