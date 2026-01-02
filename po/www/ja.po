@@ -1,13 +1,14 @@
 # KURASAWA Nozomu <nabetaro@debian.or.jp>, 2010.
 # Masahiro Nakamura <marlsa_32.wwmd@icloud.com>, 2020.
 # gemmaro <gemmaro.dev@gmail.com>, 2022, 2023, 2024, 2025.
+# 2tama3 <2tama3@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2025-11-24 10:55+0100\n"
-"PO-Revision-Date: 2025-04-25 12:01+0000\n"
-"Last-Translator: gemmaro <gemmaro.dev@gmail.com>\n"
+"PO-Revision-Date: 2026-01-02 00:01+0000\n"
+"Last-Translator: 2tama3 <2tama3@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/po4a/po4a-"
 "website/ja/>\n"
 "Language: ja\n"
@@ -15,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.11.1-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -234,27 +235,20 @@ msgstr "kernelhelp: 各カーネルコンパイルオプションのヘルプメ
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:80
-#, fuzzy
-#| msgid "2021-09-12 - po4a 0.64 released"
 msgid "2025-07-12 - po4a 0.74 released"
-msgstr "2021-09-12 - po4a 0.64 リリース"
+msgstr "2025-07-12 - po4a 0.74 リリース"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:81
-#, fuzzy
-#| msgid ""
-#| "Many bug fixes and improvement in AsciiDoc, Man, Mardown, xHTML and in "
-#| "core modules (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-#| "v0.67\">more details</a>)."
 msgid ""
 "New modules: org, vim-help and SimplePod (deprecating the old Pod module); "
 "Improve the support for AsciiDoc, Markdown, Tex and Texinfo; Modernize a bit "
 "our usage of Perl (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.74\">more details</a>)."
 msgstr ""
-"AsciiDoc、Man、Markdown、xHTML、中核のモジュールの不具合修正と改善が多数され"
-"ました（<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.67\">詳細"
-"</a>）。"
+"新規モジュールorg、vim-help、SimplePod(古いPadモジュールは非推奨へ)とAsciiDoc"
+"、Markdown、Tex、Texinfoモジュールの改善とPerlの使い方を変更しました（<a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.74\">詳細</a>）。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:86
