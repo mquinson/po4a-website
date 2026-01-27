@@ -1,12 +1,12 @@
 # Translation of po4a webpage to Italian
 # This file is distributed under the same license as the po4a web page.
-# Copyright (C) Marco Ciampa <ciampix@posteo.net>, 2016-2023, 2025.
+# Copyright (C) Marco Ciampa <ciampix@posteo.net>, 2016-2023, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.48\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2025-11-24 10:55+0100\n"
-"PO-Revision-Date: 2025-05-07 14:01+0000\n"
+"PO-Revision-Date: 2026-01-27 12:13+0000\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/po4a/po4a-"
 "website/it/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -242,27 +242,21 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:80
-#, fuzzy
-#| msgid "2021-09-12 - po4a 0.64 released"
 msgid "2025-07-12 - po4a 0.74 released"
-msgstr "2021-09-12 - rilasciato po4a 0.64"
+msgstr "2025-07-12 - rilasciato po4a 0.74"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:81
-#, fuzzy
-#| msgid ""
-#| "Many bug fixes and improvement in AsciiDoc, Man, Mardown, xHTML and in "
-#| "core modules (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-#| "v0.67\">more details</a>)."
 msgid ""
 "New modules: org, vim-help and SimplePod (deprecating the old Pod module); "
 "Improve the support for AsciiDoc, Markdown, Tex and Texinfo; Modernize a bit "
 "our usage of Perl (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.74\">more details</a>)."
 msgstr ""
-"Molte correzioni e miglioramenti in AsciiDoc, Man, Mardown, xHTML e nei "
-"moduli del nucleo (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-"v0.67\">ulteriori dettagli</a>)."
+"Nuovi moduli: org, vim-help e SimplePod (il vecchio modulo Pod ora è "
+"deprecato); migliorato il supporto a AsciiDoc, Markdown, Tex e Texinfo; "
+"Modernizzato un po' l'uso del Perl ... (<a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.74\">qui ulteriori dettagli</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:86
