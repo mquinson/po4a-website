@@ -179,6 +179,7 @@ echo $webver > html/version.php
 get_language() {
 # FIXME: use gettext
 # https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+# https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes
 	case $1 in
 		ca)
 			echo -n "català"
@@ -245,6 +246,9 @@ get_language() {
 			;;
         ta)
             echo -n "தமிழ்"
+            ;;
+        te)
+	    echo -n "తెలుగు"
             ;;
 		uk)
 			echo -n "український"
