@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the po4a package.
-# Frans Spiesschaert <frans.spiesschaert@gmail.com>, 2020, 2021, 2022, 2023, 2024, 2025.
+# Frans Spiesschaert <frans.spiesschaert@gmail.com>, 2020, 2021, 2022, 2023, 2024, 2025, 2026.
 # Henk De Groot <weblate@hdegroot.com>, 2024.
 # mehdi Amiri <rezaamiri225577@gmail.com>, 2025.
 msgid ""
@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.55\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2025-11-24 10:55+0100\n"
-"PO-Revision-Date: 2025-11-22 19:51+0000\n"
+"PO-Revision-Date: 2026-03-29 22:09+0000\n"
 "Last-Translator: Frans Spiesschaert <frans.spiesschaert@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/po4a/po4a-website/"
 "nl/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -243,27 +243,22 @@ msgstr "kernelhelp: hulpberichten bij elk van de kernelcompilatieopties"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:80
-#, fuzzy
-#| msgid "2021-09-12 - po4a 0.64 released"
 msgid "2025-07-12 - po4a 0.74 released"
-msgstr "12-09-2021 - po4a 0.64 uitgebracht"
+msgstr "12-07-2025 - po4a 0.74 uitgebracht"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:81
-#, fuzzy
-#| msgid ""
-#| "Many bug fixes and improvement in AsciiDoc, Man, Mardown, xHTML and in "
-#| "core modules (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-#| "v0.67\">more details</a>)."
 msgid ""
 "New modules: org, vim-help and SimplePod (deprecating the old Pod module); "
 "Improve the support for AsciiDoc, Markdown, Tex and Texinfo; Modernize a bit "
 "our usage of Perl (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.74\">more details</a>)."
 msgstr ""
-"Veel foutcorrecties en verbeteringen in AsciiDoc, Man, Markdown, xHTML en in "
-"de kernmodules (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-"v0.67\">meer informatie</a>)."
+"Nieuwe modules: org, vim-help en SimplePod (waardoor de oude Pod-module "
+"wordt afgeschaft); Verbetering van de ondersteuning voor AsciiDoc, Markdown, "
+"Tex en Texinfo; Een kleine modernisering van ons gebruik van Perl (<a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.74\">meer details</"
+"a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:86
