@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the po4a package.
-# Milo Ivir <mail@milotype.de>, 2020, 2021, 2022, 2023, 2024, 2025.
+# Milo Ivir <mail@milotype.de>, 2020, 2021, 2022, 2023, 2024, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: po4a 0.56\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2025-11-24 10:55+0100\n"
-"PO-Revision-Date: 2025-09-09 21:02+0000\n"
+"PO-Revision-Date: 2026-04-20 11:09+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/po4a/po4a-"
 "website/hr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
@@ -242,27 +242,21 @@ msgstr "kernelhelp: Poruke pomoći svake opcije kompilacije kernela"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:80
-#, fuzzy
-#| msgid "2021-09-12 - po4a 0.64 released"
 msgid "2025-07-12 - po4a 0.74 released"
-msgstr "2021-09-12 – objavljen po4a 0.64"
+msgstr "2025-07-12 – objavljen po4a 0.74"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:81
-#, fuzzy
-#| msgid ""
-#| "Many bug fixes and improvement in AsciiDoc, Man, Mardown, xHTML and in "
-#| "core modules (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
-#| "v0.67\">more details</a>)."
 msgid ""
 "New modules: org, vim-help and SimplePod (deprecating the old Pod module); "
 "Improve the support for AsciiDoc, Markdown, Tex and Texinfo; Modernize a bit "
 "our usage of Perl (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
 "v0.74\">more details</a>)."
 msgstr ""
-"Mnogi ispravci programskih grešaka i poboljšanja u AsciiDoc-u, Man-u, "
-"Mardown-u, xHTML-u i u osnovnim modulima. (<a href=\"https://github.com/"
-"mquinson/po4a/releases/tag/v0.67\">Detalji</a>)."
+"Novi moduli: org, vim-help i SimplePod (zastarijeva stari Pod modul); "
+"poboljšana podrška za AsciiDoc, Markdown, Tex i Texinfo; pomalo "
+"modernizirana upotreba Perla (<a href=\"https://github.com/mquinson/po4a/"
+"releases/tag/v0.74\">više detalja</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:86
