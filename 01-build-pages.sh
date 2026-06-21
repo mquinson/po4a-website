@@ -260,7 +260,7 @@ get_language() {
 			echo -n "简体中文"
 			;;
 		zh_Hant)
-			echo -n "简体中文"
+			echo -n "繁體中文"
 			;;
 		*)
 			echo "Language '$1' not supported. Change 01-build-pages.sh" >&2
