@@ -1,10 +1,10 @@
 FROM ghcr.io/mquinson/po4a:master
 
-ENV LANG C.UTF-8
-ENV LANGUAGE en
-ENV LC_ALL C.UTF-8
-ENV DEBIAN_FRONTEND noninteractive
-ENV COLUMNS 120
+ENV LANG=C.UTF-8
+ENV LANGUAGE=en
+ENV LC_ALL=C.UTF-8
+ENV DEBIAN_FRONTEND=noninteractive
+ENV COLUMNS=120
 ENV CI=1
 
 # libxml2-utils provides xmlcatalogs
