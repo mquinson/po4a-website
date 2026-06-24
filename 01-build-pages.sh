@@ -211,6 +211,9 @@ get_language() {
 		ja)
 			echo -n "日本語"
 			;;
+                lv)
+                        echo -n "latviešu"
+                        ;;
 		nb)
 			echo -n "Bokmål"
 			;;
