@@ -7,37 +7,39 @@ msgstr ""
 "Project-Id-Version: po4a 0.75-alpha\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2025-11-24 10:55+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-06-24 08:01+0000\n"
+"Last-Translator: \"ℂ𝕠𝕠𝕠𝕝 (𝕘𝕚𝕥𝕙𝕦𝕓.𝕔𝕠𝕞/ℂ𝕠𝕠𝕠𝕝)\" <coool@mail.lv>\n"
+"Language-Team: Latvian <https://hosted.weblate.org/projects/po4a/po4a-"
+"website/lv/>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= "
 "19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);\n"
+"X-Generator: Weblate 2026.7.dev0\n"
 
 #. type: Content of: <html><head><title>
 #: src/index.php.en:11
 msgid "po4a - Welcome"
-msgstr ""
+msgstr "po4a — Laipni lūdzam"
 
 #. type: Content of: <div><div><h1><sup>
 #: src/index.php.en:16 src/documentation.php.en:16 src/download.php.en:16
 #: src/getinvolved.php.en:16 src/header.php.en:3
 msgid "po4a<sup>v"
-msgstr ""
+msgstr "po4a<sup>v"
 
 #. type: Content of: <div><div><h1>
 #: src/index.php.en:16 src/documentation.php.en:16 src/download.php.en:16
 #: src/getinvolved.php.en:16 src/header.php.en:3
 msgid "</sup>"
-msgstr ""
+msgstr "</sup>"
 
 #. type: Content of: <html><body><div><a>
 #: src/index.php.en:20
 msgid "<a href=\"./.\" title=\"Welcome\" >Welcome"
-msgstr ""
+msgstr "<a href=\"./.\" title=\"Laipni lūdzam\" >Laipni lūdzam"
 
 #. type: Content of: <div><a><span>
 #: src/index.php.en:20 src/index.php.en:21 src/index.php.en:22
@@ -48,34 +50,37 @@ msgstr ""
 #: src/getinvolved.php.en:22 src/getinvolved.php.en:23 src/header.php.en:7
 #: src/header.php.en:8 src/header.php.en:9 src/header.php.en:10
 msgid "&nbsp;&nbsp;&lt;"
-msgstr ""
+msgstr "&nbsp;&nbsp;&lt;"
 
 #. type: Content of: <html><body><div><a>
 #: src/index.php.en:20
 msgid "</a> <a href=\"./documentation.php\" title=\"Documentation\">Documentation"
 msgstr ""
+"</a> <a href=\"./documentation.php\" title=\"Dokumentācija\">Dokumentācija"
 
 #. type: Content of: <html><body><div><a>
 #: src/index.php.en:21
 msgid "</a> <a href=\"./download.php\" title=\"Download\" >Download"
-msgstr ""
+msgstr "</a> <a href=\"./download.php\" title=\"Lejupielādēt\" >Lejupielādēt"
 
 #. type: Content of: <html><body><div><a>
 #: src/index.php.en:22
 msgid "</a> <a href=\"./getinvolved.php\" title=\"Get Involved\" >Get Involved"
 msgstr ""
+"</a> <a href=\"./getinvolved.php\" title=\"Dodiet savu artavu\" >Dodiet savu "
+"artavu"
 
 #. type: Content of: <div>
 #: src/index.php.en:23 src/documentation.php.en:23 src/download.php.en:23
 #: src/getinvolved.php.en:23 src/getinvolved.php.en:56
 #: src/getinvolved.php.en:63 src/getinvolved.php.en:68 src/header.php.en:10
 msgid "</a>"
-msgstr ""
+msgstr "</a>"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:30
 msgid "Maintain the translations of your documentation with ease"
-msgstr ""
+msgstr "Viegli pārvaldīt savus dokumentācijas tulkojumus"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:31
@@ -87,6 +92,11 @@ msgid ""
 "the translation into the structure of the original document to generate a "
 "translated document."
 msgstr ""
+"po4a (PO for anything, PO jebkuram formātam) padara dokumentācijas tulkošanu "
+"un pārvaldību daudz vienkāršāku. Tas iegūst tulkojamo materiālu no oriģinālā "
+"dokumenta un ievieto to PO datnē, kas ir labi pielāgota tulkošanai. Tiklīdz "
+"tulkotāji atjaunina šo PO datni, po4a no jauna ievieto tulkojumus oriģinālā "
+"dokumenta struktūrā, lai izveidotu tulkotu dokumentu."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:38
@@ -96,6 +106,10 @@ msgid ""
 "documentation is always both up to date with regard to the original one, and "
 "as translated as possible."
 msgstr ""
+"Ja tulkojums ir tikai daļēji iztulkots, trūkstošajās daļās tiks izmantots "
+"oriģinālais (angļu valodas) teksts. Tādējādi tiek garantēts, ka jūsu tulkotā "
+"dokumentācija vienmēr ir aktuāla un maksimāli pilnīga, pēc iespējas vairāk "
+"pārtulkota."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:42
@@ -104,61 +118,65 @@ msgid ""
 "containing the settings and a list of documents to translate. po4a will "
 "update them automatically when something happens."
 msgstr ""
+"po4a pilnībā automatizē visu tulkošanas procesu un tā uzturēšanu tikai ar "
+"vienu pašu iestatījumu datni, kurā norādīti visi parametri un tulkojamo "
+"dokumentu saraksts. Tiklīdz būs kādas izmaiņas, po4a automātiski atjauninās "
+"tulkojumus."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:48
 msgid "Supported formats"
-msgstr ""
+msgstr "Atbalstītie formāti"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:49
 msgid "po4a currently supports the following formats:"
-msgstr ""
+msgstr "po4a pašlaik atbalsta šādus formātus:"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:51
 msgid "asciidoc: AsciiDoc format"
-msgstr ""
+msgstr "asciidoc: AsciiDoc formāts"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:52
 msgid "man: Good old manual page format"
-msgstr ""
+msgstr "man: vecais labais man rokasgrāmatas lapas formāts"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:53
 msgid "pod: Perl Online Documentation (POD) format"
-msgstr ""
+msgstr "pod: Perl Online Documentation (POD) formāts"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:54
 msgid "xml: generic XML documents"
-msgstr ""
+msgstr "xml: vispārīgi XML dokumenti"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:56
 msgid "docbook: DocBook XML"
-msgstr ""
+msgstr "docbook: DocBook XML variants"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:57
 msgid "xhtml: XHTML documents"
-msgstr ""
+msgstr "xhtml: XHTML dokumenti"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:58
 msgid "dia: uncompressed Dia diagrams"
-msgstr ""
+msgstr "dia: nesaspiestas Dia diagrammas"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:59
 msgid "guide: Gentoo Linux's XML documentation format"
-msgstr ""
+msgstr "guide: Gentoo Linux XML dokumentācijas formāts"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:60
 msgid "wml: WML documents"
-msgstr ""
+msgstr "wml: WML dokumenti"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:63
@@ -166,26 +184,28 @@ msgid ""
 "sgml: the standard generalized markup language (SGML) is for either "
 "DebianDoc or DocBook DTD"
 msgstr ""
+"sgml: standarta vispārinātā iezīmēšanas valoda (SGML), ko parasti izmanto "
+"vai nu DebianDoc, vai DocBook dokumentu tipa definīcijās (DTD)"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:64
 msgid "latex: LaTeX format"
-msgstr ""
+msgstr "latex: LaTeX formāts"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:66
 msgid "tex: generic TeX documents"
-msgstr ""
+msgstr "tex: vispārīgi TeX dokumenti"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:67
 msgid "texinfo: The info page format"
-msgstr ""
+msgstr "texinfo: info lapas formāts"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:68
 msgid "bibtex: bibtex format"
-msgstr ""
+msgstr "bibtex: bibtex formāts"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:71
@@ -193,36 +213,41 @@ msgid ""
 "text: simple text documents (including options for markdown, fortunes, YAML "
 "front matter section, debian/changelog, and debian/control)"
 msgstr ""
+"text: vienkārši teksta dokumenti (ieskaitot iespēju izmantot Markdown, "
+"fortunes - citātu, joku vai pamācību datnes, YAML ievada sekcijas (Front "
+"Matter) sadaļas - speciālus metadatu blokus, kā arī debian/changelog un "
+"debian/control datnes)"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:72
 msgid "yaml: YAML documents"
-msgstr ""
+msgstr "yaml: YAML dokumenti"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:73
 msgid "rubydoc: RubyDoc (RD) documents"
-msgstr ""
+msgstr "rubydoc: RubyDoc (RD) dokumenti"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:74
 msgid "halibut: Simon Tatham's documentation production system"
-msgstr ""
+msgstr "halibut: Saimona Tetema dokumentācijas izstrādes sistēma"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:75
 msgid "ini: INI format"
-msgstr ""
+msgstr "ini: INI formāts"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:76
 msgid "kernelhelp: Help messages of each kernel compilation option"
 msgstr ""
+"kernelhelp: katra kodola (kernel) kompilācijas parametra palīdzības ziņojumi"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:80
 msgid "2025-07-12 - po4a 0.74 released"
-msgstr ""
+msgstr "2025.07.12 — po4a 0.74 publicēts"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:81
@@ -237,7 +262,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:86
 msgid "2024-06-17 - po4a 0.73 released"
-msgstr ""
+msgstr "2024.06.17 — po4a 0.73 publicēts"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:87
@@ -247,11 +272,14 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.73\">more "
 "details</a>)."
 msgstr ""
+"Daži kļūdu ziņojumu uzlabojumi, lai palīdzētu atkļūdot kodēšanas problēmas, "
+"jo po4a tagad ir daudz izvēlīgāks (kopš v0.70 versijas). (<a href=\"https://"
+"github.com/mquinson/po4a/releases/tag/v0.73\">plašāka informācija</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:90
 msgid "2024-01-29 - po4a 0.70 released"
-msgstr ""
+msgstr "2024.01.29 — po4a 0.70 publicēts"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:91
@@ -269,7 +297,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:97
 msgid "2023-01-01 - po4a 0.69 released"
-msgstr ""
+msgstr "2023.01.01 — po4a 0.69 publicēts"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:98
@@ -280,11 +308,15 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.69\">more "
 "details</a>)."
 msgstr ""
+"Ievērojami uzlabota vietturu apstrāde XML un kodu iekšējā tīrīšana ap Yaml, "
+"apvienojot divus mūsu rīcībā esošos parsētājus. Šajā izlaidumā ir arī "
+"novērstas nelielas kļūdas Markdown un Man moduļos. (<a href=\"https://"
+"github.com/mquinson/po4a/releases/tag/v0.69\">plašāka informācija</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:103
 msgid "2022-09-04 - po4a 0.68 released"
-msgstr ""
+msgstr "2022.09.04 — po4a 0.68 publicēts"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:104
@@ -300,7 +332,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:109
 msgid "2022-07-14 - po4a 0.67 released"
-msgstr ""
+msgstr "2022.07.14 — po4a 0.67 publicēts"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:110
@@ -310,11 +342,14 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.67\">more "
 "details</a>)."
 msgstr ""
+"Daudzi kļūdu labojumi un uzlabojumi AsciiDoc, Man, Mardown, xHTML un "
+"pamatmoduļos (<a href=\"https://github.com/mquinson/po4a/releases/tag/"
+"v0.67\">plašāka informācija</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:113
 msgid "2022-01-02 - po4a 0.66 released"
-msgstr ""
+msgstr "2022.01.02 — po4a 0.66 publicēts"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:114
@@ -328,7 +363,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:116
 msgid "2021-11-14 - po4a 0.65 released"
-msgstr ""
+msgstr "2021.11.14 — po4a 0.65 publicēts"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:117
@@ -342,7 +377,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:119
 msgid "2021-09-12 - po4a 0.64 released"
-msgstr ""
+msgstr "2021.09.12 — po4a 0.64 publicēts"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:120
@@ -351,11 +386,13 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.64\">more "
 "details</a>)."
 msgstr ""
+"Kļūdu labojumi un tulkojumu atjauninājumi (<a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.64\">plašāka informācija</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:122
 msgid "2021-02-02 - po4a 0.63 released"
-msgstr ""
+msgstr "2021.02.02 — po4a 0.63 publicēts"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:123
@@ -369,7 +406,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:125
 msgid "2020-12-07 - po4a 0.62 released"
-msgstr ""
+msgstr "2020.12.07 — po4a 0.62 publicēts"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:126
@@ -383,7 +420,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:128
 msgid "2020-08-05 - po4a 0.61 released"
-msgstr ""
+msgstr "2020.08.05 — po4a 0.61 publicēts"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:129
@@ -393,11 +430,14 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.61\">more "
 "details</a>)."
 msgstr ""
+"Vairāki kļūdu labojumi (atkal, lai nesabojātu Debian pakotnes, kas atkarīgas "
+"no po4a) un tulkojumu atjauninājumi (<a href=\"https://github.com/mquinson/"
+"po4a/releases/tag/v0.61\">plašāka informācija</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:131
 msgid "2020-07-15 - po4a 0.60 released"
-msgstr ""
+msgstr "2020.07.15 — po4a 0.60 publicēts"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:132
@@ -406,11 +446,13 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.60\">more "
 "details</a>)."
 msgstr ""
+"Kļūdu labojumi un tulkojumu atjauninājumi (<a href=\"https://github.com/"
+"mquinson/po4a/releases/tag/v0.60\">plašāka informācija</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:134
 msgid "2020-05-20 - po4a 0.59 released"
-msgstr ""
+msgstr "2020.05.20 — po4a 0.59 publicēts"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:135
@@ -420,11 +462,14 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.59\">More "
 "details</a>."
 msgstr ""
+"Kļūdu labojuma izlaidums, lai nesabojātu (vismaz) vairāku Debian pakotņu "
+"būvējumus. <a href=\"https://github.com/mquinson/po4a/releases/tag/v0.59\">"
+"plašāka informācija</a>."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:138
 msgid "2020-05-04 - po4a 0.58 released"
-msgstr ""
+msgstr "2020.05.04 — po4a 0.58 publicēts"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:140
@@ -447,11 +492,13 @@ msgid ""
 "(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">more "
 "details</a>)."
 msgstr ""
+"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.58\">plašāka "
+"informācija</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:145
 msgid "2019-10-25 - po4a 0.57 released"
-msgstr ""
+msgstr "2019.10.25 — po4a 0.57 publicēts"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:146
@@ -460,11 +507,14 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.57\">more "
 "details</a>)."
 msgstr ""
+"Tulkojumu atjauninājumi un novērsta viena kļūda AsciiDoc parsētājā. (<a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.57\">plašāka "
+"informācija</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:149
 msgid "2019-06-06 - po4a 0.56 released"
-msgstr ""
+msgstr "2019.06.06 — po4a 0.56 publicēts"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:150
@@ -473,11 +523,14 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">more "
 "details</a>)."
 msgstr ""
+"Jaunas funkcijas un kļūdu labojumi, galvenokārt AsciiDoc parsētājā (<a "
+"href=\"https://github.com/mquinson/po4a/releases/tag/v0.56\">plašāka "
+"informācija</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:153
 msgid "2018-12-09 - po4a 0.55 released"
-msgstr ""
+msgstr "2018.12.09 — po4a 0.55 publicēts"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:154
@@ -490,7 +543,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:157
 msgid "2018-06-30 - po4a 0.54 released"
-msgstr ""
+msgstr "2018.06.30 — po4a 0.54 publicēts"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:158
@@ -499,11 +552,13 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.54\">more "
 "details</a>)."
 msgstr ""
+"Izlabotas kaudze kļūdas un novērstas daudzas kļūmes (<a href=\"https://"
+"github.com/mquinson/po4a/releases/tag/v0.54\">plašāka informācija</a>)."
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:161
 msgid "2018-05-25 - po4a 0.53 released"
-msgstr ""
+msgstr "2018.05.25 — po4a 0.53 publicēts"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/index.php.en:162
@@ -513,36 +568,42 @@ msgid ""
 "href=\"https://github.com/mquinson/po4a/releases/tag/v0.53\">more "
 "details</a>)."
 msgstr ""
+"Visredzamākā izmaiņa ir jaunais YAML modulis un tas, ka Alioth tika izslēgts "
+"(<a href=\"https://github.com/mquinson/po4a/releases/tag/v0.53\">plašāka "
+"informācija</a>)."
 
 #. type: Content of: <html><head><title>
 #: src/documentation.php.en:11
 msgid "po4a - Documentation"
-msgstr ""
+msgstr "po4a — Dokumentācija"
 
 #. type: Content of: <html><body><div><a>
 #: src/documentation.php.en:20
 msgid "<a href=\"../.\" title=\"Welcome\" >Welcome"
-msgstr ""
+msgstr "<a href=\"../.\" title=\"Laipni lūdzam\" >Laipni lūdzam"
 
 #. type: Content of: <html><body><div><a>
 #: src/documentation.php.en:20 src/download.php.en:20 src/getinvolved.php.en:20
 msgid "</a> <a href=\"../documentation.php\" title=\"Documentation\">Documentation"
 msgstr ""
+"</a> <a href=\"../documentation.php\" title=\"Dokumentācija\">Dokumentācija"
 
 #. type: Content of: <html><body><div><a>
 #: src/documentation.php.en:21 src/download.php.en:21 src/getinvolved.php.en:21
 msgid "</a> <a href=\"../download.php\" title=\"Download\" >Download"
-msgstr ""
+msgstr "</a> <a href=\"../download.php\" title=\"Lejupielādēt\" >Lejupielādēt"
 
 #. type: Content of: <html><body><div><a>
 #: src/documentation.php.en:22 src/download.php.en:22 src/getinvolved.php.en:22
 msgid "</a> <a href=\"../getinvolved.php\" title=\"Get Involved\" >Get Involved"
 msgstr ""
+"</a> <a href=\"../getinvolved.php\" title=\"Dodiet savu artavu\" >Dodiet "
+"savu artavu"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/documentation.php.en:29
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentācija"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:30
@@ -567,7 +628,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/documentation.php.en:40
 msgid "Help"
-msgstr ""
+msgstr "Palīdzība"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/documentation.php.en:41
@@ -581,12 +642,12 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: src/download.php.en:11
 msgid "po4a - Download"
-msgstr ""
+msgstr "po4a — Lejupielādēt"
 
 #. type: Content of: <html><body><div><a>
 #: src/download.php.en:20 src/getinvolved.php.en:20
 msgid "<a href=\"../\" title=\"Welcome\" >Welcome"
-msgstr ""
+msgstr "<a href=\"../\" title=\"Laipni lūdzam\" >Laipni lūdzam"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:30
@@ -616,7 +677,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/download.php.en:42
 msgid "Git repository"
-msgstr ""
+msgstr "Git repozitorijs"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/download.php.en:43
@@ -636,12 +697,12 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: src/getinvolved.php.en:11
 msgid "po4a - Get involved!"
-msgstr ""
+msgstr "po4a — Dodiet savu artavu!"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:30
 msgid "Get involved!"
-msgstr ""
+msgstr "Dodiet savu artavu!"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:31
@@ -659,7 +720,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:34
 msgid "on IRC (#po4a on OFTC)."
-msgstr ""
+msgstr "IRC kanālā (#po4a OFTC)."
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:35
@@ -683,7 +744,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:44
 msgid "Translating"
-msgstr ""
+msgstr "Tulko"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:45
@@ -692,32 +753,36 @@ msgid ""
 "href=\"https://hosted.weblate.org/projects/po4a/\">Weblate</a> but you can "
 "also provide pull requests on the source git directly if you prefer."
 msgstr ""
+"Ja vēlaties palīdzēt iztulkot po4a, visērtāk to ir izdarīt <a href=\"https://"
+"hosted.weblate.org/projects/po4a/\">Weblate</a> vietnē. Tomēr, ja dodiet "
+"priekšroku vai jums tā ērtāk, variet arī iesniegt izmaiņu pieprasījumus "
+"(pull requests) tieši pirmkoda git repozitorijā."
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:52
 msgid "Runtime Translations"
-msgstr ""
+msgstr "Koda (izpildlaika) tulkojumi"
 
 #. type: Content of: <html><body><div><div><div><a>
 #: src/getinvolved.php.en:53 src/getinvolved.php.en:60
 #: src/getinvolved.php.en:65
 msgid "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
-msgstr ""
+msgstr "<a href=\"https://hosted.weblate.org/engage/po4a/?utm_source=widget\">"
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:59
 msgid "Documentation Translations"
-msgstr ""
+msgstr "Dokumentācijas tulkojumi"
 
 #. type: Content of: <html><body><div><div><div><h2>
 #: src/getinvolved.php.en:64
 msgid "Website Translations"
-msgstr ""
+msgstr "Vietnes tulkojumi"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:72
 msgid "TODO"
-msgstr ""
+msgstr "JĀDARA"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:73
@@ -732,7 +797,7 @@ msgstr ""
 #. type: Content of: <div><a>
 #: src/header.php.en:7
 msgid "<a href=\"TOPDIR/.\" title=\"Welcome\" >Welcome"
-msgstr ""
+msgstr "<a href=\"TOPDIR/.\" title=\"Laipni lūdzam\" >Laipni lūdzam"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:7
@@ -740,13 +805,18 @@ msgid ""
 "</a> <a href=\"TOPDIR/documentation.php\" "
 "title=\"Documentation\">Documentation"
 msgstr ""
+"</a> <a href=\"TOPDIR/documentation.php\" title=\"Dokumentācija\">"
+"Dokumentācija"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:8
 msgid "</a> <a href=\"TOPDIR/download.php\" title=\"Download\" >Download"
 msgstr ""
+"</a> <a href=\"TOPDIR/download.php\" title=\"Lejupielādēt\" >Lejupielādēt"
 
 #. type: Content of: <div><a>
 #: src/header.php.en:9
 msgid "</a> <a href=\"TOPDIR/getinvolved.php\" title=\"Get Involved\" >Get Involved"
 msgstr ""
+"</a> <a href=\"TOPDIR/getinvolved.php\" title=\"Dodiet savu artavu\" >Dodiet "
+"savu artavu"
