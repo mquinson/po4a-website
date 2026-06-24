@@ -1,11 +1,11 @@
 # Sources of the po4a website
 
-This repository contains everything needed to generate the 
+This repository contains everything needed to generate the
 [po4a website](https://po4a.org/). Most of its content
 is translated, using po4a of course.
 
 The build scripts are not very advanced for now, and you must clone
-this repository in a directory containing an uptodate checkout of po4a
+this repository in a directory containing an up-to-date checkout of po4a
 (the source code repository). That other repo *must* be called `po4a`.
 
 The build scripts also require that man2html be available in your path.
@@ -21,9 +21,8 @@ run, you can inspect the result in `html/`
 
 ### Uploading
 
-There is a webhook on github, to trigger a rebuild (using the same
+There is a webhook on GitHub, to trigger a rebuild (using the same
 script) on OpenShift on push events.
-
 
 ### TODO
 

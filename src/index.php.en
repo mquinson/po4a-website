@@ -49,7 +49,7 @@
 			<p>po4a currently supports the following formats:</p>
 			<ul>
 				<li>asciidoc: AsciiDoc format</li>
-				<li>man: Good old manual page format</li>
+				<li>man: good old manual page format</li>
 				<li>pod: Perl Online Documentation (POD) format</li>
 				<li>xml: generic XML documents
 					<ul>
@@ -64,13 +64,13 @@
 				<li>latex: LaTeX format
 					<ul>
 						<li>tex: generic TeX documents</li>
-						<li>texinfo: The info page format</li>
+						<li>texinfo: the info page format</li>
 						<li>bibtex: bibtex format</li>
 					</ul>
 				</li>
 				<li>text: simple text documents (including options for markdown, fortunes, YAML front matter section, debian/changelog, and debian/control)</li>
 				<li>yaml: YAML documents</li>
-  				<li>rubydoc: RubyDoc (RD) documents</li>
+				<li>rubydoc: RubyDoc (RD) documents</li>
 				<li>halibut: Simon Tatham's documentation production system</li>
 				<li>ini: INI format</li>
 				<li>kernelhelp: Help messages of each kernel compilation option</li>
@@ -95,7 +95,7 @@
 			  (<a href="https://github.com/mquinson/po4a/releases/tag/v0.70">more details</a>).
 			</p>
 		        <h2>2023-01-01 - po4a 0.69 released</h2>
-			<p>Greatly improve the handeling of placeholders in XML, and internal cleanups around Yaml
+			<p>Greatly improve the handling of placeholders in XML, and internal cleanups around Yaml
 			  by merging the two parsers that we had.
 			   Also, this release fixes small bugs in Markdown and Man modules.
 			  (<a href="https://github.com/mquinson/po4a/releases/tag/v0.69">more details</a>).
@@ -104,14 +104,14 @@
 			<p>Greatly improve the gettextization process, and rewrite several documentation chapters.
 			   Also, po4a-translate and po4a-updatepo are now deprecated: you should use po4a instead.
 			   Finally, this release fixes some bugs in Markdown and Man modules.
- 			  (<a href="https://github.com/mquinson/po4a/releases/tag/v0.68">more details</a>).
+			  (<a href="https://github.com/mquinson/po4a/releases/tag/v0.68">more details</a>).
 			</p>
 		        <h2>2022-07-14 - po4a 0.67 released</h2>
-			<p>Many bug fixes and improvement in AsciiDoc, Man, Mardown, xHTML and in core modules 
- 			  (<a href="https://github.com/mquinson/po4a/releases/tag/v0.67">more details</a>).
+			<p>Many bug fixes and improvement in AsciiDoc, Man, Markdown, xHTML and in core modules
+			  (<a href="https://github.com/mquinson/po4a/releases/tag/v0.67">more details</a>).
 			</p>
 			<h2>2022-01-02 - po4a 0.66 released</h2>
-			<p>New option to select Yaml elements to translate; More robust Asciidoc table handling (+bugfixes and translation updates -- <a href="https://github.com/mquinson/po4a/releases/tag/v0.66">more details</a>).
+			<p>New option to select Yaml elements to translate; More robust AsciiDoc table handling (+bugfixes and translation updates -- <a href="https://github.com/mquinson/po4a/releases/tag/v0.66">more details</a>).
 			</p>
 			<h2>2021-11-14 - po4a 0.65 released</h2>
 			<p>Allow to group several translations per POT file in split mode (+bugfix and translation updates -- <a href="https://github.com/mquinson/po4a/releases/tag/v0.65">more details</a>).
@@ -123,7 +123,7 @@
 			<p>Fix a regression in 0.62 where the translation of po4a binaries were not installed. Plus other bugfixes and translation updates (<a href="https://github.com/mquinson/po4a/releases/tag/v0.63">more details</a>).
 			</p>
 			<h2>2020-12-07 - po4a 0.62 released</h2>
-			<p>Unwrap asciidoc to avoid reformating issues and other bugfixes, plus translation updates (<a href="https://github.com/mquinson/po4a/releases/tag/v0.62">more details</a>).
+			<p>Unwrap AsciiDoc to avoid reformatting issues and other bugfixes, plus translation updates (<a href="https://github.com/mquinson/po4a/releases/tag/v0.62">more details</a>).
 			</p>
 			<h2>2020-08-05 - po4a 0.61 released</h2>
 			<p>More bugfix (again to not break Debian packages depending on po4a), and translation updates (<a href="https://github.com/mquinson/po4a/releases/tag/v0.61">more details</a>).

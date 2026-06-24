@@ -25,6 +25,6 @@ RUN mv html /srv/website
 
 # force Content-Type for localized file extensions
 #
-# Using FileMatch+SetHandler, even with MultiviewsMatch Any did not work with content negociation
+# Using FileMatch+SetHandler, even with MultiviewsMatch Any did not work with content negotiation
 WORKDIR /srv/website
 RUN for f in index.php.*; do echo "AddType application/x-httpd-php ${f##*.}">>.htaccess; done
