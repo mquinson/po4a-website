@@ -19,7 +19,7 @@ curdir=$(pwd)
 srcdir=../po4a
 
 if [ ! -e ${srcdir}/po4a-gettextize ]
-then 
+then
 	echo "The source tree of po4a does not seem to be in '${srcdir}'."
 	echo "Please fix the srcdir variable at the top of this script."
 	exit 1
@@ -88,7 +88,7 @@ done
 
 if [ "x$libver" != "x$webver" -a -z "${CI}" ] ; then
 	echo "XXX NOT generating the HTML of manpages"
-else 
+else
 for lang in en $LANGS ; do
 	header=header.php.$lang
 	[ -e html/$header ] || header=header.php.en
@@ -214,7 +214,7 @@ get_language() {
 		nb)
 			echo -n "Bokmål"
 			;;
-	    nb_NO)
+		nb_NO)
 			echo -n "norsk bokmål"
 			;;
 		nl)
@@ -229,9 +229,9 @@ get_language() {
 		pt_BR)
 			echo -n "Português (Brasil)"
 			;;
-        ro)
-            echo -n "Limba română"
-            ;;
+		ro)
+			echo -n "Limba română"
+			;;
 		ru)
 			echo -n "Русский"
 			;;
@@ -244,12 +244,12 @@ get_language() {
 		sv)
 			echo -n "Svenska"
 			;;
-        ta)
-            echo -n "தமிழ்"
-            ;;
-        te)
-	    echo -n "తెలుగు"
-            ;;
+		ta)
+			echo -n "தமிழ்"
+			;;
+		te)
+			echo -n "తెలుగు"
+			;;
 		uk)
 			echo -n "український"
 			;;
