@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: po4a 0.75-alpha\n"
 "Report-Msgid-Bugs-To: devel@lists.po4a.org\n"
 "POT-Creation-Date: 2025-11-24 10:55+0100\n"
-"PO-Revision-Date: 2026-06-25 09:01+0000\n"
+"PO-Revision-Date: 2026-06-27 21:01+0000\n"
 "Last-Translator: \"ℂ𝕠𝕠𝕠𝕝 (𝕘𝕚𝕥𝕙𝕦𝕓.𝕔𝕠𝕞/ℂ𝕠𝕠𝕠𝕝)\" <coool@mail.lv>\n"
 "Language-Team: Latvian <https://hosted.weblate.org/projects/po4a/po4a-"
 "website/lv/>\n"
@@ -136,32 +136,32 @@ msgstr "po4a pašlaik atbalsta šādus formātus:"
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:51
 msgid "asciidoc: AsciiDoc format"
-msgstr "asciidoc: AsciiDoc formāts"
+msgstr "asciidoc: AsciiDoc formātu"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:52
 msgid "man: Good old manual page format"
-msgstr "man: vecais labais man rokasgrāmatas lapas formāts"
+msgstr "man: veco labo man rokasgrāmatas lapas formātu"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:53
 msgid "pod: Perl Online Documentation (POD) format"
-msgstr "pod: Perl Online Documentation (POD) formāts"
+msgstr "pod: Perl Online Documentation (POD) formātu"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:54
 msgid "xml: generic XML documents"
-msgstr "xml: vispārīgi XML dokumenti"
+msgstr "xml: vispārīgos XML dokumentus"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:56
 msgid "docbook: DocBook XML"
-msgstr "docbook: DocBook XML variants"
+msgstr "docbook: DocBook XML variantu"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:57
 msgid "xhtml: XHTML documents"
-msgstr "xhtml: XHTML dokumenti"
+msgstr "xhtml: XHTML dokumentus"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:58
@@ -171,12 +171,12 @@ msgstr "dia: nesaspiestas Dia diagrammas"
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:59
 msgid "guide: Gentoo Linux's XML documentation format"
-msgstr "guide: Gentoo Linux XML dokumentācijas formāts"
+msgstr "guide: Gentoo Linux XML dokumentācijas formātu"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:60
 msgid "wml: WML documents"
-msgstr "wml: WML dokumenti"
+msgstr "wml: WML dokumentus"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:63
@@ -184,28 +184,28 @@ msgid ""
 "sgml: the standard generalized markup language (SGML) is for either "
 "DebianDoc or DocBook DTD"
 msgstr ""
-"sgml: standarta vispārinātā iezīmēšanas valoda (SGML), ko parasti izmanto "
+"sgml: standarta vispārināto iezīmēšanas valodu (SGML), ko parasti izmanto "
 "vai nu DebianDoc, vai DocBook dokumentu tipa definīcijās (DTD)"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:64
 msgid "latex: LaTeX format"
-msgstr "latex: LaTeX formāts"
+msgstr "latex: LaTeX formātu"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:66
 msgid "tex: generic TeX documents"
-msgstr "tex: vispārīgi TeX dokumenti"
+msgstr "tex: vispārīgos TeX dokumentus"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:67
 msgid "texinfo: The info page format"
-msgstr "texinfo: info lapas formāts"
+msgstr "texinfo: info lapas formātu"
 
 #. type: Content of: <html><body><div><div><ul><li><ul><li>
 #: src/index.php.en:68
 msgid "bibtex: bibtex format"
-msgstr "bibtex: bibtex formāts"
+msgstr "bibtex: bibtex formātu"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:71
@@ -213,7 +213,7 @@ msgid ""
 "text: simple text documents (including options for markdown, fortunes, YAML "
 "front matter section, debian/changelog, and debian/control)"
 msgstr ""
-"text: vienkārši teksta dokumenti (ieskaitot iespēju izmantot Markdown, "
+"text: vienkāršos teksta dokumentus (ieskaitot iespēju izmantot Markdown, "
 "fortunes - citātu, joku vai pamācību datnes, YAML ievada sekcijas (Front "
 "Matter) sadaļas - speciālus metadatu blokus, kā arī debian/changelog un "
 "debian/control datnes)"
@@ -221,28 +221,28 @@ msgstr ""
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:72
 msgid "yaml: YAML documents"
-msgstr "yaml: YAML dokumenti"
+msgstr "yaml: YAML dokumentus"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:73
 msgid "rubydoc: RubyDoc (RD) documents"
-msgstr "rubydoc: RubyDoc (RD) dokumenti"
+msgstr "rubydoc: RubyDoc (RD) dokumentus"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:74
 msgid "halibut: Simon Tatham's documentation production system"
-msgstr "halibut: Saimona Tetema dokumentācijas izstrādes sistēma"
+msgstr "halibut: Saimona Tetema dokumentācijas izstrādes sistēmu"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:75
 msgid "ini: INI format"
-msgstr "ini: INI formāts"
+msgstr "ini: INI formātu"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:76
 msgid "kernelhelp: Help messages of each kernel compilation option"
 msgstr ""
-"kernelhelp: katra kodola (kernel) kompilācijas parametra palīdzības ziņojumi"
+"kernelhelp: katra kodola (kernel) kompilācijas parametra palīdzības ziņojumus"
 
 #. type: Content of: <html><body><div><div><h2>
 #: src/index.php.en:80
@@ -474,12 +474,12 @@ msgstr "2020.05.04 — po4a 0.58 publicēts"
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:140
 msgid "Rewrite all tests to make them more robust and less permissive."
-msgstr ""
+msgstr "Visi testi pārrakstīti, lai padarītu tos uzticamākus un stingrākus."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:141
 msgid "Fix many issues reported against the parsers."
-msgstr ""
+msgstr "Novērstas daudzas ar parsētājiem saistītas problēmas."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/index.php.en:142
@@ -709,7 +709,7 @@ msgstr "Dodiet savu artavu!"
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:31
 msgid "If you want to participate, you can contact us"
-msgstr ""
+msgstr "Ja vēlaties iesaistīties un dot savu artavu, sazinieties ar mums"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: src/getinvolved.php.en:33
@@ -784,17 +784,18 @@ msgstr "Vietnes tulkojumi"
 #. type: Content of: <html><body><div><div><h2>
 #: src/getinvolved.php.en:72
 msgid "TODO"
-msgstr "JĀDARA"
+msgstr "PLĀNOS"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:73
 msgid "We are looking for people interested in testing/porting on Windows"
 msgstr ""
+"Mēs meklējam cilvēkus, kuri ir ieinteresēti testēšanā/pārnešanā uz Windows"
 
 #. type: Content of: <html><body><div><div><p>
 #: src/getinvolved.php.en:75
 msgid "Support for XLIFF would be welcome."
-msgstr ""
+msgstr "Būtu lieliski realizēt XLIFF atbalstu."
 
 #. type: Content of: <div><a>
 #: src/header.php.en:7
